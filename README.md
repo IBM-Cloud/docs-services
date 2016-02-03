@@ -30,15 +30,35 @@ To make your changes:
     4. Wait for a Bluemix team member to review your changes and merge all or parts of your suggested changes
     5. After you are notified of your changes, tidy up your branches using the delete button in the pull request or on the branches page.
 
-For more detailed information on how to contribute content to Bluemix documentation, see the following flow:
+For more detailed information on how to contribute content to Bluemix documentation, see https://developer.ibm.com/bluemix/2016/01/13/bluemix-docs-now-open-source-on-github/. Also see the following help from GitHub:
 https://help.github.com/articles/github-flow-in-the-browser/
 
+# Getting started template
+The getting started template and guidelines are provided as a way to consistently represent service documentation within the Bluemix platform. The product documentation provided for a service should enable a user to quickly get up and running. Supplemental information should be task-based and support the productive use of the service.
 
-## Authoring Bluemix content in Markdown
-===============
+The getting started steps should include information on how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard. 
+ * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
+ * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples…if they start to become more common, move them into the docs flow as child task flows)
+ * Include code snippets in all programming languages that can be copied, as well as VCAP service info.
 
-Purpose
------------
+For additional tasks to use the service (after the getting started), create separately chunked groups of task topics. Example containers would be "Configuring x", "Administering y", "Creating z".
+
+Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages. 
+
+**Example Outline:**
+
+ * Getting started (index.md)
+ * About (about.md)
+ * Configuring x (configuring.md)
+  * child topics
+ * Administering y (administering.md)
+  * child topics
+ * Creating z (creating.md)
+  * child topics
+ * Troubleshooting (troubleshooting.md)
+  * child topics 
+
+# Authoring Bluemix content in Markdown
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML.
 
 The Markdown used for Bluemix is based on GitHub-flavored Markdown. The following resources can be helpful in coding the markup for you content:
@@ -47,10 +67,7 @@ The Markdown used for Bluemix is based on GitHub-flavored Markdown. The followin
 
 Bluemix has designed a parser that transforms Markdown into HTML5. Because the syntax available in standard Markdown is limited, the Bluemix team has developed Extensions to provide an enhanced authoring experience. These extensions provide key features available in DITA today, adding, for example, the ability to use metadata attributes and content references in Markdown. This document provides instructions for using these extensions.
 
-Before you begin
------------
-
-###Markdown Editors
+## Markdown Editors
 There are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. Notepad ++ is free, compatible, and also supports YAML, which is used to define content reference keywords.
 
 #Mappings between DITA, MarkDown, and HTML 5
