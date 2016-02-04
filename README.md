@@ -36,7 +36,7 @@ https://help.github.com/articles/github-flow-in-the-browser/
 # Getting started template
 The getting started template and guidelines are provided as a way to consistently represent service documentation within the Bluemix platform. The product documentation provided for a service should enable a user to quickly get up and running. Supplemental information should be task-based and support the productive use of the service.
 
-For IBM Bluemix Service 3rd party service docs, you are only required to have a **Getting started with service_name** topic (getting_started_template/index.md). You can link off to your full documentation from the related links.
+**Important:** For IBM Bluemix Service 3rd party service docs, you are only required to have a **Getting started with service_name** topic (getting_started_template/index.md). You can link off to your full documentation from the related links.
 
 The getting started steps should include information on how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard. 
  * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
