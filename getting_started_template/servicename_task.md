@@ -3,7 +3,8 @@
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-<!-- This is the template for additional task topics that are needed beyond the basic tasks in the getting started index.md.  As needed, other task topics can be included, with titles such as "Configuring x", "Administering y", "Managing z", etc. This topic is a peer of the getting started index.md. This topic can have one level of children. -->
+<!-- Additional task topic: OPTIONAL
+This is the template for additional task topics that are needed beyond the basic tasks in the getting started index.md.  As needed, other task topics can be included, with titles such as "Configuring x", "Administering y", "Managing z", etc. This topic is a peer of the getting started index.md in the <servicename>.ditamap. This topic can have one level of children and they also can be referenced in <servicename>.ditamap -->
 
 # Task title with gerund
 <!-- for example, Uploading your data -->
@@ -34,12 +35,16 @@ To find the `biblumix` user password, follow these steps:
 1. Step 1
 **Tip:** blah blah
 
-2. Step 2. For example input:```
+2. Step 2. For example input:
+3. ```
 copyable code
-```{: codeblock}
+```
+{: codeblock}
 
-3. Step 3. For example output:```
+3. Step 3. For example output:
+```
 displayed info
-```{: screen}
+```
+{: screen}
  
  
