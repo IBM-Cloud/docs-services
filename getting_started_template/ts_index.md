@@ -5,14 +5,14 @@
 {:shortdesc: .shortdesc}
 
 # <service_short_name> troubleshooting
-{: #troubleshoot}
+{: #ts}
 *Last updated: nn month yyyy*
 
 <!-- This is the template for troubleshooting topics.  -->
 
-<!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
+<!-- The short description section should include the service long name for search optimization. Example short description: -->
 
-Here are the answers to common troubleshooting questions about using <service_name>.
+Here are the answers to common troubleshooting questions about using <service_name.
 {:shortdesc}
 
 
