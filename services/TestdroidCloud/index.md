@@ -14,33 +14,33 @@ The supported test automation frameworks include:
 
 For Android:
 
-* <a href="http://appium.io" target="_blank">Appium</a>
-* <a href="http://calaba.sh" target="_blank">Calabash</a>
-* <a href="http://robotium.com" target="_blank">Robotium</a>
-* <a href="http://developer.android.com/training/testing/ui-testing/espresso-testing.html" target="_blank">Espresso</a>
-* <a href="http://developer.android.com/training/testing/ui-testing/uiautomator-testing.html" target="_blank">uiautomator</a>
-* <a href="http://testdroid.com/news/automatic-ios-app-testing-with-testdroid-app-crawler" target="_blank">App Crawler</a>
+* [Appium](http://appium.io)
+* [Calabash](http://calaba.sh)
+* [Robotium](http://robotium.com)
+* [Espresso](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+* [uiautomator](http://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+* [App Crawler](http://testdroid.com/news/automatic-ios-app-testing-with-testdroid-app-crawler)
 
 For iOS:
 
-* <a href="http://appium.io" target="_blank">Appium</a>
-* <a href="http://calaba.sh" target="_blank">Calabash</a>
-* <a href="https://developer.apple.com/library/tvos/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UIAutomation.html" target="_blank">UI Automation</a>
-* <a href="http://jasmine.github.io" target="_blank">Jasmine</a>
-* <a href="https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/01-introduction.html" target="_blank">XCTest</a>
-* <a href="https://github.com/kif-framework/KIF" target="_blank">KIF</a>
+* [Appium](http://appium.io)
+* [Calabash](http://calaba.sh)
+* [UI Automation](https://developer.apple.com/library/tvos/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UIAutomation.html)
+* [Jasmine](http://jasmine.github.io)
+* [XCTest](https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/01-introduction.html)
+* [KIF](https://github.com/kif-framework/KIF)
 
 For Websites and Webapps:
 
-* <a href="http://www.seleniumhq.org" target="_blank">Selenium</a>
+* [Selenium](http://www.seleniumhq.org)
 
 ## Account
 
-In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, click <i>Register</i> on the front page:
+In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, click **Register** on the front page:
 
 ![](http://docs.testdroid.com/assets/account/account-001.png)
 
-You’ll be asked to provide your email address. After you’ve typed it in click <i>Next</i> and the activation link will be sent to email you just provided.
+You’ll be asked to provide your email address. After you’ve typed it in click **Next** and the activation link will be sent to email you just provided.
 
 ![](http://docs.testdroid.com/assets/account/account-002.png)
 
