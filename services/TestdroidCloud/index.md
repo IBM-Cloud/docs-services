@@ -52,14 +52,6 @@ In account setup window you'll be asked to provide the account name (your email)
 
 ![](http://docs.testdroid.com/assets/account/account-004.png)
 
-The next step is to select a plan you want to use. These plans will give you access to all our devices at Testdroid Cloud and more features and capabilities to make your test automation and manual testing on cloud smoother.
-
-![](http://docs.testdroid.com/assets/account/account-005.png)
-
-After you have selected a free plan or any paid plans, you'll be asked to agree the [License Agreement](http://testdroid.com/tos). This is the final step in registration and you can finalize it by approving these terms.
-
-![](http://docs.testdroid.com/assets/account/account-006.png)
-
 **Congratulations!** You've now activated and registered your Testdroid account and you'll be redirected and logged in to Testdroid Cloud. Please see [Testdroid Cloud User Manual](http://docs.testdroid.com/testdroid-cloud-ui/) for details on how to use it.
 
 ## Devices
