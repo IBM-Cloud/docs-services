@@ -2,30 +2,13 @@
 
 ![](http://docs.testdroid.com/assets/logos/Testdroid_CLOUD_logo-HORIZONTAL_800px.png)
 
-[Testdroid Cloud](https://cloud.testdroid.com/) provides the largest
-device farm of real mobile devices, gathered from different regions
-globally, including the most versatile OS, OEM and hardware
-configurations for Android and iOS developers. Testdroid Cloud
-provides a test automation, remote manual access and REST API to
-access, run and manage any tests with these devices.
+[Testdroid Cloud](https://cloud.testdroid.com/) provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Testdroid Cloud provides a test automation, remote manual access and REST API to access, run and manage any tests with these devices.
 
-[Testdroid](http://testdroid.com) Cloud is a mobile app, game and web testing service that
-enables developers to run their tests on real, physical Android and
-iOS devices that are all hosted on our secure premises. These devices
-are hosted in three different locations - Wroclaw, Poland, Mountain
-View, CA and Oulu, Finland - and are monitored and maintained 24 hours
-per business day. Our up-time is over 99% and sophisticated monitoring
-system keeps our devices running at the same rate.
+[Testdroid](http://testdroid.com) Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate.
 
-Testdroid Cloud allows users to upload their own tests or use
-built-in, script-free compatibility tests and crawlers. Devices can be
-used in parallel with test automation frameworks. For remote manual
-access only one device can be used at time.
+Testdroid Cloud allows users to upload their own tests or use built-in, script-free compatibility tests and crawlers. Devices can be used in parallel with test automation frameworks. For remote manual access only one device can be used at time.
 
-Testdroid Cloud provides support for native, hybrid and web apps on
-Android and iOS devices and browsers. Any applications created on
-PhoneGap, Titanium, Unity or some other framework are fully supported
-at Testdroid Cloud devices.
+Testdroid Cloud provides support for native, hybrid and web apps on Android and iOS devices and browsers. Any applications created on PhoneGap, Titanium, Unity or some other framework are fully supported at Testdroid Cloud devices.
 
 The supported test automation frameworks include:
 
@@ -53,117 +36,55 @@ For Websites and Webapps:
 
 ## Account
 
-In order to use any of Testdroid products, run and review tests, or
-access our devices user needs an user account. This can be created in
-few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First,
-click <i>Register</i> on the front page:
+In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, click <i>Register</i> on the front page:
 
 ![](http://docs.testdroid.com/assets/account/account-001.png)
 
-You’ll be asked to provide your email address. After you’ve typed it
-in click <i>Next</i> and the activation link will be sent to email you
-just provided.
+You’ll be asked to provide your email address. After you’ve typed it in click <i>Next</i> and the activation link will be sent to email you just provided.
 
 ![](http://docs.testdroid.com/assets/account/account-002.png)
 
-You can click the link embedded in the activation email - or - you can
-copy-paste the key found in the email in this window to activate your
-account. If you click the link in the email, it will skip this window
-and redirect you to an account setup window.
+You can click the link embedded in the activation email - or - you can copy-paste the key found in the email in this window to activate your account. If you click the link in the email, it will skip this window and redirect you to an account setup window.
 
 ![](http://docs.testdroid.com/assets/account/account-003.png)
 
-In account setup window you'll be asked to provide the account name
-(your email), password, phone number and the company you are working
-at.
+In account setup window you'll be asked to provide the account name (your email), password, phone number and the company you are working at.
 
 ![](http://docs.testdroid.com/assets/account/account-004.png)
 
-The next step is to select a plan you want to use. These plans will
-give you access to all our devices at Testdroid Cloud and more
-features and capabilities to make your test automation and manual
-testing on cloud smoother. For accurate and up-to-date information,
-please check the current available plans and included features from
-[Testdroid Pricing page](http://testdroid.com/pricing).
+The next step is to select a plan you want to use. These plans will give you access to all our devices at Testdroid Cloud and more features and capabilities to make your test automation and manual testing on cloud smoother.
 
 ![](http://docs.testdroid.com/assets/account/account-005.png)
 
-After you have selected a free plan or any paid plans, you'll be asked
-to agree the [License Agreement](http://testdroid.com/tos). This is
-the final step in registration and you can finalize it by approving
-these terms.
+After you have selected a free plan or any paid plans, you'll be asked to agree the [License Agreement](http://testdroid.com/tos). This is the final step in registration and you can finalize it by approving these terms.
 
 ![](http://docs.testdroid.com/assets/account/account-006.png)
 
-**Congratulations!** You've now activated and registered your
-Testdroid account and you'll be redirected and logged in to Testdroid
-Cloud. Please see [Testdroid Cloud User
-Manual]({{site.github.url}}/testdroid-cloud-ui) for details on how to use
-it.
+**Congratulations!** You've now activated and registered your Testdroid account and you'll be redirected and logged in to Testdroid Cloud. Please see [Testdroid Cloud User Manual](http://docs.testdroid.com/testdroid-cloud-ui/) for details on how to use it.
 
 ## Devices
 
-Testdroid Cloud provides the largest device farm of real mobile
-devices, gathered from different regions globally, including the most
-versatile OS, OEM and hardware configurations for Android and iOS
-developers. Testdroid Cloud provides a test automation, remote manual
-access and REST API to access, run and manage any tests with these
-devices.
+Testdroid Cloud provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Testdroid Cloud provides a test automation, remote manual access and REST API to access, run and manage any tests with these devices.
 
-Testdroid Cloud is a mobile app, game and web testing service that
-enables developers to run their tests on real, physical Android and
-iOS devices that are all hosted on our secure premises. These devices
-are hosted in three different locations - Wroclaw, Poland, Mountain
-View, CA and Oulu, Finland - and are monitored and maintained 24 hours
-per business day. Our up-time is over 99% and sophisticated monitoring
-system keeps our devices running at the same rate.
+Testdroid Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate.
 
-The devices, infrastructure, test runs and assets will be maintained
-and all data resides on our premises.
+The devices, infrastructure, test runs and assets will be maintained and all data resides on our premises.
 
-The test reports contain detailed information about the execution of
-app on these devices, with access to logs, pixel-accurate screenshots,
-performance statistics/data, as well as high-level result overview of
-success/failure of the test runs. All this data will be available when
-test run on each device in completed. The data is downloadable and
-considered as your own asset.
+The test reports contain detailed information about the execution of app on these devices, with access to logs, pixel-accurate screenshots, performance statistics/data, as well as high-level result overview of success/failure of the test runs. All this data will be available when test run on each device in completed. The data is downloadable and considered as your own asset.
 
-Testdroid Cloud allows users to upload their own tests or use
-built-in, script-free compatibility tests and crawlers. Devices can be
-used in parallel with test automation frameworks. For remote manual
-access only one device can be used at time.
+Testdroid Cloud allows users to upload their own tests or use built-in, script-free compatibility tests and crawlers. Devices can be used in parallel with test automation frameworks. For remote manual access only one device can be used at time.
 
-Testdroid Cloud provides support for native, hybrid and web apps on
-Android and iOS devices and browsers. Any applications created on
-PhoneGap, Titanium, Unity3D or some other framework are fully
-supported at Testdroid Cloud devices.
+Testdroid Cloud provides support for native, hybrid and web apps on Android and iOS devices and browsers. Any applications created on PhoneGap, Titanium, Unity3D or some other framework are fully supported at Testdroid Cloud devices.
 
 ## Test Automation
 
-Developing mobile applications is very different from developing PC
-software or even embedded software. Mobile development is meant to be
-agile, and a lot of great tools and practices have been developed for
-that agility. However, doing something manually — such as testing an
-app — is never agile, which is why test automation has shown
-tremendous growth among app and game developers, speeding up their
-doings and yielding robust and better results.
+Developing mobile applications is very different from developing PC software or even embedded software. Mobile development is meant to be agile, and a lot of great tools and practices have been developed for that agility. However, doing something manually — such as testing an app — is never agile, which is why test automation has shown tremendous growth among app and game developers, speeding up their doings and yielding robust and better results.
 
-All Testdroid product have been built for test automation. The remote
-manual access to devices on our data centers complements this offering
-and occasionally developers want to make sure their apps work just
-like they've planned - and this is where our Testdroid Interactive is
-extremely useful.
+All Testdroid product have been built for test automation. The remote manual access to devices on our data centers complements this offering and occasionally developers want to make sure their apps work just like they've planned - and this is where our Testdroid Interactive is extremely useful.
 
-Test Automation relies real mobile devices (Android, iOS) and offers
-the possibility to test mobile apps and websites instantly and
-effectively using test automation frameworks. Our infrastructure is
-build to support unlimited number of simultaneous test runs, meaning
-that you can select any number of devices for your test run.
+Test Automation relies real mobile devices (Android, iOS) and offers the possibility to test mobile apps and websites instantly and effectively using test automation frameworks. Our infrastructure is build to support unlimited number of simultaneous test runs, meaning that you can select any number of devices for your test run.
 
-The true benefit of test automation comes from these simultanous test
-runs, automated access, coverage, and runs on devices, repeatability
-nature of tests, and identical and accurate tests - that could
-probably never get to accurate with manual testing.
+The true benefit of test automation comes from these simultanous test runs, automated access, coverage, and runs on devices, repeatability nature of tests, and identical and accurate tests - that could probably never get to accurate with manual testing.
 
 * **Open Standards** - Our test automation relies only on open
      standards that are widely used in the industry. Open standards
@@ -195,10 +116,7 @@ probably never get to accurate with manual testing.
      testing on devices on cloud. This saves a lot of time, produces
      instant results and developers can fix any issues instantly.
 
-In order to automate your mobile testing, you can use different types
-of procedures and methods to accomplish the real device coverage,
-compatibility and full functional testing. For example, there are
-three ways to produce tests for any mobile application:
+In order to automate your mobile testing, you can use different types of procedures and methods to accomplish the real device coverage, compatibility and full functional testing. For example, there are three ways to produce tests for any mobile application:
 
 * **Handwritten Tests** - Typically, this is the best choice when you
      know what you’re doing and when you have programming-capable
@@ -227,25 +145,15 @@ three ways to produce tests for any mobile application:
      exact results but provide quick feedback on each iteration of an
      app.
 
-In order to evaluate what test automation framework works you the best
-please take a look our comparison of each and if needed please consult
-us to find you and your app the most suitable test automation
-framework.
+In order to evaluate what test automation framework works you the best please take a look our comparison of each and if needed please consult us to find you and your app the most suitable test automation framework.
 
 ## Remote Manual Access
 
-Remote manual access allows you to start a session on any mobile
-device we host at Testdroid Cloud. This provides a comprehensive way
-to manually test your mobile apps, games and web-related products. As
-all these devices are real you can install other applications, use
-available browsers, internet access, and also Google Play / App Store
-to download and configure your device session.
+Remote manual access allows you to start a session on any mobile device we host at Testdroid Cloud. This provides a comprehensive way to manually test your mobile apps, games and web-related products. As all these devices are real you can install other applications, use available browsers, internet access, and also Google Play / App Store to download and configure your device session.
 
-The feature is called Testdroid Interactive. By clicking *Manual testing*
-in the main menu, user will be directed to the *Manual testing* setup view.
+The feature is called Testdroid Interactive. By clicking *Manual testing* in the main menu, user will be directed to the *Manual testing* setup view.
 
-Users can upload their applications by clicking *Upload file* on top of
-the widget and then select application for a manual session.
+Users can upload their applications by clicking *Upload file* on top of the widget and then select application for a manual session.
 
 1. Select application for the session
 
@@ -273,7 +181,7 @@ the widget and then select application for a manual session.
 
    *Volume* – speaker volume can be turned up or down.
 
-   *Rotate* – the device in session can be switched to portrait and landscape mode.
+   *Rotate* – device in session can be switched to portrait and landscape mode.
 
    *Screenshot* – Take a screenshot of device session. The screenshot
    will be shown in Taken screenshots widget next to the Interactive
@@ -292,69 +200,35 @@ the widget and then select application for a manual session.
    
 ## REST API
 
-Testdroid provides a compelling REST API for its users to manage all
-aspects of mobile development and testing automatically. The
-integration API will bridge your development tools, environment with
-our real Android and iOS devices on Testdroid Cloud and Testdroid
-Privatecloud services.
+Testdroid provides a compelling REST API for its users to manage all aspects of mobile development and testing automatically. The integration API will bridge your development tools, environment with our real Android and iOS devices on Testdroid Cloud.
 
-This [Testdroid API Reference
-Guide](http://docs.testdroid.com/testdroid-cloud-integration/api/) includes the
-full reference guide to our integration API.
+This [Testdroid API Reference Guide](http://docs.testdroid.com/testdroid-cloud-integration/api/) includes the full reference guide to our integration API.
 
 ## Getting Started
 
-## Welcome to Testdroid Cloud!
+Testdroid Cloud provides practical, reliable, and easy-to-access platform for mobile app testing using real devices and enabling various test automation frameworks, manual testing capabilities and API access for specific testing needs.
  
-Testdroid Cloud provides practical, reliable, and easy-to-access
-platform for mobile app testing using real devices and enabling
-various test automation frameworks, manual testing capabilities and
-API access for specific testing needs.
- 
-Designed with the needs of app developers in mind, Testdroid Cloud
-provides all-in-one solution that is developed for immediate
-productivity, high-quality and accurate results, and cost-savings for
-its users. With Testdroid Cloud users - app developers and QA people -
-can consistently ensure that their mobile product works well across an
-array of real devices.
+Designed with the needs of app developers in mind, Testdroid Cloud provides all-in-one solution that is developed for immediate productivity, high-quality and accurate results, and cost-savings for its users. With Testdroid Cloud users - app developers and QA people - can consistently ensure that their mobile product works well across an array of real devices.
  
 ### Accessibility
 
-Testdroid Cloud strives to provide 100% up-time for all its hosted
-devices. Because of this all devices hosted at Testdroid Cloud are
-maintained and monitored 24 hours per business day, with 24/7 access
-to all Testdroid Cloud users.
+Testdroid Cloud strives to provide 100% up-time for all its hosted devices. Because of this all devices hosted at Testdroid Cloud are maintained and monitored 24 hours per business day, with 24/7 access to all Testdroid Cloud users.
  
 ### Best Practices
 
-To help your mobile app development and testing, Testdroid Cloud team
-has developed a set of best practices, with step-by-step instructions
-and extensive help portal to aid users get the best out of their
-development and testing effort. Testdroid Cloud practices are geared
-toward Agile development and testing needs, with focus on continuous
-integration and delivery.
+To help your mobile app development and testing, Testdroid Cloud team has developed a set of best practices, with step-by-step instructions and extensive help portal to aid users get the best out of their development and testing effort. Testdroid Cloud practices are geared toward Agile development and testing needs, with focus on continuous integration and delivery.
  
 ### Flexibility of Use
 
-Testdroid Cloud is designed to be very flexible for its users, as well
-as providing test automation framework independence. With any test
-automation framework, users can get access to devices through API or
-manually, and are able to test many aspects of the application. For
-debugging purposes and further analysis, detailed information about
-test runs, with logcats, screenshots and performance metrics are
-delivered.
+Testdroid Cloud is designed to be very flexible for its users, as well as providing test automation framework independence. With any test automation framework, users can get access to devices through API or manually, and are able to test many aspects of the application. For debugging purposes and further analysis, detailed information about test runs, with logcats, screenshots and performance metrics are delivered.
 
 ## The Main Menu
  
-The main menu at Testdroid Cloud provides its users a quick way to
-navigate through Testdroid Cloud and access the main features of
-it. Currently, the following items are available on menu:
+The main menu at Testdroid Cloud provides its users a quick way to navigate through Testdroid Cloud and access the main features of it. Currently, the following items are available on menu:
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/dashboard_main_menu.png)
  
-**Dashboard** links back the landing page where summary of projects, test
-runs as well as update of recent changes in Testdroid Cloud will be
-shown.
+**Dashboard** links back the landing page where summary of projects, test runs as well as update of recent changes in Testdroid Cloud will be shown.
  
 **Projects** links to project management view where all user's projects can be managed.
  
@@ -371,59 +245,35 @@ can manually access any Testdroid Cloud device.
  
 ## Test Success Summary
  
-The **Test success summary** view shows the 5 recent projects with all
-done test runs with the success ratios. In this view, users can see a
-glance of their test run success as percentages and use the view as an
-instant link to the test runs. By clicking the specific test run chart
-user will be redirected to the test run view.
+The **Test success summary** view shows the 5 recent projects with all done test runs with the success ratios. In this view, users can see a glance of their test run success as percentages and use the view as an instant link to the test runs. By clicking the specific test run chart user will be redirected to the test run view.
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/dashboard_summary_success.png)
  
 ## Overall Success
  
-The **Overall success** view presents the success of projects combining
-all test runs in the context of time.  The execution date is shown on
-X axis and success ratio on Y axis.
+The **Overall success** view presents the success of projects combining all test runs in the context of time.  The execution date is shown on X axis and success ratio on Y axis.
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/dashboard_overall_success.png)
  
-Users can filter out certain projects by clicking the project name
-below the chart. The chart will automatically scale accordingly
-showing the execution dates and success ratio of remaining projects.
+Users can filter out certain projects by clicking the project name below the chart. The chart will automatically scale accordingly showing the execution dates and success ratio of remaining projects.
  
 ## New devices
  
-The **New devices** view shows the latest devices added in Testdroid Cloud
-device selection. By clicking any of devices shown in this view, user
-will be instantly directed to the Device group creation view.
+The **New devices** view shows the latest devices added in Testdroid Cloud device selection. By clicking any of devices shown in this view, user will be instantly directed to the Device group creation view.
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/dashboard_new_devices.png)
 
 ## Projects
 
-Under **Projects** view users are able to create, remove and manage their
-projects.  By clicking '+' button new projects can be created after
-the type of project is selected. The types of projects are: Android,
-iOS UI Automation, Android UIAutomator, Calabash Android, and Calabash
-iOS.
+Under **Projects** view users are able to create, remove and manage their projects.  By clicking '+' button new projects can be created after the type of project is selected. The types of projects are: Android, iOS UI Automation, Android UIAutomator, Calabash Android, and Calabash iOS.
 
-**NOTE!** Appium projects are generated on the fly and automatically
-detected by Testdroid Cloud. These projects cannot be created manually
-in this view.
+**NOTE!** Appium projects are generated on the fly and automatically detected by Testdroid Cloud. These projects cannot be created manually in this view.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_projects.png)
 
-On the right hand side, users can create project specific test runs,
-reports or share projects with other valid Testdroid Cloud user
-accounts.
+On the right hand side, users can create project specific test runs, reports or share projects with other valid Testdroid Cloud user accounts.
  
-In test run section users can edit, insert tags or delete test
-runs. The view also shows the percentage of successful test runs,
-success of tests, the status of test run (how many devices have been
-finalized the test run), date and time information, as well as
-application specific information (e.g. the name of test and
-application file).  Create a new test run (multi-page widget) Step #1:
-Upload your application
+In test run section users can edit, insert tags or delete test runs. The view also shows the percentage of successful test runs, success of tests, the status of test run (how many devices have been finalized the test run), date and time information, as well as application specific information (e.g. the name of test and application file).
 
 ## Create a new test run (multi-page widget)
 
@@ -493,14 +343,9 @@ Upload your application
 
 ## Test run / Overview
 
-User can access **Test Run view** either by starting a test run or
-clicking any of older test runs is dashboard or projects view. In this
-view test run execution information, execution time as well as success
-of test runs is shown in summary type of perspective.
+User can access **Test Run view** either by starting a test run or clicking any of older test runs is dashboard or projects view. In this view test run execution information, execution time as well as success of test runs is shown in summary type of perspective.
 
-The Testdroid Cloud test run starts always with device cleaning
-(removing all content from devices, cleaning SD card and rebooting
-devices), followed by installation and launch of the app and tests.
+The Testdroid Cloud test run starts always with device cleaning (removing all content from devices, cleaning SD card and rebooting devices), followed by installation and launch of the app and tests.
 
 The first widget in Test Run View is summary.
 
@@ -513,22 +358,13 @@ Overall statuses
 * Finished with errors - finished but errors in test execution. This
   is for example application or device crash.
 
-In addition to summary information you can download the application
-and test files as well as as all the log files.  You can also access
-Test Case and Screenshots comparison views from the Summary widget.
+In addition to summary information you can download the application and test files as well as as all the log files.  You can also access Test Case and Screenshots comparison views from the Summary widget.
 
 Test run view details -widget contains summary information for each device.
 
 ![Picture. Test run view details -widget](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details.png)
 
-On the top-right of the test run widget, user can filter data shown in
-widget. For example, user can filter passed, failed, excluded, and not
-executed devices for the widget.  More specific error of test
-execution from test run can be seen when mouse is hovered on the top
-of red colored error message.  User can focus on each device run by
-clicking the device row.  User can open all device runs by clicking
-Show all X devices where X indicated the number of used devices in the
-test run.  User can also retry the test run for visible devices.
+On the top-right of the test run widget, user can filter data shown in widget. For example, user can filter passed, failed, excluded, and not executed devices for the widget.  More specific error of test execution from test run can be seen when mouse is hovered on the top of red colored error message.  User can focus on each device run by clicking the device row.  User can open all device runs by clicking "Show all X devices" where X indicated the number of used devices in the test run.  User can also retry the test run for visible devices.
 
 ![Picture. Retry.](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_retry_listed.png)
 
@@ -547,79 +383,52 @@ the eye icon on the top-right corner.
 
 ## Device run details / Screenshots
  
-The Screenshots view shows all captured screenshots during the
-selected test. The number on the right-top corner of each screenshot
-indicates the step when screenshot was taken. For example, test run
-may have 22 steps. Each step will include a screenshot and if the step
-includes multiple screenshots, those are named as <number of
-step>.<sub-number>.  (e.g. 6.1, 6.2).
+The Screenshots view shows all captured screenshots during the selected test. The number on the right-top corner of each screenshot indicates the step when screenshot was taken. For example, test run may have 22 steps. Each step will include a screenshot and if the step includes multiple screenshots, those are named as <number of step>.<sub-number>.  (e.g. 6.1, 6.2).
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details_screenshots.png)
 
-User can download all captured screenshots by clicking Download
-screenshots on the top right-corner of the widget.
+User can download all captured screenshots by clicking Download screenshots on the top right-corner of the widget.
 
 ## Device run details / Performance
  
-The Performance view provides details of the test run for CPU and
-memory usage.  User can click any given step/time to get more specific
-information about resource consumption.
+The Performance view provides details of the test run for CPU and memory usage.  User can click any given step/time to get more specific information about resource consumption.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details_performance.png)
 
-The performance log can be also downloaded by clicking the Download
-performance log button on the top right-corner of the widget.
+The performance log can be also downloaded by clicking the Download performance log button on the top right-corner of the widget.
 
 
 ## Device run details / Logs
 
-The log view provides line-by-line information about the test run. It
-can be configured with types of information user wants to investigate
-and show in Logs view. Available configurations are: Info, Debug,
-Warning, Error, Assert and Verbose.
+The log view provides line-by-line information about the test run. It can be configured with types of information user wants to investigate and show in Logs view. Available configurations are: Info, Debug, Warning, Error, Assert and Verbose.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details_logs.png)
 
 ## Device run details / Device files
  
-If the test or device run includes additional files those can be
-reviewed and download from this view. For example, if test run
-generates additional logs, users can get those files through this view
-after the test run is completed.
+If the test or device run includes additional files those can be reviewed and download from this view. For example, if test run generates additional logs, users can get those files through this view after the test run is completed.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details_device_files.png)
 
-All additional files can be downloaded by clicking Download all files
-button on the top right-corner of the widget.
+All additional files can be downloaded by clicking Download all files button on the top right-corner of the widget.
  
 ## Screenshot comparison
 
-The **Screenshot Comparison** view makes it easy to compare captured
-screenshots from every test run.
+The **Screenshot Comparison** view makes it easy to compare captured screenshots from every test run.
  
-Users can select screenshots from dropdown menu that gets
-automatically shown on each device in the test run. Screenshots can be
-browsed also with arrow button on the top right-corner of the
-widget. For full-screen mode, user can click Full screen button and
-for downloading all screenshot Download screenshots button.
+Users can select screenshots from dropdown menu that gets automatically shown on each device in the test run. Screenshots can be browsed also with arrow button on the top right-corner of the widget. For full-screen mode, user can click Full screen button and for downloading all screenshot Download screenshots button.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/projects_run_details_sc_comparision.png)
 
 ## Reports
 
-The **Reports** view provides users a way to generate reports of their
-test runs, including key metrics or even full details of each test
-runs.
+The **Reports** view provides users a way to generate reports of their test runs, including key metrics or even full details of each test runs.
  
-For example, user can select the project, test run, report type and
-report format, and the report will be automatically generated for
-user. It is also possible to download the report in different formats
-(PDF, HTML, CSV).
+For example, user can select the project, test run, report type and report format, and the report will be automatically generated for user. It is also possible to download the report in different formats (PDF, HTML, CSV).
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/reports.png)
 
-The following steps will help users to create reports regarding their
-needs:
+The following steps will help users to create reports regarding their needs:
 
 1. **Specify the report type.** After selecting the reports tool, the
 first step is to specify the report type. Users can choose different
@@ -649,46 +458,23 @@ reports, they can download the selected report by clicking the
 
 ## Device Groups
 
-Testdroid Cloud enables its users to create a specific device groups
-that are used to point out on which devices tests are executed. The
-device group configuration can be found under the main menu - **Device
-Groups**.
+Testdroid Cloud enables its users to create a specific device groups that are used to point out on which devices tests are executed. The device group configuration can be found under the main menu - **Device Groups**.
  
-Creation of a device group starts by giving a name for device
-group. After this, user needs to select either to be created device
-group is Android or iOS. Note that device groups can include devices
-from either platform, not both. By clicking **Create group** the
-device group will be created.
+Creation of a device group starts by giving a name for device group. After this, user needs to select either to be created device group is Android or iOS. Note that device groups can include devices from either platform, not both. By clicking **Create group** the device group will be created.
  
-Users can include devices in device groups by selecting device
-separately on the left-hand side's browsing menu. After selection,
-user can drag and drop devices to newly created device group on the
-right-hand side.  The filter options on the left-hand side, for
-example, OS versions, API levels, CPUs and so on can be used to browse
-specific devices for selection.
+Users can include devices in device groups by selecting device separately on the left-hand side's browsing menu. After selection, user can drag and drop devices to newly created device group on the right-hand side.  The filter options on the left-hand side, for example, OS versions, API levels, CPUs and so on can be used to browse specific devices for selection.
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/device_groups.png)
  
-The other alternative for creating device groups is to select all
-desired devices on the left-hand side widget and clicking '+' on top
-of that widget. User can then configure more specific details -
-e.g. name - on the right-hand side widget.
+The other alternative for creating device groups is to select all desired devices on the left-hand side widget and clicking '+' on top of that widget. User can then configure more specific details - e.g. name - on the right-hand side widget.
  
-The third way to configure device groups is enabled by clicking
-existing device group on the right-hand side widget. Devices included
-in the specific group will be shown and user can remove and add
-devices accordingly.
+The third way to configure device groups is enabled by clicking existing device group on the right-hand side widget. Devices included in the specific group will be shown and user can remove and add devices accordingly.
 
 ## Manual Testing
 
-Testdroid Cloud Manual Testing feature provides users a way to take
-manual access to Testdroid Cloud devices. By clicking Manual Testing in
-the main menu, user will be directed to the Manual Testing setup view.
+Testdroid Cloud Manual Testing feature provides users a way to take manual access to Testdroid Cloud devices. By clicking Manual Testing in the main menu, user will be directed to the Manual Testing setup view.
 
-Users can upload their applications by clicking *Upload new app* on
-top of the widget and then select application for a manual session. It
-is also possible to simply start using a device by clicking on *Start
-without and app*.
+Users can upload their applications by clicking *Upload new app* on top of the widget and then select application for a manual session. It is also possible to simply start using a device by clicking on *Start without and app*.
 
 
 1. Select application for the session
@@ -745,5 +531,3 @@ All captured screenshots can be downloaded by clicking Download
 screenshots button on the top right-corner of the widget.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/interactive_screenshots.png)
-
-
