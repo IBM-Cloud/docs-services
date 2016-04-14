@@ -24,6 +24,8 @@ The task section includes steps to integrate the service into the app.
 
 If you are new to RabbitMQ, we recommend you read the guide [RabbitMQ for beginners before continuing](https://www.cloudamqp.com/blog/2015-05-18-part1-rabbitmq-for-beginners-what-is-rabbitmq.html?cm_mc_uid=22273308531414543392018&cm_mc_sid_50200000=1458671296).
 
+![CloudAMQP Bluemix overview](https://github.com/IBM-Bluemix/docs-services/blob/lovisajohansson-index/services/CloudAMQP/cloudamqp_overview_bluemix.png "Bluemix CloudAMQP overview")
+
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
 ###Steps to integrate your app with the service.
