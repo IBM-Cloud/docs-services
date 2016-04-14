@@ -22,7 +22,7 @@ The task section includes steps to integrate the service into the app.
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
 
-![CloudAMQP Bluemix overview](https://github.com/IBM-Bluemix/docs-services/blob/lovisajohansson-index/services/CloudAMQP/cloudamqp_overview_bluemix.png "Bluemix CloudAMQP overview")
+![ElephantSQL Bluemix overview](https://github.com/IBM-Bluemix/docs-services/blob/lovisajohansson-index/services/ElephantSQL/elephantsql_bluemix.png "Bluemix ElephantSQL overview")
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
@@ -92,9 +92,19 @@ Use {:new_window} for external links to open a new window.-->
 ## Tutorials and Samples
 
 [Ruby](http://www.elephantsql.com/docs/ruby.html){:new_window}
+
 [Python](http://www.elephantsql.com/docs/python.html){:new_window}
-[node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window} [PHP](http://www.elephantsql.com/docs/php.html){:new_window} [Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window} [Go](http://www.elephantsql.com/docs/go.html){:new_window}
+
+[node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window}
+
+[PHP](http://www.elephantsql.com/docs/php.html){:new_window}
+
+[Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window}
+
+[Go](http://www.elephantsql.com/docs/go.html){:new_window}
+
 [.NET](http://www.elephantsql.com/docs/dotnet.html){:new_window}
+
 {: #samples}
 
 
