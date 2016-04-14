@@ -26,7 +26,7 @@ The task section includes steps to integrate the service into the app.
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-###Steps to integrate your app with the ElephantSQL.
+###Steps to integrate your app with ElephantSQL
 
 Complete these steps to get started with ElephantSQL service:
 
