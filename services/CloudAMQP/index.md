@@ -1,5 +1,6 @@
+
 # Getting started with CloudAMQP
-*Last updated: 23 April 2016*
+*Last updated: 14 April 2016*
 
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
@@ -25,7 +26,7 @@ If you are new to RabbitMQ, we recommend you read the guide [RabbitMQ for beginn
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-###Steps to integrate app with the service.
+###Steps to integrate your app with the service.
 
 Complete these steps to get started with the CloudAMQP service:
 
