@@ -17,7 +17,7 @@ To get up and running simply select Kinetise service from your Dashboard and cli
 Check Related Links below for tutorials on how to integrate mobile app built in Kinetise with Bluemix services and applications.
 
 ## About
-Applications built with Kinetise can connect to any JSON-based RESTful APIs. Bluemix-hosted examples may include Cloudant NoSQL DB API or ones defined in API Connect service. Data can be retrieved and displayed as well as sent out based on the user input. Moreover, Kinetise allows to create apps with user authentication, so the data processed by the application is personalized and secured. 
+Applications built with Kinetise can connect to any JSON-based RESTful APIs. Bluemix-related examples may include Cloudant NoSQL DB or APIs defined in API Connect service. Data can be retrieved and displayed as well as sent out based on the user input. Moreover, Kinetise allows to create apps with user authentication, so the data processed by the application is personalized and secured. 
 
 The integration point between Kinetise and other Bluemix services happen by means of API URLs and request parameters that can be fully configured in the Kinetise editor. 
 	
