@@ -28,6 +28,7 @@ The integration point between Kinetise and other Bluemix services happen by mean
 * [Kinetise Full-cycle walkhtrough video](https://www.youtube.com/watch?v=5h72BP23ReY){:new_window}
 * [Integration with IBM Watson Personality Insights video tutorial](https://www.youtube.com/watch?v=3vr_zNjeypU){:new_window}
 * [Integration with IBM Bluemix Cloudant NoSQL DB video tutorial](https://www.youtube.com/watch?v=k6WfVF2G9Os){:new_window}
-## Related Links
+
+## General Help
 {: #general}
 * [Kinetise Help Center](https://helpcenter.kinetise.com/){:new_window}
