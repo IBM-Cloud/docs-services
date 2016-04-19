@@ -87,37 +87,24 @@ Also ensure that the related links stay in position at the end of this file or t
 Use {:new_window} for external links to open a new window.-->
 <!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
 # Related Links
-[Plans and pricing](https://www.cloudamqp.com/plans.html){:new_window}
-
-[FAQ](https://www.cloudamqp.com/docs/faq.html){:new_window}
-
-[Blog and news](https://www.cloudamqp.com/blog/index.html) {:new_window}
-
 {: #rellinks}
 ## Tutorials and Samples
-[Ruby](https://www.cloudamqp.com/docs/ruby.html){:new_window}
-
-[Python](https://www.cloudamqp.com/docs/python.html){:new_window}
-
-[Celery](https://www.cloudamqp.com/docs/celery.html){:new_window}
-
-[node.js](https://www.cloudamqp.com/docs/nodejs.html){:new_window}
-
-[PHP](https://www.cloudamqp.com/docs/php.html){:new_window}
-
-[Java](https://www.cloudamqp.com/docs/java.html){:new_window}
-
-[Clojure](https://www.cloudamqp.com/docs/clojure.html){:new_window}
-
-[Go](https://www.cloudamqp.com/docs/go.html){:new_window}
-
-[Android](https://www.cloudamqp.com/docs/android.html){:new_window}
-
-[.NET](https://www.cloudamqp.com/docs/dotnet.html){:new_window}
-
-[Perl](https://www.cloudamqp.com/docs/perl.html){:new_window}
-
-[C](https://www.cloudamqp.com/docs/c.html){:new_window}
 {: #samples}
-
+* [Ruby](https://www.cloudamqp.com/docs/ruby.html){:new_window}
+* [Python](https://www.cloudamqp.com/docs/python.html){:new_window}
+* [Celery](https://www.cloudamqp.com/docs/celery.html){:new_window}
+* [node.js](https://www.cloudamqp.com/docs/nodejs.html){:new_window}
+* [PHP](https://www.cloudamqp.com/docs/php.html){:new_window}
+* [Java](https://www.cloudamqp.com/docs/java.html){:new_window}
+* [Clojure](https://www.cloudamqp.com/docs/clojure.html){:new_window}
+* [Go](https://www.cloudamqp.com/docs/go.html){:new_window}
+* [Android](https://www.cloudamqp.com/docs/android.html){:new_window}
+* [.NET](https://www.cloudamqp.com/docs/dotnet.html){:new_window}
+* [Perl](https://www.cloudamqp.com/docs/perl.html){:new_window}
+* [C](https://www.cloudamqp.com/docs/c.html){:new_window}
+## Related Links
+{: #general}
+* [Plans and pricing](https://www.cloudamqp.com/plans.html){:new_window}
+* [FAQ](https://www.cloudamqp.com/docs/faq.html){:new_window}
+* [Blog and news](https://www.cloudamqp.com/blog/index.html){:new_window}
 
