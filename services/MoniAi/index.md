@@ -24,20 +24,26 @@ To design a Voice Channel, complete these steps:
 
 # Related Links
 {: #rellinks}
+
 ## Tutorials and Samples
 {: #samples}
+
 * [Build "Voice Channels" with Moni.ai, your virtual assistant](https://developer.ibm.com/bluemix/2016/02/10/voice-channels-with-moni-ai-virtual-assistant/){:new_window}
 * [Case study for "Voice Channels" on Moni.ai](https://developer.ibm.com/bluemix/2016/04/07/voice-channels-on-moni-ai/){:new_window}
+
 ## SDK
 {: #sdk}
+
 * [Moni.ai Voice Channel designer](https://hub.jazz.net/deploy/index.html?repository=https://hub.jazz.net/git/moniai/voice-channel-design){:new_window}
+
 ## API Reference
 {: #api}
+
 * [Moni.ai help articles](http://blog.moni.ai){:new_window}
-## Compatible Runtimes
-{: #buildpacks}
+
 ## Related Links
 {: #general}
+
 * [Product page](http://business.moni.ai){:new_window}
 * [Moni.ai on iTunes](https://itunes.apple.com/us/app/moni.ai/id964152543)
 * [Moni.ai on Google Play](https://play.google.com/store/apps/details?id=com.tagonsoft.askmoni)
