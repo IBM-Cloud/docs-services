@@ -26,8 +26,8 @@ To design a Voice Channel, complete these steps:
 {: #rellinks}
 ## Tutorials and Samples
 {: #samples}
-* [Build &quot;Voice Channels&quot; with Moni.ai, your virtual assistant](https://developer.ibm.com/bluemix/2016/02/10/voice-channels-with-moni-ai-virtual-assistant/){:new_window}
-* [Case study for &quot;Voice Channels&quot; on Moni.ai](https://developer.ibm.com/bluemix/2016/04/07/voice-channels-on-moni-ai/){:new_window}
+* [Build "Voice Channels" with Moni.ai, your virtual assistant](https://developer.ibm.com/bluemix/2016/02/10/voice-channels-with-moni-ai-virtual-assistant/){:new_window}
+* [Case study for "Voice Channels" on Moni.ai](https://developer.ibm.com/bluemix/2016/04/07/voice-channels-on-moni-ai/){:new_window}
 ## SDK
 {: #sdk}
 * [Moni.ai Voice Channel designer](https://hub.jazz.net/deploy/index.html?repository=https://hub.jazz.net/git/moniai/voice-channel-design){:new_window}
