@@ -42,7 +42,6 @@ Sample code, links to recommended libraries and further information about the cl
 
 1. Add the client library to your dependencies file. The library will be downloaded automatically when you deploy your app. ElephantSQL recommended client libraries for different languages can be found here:  [Ruby](http://www.elephantsql.com/docs/ruby.html){:new_window}, [Python](http://www.elephantsql.com/docs/python.html){:new_window},[node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window}, [PHP](http://www.elephantsql.com/docs/php.html){:new_window}, [Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window}, [Go](http://www.elephantsql.com/docs/go.html){:new_window} and [.NET](http://www.elephantsql.com/docs/dotnet.html){:new_window}. 
  
-
   For example, in Ruby when using the database toolkit sequal, open the Gemfile and add gem ‘pg’ and gem ‘sequal’.
   ```
     gem 'pg'
