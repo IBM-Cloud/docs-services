@@ -85,8 +85,10 @@ Use {:new_window} for external links to open a new window.-->
 
 # Related Links
 {: #rellinks}
+
 ## Tutorials and Samples
 {: #samples}
+
 * [Ruby](http://www.elephantsql.com/docs/ruby.html){:new_window}
 * [Python](http://www.elephantsql.com/docs/python.html){:new_window}
 * [node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window}
@@ -94,8 +96,10 @@ Use {:new_window} for external links to open a new window.-->
 * [Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window}
 * [Go](http://www.elephantsql.com/docs/go.html){:new_window}
 * [.NET](http://www.elephantsql.com/docs/dotnet.html){:new_window}
+
 ## Related Links
 {: #general}
+
 * [Plans and pricing](http://www.elephantsql.com/plans.html){:new_window}
 * [FAQ](http://www.elephantsql.com/docs/faq.html){:new_window}
 * [Blog and news](http://www.elephantsql.com/blog/index.html) {:new_window}
