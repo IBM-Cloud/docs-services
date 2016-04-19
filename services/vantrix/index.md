@@ -16,66 +16,65 @@ To add the Vantrix Transcoder service using the command line, you need the Cloud
 
 To add Vantrix Transcoder service to your Bluemix application, follow these steps:
 1. Set up the Bluemix API endpoint:
-
-		```
-		cf api https://api.ng.bluemix.net
-		```
-		{: pre}
+  ```
+  cf api https://api.ng.bluemix.net
+  ```
+  {: pre}
 		
 2. Then log in to Bluemix with your Bluemix credentials:
 
-		```
-		cf login
-		```
-		{: pre}
+  ```
+  cf login
+  ```
+  {: pre}
 		
 3. Choose your organization and space, and you are ready to add the Vantrix Transcoder service. 
 4. Now create a service instance in your selected space, for example:
 
-		```
-		cf create-service vantrix-transcoder free mytranscoder01
-		```
-		{: pre}
-		
-		where ‘vantrix-transcoder free’ is the service and 'mytranscoder01' is the service instance name. 
+  ```
+  cf create-service vantrix-transcoder free mytranscoder01
+  ```
+ {: pre}
+	
+  where ‘vantrix-transcoder free’ is the service and 'mytranscoder01' is the service instance name. 
 
 5. Bind your Vantrix Transcoder service instance to your application, for example:
 
-		```
-		cf bind-service MyApp mytranscoder01
-		```
-		{: pre}
-		
-		where 'MyApp' is your application and ‘mytranscoder01’ is your service instance.
-		
+  ```
+  cf bind-service MyApp mytranscoder01
+  ```
+  {: pre}
+
+  where 'MyApp' is your application and ‘mytranscoder01’ is your service instance.
+
 6. Optionally, to show the service is bound to your application, use the `cf services` command.		
 7. After Vantrix Transcoder service is bound to your application, the specific configuration of your Vantrix Transcoder service will appear in your VCAP_SERVICES environment variable. To list the details, use the `cf env` command followed by your application name, for example:
 
-		```
-		cf env MyApp
-		```
-		{: pre}
+```
+cf env MyApp
+```
+{: pre}
 		
-		where 'MyApp' is your application.
+where 'MyApp' is your application.
 		
-		The output will include something like this:
+The output will include something like this:
 		
-		```
-		"VCAP_SERVICES": {
-			"vantrix-transcoder": [
-				{
-				 "credentials": {
-					 "api_key": "7291dbcfe37cf478999b16476294c59e",
-					 "api_url": "https://cloud.vantrix.com/vta/v1",
-					 "dashboard_url": "https://cloud.vantrix.com/free?x-vta-key=7291dbcfe37cf478999b16476294c59e",
-					 "storage_password": "68e871ca5b994677ec1c8c2ab92c6b351a06ff49a3aedf85c11bfb07b6ec286e",
-					 "storage_url": "sftp://cloud.vantrix.com",
-					 "storage_username": "4cldun4xx6omla84qmy9jwg8kq9pro"
-				 },
-				 ...
-		```		 
-		{: screen}
-		
+```
+"VCAP_SERVICES": {
+	"vantrix-transcoder": [
+		{
+		 "credentials": {
+				"api_key": "7291dbcfe37cf478999b16476294c59e",
+				"api_url": "https://cloud.vantrix.com/vta/v1",
+				"dashboard_url": "https://cloud.vantrix.com/free?x-vta-key=7291dbcfe37cf478999b16476294c59e",
+			 "storage_password": "68e871ca5b994677ec1c8c2ab92c6b351a06ff49a3aedf85c11bfb07b6ec286e",
+			 "storage_url": "sftp://cloud.vantrix.com",
+				"storage_username": "4cldun4xx6omla84qmy9jwg8kq9pro"
+			},
+		 ...
+```		 
+{: screen}
+	
 The credentials block provides everything you need to use the Vantrix Transcoder service.
 - **api_key**  -  your key for accessing the Vantrix Transcoding API
 - **api_url**  -  the URL of the Vantrix Transcoding API
