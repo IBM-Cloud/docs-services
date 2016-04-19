@@ -22,7 +22,7 @@ The task section includes steps to integrate the service into the app.
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
 
-![ElephantSQL Bluemix overview](https://github.com/IBM-Bluemix/docs-services/blob/lovisajohansson-index/services/ElephantSQL/elephantsql_bluemix.png "Bluemix ElephantSQL overview")
+![ElephantSQL Bluemix overview](elephantsql_bluemix.png)
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
