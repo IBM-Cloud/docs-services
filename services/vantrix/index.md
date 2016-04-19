@@ -86,11 +86,21 @@ The credentials block provides everything you need to use the Vantrix Transcoder
 Note that the credentials are also available on the Account page of the VTA UI (at dashboard_url). 
 To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window} and the [VTA API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}. 
 	
+# Related Links
 {: #rellinks}
+
+## Tutorials and Samples
 {: #samples}
+
 * [Vantrix Transcoding API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window}
 * [Introducing Vantrix Transcoder User Interface](http://vantrix.com/knowledgebase/Introducing_Vantrix_Transcoder_User_Interface){:new_window}
+
+## API Reference
 {: #api}
-[Vantrix Transcoding API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}
+
+* [Vantrix Transcoding API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}
+
+## Related Links
 {: #general}
-[Vantrix Resources](http://vantrix.com/resources/){:new_window}
+
+* [Vantrix Resources](http://vantrix.com/resources/){:new_window}
