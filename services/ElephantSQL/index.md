@@ -81,30 +81,21 @@ The headings coded here are not actually used. The doc framework provides the co
 Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
 Use {:new_window} for external links to open a new window.-->
 <!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+
 # Related Links
-[Plans and pricing](http://www.elephantsql.com/plans.html){:new_window}
-
-[FAQ](http://www.elephantsql.com/docs/faq.html){:new_window}
-
-[Blog and news](http://www.elephantsql.com/blog/index.html) {:new_window}
-
 {: #rellinks}
 ## Tutorials and Samples
-
-[Ruby](http://www.elephantsql.com/docs/ruby.html){:new_window}
-
-[Python](http://www.elephantsql.com/docs/python.html){:new_window}
-
-[node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window}
-
-[PHP](http://www.elephantsql.com/docs/php.html){:new_window}
-
-[Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window}
-
-[Go](http://www.elephantsql.com/docs/go.html){:new_window}
-
-[.NET](http://www.elephantsql.com/docs/dotnet.html){:new_window}
-
 {: #samples}
-
+* [Ruby](http://www.elephantsql.com/docs/ruby.html){:new_window}
+* [Python](http://www.elephantsql.com/docs/python.html){:new_window}
+* [node.js](http://www.elephantsql.com/docs/nodejs.html){:new_window}
+* [PHP](http://www.elephantsql.com/docs/php.html){:new_window}
+* [Clojure](http://www.elephantsql.com/docs/clojure.html){:new_window}
+* [Go](http://www.elephantsql.com/docs/go.html){:new_window}
+* [.NET](http://www.elephantsql.com/docs/dotnet.html){:new_window}
+## Related Links
+{: #general}
+* [Plans and pricing](http://www.elephantsql.com/plans.html){:new_window}
+* [FAQ](http://www.elephantsql.com/docs/faq.html){:new_window}
+* [Blog and news](http://www.elephantsql.com/blog/index.html) {:new_window}
 
