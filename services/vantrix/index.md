@@ -79,9 +79,9 @@ The credentials block provides everything you need to use the Vantrix Transcoder
 - **api_key**  -  your key for accessing the Vantrix Transcoding API
 - **api_url**  -  the URL of the Vantrix Transcoding API
 - **dashboard_url**  -  the URL of the Vantrix Transcoder UI
-- **storage_password**  -  your password for accessing your private storage for Vantrix Transcoder 
-- **storage_url**  -  the URL of your private storage for Vantrix Transcoder 
-- **storage_username**  -  your username for accessing your private storage for Vantrix Transcoder 
+- **sftp_password**  -  your password for accessing your private storage for Vantrix Transcoder 
+- **sftp_url**  -  the URL of your private storage for Vantrix Transcoder 
+- **sftp_username**  -  your username for accessing your private storage for Vantrix Transcoder 
 Note that the credentials are also available on the Account page of the VTA UI (at dashboard_url). 
 
 To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window} and the [VTA API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}. 
