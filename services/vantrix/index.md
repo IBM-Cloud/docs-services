@@ -67,9 +67,9 @@ The output will include something like this:
 				"api_key": "7291dbcfe37cf478999b16476294c59e",
 				"api_url": "https://cloud.vantrix.com/vta/v1",
 				"dashboard_url": "https://cloud.vantrix.com/free?x-vta-key=7291dbcfe37cf478999b16476294c59e",
-			 "storage_password": "68e871ca5b994677ec1c8c2ab92c6b351a06ff49a3aedf85c11bfb07b6ec286e",
-			 "storage_url": "sftp://cloud.vantrix.com",
-				"storage_username": "4cldun4xx6omla84qmy9jwg8kq9pro"
+			 "sftp_password": "68e871ca5b994677ec1c8c2ab92c6b351a06ff49a3aedf85c11bfb07b6ec286e",
+			 "sftp_url": "sftp://cloud.vantrix.com",
+				"sftp_username": "4cldun4xx6omla84qmy9jwg8kq9pro"
 			},
 		 ...
 ```		 
