@@ -60,8 +60,8 @@ With the Open Source Hiptest publisher, generate scripts for your favorite test 
 ## Related Links
 {: #general}
 
-* [Hiptest documentation]((http://docs.hiptest.net/){:new_window}
+* [Hiptest documentation](http://docs.hiptest.net/){:new_window}
 * [Hiptest blog](http://blog.hiptest.net/){:new_window}
 * [YouTube](https://www.youtube.com/channel/UCx8MFcFrl8tUbfrXSAPDnLw){:new_window}
 * [Hiptest features](https://hiptest.net/features){:new_window}
-* [Hiptest pricing](https://hiptest.net/pricing){:new_window}
+
