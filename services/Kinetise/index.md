@@ -28,7 +28,7 @@ The integration point between Kinetise and other Bluemix services happen by mean
 * [Basic Moves (video)](https://www.youtube.com/watch?v=6Oz5L2DE7VA){:new_window}
 * [Adding Data (video)](https://www.youtube.com/watch?v=faRmRVGwP_k){:new_window}
 * [Collecting Data (video)](https://www.youtube.com/watch?v=STkpgC6Wznk){:new_window}
-* [Importing data from Excel (video)](https://www.youtube.com/watch?v=baHh2SN_zWk){:new_window}
+* [Importing Data from Excel (video)](https://www.youtube.com/watch?v=baHh2SN_zWk){:new_window}
 * [Configuring User Roles (video)](https://www.youtube.com/watch?v=Z7ZDM4BawoE){:new_window}
 * [User Registration (video)](https://www.youtube.com/watch?v=zuUNOq9EKtA){:new_window}
 * [Integration with IBM Watson Personality Insights (video)](https://www.youtube.com/watch?v=3vr_zNjeypU){:new_window}
