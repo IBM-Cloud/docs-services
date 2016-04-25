@@ -9,7 +9,7 @@
 {: #gettingstarted}
 *Last updated: 18 April 2016*
 
-Kinetise is a mobile applications development suite allowing to create even most advanced apps in under 24 hours. With Kinetise you can use web-based drag&drop editor to design and configure your application. Kinetise produces result application as native iOS and Android builds that can be tested on the real devices right away. 
+Kinetise is a codeless mobile applications development suite, allowing to create even most advanced apps in under 24 hours. Web-based drag&drop editor enables rapid prototyping, connecting to APIs, and creating fully-functional native iOS and Android builds.
 {:shortdesc}
 
 To get up and running simply select Kinetise service from your Dashboard and click **OPEN KINETISE DASHBOARD** button.
@@ -25,10 +25,21 @@ The integration point between Kinetise and other Bluemix services happen by mean
 {: #rellinks}
 ## Tutorials and Samples
 {: #samples}
-* [Kinetise Full-cycle walkhtrough (video)](https://www.youtube.com/watch?v=5h72BP23ReY){:new_window}
+* [Basic Moves (video)](https://www.youtube.com/watch?v=6Oz5L2DE7VA){:new_window}
+* [Adding Data (video)](https://www.youtube.com/watch?v=faRmRVGwP_k){:new_window}
+* [Collecting Data (video)](https://www.youtube.com/watch?v=STkpgC6Wznk){:new_window}
+* [Importing data from Excel (video)](https://www.youtube.com/watch?v=baHh2SN_zWk){:new_window}
+* [Configuring User Roles (video)](https://www.youtube.com/watch?v=Z7ZDM4BawoE){:new_window}
+* [User Registration (video)](https://www.youtube.com/watch?v=zuUNOq9EKtA){:new_window}
 * [Integration with IBM Watson Personality Insights (video)](https://www.youtube.com/watch?v=3vr_zNjeypU){:new_window}
 * [Integration with IBM Bluemix Cloudant NoSQL DB (video)](https://www.youtube.com/watch?v=k6WfVF2G9Os){:new_window}
 
+## API Reference
+{: #api}
+* [API Specification](https://helpcenter.kinetise.com/backend-developers){:new_window}
+
 ## General Help
 {: #general}
+* [Service Demo](https://www.youtube.com/watch?v=JiRkEgDSEOE){:new_window}
 * [Kinetise Help Center](https://helpcenter.kinetise.com/){:new_window}
+* [More Video Tutorials](https://helpcenter.kinetise.com/video-tutorials){:new_window}
