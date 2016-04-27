@@ -50,27 +50,27 @@ Sample code, links to recommended libraries and further information about the cl
   {: pre}
   
 2.  Copy code from the the same language-specific link as above. For example, in Ruby: 
-```
-  uri = if ENV['VCAP_SERVICES']
-    services = JSON.parse(ENV['VCAP_SERVICES'])
-    elephantsql_conf = services["elephantsql"].first
-    elephantsql_conf["credentials"]["uri"]
-  else
-    'postgres://localhost/database'
-  end
+    ```
+      uri = if ENV['VCAP_SERVICES']
+        services = JSON.parse(ENV['VCAP_SERVICES'])
+        elephantsql_conf = services["elephantsql"].first
+        elephantsql_conf["credentials"]["uri"]
+      else
+        'postgres://localhost/database'
+      end
 
-  DB = Sequel.connect(uri)
+      DB = Sequel.connect(uri)
 
-  class Person < Sequel::Model
-  end
+      class Person < Sequel::Model
+      end
  
-  persons = Person.where(first_name: 'Lovisa')
+      persons = Person.where(first_name: 'Lovisa')
 
-  persons.each do |p|
-    puts [p.first_name, p.last_name].join(' ')
-  end
-```
-{: codeblock}
+      persons.each do |p|
+        puts [p.first_name, p.last_name].join(' ')
+      end
+    ```
+    {: codeblock}
 
 3. Set up connection Environment Variable: The connection and credential information for CloudAMQP is available in the Bluemix VCAP_SERVICES environment variable. It’s a nested JSON objected with all service credentials. 
 
