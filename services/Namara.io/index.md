@@ -8,14 +8,14 @@
 {: #gettingstarted}
 *Last updated: 2 May 2016*
 
-The [Namara.io](https://namara.io) platform aggregates available open data released by all levels of government and presents it to users in a single portal. It organizes and catalogues this public data, providing users with API access to high value information.
+The [Namara.io](https://namara.io){:new_window} platform aggregates available open data released by all levels of government and presents it to users in a single portal. It organizes and catalogues this public data, providing users with API access to high value information.
 {:shortdesc}
 
 ![Namara Bluemix overview](namara_bluemix.jpg)
 
 ## Instructions
 
-By clicking 'OPEN NAMARA.IO CATALOG DASHBOARD', Bluemix will generate an account for you on [Namara.io](https://namara.io).
+By clicking 'OPEN NAMARA.IO CATALOG DASHBOARD', Bluemix will generate an account for you on [Namara.io](https://namara.io){:new_window}.
 
 Once you are on Namara.io and logged in, hover over the user icon in the top right corner of the page and click 'Collections'. This will take you to the collections page where you can build collections and access your relevant API key.
 
@@ -41,5 +41,5 @@ For further information, please read the API docs.
 ## Related Links
 {: #general}
 
-* [About Namara](https://namara.io/#/about)
-* [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html)
+* [About Namara](https://namara.io/#/about){:new_window}
+* [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html){:new_window}
