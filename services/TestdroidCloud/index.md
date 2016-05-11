@@ -48,7 +48,7 @@ Now, you access Testdroid Cloud service by opening the Testdroid Dashboard. Clic
 
 ![](http://testdroid.com/wp-content/uploads/2016/05/Selection_025.png)
 
-**Congratulations!** You've now activated and registered your Testdroid account and you'll be redirected and logged in to Testdroid Cloud. Please see [Testdroid Cloud User Manual](http://docs.testdroid.com/testdroid-cloud-ui/) for details on how to use it.
+**Congratulations!** You've now activated and registered your Testdroid account and you'll be redirected and logged in to Testdroid Cloud. Please see [Testdroid Cloud User Manual](http://docs.testdroid.com/user-manuals/) for details on how to use it.
 
 ## Devices
 
