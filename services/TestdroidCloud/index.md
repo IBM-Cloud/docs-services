@@ -68,7 +68,7 @@ Testdroid Cloud provides support for native, hybrid and web apps on Android and 
 
 Developing mobile applications is very different from developing PC software or even embedded software. Mobile development is meant to be agile, and a lot of great tools and practices have been developed for that agility. However, doing something manually — such as testing an app — is never agile, which is why test automation has shown tremendous growth among app and game developers, speeding up their doings and yielding robust and better results.
 
-All Testdroid product have been built for test automation. The remote manual access to devices on our data centers complements this offering and occasionally developers want to make sure their apps work just like they've planned - and this is where our Testdroid Interactive is extremely useful.
+All Testdroid product have been built for test automation. The remote manual access to devices on our data centers complements this offering and occasionally developers want to make sure their apps work just like they've planned - and this is where our Testdroid Manual Testing is extremely useful.
 
 Test Automation relies real mobile devices (Android, iOS) and offers the possibility to test mobile apps and websites instantly and effectively using test automation frameworks. Our infrastructure is build to support unlimited number of simultaneous test runs, meaning that you can select any number of devices for your test run.
 
@@ -139,13 +139,13 @@ In order to evaluate what test automation framework works you the best please ta
 
 Remote manual access allows you to start a session on any mobile device we host at Testdroid Cloud. This provides a comprehensive way to manually test your mobile apps, games and web-related products. As all these devices are real you can install other applications, use available browsers, internet access, and also Google Play / App Store to download and configure your device session.
 
-The feature is called Testdroid Interactive. By clicking *Manual testing* in the main menu, user will be directed to the *Manual testing* setup view.
+The feature is called Testdroid Manual Testing. By clicking *Manual testing* in the main menu, user will be directed to the *Manual testing* setup view.
 
 Users can upload their applications by clicking *Upload file* on top of the widget and then select application for a manual session.
 
 1. Select application for the session
 
-   The interactive session gets started by clicking the
+   The Manual Testing session gets started by clicking the
    application. More applications can be uploaded and all are shown in
    this view. If you don't have or don't want to upload any app you can
    also proceed without it.
@@ -157,7 +157,7 @@ Users can upload their applications by clicking *Upload file* on top of the widg
    available (used by some other user) it will be shown with grayed
    lock picture on top of it.
 
-   After this the Interactive session will be opened with the selected
+   After this the Manual Testing session will be opened with the selected
    application installed on device.
 
 3. Use selected device
@@ -172,11 +172,11 @@ Users can upload their applications by clicking *Upload file* on top of the widg
    *Rotate* – device in session can be switched to portrait and landscape mode.
 
    *Screenshot* – Take a screenshot of device session. The screenshot
-   will be shown in Taken screenshots widget next to the Interactive
+   will be shown in Taken screenshots widget next to the Manual Testing
    widget.
 
-   *Device logs* - The device logs for Interactive session will show
-   live log details next to the Interactive session widget.
+   *Device logs* - The device logs for Manual Testing session will show
+   live log details next to the Manual Testing session widget.
 
 4. Stop or Restart
 
@@ -226,7 +226,7 @@ projects and test runs.
 **Device Groups** links to devices view where users can create their own
 device groups.
  
-**Interactive** opens Testdroid Cloud's Interactive feature wherein user
+**Manual Testing** opens Testdroid Cloud's Manual Testing feature wherein user
 can manually access any Testdroid Cloud device.
  
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/dashboard_main_menu_2.png)
@@ -467,7 +467,7 @@ Users can upload their applications by clicking *Upload new app* on top of the w
 
 1. Select application for the session
 
-   The interactive session gets started by clicking the application or
+   The Manual Testing session gets started by clicking the application or
    by starting without. More applications can be uploaded and all are
    shown in this view.
 
@@ -498,7 +498,7 @@ Users can upload their applications by clicking *Upload new app* on top of the w
    **Rotate** - the device under session can be switched to portrait and landscape mode.
 
    **Screenshot** - Take a screenshot of device session. The screenshot will
-   be shown in **Taken screenshots** widget next to the Interactive widget.
+   be shown in **Taken screenshots** widget next to the Manual Testing widget.
 
    Users can also change the file (application), device or restart the
    session with current device using buttons on top of the widget.
@@ -506,7 +506,7 @@ Users can upload their applications by clicking *Upload new app* on top of the w
 ## Device logs
  
 The **device logs** for Manual Testing session will show live log details
-next to the interactive session widget.
+next to the Manual Testing session widget.
 
 ![](http://docs.testdroid.com/assets/testdroid-cloud-ui/interactive_device_logs.png)
    
