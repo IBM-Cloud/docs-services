@@ -36,21 +36,17 @@ For Websites and Webapps:
 
 ## Account
 
-In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, click **Register** on the front page:
+In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, search for "Testdroid" or "Testdroid Cloud" in IBM BlueMix. When search shows the following results simply click the big Testdroid Cloud icon:
 
-![](http://docs.testdroid.com/assets/account/account-001.png)
+![](http://testdroid.com/wp-content/uploads/2016/05/Selection_026.png)
 
-You’ll be asked to provide your email address. After you’ve typed it in click **Next** and the activation link will be sent to email you just provided.
+You’ll be asked to select a plan. In the screenshot below FREE plan has been selected. Ensure services are properly selected on the right column and click **Create**:
 
-![](http://docs.testdroid.com/assets/account/account-002.png)
+![](http://testdroid.com/wp-content/uploads/2016/05/Selection_027.png)
 
-You can click the link embedded in the activation email - or - you can copy-paste the key found in the email in this window to activate your account. If you click the link in the email, it will skip this window and redirect you to an account setup window.
+Now, you access Testdroid Cloud service by opening the Testdroid Dashboard. Click **Open Testdroid Cloud Dashboard**:
 
-![](http://docs.testdroid.com/assets/account/account-003.png)
-
-In account setup window you'll be asked to provide the account name (your email), password, phone number and the company you are working at.
-
-![](http://docs.testdroid.com/assets/account/account-004.png)
+![](http://testdroid.com/wp-content/uploads/2016/05/Selection_025.png)
 
 **Congratulations!** You've now activated and registered your Testdroid account and you'll be redirected and logged in to Testdroid Cloud. Please see [Testdroid Cloud User Manual](http://docs.testdroid.com/testdroid-cloud-ui/) for details on how to use it.
 
