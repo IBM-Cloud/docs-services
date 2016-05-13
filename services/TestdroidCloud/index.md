@@ -1,10 +1,15 @@
-## Testdroid Cloud
+
+{:new_window: target="_blank"} {:shortdesc: .shortdesc} {:screen:.screen} {:codeblock:.codeblock} {:pre: .pre}
+
+## Getting Started with Testdroid Cloud
+
+{: #gettingstarted} Last updated: 13 May 2016
 
 ![](http://docs.testdroid.com/assets/logos/Testdroid_CLOUD_logo-HORIZONTAL_800px.png)
 
-[Testdroid Cloud](http://testdroid.com/) provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Testdroid Cloud provides a test automation, remote manual access and REST API to access, run and manage any tests with these devices.
+[Testdroid Cloud](http://testdroid.com/) provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Testdroid Cloud provides a test automation, remote manual access and REST API to access, run and manage any tests with these devices. {:shortdesc}
 
-[Testdroid](http://testdroid.com) Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate.
+[Testdroid](http://testdroid.com) Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate. 
 
 Testdroid Cloud allows users to upload their own tests or use built-in, script-free compatibility tests and crawlers. Devices can be used in parallel with test automation frameworks. For remote manual access only one device can be used at time.
 
@@ -36,13 +41,19 @@ For Websites and Webapps:
 
 ## Account
 
+
+
 In order to use any of Testdroid products, run and review tests, or access our devices user needs an user account. This can be created in few minutes at [Testdroid Cloud](https://cloud.testdroid.com). First, search for "Testdroid" or "Testdroid Cloud" in IBM BlueMix. When search shows the following results simply click the big Testdroid Cloud icon:
 
 ![](http://testdroid.com/wp-content/uploads/2016/05/Selection_026.png)
 
+{: pre}
+
 You’ll be asked to select a plan. In the screenshot below FREE plan has been selected. Ensure services are properly selected on the right column and click **Create**:
 
 ![](http://testdroid.com/wp-content/uploads/2016/05/Selection_027.png)
+
+{: pre}
 
 Now, you access Testdroid Cloud service by opening the Testdroid Dashboard. Click **Open Testdroid Cloud Dashboard**:
 
@@ -517,3 +528,26 @@ All captured screenshots can be downloaded by clicking Download
 screenshots button on the top right-corner of the widget.
 
 ![](http://docs.testdroid.com/assets/user-manuals/interactive_screenshots.png)
+
+## Related Links
+{: #rellinks}
+
+[Mobile App Testing on Real Devices](http://testdroid.com/)
+[Testdroid Community Portal](http://testdroid.com/blog)
+
+## Tutorials and Samples
+
+[How to Get Started with Appium](http://testdroid.com/news/37-things-you-should-know-about-appium)
+[Calabash Tutorial for Mobile App Testing](http://testdroid.com/news/calabash-tutorial-for-mobile-app-testing)
+[Getting Started with EarlGrey for iOS App Testing](http://testdroid.com/news/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework)
+[How to Use Espresso for Android App Testing](http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices)
+[Top 5 Android Test Automation Frameworks](http://testdroid.com/tech/top-5-android-testing-frameworks-with-examples)
+
+## API Reference
+
+[Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
+[Testdroid Samples](https://github.com/bitbar/testdroid-samples)
+
+## Related Links
+
+[Mobile App Testing with Testdroid](http://testdroid.com)
