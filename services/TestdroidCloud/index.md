@@ -533,19 +533,25 @@ screenshots button on the top right-corner of the widget.
 {: #rellinks}
 
 [Mobile App Testing on Real Devices](http://testdroid.com/)
+
 [Testdroid Community Portal](http://testdroid.com/blog)
 
 ## Tutorials and Samples
 
 [How to Get Started with Appium](http://testdroid.com/news/37-things-you-should-know-about-appium)
+
 [Calabash Tutorial for Mobile App Testing](http://testdroid.com/news/calabash-tutorial-for-mobile-app-testing)
+
 [Getting Started with EarlGrey for iOS App Testing](http://testdroid.com/news/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework)
+
 [How to Use Espresso for Android App Testing](http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices)
+
 [Top 5 Android Test Automation Frameworks](http://testdroid.com/tech/top-5-android-testing-frameworks-with-examples)
 
 ## API Reference
 
 [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
+
 [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
 
 ## Related Links
