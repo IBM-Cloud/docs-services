@@ -1,9 +1,14 @@
 
-{:new_window: target="_blank"} {:shortdesc: .shortdesc} {:screen:.screen} {:codeblock:.codeblock} {:pre: .pre}
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
 
 ## Getting Started with Testdroid Cloud
+{: #gettingstarted} 
 
-{: #gettingstarted} Last updated: 13 May 2016
+*Last updated: 13 May 2016*
 
 ![](http://docs.testdroid.com/assets/logos/Testdroid_CLOUD_logo-HORIZONTAL_800px.png)
 
