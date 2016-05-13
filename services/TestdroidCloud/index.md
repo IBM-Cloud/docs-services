@@ -532,11 +532,12 @@ screenshots button on the top right-corner of the widget.
 ## Related Links
 {: #rellinks}
 
-[Mobile App Testing on Real Devices](http://testdroid.com/)
+[Mobile App Testing with Testdroid](http://testdroid.com)
 
 [Testdroid Community Portal](http://testdroid.com/blog)
 
 ## Tutorials and Samples
+{: #samples}
 
 [How to Get Started with Appium](http://testdroid.com/news/37-things-you-should-know-about-appium)
 
@@ -549,11 +550,10 @@ screenshots button on the top right-corner of the widget.
 [Top 5 Android Test Automation Frameworks](http://testdroid.com/tech/top-5-android-testing-frameworks-with-examples)
 
 ## API Reference
+{: #api}
 
 [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
 
 [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
 
-## Related Links
 
-[Mobile App Testing with Testdroid](http://testdroid.com)
