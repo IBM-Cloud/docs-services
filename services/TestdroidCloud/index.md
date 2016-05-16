@@ -10,7 +10,8 @@
 
 *Last updated: 16 May 2016*
 
-Testdroid Cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Testdroid Cloud, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.{:shortdesc}
+Testdroid Cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Testdroid Cloud, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.
+{:shortdesc}
 
 ![](http://docs.testdroid.com/assets/logos/Testdroid_CLOUD_logo-HORIZONTAL_800px.png)
 
