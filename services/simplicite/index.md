@@ -46,7 +46,7 @@ cf create-service simplicite free <service instance name>
 Then you can bind it to a existing Bluemix application:
 
 ```
-cf cf bind-service <application name> <service instance name>
+cf bind-service <application name> <service instance name>
 ```
 {: pre}
 
@@ -112,7 +112,7 @@ app.listen(process.env.VCAP_APP_PORT || 3000, process.env.VCAP_APP_HOST || "loca
 ```
 {: codeblock}
 
-You can get the complete example [in this JazzHub repository](https://hub.jazz.net/git/simplicite/simplicite-node)
+You can get the complete example [in this JazzHub repository](https://hub.jazz.net/git/simplicite/simplicite-node){:new_window}
 
 ## Tutorials and Samples
 {: #samples}
