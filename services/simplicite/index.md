@@ -54,7 +54,6 @@ Once the service is bound to the application, the connection details will be ava
 
 ```json
 {
-(...)
   "simplicite": [
     {
       "name": "<service instance name>",
@@ -67,7 +66,6 @@ Once the service is bound to the application, the connection details will be ava
       }
     }
   ]
-(...)
 }
 ```
 {: codeblock}
@@ -142,4 +140,4 @@ You can also have a look at
 * [Simplicite.io hub](https://www.simplicite.io){:new_window}
 * [Simplicité Software website](https://www.simplicitesoftware.com){:new_window}
 * [Documentation index](https://www.simplicite.io/resources/documentation/index.md){:new_window}
-* [Contributions (hosted on GitHub)](https://github.com/simplicitesoftware?tab=repositories){:new_window}
+* [Tools and contributions (hosted on GitHub)](https://github.com/simplicitesoftware?tab=repositories){:new_window}
