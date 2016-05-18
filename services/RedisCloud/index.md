@@ -43,7 +43,7 @@ Once your Redis Cloud service is bound to your app, the service credentials will
           {
              "name": "dev-realtime-agg",
              "label": "rediscloud-null",
-             "plan": "25mb",
+             "plan": "30mb",
              "credentials": {
                 "port": "6379",
                 "hostname": "pub-redis-6379.dal-05.1.sl.redislabs.com",
@@ -221,6 +221,10 @@ Our dashboard presents all performance and usage metrics of your Redis Cloud ser
 To access your Redis Cloud dashboard, click the service instance in your Code Name: BlueMix console and then the **LAUNCH REDISCLOUD DASHBOARD** button.
 
 When using the Redis Cloud console, you can then find the dashboard using the **MY DATABASES->Dashboard** menu item.
+
+## Support
+Any Memcached Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
+
 
 # Related Links
 {: #rellinks}
