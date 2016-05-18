@@ -13,7 +13,7 @@ your custom business requirements using web-based business model configuration.
 
 {:shortdesc}
 
-!(Screenshot)[screenshot.jpg]
+![Screenshot](screenshot.jpg)
 
 It brings:
 
