@@ -24,30 +24,24 @@ To get started quickly with Testdroid Cloud, complete these steps:
 3. Open the Testdroid Cloud dashboard to select or upload tests.
 4.
 
-## Related Links
+# Related Links
 {: #rellinks}
-
-[Mobile App Testing with Testdroid](http://testdroid.com)
-
-[Testdroid Community Portal](http://testdroid.com/blog)
 
 ## Tutorials and Samples
 {: #samples}
-
-[How to Get Started with Appium](http://testdroid.com/news/37-things-you-should-know-about-appium)
-
-[Calabash Tutorial for Mobile App Testing](http://testdroid.com/news/calabash-tutorial-for-mobile-app-testing)
-
-[Getting Started with EarlGrey for iOS App Testing](http://testdroid.com/news/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework)
-
-[How to Use Espresso for Android App Testing](http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices)
-
-[Top 5 Android Test Automation Frameworks](http://testdroid.com/tech/top-5-android-testing-frameworks-with-examples)
+* [How to Get Started with Appium](http://testdroid.com/news/37-things-you-should-know-about-appium)
+* [Calabash Tutorial for Mobile App Testing](http://testdroid.com/news/calabash-tutorial-for-mobile-app-testing)
+* [Getting Started with EarlGrey for iOS App Testing](http://testdroid.com/news/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework)
+* [How to Use Espresso for Android App Testing](http://testdroid.com/news/how-to-use-espresso-v2-0-with-testdroid-cloud-devices)
+* [Top 5 Android Test Automation Frameworks](http://testdroid.com/tech/top-5-android-testing-frameworks-with-examples)
 
 ## API Reference
 {: #api}
+* [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
+* [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
 
-[Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
-
-[Testdroid Samples](https://github.com/bitbar/testdroid-samples)
+## Related Links
+{: #general}
+* [Mobile App Testing with Testdroid](http://testdroid.com)
+* [Testdroid Community Portal](http://testdroid.com/blog)
 
