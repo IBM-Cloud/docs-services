@@ -23,7 +23,7 @@ You can use the Codename: [BlueMix web user interface](https://console.ng.bluemi
   {: pre}
 
 
-where `PLAN` is the desired plan (e.g. the free 25mb plan) and `SERVICE_INSTANCE`is the name of the service instance.
+where `PLAN` is the desired plan (e.g. the free 30mb plan) and `SERVICE_INSTANCE` is the name of the service instance.
 
 ## Binding Your Redis Cloud Service
 Use the web user interface or the command line interface to bind a Redis Cloud service instance to an application. When using `cf`, the following command binds the instance to the application:
@@ -223,7 +223,7 @@ To access your Redis Cloud dashboard, click the service instance in your Code Na
 When using the Redis Cloud console, you can then find the dashboard using the **MY DATABASES->Dashboard** menu item.
 
 ## Support
-Any Memcached Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
+Any Redis Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
 
 
 # Related Links
