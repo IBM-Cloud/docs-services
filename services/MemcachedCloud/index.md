@@ -15,7 +15,7 @@ A Memcached bucket is created in seconds and from that moment on, all operations
 
 ## Creating A Memcached Cloud Service
 
-You can use the Codename: [BlueMix web user interface](https://console.ng.bluemix.net/) or the [`cf` command line interface](https://console.ng.bluemix.net/docs/cli/index.html#downloads) to create an instance of the Redis Cloud service. The following `cf` command creates the service instance:
+You can use the Codename: [BlueMix web user interface](https://console.ng.bluemix.net/) or the [`cf` command line interface](https://console.ng.bluemix.net/docs/cli/index.html#downloads) to create an instance of the Memcached Cloud service. The following `cf` command creates the service instance:
 
   ```
     cf create-service memcachedcloud PLAN SERVICE_INSTANCE
@@ -68,13 +68,6 @@ Once your Memcached Cloud service is bound to your app, the service credentials 
 For usage with Rails 3.x, update the Gemfile:
 
   ```
-	config.gem 'redis'
-  ```
-  {: pre}
-
-For Rails 3.0 and above, update the Gemfile:
-	
-  ```
 	gem 'dalli'
   ```
   {: pre}
@@ -118,9 +111,9 @@ Add this code snippet to your configure block:
 
 ### Testing (Ruby)
   ```
-	$redis.set("foo", "bar")
-	# => "OK"
-	$redis.get("foo")
+	$cache.set("foo", "bar")
+	# => true
+	$cache.get("foo")
 	# => "bar"
   ```
   {: codeblock}
