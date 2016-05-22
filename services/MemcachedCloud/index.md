@@ -23,7 +23,7 @@ You can use the Codename: [BlueMix web user interface](https://console.ng.bluemi
   {: pre}
 
 
-where `PLAN` is the desired plan (e.g. the free 30mb plan) and `SERVICE_INSTANCE`is the name of the service instance.
+where `PLAN` is the desired plan (e.g. the free 30mb plan) and `SERVICE_INSTANCE` is the name of the service instance.
 
 ## Binding Your Memcached Cloud Service
 Use the web user interface or the command line interface to bind a Memcached Cloud service instance to an application. When using `cf`, the following command binds the instance to the application:
