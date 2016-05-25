@@ -43,10 +43,12 @@ cf create-service simplicite free <service instance name>
 ```
 {: pre}
 
-Then you can bind it to a existing Bluemix application:
+Then you can bind the service to a existing Bluemix application
+(and restage the application so as the binding is actually taken into account):
 
 ```
 cf bind-service <application name> <service instance name>
+cf restage <application name>
 ```
 {: pre}
 
@@ -63,6 +65,12 @@ Once the service is bound to the application, the connection details will be ava
         "baseURL": "<service instance base URL>",
         "port": "80",
         "host": "<service instance host name>"
+        "restEndointURL": "<service instance base URL>/api/rest",
+        "soapEndpointURL": "<service instance base URL>/api/soap",
+        "rawEndpointURL": "<service instance base URL>/api/raw",
+        "ioEndpointURL": "<service instance base URL>/io",
+        "ioUsername": "<I/O interface username>",
+        "ioPassword": "<I/O interface password>"
       }
     }
   ]
@@ -70,11 +78,15 @@ Once the service is bound to the application, the connection details will be ava
 ```
 {: codeblock}
 
-Note that there is no username/password in this block, this is normal because defining user profiles and users is part of your
-business configuration
+Note that the only provided username/password is the **I/O services interface's username/password** which is only dedicated to technical bulk
+configuration and data imports/exports using the I/O endpoint. Please refer to the [API reference section](#api) for details on the I/O services.
 
-Once you have configured such a user you can start calling the Simplicit&eacute; webservices from your application.
-Please refer to the [API reference section for details](#api).
+The other webservices API enpoints (REST/SOAP/RAW) do not use this I/O credentials but actual business user's credentials. Defining business
+user profiles and corresponding business users is part of your business configuration (and thus can't be provided in the
+VCAP_SERVICES`environment variable).
+
+Once you have configured your business users, you can start calling the webservices API (REST/SOAP/RAW) from your frontend applications that have
+been bound to the Simplicit&eacute; service. Please refer to the [API reference section](#api) for details on the webservices API.
 
 Example:
 
@@ -134,7 +146,7 @@ You can also have a look at
 * [SOAP webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/soap-services.md){:new_window}
 * [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md){:new_window}
 
-# Related Links
+## Related Links
 {: #rellinks}
 
 * [Simplicite.io hub](https://www.simplicite.io){:new_window}
