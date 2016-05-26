@@ -49,9 +49,9 @@ To get started using the M2X API check out the full [API documentation](https://
 * [Device Onboarding](https://m2x.att.com/developer/tutorials/device-onboarding){:new_window}
 * [Pushing Data to M2X](https://m2x.att.com/developer/tutorials/pushing-data){:new_window}
 * [Retreiving Data from M2X](https://m2x.att.com/developer/tutorials/retrieving-data){:new_window}
-* [Using M2X Event Based Triggers](https://m2x.att.com/developer/tutorials/triggers){:new_window}
-* [SAMPLE APP: CleverFaucet - Raspberry Pi Water Usage Monitor](https://github.com/attm2x/m2x-sample-cleverfaucet){:new_window}
-* [SAMPLE APP: Pimotion - Raspberry Pi Motion Detector/Security Camera](https://github.com/citrusbyte/pimotion){:new_window}
+* [Using Event Based Triggers](https://m2x.att.com/developer/tutorials/triggers){:new_window}
+* [SAMPLE APP: CleverFaucet](https://github.com/attm2x/m2x-sample-cleverfaucet){:new_window}
+* [SAMPLE APP: Pimotion](https://github.com/citrusbyte/pimotion){:new_window}
 
 ## SDK
 {: #sdk}
@@ -71,11 +71,9 @@ To get started using the M2X API check out the full [API documentation](https://
 ## Related Links
 {: #general}
 
-* [AT&T M2X API Documentation](https://m2x.att.com/developer/documentation/v2/overview){:new_window}
 * [M2X Tutorials](https://m2x.att.com/developer/tutorials){:new_window}
 * [Sample Apps](https://m2x.att.com/developer/sample-code){:new_window}
 * [Supported Platforms](https://m2x.att.com/developer/supported-platforms){:new_window}
 * [Changelog](http://changelog-m2x.att.com/){:new_window}
-* [Pricing](https://m2x.att.com/pricing){:new_window}
-* [Showcase](https://m2x.att.com/explore/showcase){:new_window}
 * [System Integrator Program](https://iotservices.att.com/integrators){:new_window}
+* [Pricing](https://m2x.att.com/pricing){:new_window}
