@@ -19,9 +19,8 @@ Testdroid Cloud is a mobile app, game, and web testing service that enables deve
 
 To get started quickly with Testdroid Cloud, complete these steps:
 
-1. Create an account at [Testdroid Cloud](https://cloud.testdroid.com).
-2. Create an instance of the service from the Bluemix catalog.
-3. Open the Testdroid Cloud dashboard to select or upload tests.
+1. Create an instance of the service from the Bluemix catalog.
+2. Open the Testdroid Cloud dashboard to select or upload tests.
 
 
 # Related Links
