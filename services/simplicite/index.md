@@ -145,7 +145,7 @@ You can get the complete example [in this JazzHub repository](https://hub.jazz.n
 * [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md){:new_window}
 
 ## Related Links
-{: #rellinks}
+{: #general}
 
 * [Simplicite.io hub](https://www.simplicite.io){:new_window}
 * [Simplicité Software website](https://www.simplicitesoftware.com){:new_window}
