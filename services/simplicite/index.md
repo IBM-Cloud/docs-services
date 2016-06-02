@@ -17,7 +17,7 @@ your custom business requirements using web-based business model configuration.
 
 It brings:
 
-* A comprehensive business engine that dynamically processes your business models (objets, workflows, rules, , rights, reporting, ...).
+* A comprehensive business engine that dynamically processes your business models (objects, workflows, rules, rights, reporting, ...).
 * A full-featured generic web user interface (and its simplified mobile variant).
 * Various generic APIs and integration facilities (JSON/REST and XML/SOAP webservices and their wrapper libs, I/O interface, ...).
 
@@ -79,18 +79,18 @@ Once the service is bound to the application, the connection details will be ava
 {: codeblock}
 
 Note that the only provided username/password is the **I/O services interface's username/password** which is only dedicated to technical bulk
-configuration and data imports/exports using the I/O endpoint. Please refer to the [API reference section](#api) for details on the I/O services.
+configuration and data imports/exports using the I/O endpoint. Please refer to the API Reference related links for details on the I/O services.
 
 The other webservices API enpoints (REST/SOAP/RAW) do not use this I/O credentials but actual business user's credentials. Defining business
 user profiles and corresponding business users is part of your business configuration (and thus can't be provided in the
 VCAP_SERVICES`environment variable).
 
 Once you have configured your business users, you can start calling the webservices API (REST/SOAP/RAW) from your frontend applications that have
-been bound to the Simplicit&eacute; service. Please refer to the [API reference section](#api) for details on the webservices API.
+been bound to the Simplicit&eacute; service. Please refer to the API Reference related links for details on the webservices API.
 
 Example:
 
-This example is taken from a simple Node.js application that uses the demo business case (see [Samples section](#samples)):
+This example is taken from a simple Node.js application that uses the demo business case:
 
 ```javascript
 var express = require('express');
@@ -129,16 +129,10 @@ You can get the complete example [in this JazzHub repository](https://hub.jazz.n
 # Related Links
 {: #rellinks}
 
-
 ## Tutorials and Samples
 {: #samples}
 
-Here are some sample buisness cases modules that you can import on your Simplicit&eacute;&reg; intances:
-
 * [Sample business cases](https://www.simplicite.io/resources/modules/){:new_window}
-
-You can also have a look at
-
 * [The demo business case in-depth presentation](https://www.simplicite.io/resources/demo.pdf){:new_window}
 * [The comprehensive training documentation](https://www.simplicite.io/resources/training/){:new_window}
 
