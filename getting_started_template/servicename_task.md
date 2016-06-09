@@ -9,7 +9,9 @@ This is the template for additional task topics that are needed beyond the basic
 # Task title with gerund
 <!-- for example, Uploading your data -->
 {: #servicename_task}
+<!-- Provide an appropriate ID above -->
 *Last updated: nn month yyyy*
+{: .last-updated}
 
 <!-- The short description section should include a sentence describing why this task is needed. For search engine optimization, include the service long name and "Bluemix". For example: -->
 
