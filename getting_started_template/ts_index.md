@@ -6,7 +6,9 @@
 
 # <service_short_name> troubleshooting
 {: #ts}
+<!-- Provide an appropriate ID above -->
 *Last updated: nn month yyyy*
+{: .last-updated}
 
 <!-- This is the template for troubleshooting topics.  -->
 
