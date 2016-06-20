@@ -49,8 +49,11 @@ Getting Started Tutorials and Samples
 {: #samples}
 
 [Exploring the Studio](https://www.youtube.com/watch?v=CejlR4SRXYU){:new_window}
+
 [Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html){:new_window}
+
 [Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html){:new_window}
+
 [Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html){:new_window}
 
 SDK
