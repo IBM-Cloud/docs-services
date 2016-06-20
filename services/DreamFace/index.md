@@ -10,7 +10,36 @@ Getting started with DreamFace
 Last updated: 11 June 2016 
 {: .last-updated}
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR- With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations. -OR- Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service. 
+Getting Started with DreamFace
+
+DreamFace is an open-source, cloud-native development platform for creating enterprise web and mobile applications.
+
+DreamFace X-Platform, (DFX) or just **DreamFace**, is part of an emerging category of cloud-native, Rapid Application
+Development (RAD) Platforms. It is built to empower Fullstack developers to deliver consistently well-architected,
+Enterprise-grade, cloud-native,  web and mobile applications with ease and speed. DreamFace simplifies the delivery of
+a new generation of cloud applications featuring uncompromising User Experiences and providing the right data on the right
+device by secure and code-less consumption of virtually any public or private API.
+
+DreamFace was created to ease development of two difficult and time consuming tasks:
+
+* **User Interface** - to industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens
+* **Back-End Data Integration** - to integrate backend services via codeless and secure intregration of virtually any API or back-end data source
+
+DreamFace empowers developers with a powerful development studio offering editors for creating Views, API Services, Scripts,
+Pages Templates, Menus and Styling to name a few. Developers focus their development on creating a compelling user experience
+leveraging team skills and creating reusable components that can be used to assemble different applications.
+
+DreamFace is built on the MEAN Stack, MongoDB, ExpressJS, Angularjs and Nodejs.
+
+DreamFace applications are:
+
+* modular built from a composition of user interface and data access components
+* cloud-native and :term:`multi-tenant` right out of the box
+* multi-platform by nature, the underlying :term:`UI` is based on Angular Material
+* based on best of breed, open-source technologies that are the foundation of the internet applications today
+* are architected to scale
+* open-source, open and extensible
+
 {:shortdesc}
 
 Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
