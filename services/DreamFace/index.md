@@ -32,8 +32,8 @@ DreamFace is built on the MEAN Stack, MongoDB, ExpressJS, Angularjs/Angular Mate
 DreamFace applications are:
 
 * modular built from a composition of user interface and data access components
-* cloud-native and :term:`multi-tenant` right out of the box
-* multi-platform by nature, the underlying :term:`UI` is based on Angular Material
+* cloud-native and multi-tenant right out of the box
+* multi-platform by nature, the underlying UI is based on Angular Material
 * based on best of breed, open-source technologies that are the foundation of the internet applications today
 * are architected to scale
 * open-source, open and extensible
@@ -48,9 +48,10 @@ Getting Started Tutorials and Samples
 
 {: #samples}
 
-Exploring the Studio{:new_window}
-Hello World{:new_window}
-Connecting to Data{:new_window}
+[Exploring the Studio](https://www.youtube.com/watch?v=CejlR4SRXYU){:new_window}
+[Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html){:new_window}
+[Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html){:new_window}
+[Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html){:new_window}
 
 SDK
 
