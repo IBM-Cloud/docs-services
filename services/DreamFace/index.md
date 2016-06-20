@@ -1,11 +1,17 @@
-{:new_window: target="_blank"} {:shortdesc: .shortdesc} {:screen:.screen} {:codeblock:.codeblock} {:pre: .pre}
+{:new_window: target="_blank"} 
+{:shortdesc: .shortdesc} 
+{:screen:.screen} 
+{:codeblock:.codeblock} 
+{:pre: .pre}
 
 Getting started with DreamFace
 {: #gettingstarted}
 
-Last updated: 11 June 2016 {: .last-updated}
+Last updated: 11 June 2016 
+{: .last-updated}
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR- With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations. -OR- Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service. {:shortdesc}
+IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR- With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations. -OR- Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service. 
+{:shortdesc}
 
 Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
 
