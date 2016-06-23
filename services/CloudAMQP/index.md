@@ -110,7 +110,7 @@ Use {:new_window} for external links to open a new window.-->
 ## Related Links
 {: #general}
 
-* [Plans and pricing](https://www.cloudamqp.com/plans.html){:new_window}
+* [Plans and pricing](https://console.ng.bluemix.net/catalog/services/cloudamqp/){:new_window}
 * [FAQ](https://www.cloudamqp.com/docs/faq.html){:new_window}
 * [Blog and news](https://www.cloudamqp.com/blog/index.html){:new_window}
 
