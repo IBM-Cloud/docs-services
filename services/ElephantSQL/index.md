@@ -101,5 +101,5 @@ Use {:new_window} for external links to open a new window.-->
 
 * [Plans and pricing](https://console.ng.bluemix.net/catalog/services/elephantsql/){:new_window}
 * [FAQ](http://www.elephantsql.com/docs/faq.html){:new_window}
-* [Blog and news](http://www.elephantsql.com/blog/index.html) {:new_window}
+* [Blog and news](http://www.elephantsql.com/blog/index.html){:new_window}
 
