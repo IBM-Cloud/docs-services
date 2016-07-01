@@ -22,34 +22,34 @@ This example steps through creating a subscribing client. The full code example 
 
 
 1. Create a template HTML file.
-```
-&lt;html>
-  &lt;head>
-    &lt;title>JavaScript example&lt;/title>    
-  &lt;/head>
-  &lt;body>
-    &lt;div>
-      &lt;span>The value of foo/counter is: &lt;/span>
-      &lt;span id="update">Unknown&lt;/span>
-    &lt;/div>
-  &lt;/body>
-&lt;/html>
-```
-{: codeblock}
+   ```
+   &lt;html>
+     &lt;head>
+       &lt;title>JavaScript example&lt;/title>    
+     &lt;/head>
+     &lt;body>
+       &lt;div>
+         &lt;span>The value of foo/counter is: &lt;/span>
+         &lt;span id="update">Unknown&lt;/span>
+       &lt;/div>
+     &lt;/body>
+   &lt;/html>
+   ```
+   {: codeblock}
 
 2. Include the Reappt JavaScript library in the `head` section of your file.
-```
-&lt;html>
-  &lt;head>
-    &lt;title>JavaScript example&lt;/title>
-    &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
-  &lt;/head>
-&lt;/html>
-```
-{: codeblock}
+   ```
+   &lt;html>
+     &lt;head>
+       &lt;title>JavaScript example&lt;/title>
+       &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
+     &lt;/head>
+   &lt;/html>
+   ```
+   {: codeblock}
 
 3. Create a connection from the page to Reappt. Add a `script` element to the `body` section of your file.
-```
+   ```
     &lt;script type="text/javascript">
       diffusion.connect({
           // Edit this line to include the URL of your Reappt service
@@ -60,8 +60,8 @@ This example steps through creating a subscribing client. The full code example 
           credentials : 'password'
       }).then(subscribeToTopic);
     &lt;/script>
-```
-{: codeblock}
+   ```
+   {: codeblock}
 
 4. Edit the host parameter to be the name of your Reappt service.
    You can get the host name from the Reappt Dashboard.
@@ -70,7 +70,7 @@ This example steps through creating a subscribing client. The full code example 
    You can create a user in the system users table of the Reappt Dashboard.
 
 6. Create a function that subscribes to a topic and receives data from it.
-```
+   ```
       function subscribeToTopic(session) {
           session.subscribe('foo/counter')
               .on('update', function(data) {
@@ -78,15 +78,15 @@ This example steps through creating a subscribing client. The full code example 
               }
           );
       }
-```
-{: codeblock}
+   ```
+   {: codeblock}
 
 7. Change the function that is called on connection to the `subscribeToTopic` function you just created.
-```
-.then(subscribeToTopic);
+   ```
+   .then(subscribeToTopic);
 
-```
-{: codeblock}
+   ```
+   {: codeblock}
 
 8. Open the HTML file in a browser.
 
