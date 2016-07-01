@@ -3,50 +3,142 @@
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-<!-- Additional task topic: OPTIONAL
-This is the template for additional task topics that are needed beyond the basic tasks in the getting started index.md.  As needed, other task topics can be included, with titles such as "Configuring x", "Administering y", "Managing z", etc. This topic is a peer of the getting started index.md in the <servicename>.ditamap. This topic can have one level of children and they also can be referenced in <servicename>.ditamap -->
 
-# Task title with gerund
-<!-- for example, Uploading your data -->
-{: #servicename_task}
-<!-- Provide an appropriate ID above -->
-*Last updated: nn month yyyy*
+# Create a JavaScript/HTML subscriber
+{: #reappt_subscriber}
+
+*Last updated: 01 July 2016*
 {: .last-updated}
 
-<!-- The short description section should include a sentence describing why this task is needed. For search engine optimization, include the service long name and "Bluemix". For example: -->
 
-Before you can start processing your {{site.data.keyword.Bluemix_notm}} application data with {{site.data.keyword.hadoop}}, you must first upload it to the {{site.data.keyword.hadoopst}} Hadoop Distributed File System (HDFS) file structure. 
+Create a JavaScript client that connects to your Reappt service, subscribes to a topic and displays the value of the topic.
 {:shortdesc}
 
-<!-- Include a sentence to briefly introduce the steps/subtopics. Example: -->
-Complete the following tasks to upload your data to the HDFS environment with the webHDFS REST API.
 
-## Sub task title with gerund
-<!-- for example, Finding the password -->
-{: #servicename_subtask}
+To complete this example, you need a Reappt service and a user on that service that has the CLIENT role. 
 
-<!-- Include a sentence describing why this task is needed.  For example: -->
-To access the HDFS file system, you must connect as the `biblumix` user, so that you can access the `/user/biblumix` directory in HDFS.
 
-<!-- Include a sentence to briefly introduce the steps. For example:-->
+This example steps through creating a subscribing client. The full code example is provided after the steps.
 
-To find the `biblumix` user password, follow these steps:
 
-<!-- Use ordered list markup for the step section. Include code examples as needed. -->
-
-1. Step 1
-**Tip:** blah blah
-
-2. Step 2. For example input:
-3. ```
-copyable code
+1. Create a template HTML file.
+```
+&lt;html>
+  &lt;head>
+    &lt;title>JavaScript example&lt;/title>    
+  &lt;/head>
+  &lt;body>
+    &lt;div>
+      &lt;span>The value of foo/counter is: &lt;/span>
+      &lt;span id="update">Unknown&lt;/span>
+    &lt;/div>
+  &lt;/body>
+&lt;/html>
 ```
 {: codeblock}
 
-3. Step 3. For example output:
+2. Include the Reappt JavaScript library in the `head` section of your file.
 ```
-displayed info
+&lt;html>
+  &lt;head>
+    &lt;title>JavaScript example&lt;/title>
+    &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
+  &lt;/head>
+&lt;/html>
 ```
-{: screen}
- 
+{: codeblock}
+
+3. Create a connection from the page to Reappt. Add a `script` element to the `body` section of your file.
+```
+    &lt;script type="text/javascript">
+      diffusion.connect({
+          // Edit this line to include the URL of your Reappt service
+          host : 'service-name.reappt.io',
+          
+          // To connect anonymously you can leave out the following parameters
+          principal : 'user',
+          credentials : 'password'
+      }).then(subscribeToTopic);
+    &lt;/script>
+```
+{: codeblock}
+
+4. Edit the host parameter to be the name of your Reappt service.
+   You can get the host name from the Reappt Dashboard.
+
+5. Edit the principal and credentials parameters to be the username and password of a Reappt user with the CLIENT role.
+   You can create a user in the system users table of the Reappt Dashboard.
+
+6. Create a function that subscribes to a topic and receives data from it.
+```
+      function subscribeToTopic(session) {
+          session.subscribe('foo/counter')
+              .on('update', function(data) {
+                  document.getElementById('update').innerHTML = data;
+              }
+          );
+      }
+```
+{: codeblock}
+
+7. Change the function that is called on connection to the `subscribeToTopic` function you just created.
+```
+.then(subscribeToTopic);
+
+```
+{: codeblock}
+
+8. Open the HTML file in a browser.
+
+
+
+# Full example 
+```
+&lt;html>
+  &lt;head>
+    &lt;title>JavaScript example&lt;/title>
+    &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
+    
+  &lt;/head>
+  &lt;body>
+    &lt;div>
+      &lt;span>The value of foo/counter is: &lt;/span>
+      &lt;span id="update">Unknown&lt;/span>
+    &lt;/div>
+
+    &lt;script type="text/javascript">
+      function subscribeToTopic(session) {
+          session.subscribe('foo/counter')
+              .on('update', function(data) {
+                  document.getElementById('update').innerHTML = data;
+              }
+          );
+      }
+      diffusion.connect({
+          // Edit this line to include the URL of your Reappt service
+          host : 'service-name.reappt.io',
+          
+          // To connect anonymously you can leave out the following parameters
+          principal : 'user',
+          credentials : 'password'
+      }).then(subscribeToTopic);
+    &lt;/script>
+  &lt;/body>
+&lt;/html>
+```
+{: codeblock}
+
+
+
+
+## Get started
+{: #get_started}
+
+* [Getting started in JavaScript](http://developer.reappt.io/docs/manual/html/developerguide/apis/javascript/getting_started.html){:new_window}
+* [Getting started in Android](http://developer.reappt.io/docs/manual/html/developerguide/apis/android/getting_started.html){:new_window}
+* [Getting started in Apple](http://developer.reappt.io/docs/manual/html/developerguide/apis/apple/getting_started.html){:new_window}
+* [Getting started in Java](http://developer.reappt.io/docs/manual/html/developerguide/apis/java/getting_started.html){:new_window}
+* [Getting started in .NET](http://developer.reappt.io/docs/manual/html/developerguide/apis/dotnet/getting_started.html){:new_window}
+* [Getting started in C](http://developer.reappt.io/docs/manual/html/developerguide/apis/c/getting_started_c.html){:new_window}
+
  
