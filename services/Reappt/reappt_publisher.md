@@ -29,11 +29,13 @@ This example steps through creating a Node.js app that uses a bound Reappt servi
 
 4. Edit the `app.js` file:
    *  Include the JavaScript library.
-      ```
+     
+     ```
       var diffusion = require('diffusion');
       ```
       {: codeblock}
    *  Include the JavaScript library.
+
       ```
       var vcap_services = {};
       try {
@@ -46,6 +48,7 @@ This example steps through creating a Node.js app that uses a bound Reappt servi
       ```
       {: codeblock}
    *  Inside the `app.listen` method, use the options from the bindings credentials to connect to Reappt.
+ 
       ```
       var option = vcap_services['pushreappt-bluemix'][0].credentials;
 
