@@ -15,10 +15,10 @@ Create a Node.js™ client that is bound to Reappt and uses it to publish data t
 {:shortdesc}
 
 
-To complete this example, you need a Reappt service and a Node.js application.  
+To complete this example, you need a Reappt service and a Bluemix web application that uses SDK for Node.js.  
 
 
-This example steps through creating a Node.js app that uses a bound Reappt service to publish data. The full code example is provided after the steps.
+This example steps through creating an SDK for Node.js app that uses a bound Reappt service to publish data. The full code example is provided after the steps.
 
 
 1. Use the Bluemix user interface to bind your Reappt service to your Node.js app.
@@ -27,7 +27,16 @@ This example steps through creating a Node.js app that uses a bound Reappt servi
 
 3. Follow the instructions on the Start Coding page to get the app code.
 
-4. Edit the `app.js` file:
+4. Edit the `package.json` file to include the `diffusion` clietn library as a dependency:
+   ```
+   "dependencies": {
+        "express": "4.13.x",
+        "cfenv": "1.0.x",
+        "diffusion": "5.8.0"
+   },
+   ```
+
+5. Edit the `app.js` file:
    *  Include the JavaScript library.
      
      ```
