@@ -22,7 +22,7 @@ Complete these steps to get started with your Reappt service:
 
 
 1. Go to the dashboard of your Reappt service.
-   The Dashboard shows your service information and security information. The Host is the URL
+   The Dashboard shows your service information and security information.
 
 2. Add users to the System Users table:
    *  Add a user with the CLIENT role.
