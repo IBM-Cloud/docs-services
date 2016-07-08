@@ -10,13 +10,13 @@ Each directory in this repo must synch with the overall architecture of the Blue
 2. Send the following information to bmixdocs@us.ibm.com (and copy sefuhrer@us.ibm.com)
   * Your GitHub ID, and any team member GitHub IDs that will need access to the docs repo
   * The Name of your service
-3. You will recieve a response within one working day (24 hrs) which will include:
+3. You will receive a response within one working day (24 hrs) which will include:
   * The GitHub URL to your directory, a subfolder under /service, where you can create your files
   * Details on how to create your content in MarkDown
   * A link to an IBM License document which you must read and agree to.
 4. Under your /service subfolder, add your Getting Started MarkDown source by following the template, getting_started_template.md.
 5. After you have created your Markdown files and you are ready to see it live in the Bluemix doc framework, send another note to to bluemixDocs@us.ibm.com (or to sefuhrer@us.ibm.com until functional is enabled), asking for a build.
-6. You will recieve a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
+6. You will receive a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
 7. Your content will go live, or you will iterate through additional emails until it does.
 
 ## How to suggest changes or updates to Bluemix documentation
