@@ -43,6 +43,11 @@ That's all there is to using Reappt to stream your data.
 # Related Links
 {: #rellinks}
 
+## Videos
+{:Videos}
+
+* [Tutorials](https://www.youtube.com/watch?v=e38FbjF2zIs&list=PLYzjzg_h2Tcxc9BZfE6_8Chw2buBzL204){:new_window}
+* [Feature focus](https://www.youtube.com/watch?v=didjrWCqmLw&list=PLYzjzg_h2TczawKhkEJ5-YIkRNbiOEWx-){:new_window}
 
 ## SDKs
 {: #sdk}
