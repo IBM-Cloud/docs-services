@@ -64,7 +64,6 @@ This example steps through creating an SDK for Node.js app that uses a bound Rea
       diffusion.connect(options).then(function(session) {
          console.log('Connected!');
 
-       
       });
       ```  
       {: codeblock}    
