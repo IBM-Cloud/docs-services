@@ -11,7 +11,7 @@
 {: .last-updated}
 
 
-Create a Node.js™ client that is bound to Reappt and uses it to publish data through topics.
+Create a Node.js™ app hosted in Bluemix that is bound to Reappt and uses it to publish data through topics.
 {:shortdesc}
 
 
