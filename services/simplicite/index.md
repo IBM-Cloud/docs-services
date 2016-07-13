@@ -63,6 +63,7 @@ Once the service is bound to the application, the connection details will be ava
       "plan": "free",
       "credentials": {
         "baseURL": "<service instance base URL>",
+        "scheme": "http",
         "port": "80",
         "host": "<service instance host name>"
         "restEndointURL": "<service instance base URL>/api/rest",
@@ -105,6 +106,7 @@ if (simpliciteService) {
 	var simpliciteApp = require("simplicite").session( {
 		host: simpliciteService.host,
 		port: simpliciteService.port,
+		scheme: simpliciteService.scheme,
 		user: "admin",
 		password: "<admin user's password>",
 		debug: false
