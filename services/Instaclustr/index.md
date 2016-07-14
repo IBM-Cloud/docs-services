@@ -31,7 +31,7 @@ To add Instaclustr to your account from the Bluemix console, select Instaclustr 
 
 Instaclustr service can also be added using the CLI:
 
-  ```
+  	```
 	create-service instaclustr
 	```
 	{: pre}
@@ -107,16 +107,16 @@ Connect to your cluser using the credentials given in your VCAP_SERVICES environ
 
 	```
 	cluster = Cluster(
-    contact_points=['XX.XX.XX.XX', 'XX.XX.XX.XX', 'XX.XX.XX.XX'],
-    auth_provider=PlainTextAuthProvider(
-        username='iccassandra',
-        password'yourclusterpassword')
-  )
-  session = cluster.connect()
-  session.default_timeout = 120
+    	contact_points=['XX.XX.XX.XX', 'XX.XX.XX.XX', 'XX.XX.XX.XX'],
+    	auth_provider=PlainTextAuthProvider(
+        	username='iccassandra',
+        	password'yourclusterpassword')
+  	)
+  	session = cluster.connect()
+  	session.default_timeout = 120
 	print 'Connected to cluster %s' % cluster.metadata.cluster_name
-  for host in cluster.metadata.all_hosts():
-    print 'Datacenter: %s; Host: %s; Rack: %s' % (host.datacenter, host.address, host.rack)
+  	for host in cluster.metadata.all_hosts():
+    	print 'Datacenter: %s; Host: %s; Rack: %s' % (host.datacenter, host.address, host.rack)
 	```
 	{: codeblock}
 
