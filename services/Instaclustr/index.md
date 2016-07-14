@@ -49,7 +49,7 @@ The Instaclustr console gives you access to detailed real-time information about
 ## Connecting to your cluster
 Once your cluster has been provisioned (check the console for RUNNING status), the credentials will be in your VCAP_SERVICES environment variable. Use the cf env command to view your connection info: 
 
-  ```
+  	```
 	{
 		"metadata": [
 		  {
@@ -78,7 +78,7 @@ You can obtain your cluster certificates from the Instaclustr console.
 
 It is highly recommended that you create a non-superuser account for your app rather than using the iccassandra account for general access. To do this, connect to your cluster and use the following CQL command. Alternatively, you can contact our support team to have this user created for you.
 
-  ```
+  	```
 	CREATE USER IF NOT EXISTS newuser WITH PASSWORD 'password';
 	```
 	{: pre}
@@ -86,7 +86,7 @@ It is highly recommended that you create a non-superuser account for your app ra
 ## Sample App
 The easiest way to get started is to clone our "quick start" app published on our github repository.
 
-  ```
+  	```
 	git clone ......
 	```
 	{: pre}
@@ -97,7 +97,7 @@ This section shows you how to start using Cassandra from an application written 
 ### Dependencies
 Add the Cassandra driver to your requirements.txt file.
 
-  ```
+  	```
 	cassandra-driver==2.5.1
 	```
 	{: pre}
@@ -129,7 +129,7 @@ Instaclustr recommends using only NetworkTopologyStrategy as this ensures proper
 
 replication_factor determines how many copies of each row is stored to ensure reliability and fault tolerance. You should set the replication factor equal to the number of nodes in your cluster (3).
 
-  ```
+  	```
 	session.execute("CREATE KEYSPACE IF NOT EXISTS sensor_data WITH replication = {'class': 'NetworkTopologyStrategy', 'DAL01':3};")
 	session.execute("CREATE TABLE IF NOT EXISTS sensor_data.raw (
             device text,
@@ -151,7 +151,7 @@ Using the right partition and primary keys is crucial to a well functioning Cass
 ### Reading and Writing data
 To insert rows, use the CQL INSERT statement.
 
-  ```
+  	```
 	ssession.execute("INSERT INTO sensor_data.raw (device, sensor, time, metric) VALUES ('328faaaa-f9a8-42b9-9fcd-4fb6ad70e843','temperature',datetime.datetime.strptime('2016-02-01 11:59:36', \"%Y-%m-%d %H:%M:%S\"),float(17.47735)")
 	```
 	{: codeblock}
@@ -160,7 +160,7 @@ To retrieve data use CQL SELECT.
 
 	```
 	results = session.execute("SELECT device, sensor, time, metric FROM sensor_data.raw")
-  for row in results: print row.device, row.sensor, row.time, row.metric
+        for row in results: print row.device, row.sensor, row.time, row.metric
 	```
 	{: codeblock}
 
