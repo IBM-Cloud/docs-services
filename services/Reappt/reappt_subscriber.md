@@ -23,34 +23,34 @@ This example steps through creating a subscribing client. The full code example 
 
 1. Create a template HTML file.
    ```
-   &lt;html>
-     &lt;head>
-       &lt;title>JavaScript example&lt;/title>    
-     &lt;/head>
-     &lt;body>
-       &lt;div>
-         &lt;span>The value of foo/counter is: &lt;/span>
-         &lt;span id="update">Unknown&lt;/span>
-       &lt;/div>
-     &lt;/body>
-   &lt;/html>
+   <html>
+     <head>
+       <title>JavaScript example</title>    
+     </head>
+     <body>
+       <div>
+         <span>The value of foo/counter is: </span>
+         <span id="update">Unknown</span>
+       </div>
+     </body>
+   </html>
    ```
    {: codeblock}
 
 2. Include the Reappt JavaScript library in the `head` section of your file.
    ```
-   &lt;html>
-     &lt;head>
-       &lt;title>JavaScript example&lt;/title>
-       &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
-     &lt;/head>
-   &lt;/html>
+   <html>
+     <head>
+       <title>JavaScript example</title>
+       <script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js"></script>
+     </head>
+   </html>
    ```
    {: codeblock}
 
 3. Create a connection from the page to Reappt. Add a `script` element to the `body` section of your file.
    ```
-    &lt;script type="text/javascript">
+   <script type="text/javascript">
       diffusion.connect({
           // Edit this line to include the URL of your Reappt service
           host : 'service-name.reappt.io',
@@ -59,7 +59,7 @@ This example steps through creating a subscribing client. The full code example 
           principal : 'user',
           credentials : 'password'
       }).then(subscribeToTopic);
-    &lt;/script>
+   </script>
    ```
    {: codeblock}
 
@@ -94,19 +94,19 @@ This example steps through creating a subscribing client. The full code example 
 
 # Full example 
 ```
-&lt;html>
-  &lt;head>
-    &lt;title>JavaScript example&lt;/title>
-    &lt;script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js">&lt;/script>
+<html>
+  <head>
+   <title>JavaScript example</title>
+    <script type="text/javascript" src="http://developer.reappt.io/clients/js/diffusion.js"></script>
     
-  &lt;/head>
-  &lt;body>
-    &lt;div>
-      &lt;span>The value of foo/counter is: &lt;/span>
-      &lt;span id="update">Unknown&lt;/span>
-    &lt;/div>
+  </head>
+  <body>
+    <div>
+      <span>The value of foo/counter is: </span>
+      <span id="update">Unknown</span>
+    </div>
 
-    &lt;script type="text/javascript">
+    <script type="text/javascript">
       function subscribeToTopic(session) {
           session.subscribe('foo/counter')
               .on('update', function(data) {
@@ -122,9 +122,9 @@ This example steps through creating a subscribing client. The full code example 
           principal : 'user',
           credentials : 'password'
       }).then(subscribeToTopic);
-    &lt;/script>
-  &lt;/body>
-&lt;/html>
+    </script>
+  </body>
+</html>
 ```
 {: codeblock}
 
