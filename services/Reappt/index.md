@@ -15,7 +15,7 @@ Reappt from Push Technology helps you develop reactive applications faster with 
 {:shortdesc}
 
 
-Before you can start creating apps that use realtime messaging, get a Reappt service instances by using the Bluemix user interface.
+Before you can start creating apps that use realtime messaging, get a [Reappt service instance](https://console.ng.bluemix.net/catalog/services/reappt-from-push-technology/) by using the Bluemix user interface.
 
 
 Complete these steps to get started with your Reappt service:
@@ -74,6 +74,7 @@ That's all there is to using Reappt to stream your data.
 ## Related Links
 {: #general}
 
+* [Reappt in the IBM Bluemix catalog] (https://console.ng.bluemix.net/catalog/services/reappt-from-push-technology/) {:new_window}
 * [Reappt User Manual](http://developer.reappt.io/docs/manual/html/){:new_window}
-* [Reappt editions and pricing](https://www.reappt.io/pricing){:new_window}
+* [Reappt website](https://www.reappt.io/){:new_window}
 * [Reappt blog](https://www.reappt.io/blog/){:new_window}
