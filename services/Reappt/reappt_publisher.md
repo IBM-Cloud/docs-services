@@ -15,19 +15,20 @@ Create a Node.js™ app hosted in Bluemix that is bound to Reappt and uses it to
 {:shortdesc}
 
 
-To complete this example, you need a Reappt service and a Bluemix web application that uses SDK for Node.js.  
+To complete this example, you need [a Reappt service](https://console.ng.bluemix.net/catalog/services/reappt-from-push-technology/) and a Bluemix web application that uses [SDK for Node.js](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/).  
 
 
 This example steps through creating an SDK for Node.js app that uses a bound Reappt service to publish data. The full code example is provided after the steps.
 
 
 1. Use the Bluemix user interface to bind your Reappt service to your Node.js app.
+   The credentials that are created for the binding use a principal that has the `CLIENT`, `TOPIC_CONTROL`, and `CLIENT_CONTROL` roles. In the Reappt Dashboard, you can modify the roles that the principal has, but do not delete the principal or change its password.
 
 2. Select Start Coding from the left sidebar.
 
 3. Follow the instructions on the Start Coding page to get the app code.
 
-4. Edit the `package.json` file to include the `diffusion` clietn library as a dependency:
+4. Edit the `package.json` file to include the `diffusion` client library as a dependency:
    ```
    "dependencies": {
         "express": "4.13.x",
