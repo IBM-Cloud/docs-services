@@ -60,7 +60,7 @@ This example steps through creating an SDK for Node.js app that uses a bound Rea
    *  Inside the `app.listen` method, use the options from the bindings credentials to connect to Reappt.
  
       ```
-      var option = vcap_services['pushreappt-bluemix'][0].credentials;
+      var option = vcap_services['push-reappt'][0].credentials;
 
       diffusion.connect(options).then(function(session) {
          console.log('Connected!');
@@ -111,7 +111,7 @@ app.listen(appEnv.port, '0.0.0.0', function() {
 
     console.log("Server starting on " + appEnv.url);
 
-    var option = vcap_services['pushreappt-bluemix'][0].credentials;
+    var option = vcap_services['push-reappt'][0].credentials;
 
     diffusion.connect(options).then(function(session) {
         console.log('Connected!');
