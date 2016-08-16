@@ -60,6 +60,10 @@ Troubleshooting information would then be the last section in the flow, includin
  * Troubleshooting (troubleshooting.md)
   * child topics 
 
+# Sample Applications
+We recommend that all 3rd party services provide sample apps for customers to use. 
+**Note**: At a minimum please provide your sample apps in Node and Java. Include links in your documentation that point to these sample apps.
+
 # Authoring Bluemix content in Markdown
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML.
 
