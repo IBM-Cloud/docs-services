@@ -24,7 +24,7 @@ http://ibmxrkb.xpertrule.com/
 cd directory_name
 ```
 
-4. Install the xrcall node red node, which will be used for running the knowledge published earlier. This step requires you to have npm installed (https://www.npmjs.com/).
+4. Install the xrcall node red node, which will be used for running the knowledge published earlier. This step requires you to have [npm](https://www.npmjs.com/) installed.
 ```
 npm install node-red-contrib-xrcall
 ```
