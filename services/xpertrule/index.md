@@ -104,5 +104,3 @@ If you have installed the xrcall node correctly you will find it in the ‘node 
 	- Press Done
 
 8. Test the knowledge by pressing Deploy and do a manual trigger. The outcome will be displayed in the debug window.
-
-THAT’S IT!!!!!!!!!!!!!!!
