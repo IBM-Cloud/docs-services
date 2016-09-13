@@ -5,11 +5,12 @@
 {:pre: .pre}
 
 # Running Appium Tests
-{: #using} 
+{: #running_appium_scripts} 
 
 *Last updated: 13 September 2016*
  
 Testdroid Cloud supports running Appium tests either remotely (client run) or in the cloud (server side run).
+
 {:shortdesc}
 
 
@@ -26,7 +27,7 @@ To run Appium tests remotely to Testdroid Cloud some steps need to be followed. 
 
 * get user's API key from Testdroid Cloud's UI. It can be found under user's avatar and 'My account'. This API key allows communication with Cloud without needing to store username and password pair to test scripts.
 
-* upload the app under test to Testdroid Cloud eg. using the curl command or create a helper script. In below example `xYY5...PeOA6` is the API key from the user's account page.
+* upload the app under test to Testdroid Cloud eg. using the curl command or create a helper script. In below example '`xYY5...PeOA6`' is the API key from the user's account page.
 
   ```bash
   $ curl -H "Accept: application/json" -u xYY5...PeOA6: -F myAppFile=@"/absolute/file/path/example.apk" http://appium.testdroid.com/upload
