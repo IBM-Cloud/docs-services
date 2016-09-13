@@ -4,7 +4,7 @@
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Running Appium Tests
+# Running Appium tests
 {: #running_appium_scripts} 
 
 *Last updated: 13 September 2016*
