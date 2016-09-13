@@ -69,7 +69,6 @@ If you have installed the xrcall node correctly you will find it in the ‘node 
 
 	Again you will need to enter your relevant Bluemix email and password
 
-	
 	- Now we Upload the app to Bluemix using the following prompt:
 	```
 	cf push (insert the name of your newly created Bluemix app)
