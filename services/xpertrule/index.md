@@ -13,7 +13,7 @@ http://alphaxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html
 
 For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
 
-Open the ‘Bluemix Sample’ by double clicking. 
+3. Open the ‘Bluemix Sample’ by double clicking. 
 	- Locate the Hamburger Menu to the left of the screen
 	- -> Publish
 	- In the new window select -> Publish the current Knowledge Base  
@@ -34,7 +34,7 @@ A url will now appear, please copy for later use in Node-RED
 
 3. Open a new Command Promp window
 
-	-Change the directory to where you placed the node-red starter code. 
+	- Change the directory to where you placed the node-red starter code. 
 	```
 	cd directory_name
 	```
@@ -104,5 +104,3 @@ If you have installed the xrcall node correctly you will find it in the ‘node 
 	- Press Done
 
 8. Test the knowledge by pressing Deploy and do a manual trigger. The outcome will be displayed in the debug window.
-
-THAT’S IT!!!!!!!!!!!!!!!
