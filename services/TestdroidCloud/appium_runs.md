@@ -10,9 +10,7 @@
 *Last updated: 13 September 2016*
  
 Testdroid Cloud supports running Appium tests either remotely (client run) or in the cloud (server side run).
-
 {:shortdesc}
-
 
 There are different approaches to use Appium for app testing. First, the client-side execution means the application is uploaded to Testdroid Cloud and tests are executed remotely againts Testdroid Cloud. Despite all tests are executed on Testdroid infrastructure and devices. The control over the test execution is outside of Testdroid Cloud. After test execution screenshots are stored on local machine running the tests and results and logs need to be fetched from Testdroid Cloud.
 
