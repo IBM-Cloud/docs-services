@@ -1,105 +1,106 @@
 # Getting started with Xpertrule for Bluemix
 
-### Publish knowledge in Web Author
-1. Login to XpertRule Web Author using your email and password
+...Description of this service needs to be added here...
+
+## Publish knowledge in Web Author
+1. Log in to XpertRule Web Author by using your email and password
 ```
 http://ibmxrkb.xpertrule.com/
 ```
 
-2. The launch screen will contain a default knowledge base called ‘Bluemix Sample’. For details on how to author this knowledge base please visit:
+The launch page contains a default knowledge base called ‘Bluemix Sample’. For details about how to author this knowledge base, visit:
 ```
 http://alphaxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html
 ```
 
 For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
 
-3. Open the ‘Bluemix Sample’ by double clicking. 
-	- Locate the Hamburger Menu to the left of the screen
-	- -> Publish
-	- In the new window select -> Publish the current Knowledge Base  
+2. Open the ‘Bluemix Sample’ by double clicking. 
+	- Locate the menu and click Publish.
+	- Select Publish the current Knowledge Base.  
 
-A url will now appear, please copy for later use in Node-RED
+A URL appears. Copy the URL for later use in Node-RED.
 
-## Publishing a Knowledge Base into a Bluemix Node-RED app
-1. Login into the NEW Bluemix site using your relevant email and password. (if you login into the current Bluemix site please select ‘Try the new Bluemix’ from the top right corner)
+## Publishing a knowledge base into a Bluemix Node-RED app
+1. Log in to the new Bluemix site using your relevant email and password. (If you log in to the current Bluemix site, select ‘Try the new Bluemix’ from the header.)
 
-	- Select Catalogue from the top menu
-	- Under the category  ‘Boiler Plates’ select ‘Node-RED Starter’
-	- In the new screen provide an App name (avoid using spaces) and Host and select  your relevant plan 
-	- -> Create
+	- Select Catalog from the menu bar.
+	- Under the category ‘Boiler Plates’, select ‘Node-RED Starter’.
+	- Provide an App name (avoid using spaces) and Host, and select your relevant plan.
+	- Click Create.
 
-2.  In the new screen scroll down to the ‘Download Starter Code’ button and press. 
+2.  Scroll down and click Download Starter Code.  
 
-	- Once downloaded please unzip and copy the folder to a location of your choice
+	- After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
 
-3. Open a new Command Promp window
+3. Open a new command prompt.
 
-	- Change the directory to where you placed the node-red starter code. 
+	- Change the directory to where you placed the Node-RED starter code. 
 	```
 	cd directory_name
 	```
 
-4. Next we need to Install the xrcall node red node (which will be used for running the knowledge base we published earlier)
+4. Next, install the xrcall Node-RED node, which will be used for running the knowledge base published earlier.
 
-	- This step requires you to have npm installed. If you don’t already have it installed we recommend downloading Node.js where it comes packaged (nodejs.org)
+	- This step requires you to have npm installed. If you don’t already have it installed, we recommend downloading Node.js from nodejs.org, which includes npm.
 
-	- Return to your Command Promp window and run the following command
+	- Return to your command prompt and run the following command:
 	```
 	npm install node-red-contrib-xrcall
 	```
 
-If you have installed the xrcall node correctly you will find it in the ‘node modules folder’
+If you have installed the xrcall node correctly, you will find it in the ‘node modules folder’.
 
-5. We now need to push the ‘Starter Code’ along with the new xrcall node back to Bluemix.
+5. Now, push the ‘Starter Code’ along with the new xrcall node back to Bluemix.
 
-	- Start by downloading and installing CF Command Line Interface.
+	- Start by downloading and installing the cf Command Line Interface.
 	```	
 	https://github.com/cloudfoundry/cli/releases
 	```
 
-	- Return to your Command Promp window and connect to IBM Bluemix with the follwing 
+	- Return to your command prompt and connect to IBM Bluemix by entering the following command:
 	```
 	cf api https://api.ng.bluemix.net
 	```
 
-	- Again from your Command Promp window we now need to log into Bluemix with the follwoing
+	- From your command prompt, log in to Bluemix by entering the following command:
 	```
 	cf login
 	```
 
-	Again you will need to enter your relevant Bluemix email and password
+	- Enter your relevant Bluemix email address and password.
 
-	- Now we Upload the app to Bluemix using the following prompt:
+	- Upload the app to Bluemix by using the following command:
 	```
 	cf push (insert the name of your newly created Bluemix app)
 	```
 
-	This may take a few minutes
+	This might take a few minutes.
 
-6. Access your updated node-RED by returning to the Bluemix site -> Cloud Foundry Application
+6. Access your updated Node-RED by returning to the Bluemix site and selecting Cloud Foundry Applications.
 
-	- Locate the relevant App and click the associated URL
+	- Locate the relevant app and click the associated URL.
 
-	- A new window will open called Node-RED in Bluemix. Locate and press ‘Go to your Node-RED flow editor
+	- A new window called Node-RED opens in Bluemix. Locate and click ‘Go to your Node-RED flow editor’.
 
-	- Within the newly opended editor locate the hamburger menu. Menu -> Import -> Clipboard
+	- Within the newly opened editor, locate the menu and select Import > Clipboard.
 
 	- Paste the following flow into the newly opened window:
 	```
 	[{"id":"db2e43f6.4c3d1","type":"xrcall","z":"66f711b2.8ba8b","name":"XpertRule Knowledge","host":"ibmxrkb.xpertrule.com","port":"8125","path":"Super_Admin_All_Users_Bluemix_App","x":440,"y":90,"wires":[["39b3c085.676da"]]},{"id":"90f107ec.c83858","type":"inject","z":"66f711b2.8ba8b","name":"Manual Trigger","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":118,"y":90,"wires":[["b86b43cf.cce65"]]},{"id":"39b3c085.676da","type":"debug","z":"66f711b2.8ba8b","name":"","active":true,"console":"false","complete":"true","x":615,"y":91,"wires":[]},{"id":"b86b43cf.cce65","type":"function","z":"66f711b2.8ba8b","name":"Inputs","func":"msg.Cost = 0;\nmsg.Department = \"Sales\";\nmsg.Grade = \"Director\";\nmsg.In_London = false;\n\nreturn msg;","outputs":1,"noerr":0,"x":268,"y":90,"wires":[["db2e43f6.4c3d1"]]}]
 	```
 
-	- Press Import and place your newly created flow onto the open editor.
+	- Click Import and place your newly created flow onto the open editor.
 
-7. Double click the xrcall node
+7. Double-click the xrcall node.
 
-	- Access the published URL you created earlier in XpertRule Webauthor. Use it to complete the relevant fields as per the example below.
+	- Access the published URL you created earlier in XpertRule Webauthor. Use it to complete the relevant fields as per the following example:
 	```
 	Host: ibxrkb.xpertrule.com
 	Port: 8125
 	Path: User_Bluemix_App
 	```
 
-	- Press Done
+	- Click Done.
 
-8. Test the knowledge by pressing Deploy and do a manual trigger. The outcome will be displayed in the debug window.
+8. Test the knowledge base by clicking Deploy and performing a manual trigger. The output is displayed in the debug window.
