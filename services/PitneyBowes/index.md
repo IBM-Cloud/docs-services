@@ -65,7 +65,7 @@ To add APIs from Pitney Bowes' service to your Bluemix application, follow these
   ```
   {: codeblock}
   
-### Using the Pitney Bowes APIs
+## Using the Pitney Bowes APIs
 
 The credentials block provides everything you need to use the APIs from Pitney Bowes.
 * apiKey: Your key for accessing the Pitney Bowes API
