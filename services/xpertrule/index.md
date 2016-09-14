@@ -32,13 +32,16 @@ A URL appears. Copy the URL for later use in Node-RED.
 1. Log in to the new Bluemix site using your relevant email and password. (If you log in to the current Bluemix site, select ‘Try the new Bluemix’ from the header.)
 
 	a. Select Catalog from the menu bar.
+	
 	b. Under the category ‘Boiler Plates’, select ‘Node-RED Starter’.
+	
 	c. Provide an App name (avoid using spaces) and Host, and select your relevant plan.
+	
 	d. Click Create.
 
 2.  Scroll down and click Download Starter Code.  
 
-	- After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
+  	- After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
 
 3. Open a new command prompt.
 
