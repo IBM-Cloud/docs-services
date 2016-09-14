@@ -22,7 +22,8 @@
 
 	For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
 
-2. Open the ‘Bluemix Sample’ by double clicking. 
+2. Open the ‘Bluemix Sample’ by double clicking.
+
 	a. Locate the menu and click Publish.
 
 	b. Select Publish the current Knowledge Base.  
