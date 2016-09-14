@@ -14,7 +14,7 @@
 Pitney Bowes APIs allow any developer to access enterprise-class solutions for applications ranging from business intelligence to customer engagement and commerce. These solutions are used by leading companies in industries such as banking, insurance and retail, enabling end users to make the best decisions and achieve the best business outcomes. Now available to developers through modern REST APIs, developers in any size organization can access these class-leading tools and datasets, rapidly deploying and scaling solutions.
 {:shortdesc}
 
-The APIs are broadly categorized into following:
+The APIs are broadly categorized into the following categories:
 * Identify: Break down names and addresses, correct and validate your data, then add insight about your customers.
 * Locate: Add context to locations through highly accurate and comprehensive datasets. Unlock deeper insight, orchestrate workflows, or engage customers more effectively through mix-in and mash-up geodata.
 * Communicate (Coming soon): Enable multi-channel communications with clients or prospects.
