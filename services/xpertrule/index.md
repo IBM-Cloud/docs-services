@@ -43,11 +43,11 @@ A URL appears. Copy the URL for later use in Node-RED.
 
 2.  Scroll down and click Download Starter Code.  
 
-  	- After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
+	After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
 
 3. Open a new command prompt.
 
-	- Change the directory to where you placed the Node-RED starter code. 
+	Change the directory to where you placed the Node-RED starter code. 
   ```
 	cd directory_name
   ```
