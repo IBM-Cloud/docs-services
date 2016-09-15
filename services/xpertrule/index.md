@@ -13,7 +13,7 @@
 
 ...Description of this service needs to be added here...
 
-## Publish knowledge in Web Author
+## Publishing knowledge in Web Author
 1. Log in to XpertRule Web Author by using your email and password: [http://ibmxrkb.xpertrule.com/](http://ibmxrkb.xpertrule.com)
 {:new_window}
 
