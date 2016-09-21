@@ -5,7 +5,7 @@
 {:pre: .pre}
 
 
-# Getting started with Xpertrule for Bluemix
+# Getting started with XpertRule for Bluemix
 {: #gettingstarted}
 
 *Last updated: 08 September 2016*
@@ -13,11 +13,11 @@
 
 ...Description of this service needs to be added here...
 
-## Publishing knowledge in Web Author
-1. Log in to XpertRule Web Author by using your email and password: [http://ibmxrkb.xpertrule.com/](http://ibmxrkb.xpertrule.com)
+## Publishing knowledge in Decision Author
+1. Log in to XpertRule Decision Author by using your email and password: [http://ibmxrkb.xpertrule.com/](http://ibmxrkb.xpertrule.com)
 {:new_window}
 
-	The launch page contains a default knowledge base called ‘Bluemix Sample’. For details about how to author this knowledge base, see the following web site:  [http://alphaxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html](http://alphaxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html)
+	The launch page contains a default knowledge base called ‘Bluemix Sample’. For details about how to author this knowledge base, see the following web site:  [http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html](http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html)
 {:new_window}
 
 	For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
