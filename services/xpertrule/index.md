@@ -6,112 +6,119 @@
 
 # Getting started with Xpertrule for Bluemix
 {: #gettingstarted} 
-
 *Last updated: 21 Sep 2016*
 
 XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to node-RED flows. Ideal in Manufacturing, Utilities, Aerospace and Automotive sectors; anywhere that requires automation of complex decisions, calculations, diagnosis, or root-cause analysis. Simple to deploy as a Node-RED node and execute wherever node-RED red can be run; edge or cloud.
 {:shortdesc}
 
-### Publish knowledge in Web Author
-1. Login to XpertRule Web Author using your email and password
-```
-http://ibmxrkb.xpertrule.com/
-```
+## Publishing knowledge in Decision Author
+1. Log in to XpertRule Decision Author by using your email and password: [http://ibmxrkb.xpertrule.com/](http://ibmxrkb.xpertrule.com)
+{:new_window}
 
-2. The launch screen will contain a default knowledge base called ‘Bluemix Sample’. For details on how to author this knowledge base please visit:
-```
-http://alphaxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html
-```
+	The launch page contains a default knowledge base called ‘Bluemix Sample’. For details about how to author this knowledge base, see the following web site:  [http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html](http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html)
+{:new_window}
 
-For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
+	For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
 
-3. Open the ‘Bluemix Sample’ by double clicking. 
-	- Locate the Hamburger Menu to the left of the screen
-	- -> Publish
-	- In the new window select -> Publish the current Knowledge Base  
+2. Open the ‘Bluemix Sample’ by double clicking.
 
-A url will now appear, please copy for later use in Node-RED
+	1. Locate the menu and click Publish.
 
-## Publishing a Knowledge Base into a Bluemix Node-RED app
-1. Login into the NEW Bluemix site using your relevant email and password. (if you login into the current Bluemix site please select ‘Try the new Bluemix’ from the top right corner)
+	2. Select Publish the current Knowledge Base.  
 
-	- Select Catalogue from the top menu
-	- Under the category  ‘Boiler Plates’ select ‘Node-RED Starter’
-	- In the new screen provide an App name (avoid using spaces) and Host and select  your relevant plan 
-	- -> Create
+A URL appears. Copy the URL for later use in Node-RED.
 
-2.  In the new screen scroll down to the ‘Download Starter Code’ button and press. 
+## Publishing a knowledge base into a Bluemix Node-RED app
+1. Log in to the new Bluemix site using your relevant email and password. (If you log in to the current Bluemix site, select ‘Try the new Bluemix’ from the header.)
 
-	- Once downloaded please unzip and copy the folder to a location of your choice
+	1. Select Catalog from the menu bar.
+	
+	2. Under the category ‘Boiler Plates’, select ‘Node-RED Starter’.
+	
+	3. Provide an App name (avoid using spaces) and Host, and select your relevant plan.
+	
+	4. Click Create.
 
-3. Open a new Command Promp window
+2.  Scroll down and click Download Starter Code.  
 
-	- Change the directory to where you placed the node-red starter code. 
-	```
+	After the starter code is downloaded, unpackage and copy the folder to a location of your choice.
+
+3. Open a new command prompt.
+
+	Change the directory to where you placed the Node-RED starter code. 
+  ```
 	cd directory_name
-	```
+  ```
+  {: codeblock}
 
-4. Next we need to Install the xrcall node red node (which will be used for running the knowledge base we published earlier)
+4. Next, install the xrcall Node-RED node, which will be used for running the knowledge base published earlier.
 
-	- This step requires you to have npm installed. If you don’t already have it installed we recommend downloading Node.js where it comes packaged (nodejs.org)
+	- This step requires you to have npm installed. If you don’t already have it installed, we recommend downloading Node.js from nodejs.org, which includes npm.
 
-	- Return to your Command Promp window and run the following command
-	```
+	- Return to your command prompt and run the following command:
+  ```
 	npm install node-red-contrib-xrcall
-	```
+  ```
+  {: codeblock}
 
-If you have installed the xrcall node correctly you will find it in the ‘node modules folder’
+	If you have installed the xrcall node correctly, you will find it in the ‘node modules folder’.
 
-5. We now need to push the ‘Starter Code’ along with the new xrcall node back to Bluemix.
+5. Push the ‘Starter Code’ along with the new xrcall node back to Bluemix.
 
-	- Start by downloading and installing CF Command Line Interface.
+	1. Start by downloading and installing the cf Command Line Interface.
 	```	
 	https://github.com/cloudfoundry/cli/releases
 	```
-
-	- Return to your Command Promp window and connect to IBM Bluemix with the follwing 
+  {: codeblock}
+  
+	2. Return to your command prompt and connect to IBM Bluemix by entering the following command:
 	```
 	cf api https://api.ng.bluemix.net
 	```
-
-	- Again from your Command Promp window we now need to log into Bluemix with the follwoing
+  {: codeblock}
+  
+	3. From your command prompt, log in to Bluemix by entering the following command:
 	```
 	cf login
 	```
+  {: codeblock}
+  
+	4. Enter your relevant Bluemix email address and password.
 
-	Again you will need to enter your relevant Bluemix email and password
-
-	- Now we Upload the app to Bluemix using the following prompt:
+	5. Upload the app to Bluemix by using the following command:
 	```
 	cf push (insert the name of your newly created Bluemix app)
 	```
+  {: codeblock}
+  
+	This might take a few minutes.
 
-	This may take a few minutes
+6. Access your updated Node-RED by returning to the Bluemix site and selecting Cloud Foundry Applications.
 
-6. Access your updated node-RED by returning to the Bluemix site -> Cloud Foundry Application
+	1. Locate the relevant app and click the associated URL.  A new window called Node-RED opens in Bluemix.
+	
+	2. Locate and click ‘Go to your Node-RED flow editor’.
 
-	- Locate the relevant App and click the associated URL
+	3. Within the newly opened editor, locate the menu and select Import > Clipboard.
 
-	- A new window will open called Node-RED in Bluemix. Locate and press ‘Go to your Node-RED flow editor
-
-	- Within the newly opended editor locate the hamburger menu. Menu -> Import -> Clipboard
-
-	- Paste the following flow into the newly opened window:
+	4. Paste the following flow into the newly opened window:
 	```
 	[{"id":"db2e43f6.4c3d1","type":"xrcall","z":"66f711b2.8ba8b","name":"XpertRule Knowledge","host":"ibmxrkb.xpertrule.com","port":"8125","path":"Super_Admin_All_Users_Bluemix_App","x":440,"y":90,"wires":[["39b3c085.676da"]]},{"id":"90f107ec.c83858","type":"inject","z":"66f711b2.8ba8b","name":"Manual Trigger","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":118,"y":90,"wires":[["b86b43cf.cce65"]]},{"id":"39b3c085.676da","type":"debug","z":"66f711b2.8ba8b","name":"","active":true,"console":"false","complete":"true","x":615,"y":91,"wires":[]},{"id":"b86b43cf.cce65","type":"function","z":"66f711b2.8ba8b","name":"Inputs","func":"msg.Cost = 0;\nmsg.Department = \"Sales\";\nmsg.Grade = \"Director\";\nmsg.In_London = false;\n\nreturn msg;","outputs":1,"noerr":0,"x":268,"y":90,"wires":[["db2e43f6.4c3d1"]]}]
 	```
+  {: codeblock}
+  
+	5. Click Import and place your newly created flow onto the open editor.
 
-	- Press Import and place your newly created flow onto the open editor.
+7. Double-click the xrcall node.
 
-7. Double click the xrcall node
-
-	- Access the published URL you created earlier in XpertRule Webauthor. Use it to complete the relevant fields as per the example below.
+	1. Access the published URL you created earlier in XpertRule Webauthor. Use it to complete the relevant fields as per the following example:
 	```
 	Host: ibxrkb.xpertrule.com
 	Port: 8125
 	Path: User_Bluemix_App
 	```
+  {: codeblock}
+  
+	2. Click Done.
 
-	- Press Done
-
-8. Test the knowledge by pressing Deploy and do a manual trigger. The outcome will be displayed in the debug window.
+8. Test the knowledge base by clicking Deploy and performing a manual trigger. The output is displayed in the debug window.

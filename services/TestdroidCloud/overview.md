@@ -33,7 +33,7 @@ The supported test automation frameworks include:
 
 For Android:
 
-* [Appium](http://appium.io)
+* [Appium](http://appium.io) - both client and server side execution
 * [Calabash](http://calaba.sh)
 * [Robotium](http://robotium.com)
 * [Espresso](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)
@@ -42,7 +42,7 @@ For Android:
 
 For iOS:
 
-* [Appium](http://appium.io)
+* [Appium](http://appium.io) - both client and server side execution
 * [Calabash](http://calaba.sh)
 * [UI Automation](https://developer.apple.com/library/tvos/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UIAutomation.html)
 * [Jasmine](http://jasmine.github.io)

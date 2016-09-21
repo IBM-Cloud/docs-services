@@ -5,21 +5,21 @@
 {:pre: .pre}
 
 
-# Getting Started with Pitney Bowes APIs
+# Getting started with Pitney Bowes APIs
 {: #gettingstarted}
 
 *Last updated: 08 September 2016*
 {: .last-updated}
 
-Pitney Bowes APIs allow any developer to access enterprise-class solutions for applications ranging from business intelligence to customer engagement and commerce. These solutions are used by leading companies in industries such as banking, insurance and retail, enabling end users to make the best decisions and achieve the best business outcomes. Now available to developers via modern REST APIs, developers in any size organization can access these class-leading tools and datasets, rapidly deploying and scaling solutions.
+Pitney Bowes APIs allow any developer to access enterprise-class solutions for applications ranging from business intelligence to customer engagement and commerce. These solutions are used by leading companies in industries such as banking, insurance and retail, enabling end users to make the best decisions and achieve the best business outcomes. Now available to developers through modern REST APIs, developers in any size organization can access these class-leading tools and datasets, rapidly deploying and scaling solutions.
 {:shortdesc}
 
-The APIs are broadly categorized into following:
-* Identify - Break down names and addresses, correct and validate your data, then add insight about your customers.
-* Locate – Highly accurate and comprehensive datasets that add context to locations. Mix-in and mash-up geodata to allow you to unlock deeper insight, orchestrate workflows or engage more effectively customers.
-* Communicate – Enable multi-channel communications with clients or prospects (Coming Soon)
-* Ship - Add feature-rich USPS shipping capabilities to eCommerce or IoT applications - it's shipping made simple.
-* Pay - Charge accurate import duty & taxes at checkout and offer a total landed cost to your international customers.
+The APIs are broadly categorized into the following categories:
+* Identify: Break down names and addresses, correct and validate your data, then add insight about your customers.
+* Locate: Add context to locations through highly accurate and comprehensive datasets. Unlock deeper insight, orchestrate workflows, or engage customers more effectively through mix-in and mash-up geodata.
+* Communicate (Coming soon): Enable multi-channel communications with clients or prospects.
+* Ship: Add feature-rich USPS shipping capabilities to eCommerce or IoT applications. It's shipping, made simple.
+* Pay: Charge accurate import duty and taxes at checkout and offer a total landed cost to your international customers.
 
 ##Before you begin
 
@@ -50,7 +50,7 @@ To add APIs from Pitney Bowes' service to your Bluemix application, follow these
   ```
   {: codeblock}
   
-4. Bind your Pitney Bowes API instance to your application, for example, using `MyApp` as your application and `mypitneybowes01` is your service instance, you would type:
+4. Bind your Pitney Bowes API instance to your application. For example, by using `MyApp` as your application and `mypitneybowes01` as your service instance, type the following command:
 
   ```
   cf bind-service MyApp mypitneybowes01
@@ -59,16 +59,16 @@ To add APIs from Pitney Bowes' service to your Bluemix application, follow these
   
 5. Optionally, to validate that the service is bound to your application, use the `cf services` command. 
 
-6. After Pitney Bowes APIs are bound to your application, the specific configuration of your Pitney Bowes APIs will appear in your environment variable. To list the details, use the `cf env` command followed by your application name, for example:
+6. After Pitney Bowes APIs are bound to your application, the specific configuration of your Pitney Bowes APIs appears in your environment variable. To list the details, use the `cf env` command followed by your application name, for example:
   ```
   cf env MyApp
   ```
   {: codeblock}
   
-### Using the Pitney Bowes APIs
+## Using the Pitney Bowes APIs
 
 The credentials block provides everything you need to use the APIs from Pitney Bowes.
-* apiKey - your key for accessing the Pitney Bowes API
-* apiSecret - the secret for accessing the Pitney Bowes API
+* apiKey: Your key for accessing the Pitney Bowes API
+* apiSecret: The secret for accessing the Pitney Bowes API
 
-To get started using the API to transcode your media files, please see the [API QuickStart](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html){:new_window} and [the API Specification](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html){:new_window}.
+To get started using the API to transcode your media files, see the [API QuickStart](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html){:new_window} and [the API Specification](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html){:new_window}.
