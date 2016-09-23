@@ -50,19 +50,22 @@ To get up and running quickly with this service, follow these steps:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Go to the Internet of Things section in the Bluemix catalog and click on the
-   "Car Diagnostic API" tile.
-2. Click on "Register at Car Diagnostic API".
+1. In the "Bluemix catalog", go to the "Internet of Things" section and click on
+   the "Car Diagnostic API" tile.
+2. Click on "Register at Car Diagnostic API" in the bottom right of the page.
 3. Create a new account in this IBM Developer Portal page.
 4. Create a new developer organization.
 5. Go to "Apps" and click on "Register new Application"
-6. Enter a title for the App and a decription (optional).
+6. Enter a title for the App and a description (optional).
 7. Write down your Client Secret and your Client ID. These are the
-   username/password that you will use to access the API. Note that the Client Secret is displayed only once on this page.
+   username/password that you will use to access the API. Note that the Client
+   Secret is displayed only once on this page. The Client Secret is located at
+   the top of the page and the Client ID on the bottom - you need to click the
+   checkboxes to make them visible
 8. Go to "API Products" and click on "Car Diagnostic API".
-9. Choose a plan and click on "Subscribe".
-10. Select an App and click on "Subscribe".
-11. Go to the "Car Diagnostic API" section on the left side of this page. There
+9. Choose a plan and click on "Subscribe". In the next pop-up window select an App
+   and click on "Subscribe".
+10. Go to the "Car Diagnostic API" section on the left side of this page. There
     you can try out the API and get instructions on how to call the API - these
     include the URL for calling the API. In addition you can find here coding
     examples in different programming languages that exemplify how to call the
