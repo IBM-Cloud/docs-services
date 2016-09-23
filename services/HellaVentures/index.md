@@ -50,23 +50,30 @@ To get up and running quickly with this service, follow these steps:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Go to the Internet of Things section in the Bluemix catalog and click on the "Car Diagnostic" API tile
-2. Click on "Register at Car Diagnostic API"
-3. Create a new account
-4. Create a developer organization
+1. Go to the Internet of Things section in the Bluemix catalog and click on the
+   "Car Diagnostic API" tile.
+2. Click on "Register at Car Diagnostic API".
+3. Create a new account in this IBM Developer Portal page.
+4. Create a new developer organization.
 5. Go to "Apps" and click on "Register new Application"
-6. Enter a title for the App and a decription (optional)
+6. Enter a title for the App and a decription (optional).
 7. Write down your Client Secret and your Client ID. These are the
    username/password that you will use to access the API. Note that the Client Secret is displayed only once on this page.
-8. Go to "API Products" and click on "Car Diagnostic API"
-9. Choose a plan and click on "Subscribe"
-10. Select an App and click on "Subscribe"
-11. Go to the "Car Diagnostic API" section on the left side of this page. There you can try out the API and get instructions on how to call the API - these include the URL for calling the API. In addition you can find here coding examples in different programming languages that exemplify how to call the API.
+8. Go to "API Products" and click on "Car Diagnostic API".
+9. Choose a plan and click on "Subscribe".
+10. Select an App and click on "Subscribe".
+11. Go to the "Car Diagnostic API" section on the left side of this page. There
+    you can try out the API and get instructions on how to call the API - these
+    include the URL for calling the API. In addition you can find here coding
+    examples in different programming languages that exemplify how to call the
+    API. Note that the Client ID and Client Secret need to be passed to the API
+    as query parameters for authentication.
 
-When you go back to the initial Bluemix screen, you can enter the Client ID and
-Client Secret in the corresponding fields and press on "Create". After that
-the Client ID and Client Secret are available in the VCAP_SERVICES environment
-variable, so that any Apps that are bound to this service can access them.
+When you go back to the initial Bluemix screen of the Car Diagnostic API, you
+can enter the Client ID and Client Secret in the corresponding fields and press
+on "Create". After that the Client ID and Client Secret are available in the
+VCAP_SERVICES environment variable, so that any App that is bound to this
+service can access them.
 
 <!-- Related links section: REQUIRED.
 Related links display in the upper right of the getting started page. 
