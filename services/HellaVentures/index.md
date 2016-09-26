@@ -73,10 +73,12 @@ To get up and running quickly with this service, follow these steps:
     as query parameters for authentication.
 
 When you go back to the initial Bluemix screen of the Car Diagnostic API, you
-can enter the Client ID and Client Secret in the corresponding fields and press
-on "Create". After that the Client ID and Client Secret are available in the
-VCAP_SERVICES environment variable, so that any App that is bound to this
-service can access them.
+can enter the Client ID and Client Secret in the corresponding fields. If you
+have not also bound your service instance, you will have to bind your new
+service instance to one or more Bluemix applications. Once the Bluemix
+applications have been restarted or restaged, the Car Diagnostic API Client ID 
+and Secret will be available within the application's VCAP_SERVICES environment
+variable. 
 
 <!-- Related links section: REQUIRED.
 Related links display in the upper right of the getting started page. 
