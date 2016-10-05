@@ -15,7 +15,7 @@ XpertRule Decision Author for Node-RED is a tool for developers to rapidly add c
 1. Log in to XpertRule Decision Author by using your email and password: [http://ibmxrkb.xpertrule.com/](http://ibmxrkb.xpertrule.com)
 {:new_window}
 
-	The launch page contains a default knowledge base called ‘Bluemix Sample’. For details about how to author this knowledge base, see the following web site:  [http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html](http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html)
+	The launch page contains a default knowledge base called ‘Transactional’. For details about how to author this knowledge base, see the following web site:  [http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html](http://ibmxrkb.xpertrule.com/editor/help/transactional_getting_started_1.html)
 {:new_window}
 
 	For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
