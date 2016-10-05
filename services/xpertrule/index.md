@@ -4,11 +4,11 @@
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Xpertrule for Bluemix
+# Getting started with Xpertrule Decision Automation for node-RED
 {: #gettingstarted} 
-*Last updated: 21 Sep 2016*
+*Last updated: 5 Oct 2016*
 
-XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to node-RED flows. XpertRule Decision Author is ideal in manufacturing, utilities, aerospace, and automotive sectors, and anywhere that requires automation of complex decisions, calculations, diagnosis, or root-cause analysis. It's simple to deploy as a Node-RED node and execute wherever node-RED red can be run: edge or cloud.
+XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to node-RED flows. XpertRule Decision Author is ideal in manufacturing, utilities, aerospace, automotive sectors and anywhere that requires automation of complex decisions, calculations, diagnosis or root-cause analysis. It's simple to deploy as a Node-RED node and execute wherever node-RED red can be run: edge or cloud.
 {:shortdesc}
 
 ## Publishing knowledge in Decision Author
