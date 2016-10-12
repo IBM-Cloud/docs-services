@@ -85,6 +85,7 @@ The credentials block provides everything you need to use the Vantrix Transcoder
 Note that the credentials are also available on the Account page of the VTA UI (at dashboard_url). 
 
 To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf){:new_window} and the [VTA API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf){:new_window}. 
+
 # About Supported Formats and Codecs
 The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS outputs with the following codecs: 
 - MPEG-TS inputs with MPEG-2 or H.264 video codec and AAC, MP3 or MP2 audio codec
@@ -98,16 +99,14 @@ The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS o
 
 ## Tutorials and Samples
 {: #samples}
-
-* [Vantrix Transcoding API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window}
-* [Introducing Vantrix Transcoder User Interface](http://vantrix.com/knowledgebase/Introducing_Vantrix_Transcoder_User_Interface){:new_window}
+* [Vantrix Transcoding API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf){:new_window}
+* [Introducing Vantrix Transcoder User Interface](http://vantrix.com/wp-content/uploads/2016/04/Introducing_Vantrix_Transcoder_User_Interface.pdf){:new_window}
+* [Vantrix VTA Developer Guide](http://vantrix.com/wp-content/uploads/2016/09/VTA-Developer-Guide-v61.pdf) 
 
 ## API Reference
 {: #api}
-
-* [Vantrix Transcoding API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}
+[Vantrix Transcoding API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf){:new_window}
 
 ## Related Links
 {: #general}
-
-* [Vantrix Resources](http://vantrix.com/resources/){:new_window}
+[Vantrix Resources](http://vantrix.com/resources/knowledgebase/){:new_window}
