@@ -27,7 +27,7 @@ Testdroid Cloud is designed to be very flexible for its users, as well as provid
 
 ## Test automation frameworks
 
-Devices can be used in parallel with test automation frameworks. For remote manual access, only one device can be used at time. Testdroid Cloud provides support for [native, hybrid, and web apps on Android and iOS devices](http://testdroid.com/) and browsers. Any applications created on PhoneGap, Titanium, Unity, or some other framework are fully supported at Testdroid Cloud devices.
+Devices can be used in parallel with test automation frameworks. For remote manual access, only one device can be used at time. Testdroid Cloud provides support for [native, hybrid, and web apps on Android and iOS devices](http://bitbar.com/testing/) and browsers. Any applications created on PhoneGap, Titanium, Unity, or some other framework are fully supported at Testdroid Cloud devices.
 
 The supported test automation frameworks include:
 
@@ -38,7 +38,7 @@ For Android:
 * [Robotium](http://robotium.com)
 * [Espresso](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 * [uiautomator](http://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
-* [App Crawler](http://testdroid.com/news/automatic-ios-app-testing-with-testdroid-app-crawler)
+* [App Crawler](http://bitbar.com/automatic-ios-app-testing-with-testdroid-app-crawler/)
 
 For iOS:
 
