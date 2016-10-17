@@ -16,22 +16,9 @@ To get started with Mapbox Maps API on Bluemix:
 1. If you don't already have a Mapbox account, [sign up for one here](https://www.mapbox.com/studio/signup/?path=%2Faccount%2Fapps%2F){:new_window}.
 2. Login to [Mapbox Studio](https://www.mapbox.com/studio/){:new_window}.  Record your Mapbox username and default access token from the homepage.
     ![](https://cl.ly/261A3p2P1i3S/download/Image%202016-10-13%20at%205.03.20%20PM.png)
-
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
 3. Fill out your Mapbox account name and Mapbox Default Access token on Bluemix.
 4. Create a map style with [Mapbox Studio](https://www.mapbox.com/studio/styles/){:new_window}.  Check out our [getting started with Mapbox Stuido guide](https://www.mapbox.com/help/getting-started-mapbox-studio-1/){:new_window} for a kickstart.
 5. Collect the `Style URL` and `Access Token` from the map style you created with Mapbox Studio.
-
     ![](https://cl.ly/140D1f2I0P1v/download/Image%202016-10-13%20at%205.09.42%20PM.png)
 6. Initialize the map in your application using your `Style URL` and `Access Token` with [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/example/custom-style-id/){:new_window}.  Replace `YOUR_ACCESS_TOKEN` and `YOUR_STYLE_URL` in the javascript below with your Style URL and Access Token.
 
