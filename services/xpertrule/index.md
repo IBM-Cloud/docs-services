@@ -4,11 +4,11 @@
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Xpertrule Decision Automation for node-RED
+# Getting started with XpertRule Decision Automation for node-RED
 {: #gettingstarted} 
 *Last updated: 5 Oct 2016*
 
-XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to node-RED flows. XpertRule Decision Author is ideal in manufacturing, utilities, aerospace, automotive sectors and anywhere that requires automation of complex decisions, calculations, diagnosis or root-cause analysis. It's simple to deploy as a Node-RED node and execute wherever node-RED red can be run: edge or cloud.
+XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to Node-RED flows. XpertRule Decision Author is ideal in manufacturing, utilities, aerospace, automotive sectors and anywhere that requires automation of complex decisions, calculations, diagnosis or root-cause analysis. It's simple to deploy as a Node-RED node and execute wherever Node-RED can be run: edge or cloud.
 {:shortdesc}
 
 ## Publishing knowledge in Decision Author
@@ -20,7 +20,7 @@ XpertRule Decision Author for Node-RED is a tool for developers to rapidly add c
 
 	For now we will concentrate on publishing the sample knowledge base for use in a Node-RED app.
 
-2. Open the ‘Transactional Sample’ by double clicking.
+2. Open the ‘Transactional’ sample by double clicking.
 
 	1. Locate the menu and click Deploy Knowledge Base -> Node-RED. 
 
