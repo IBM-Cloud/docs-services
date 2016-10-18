@@ -25,11 +25,11 @@ This API can help you to assess the health status of a vehicle, by translating O
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
 <!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
+The task section includes steps to integrate the service into the app.
 - With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
+- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app.
+- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service.
+- DO include code snippets in all languages that can be copied, as well as VCAP service info.
 - For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
 
 ## Setting up Car Diagnostic API
@@ -43,7 +43,7 @@ to do this in Android and Swift.
 
 To get up and running quickly with this service, follow these steps:
 
-<!-- Use ordered list markup for the step section. For code examples: 
+<!-- Use ordered list markup for the step section. For code examples:
 - use three backticks ahead of and after the example (```)
 - For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
 - For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
@@ -53,8 +53,11 @@ To get up and running quickly with this service, follow these steps:
 1. In the "Bluemix catalog", go to the "Internet of Things" section and click on
    the "Car Diagnostic API" tile.
 2. Click on "Register at Car Diagnostic API" in the bottom right of the page.
-3. Create a new account in this IBM Developer Portal page.
-4. Create a new developer organization.
+3. Click on "Create new account" and enter a Username, a Developer
+   organization as well as the Captcha.
+4. After you have successfully created your account, click on "Login" on the top
+   right of the page and enter the credentials you have specified in the step
+   before.
 5. Go to "Apps" and click on "Register new Application"
 6. Enter a title for the App and a description (optional).
 7. Write down your Client Secret and your Client ID. These are the
@@ -76,14 +79,14 @@ When you go back to the initial Bluemix screen of the Car Diagnostic API, you
 can enter the Client ID and Client Secret in the corresponding fields. If you
 have not also bound your service instance, you will have to bind your new
 service instance to one or more Bluemix applications. Once the Bluemix
-applications have been restarted or restaged, the Car Diagnostic API Client ID 
+applications have been restarted or restaged, the Car Diagnostic API Client ID
 and Secret will be available within the application's VCAP_SERVICES environment
-variable. 
+variable.
 
 <!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
+Related links display in the upper right of the getting started page.
+Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display.
+The headings coded here are not actually used. The doc framework provides the correct headings.
 Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
 Use {:new_window} for external links to open a new window.-->
 <!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
