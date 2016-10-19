@@ -53,10 +53,10 @@ To get started with Mapbox APIs on Bluemix:
 	{: pre}
 
 # Related Links
-
 {: #rellinks}
 
 ## Tutorials and Samples
+{: #samples}
 
 1. [Getting Started with Mapbox Studio](https://www.mapbox.com/help/getting-started-mapbox-studio-1/){:new_window}
 2. [Build a Store Locator with Mapbox GL JS](https://www.mapbox.com/help/building-a-store-locator/){:new_window}
