@@ -4,23 +4,23 @@
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Mapbox Maps API
+# Getting started with Mapbox maps
 {: #gettingstarted}
 *Last updated: 13 October 2016*
 {: .last-updated}
 
-The Mapbox Maps API enables you to create, share, and interact with maps on your web and mobile applications on Bluemix.  With the Mapbox Maps API you can easily embed your custom map style and spatial data.  Start by creating your custom map on [Mapbox Studio](www.mapbox.com/studio), adding your spatial data, and interacting with your map using [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/).
+Mapbox APIs enables you to create, share, and interact with maps on your web and mobile applications on Bluemix. Start with a basemap built by our cartographers or create your own custom style in [Mapbox Studio](www.mapbox.com/studio), then add your own spatial data, embed the map in your app, and interact using [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/).
 
-To get started with Mapbox Maps API on Bluemix:
+To get started with Mapbox APIs on Bluemix:
 
-1. If you don't already have a Mapbox account, [sign up for one here](https://www.mapbox.com/studio/signup/?path=%2Faccount%2Fapps%2F){:new_window}.
-2. Login to [Mapbox Studio](https://www.mapbox.com/studio/){:new_window}.  Record your Mapbox username and default access token from the homepage.
+1. If you don't already have a Mapbox account, [sign up for one here](https://www.mapbox.com/studio/signup/?path=%2Faccount%2Fapps%2F){:new_window}. Note: Commercial applications, including paid and private applications, require a Mapbox Premium or Enterprise account.
+2. Login to [Mapbox Studio](https://www.mapbox.com/studio/){:new_window}. Record your Mapbox username and default access token from the homepage.
     ![](https://cl.ly/261A3p2P1i3S/download/Image%202016-10-13%20at%205.03.20%20PM.png)
-3. Fill out your Mapbox account name and Mapbox Default Access token on Bluemix.
-4. Create a map style with [Mapbox Studio](https://www.mapbox.com/studio/styles/){:new_window}.  Check out our [getting started with Mapbox Stuido guide](https://www.mapbox.com/help/getting-started-mapbox-studio-1/){:new_window} for a kickstart.
-5. Collect the `Style URL` and `Access Token` from the map style you created with Mapbox Studio.
+3. Fill out your Mapbox account name and Mapbox default access token on Bluemix.
+4. Grab a default basemap URL or create a new map style with [Mapbox Studio](https://www.mapbox.com/studio/styles/){:new_window}. Check out our [getting started with Mapbox Stuido guide](https://www.mapbox.com/help/getting-started-mapbox-studio-1/){:new_window} for a kickstart.
+5. Collect the `style URL` and `access token` from the map style you created with Mapbox Studio.
     ![](https://cl.ly/140D1f2I0P1v/download/Image%202016-10-13%20at%205.09.42%20PM.png)
-6. Initialize the map in your application using your `Style URL` and `Access Token` with [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/example/custom-style-id/){:new_window}.  Replace `YOUR_ACCESS_TOKEN` and `YOUR_STYLE_URL` in the javascript below with your Style URL and Access Token.
+6. Initialize the map in your application using your `style URL` and `access token` with [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/example/custom-style-id/){:new_window}. Replace `YOUR_ACCESS_TOKEN` and `YOUR_STYLE_URL` in the javascript below with your `style URL` and `access token`.
 
 	```
     <html>
@@ -69,7 +69,7 @@ To get started with Mapbox Maps API on Bluemix:
 ## API Reference
 {: #api}
 
-* [Mapbox Maps API](https://www.mapbox.com/api-documentation/#maps){:new_window}
+* [Mapbox API](https://www.mapbox.com/api-documentation/#styles){:new_window}
 
 ## Compatible Runtimes
 {: #buildpacks}
