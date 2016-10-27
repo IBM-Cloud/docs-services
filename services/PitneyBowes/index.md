@@ -46,7 +46,7 @@ To add APIs from Pitney Bowes' service to your Bluemix application, follow these
 3. Choose your organization and space, and create a service instance in your selected space. For example, using `pitneybowes free` as the service and `mypitneybowes01` as the service instance name, you would type:
 
   ```
-  cf create-service PitneyBowes-APIs Free mypitneybowes01
+  cf create-service PitneyBowes-APIs free mypitneybowes01
   ```
   {: codeblock}
   
