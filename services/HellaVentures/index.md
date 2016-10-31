@@ -66,7 +66,7 @@ To get up and running quickly with this service, follow these steps:
 7. Go to "API Products" and click on "Car Diagnostic API".
 8. Choose a plan and click on "Subscribe". In the next pop-up window select an App
    and click on "Subscribe".
-9  Go to the "Car Diagnostic API" section on the left side of this page. There
+9. Go to the "Car Diagnostic API" section on the left side of this page. There
    you can try out the API and get instructions on how to call the API - these
    include the URL for calling the API. In addition you can find here coding
    examples in different programming languages that exemplify how to call the
