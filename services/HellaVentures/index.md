@@ -52,28 +52,26 @@ To get up and running quickly with this service, follow these steps:
 
 1. In the "Bluemix catalog", go to the "Internet of Things" section and click on
    the "Car Diagnostic API" tile.
-2. Click on "Register at Car Diagnostic API" in the bottom right of the page.
-3. Click on "Create new account" and enter a Username, a Developer
-   organization as well as the Captcha.
-4. After you have successfully created your account, click on "Login" on the top
-   right of the page and enter the credentials you have specified in the step
-   before.
-5. Go to "Apps" and click on "Register new Application"
-6. Enter a title for the App and a description (optional).
-7. Write down your Client Secret and your Client ID. These are the
+2. On the next page, click on the "Register at Car Diagnostic API" link.
+3. The next page is the IBM Developer Portal of this API. On this page, click on
+   the "Login" link in the top right. After you have been logged in, enter a
+   name for your Developer Organization (e.g. my-dev-org).
+4. Next, go to "Apps" and click on "Register new Application"
+5. Enter a title for the App and a description (optional).
+6. Write down your Client Secret and your Client ID. These are the
    username/password that you will use to access the API. Note that the Client
    Secret is displayed only once on this page. The Client Secret is located at
    the top of the page and the Client ID on the bottom - you need to click the
    checkboxes to make them visible
-8. Go to "API Products" and click on "Car Diagnostic API".
-9. Choose a plan and click on "Subscribe". In the next pop-up window select an App
+7. Go to "API Products" and click on "Car Diagnostic API".
+8. Choose a plan and click on "Subscribe". In the next pop-up window select an App
    and click on "Subscribe".
-10. Go to the "Car Diagnostic API" section on the left side of this page. There
-    you can try out the API and get instructions on how to call the API - these
-    include the URL for calling the API. In addition you can find here coding
-    examples in different programming languages that exemplify how to call the
-    API. Note that the Client ID and Client Secret need to be passed to the API
-    as query parameters for authentication.
+9  Go to the "Car Diagnostic API" section on the left side of this page. There
+   you can try out the API and get instructions on how to call the API - these
+   include the URL for calling the API. In addition you can find here coding
+   examples in different programming languages that exemplify how to call the
+   API. Note that the Client ID and Client Secret need to be passed to the API
+   as query parameters for authentication.
 
 When you go back to the initial Bluemix screen of the Car Diagnostic API, you
 can enter the Client ID and Client Secret in the corresponding fields. If you
