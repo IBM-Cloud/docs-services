@@ -114,4 +114,4 @@ Use {:new_window} for external links to open a new window.-->
 <!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
 <!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
 
-* [IBM Developer Portal](https://production-hella-ventures-car-diagnostic-api.developer.eu.apiconnect.ibmcloud.com/user/register){:new_window}
+* [IBM Developer Portal](https://production-hella-ventures-car-diagnostic-api.developer.eu.apiconnect.ibmcloud.com/){:new_window}
