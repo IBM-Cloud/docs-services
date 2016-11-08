@@ -19,7 +19,7 @@ Please delete out content examples and coding that you are not using for your se
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
 
 Examples: -->
-This API can help you to assess the health status of a vehicle, by translating OBD error codes in a human readable form. This service is of great interest for various companies, e.g., IoT/Automotive startups, fleet management providers, booking platforms and taxi companies. We support all error codes that can be read with the widely used ELM327 OBD dongles. In addition to that, we also support error codes that are specific to car manufacturers. Our database includes more than 17.000 error codes that are professionally maintained.
+This API can help you to assess the health status of a vehicle, by translating OBD error codes in a human readable form. This service is of great interest for various companies, for example, IoT/Automotive startups, fleet management providers, booking platforms and taxi companies. We support all error codes that can be read with the widely used ELM327 OBD dongles. In addition to that, we also support error codes that are specific to car manufacturers. Our database includes more than 17.000 error codes that are professionally maintained.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
