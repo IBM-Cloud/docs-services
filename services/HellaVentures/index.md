@@ -1,20 +1,20 @@
+---
+
+copyright:
+  years: 2016
+lastupdated: "2016-09-22"  
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
-{:screen:.screen}
-{:codeblock:.codeblock}
+{:screen: .screen}
+{:codeblock: .codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
 # Getting started with Car Diagnostic API
-{: #gettingstarted}
+{: #gettingstarted_HellaVentures}
 <!-- Provide an appropriate ID above -->
-*Last updated: 22 September 2016*
-{: .last-updated}
-
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
 
