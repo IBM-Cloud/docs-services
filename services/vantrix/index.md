@@ -6,9 +6,9 @@
 
 # Getting started with Vantrix Transcoder for Bluemix
 {: #gettingstarted}
-*Last updated: 21 April 2016*
+*Last updated: 12 October 2016*
 
-Vantrix Transcoder for Bluemix is a flexible and powerful transcoding service that you can use to adapt your single-rate VODs to multiple adaptive bitrate (ABR) outputs. It provides a complete transcoding workflow with support for various input/output formats and closed captioning as well. Vantrix Transcoder includes both an intuitive UI and a REST-based HTTP API. 
+Vantrix Transcoder for Bluemix is a flexible and powerful transcoding service that you can use to adapt your single-rate VODs to multiple adaptive bitrate (ABR) outputs. It provides a complete transcoding workflow with support for various input/output formats (see [About](https://github.com/IBM-Bluemix/docs-services/blob/master/services/vantrix/index.md#about-supported-formats-and-codecs)) as well as closed captioning. Vantrix Transcoder includes both an intuitive UI and a REST-based HTTP API. 
 {:shortdesc}
 
 ## Setting up Vantrix Transcoder
@@ -84,23 +84,29 @@ The credentials block provides everything you need to use the Vantrix Transcoder
 - **sftp_username**  -  your username for accessing your private storage for Vantrix Transcoder 
 Note that the credentials are also available on the Account page of the VTA UI (at dashboard_url). 
 
-To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window} and the [VTA API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}. 
+To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf){:new_window} and the [VTA API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf){:new_window}. 
+
+# About Supported Formats and Codecs
+The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS outputs with the following codecs: 
+- MPEG-TS inputs with MPEG-2 or H.264 video codec and AAC, MP3 or MP2 audio codec
+- MP4 inputs with H.264 video codec and AAC audio codec
+- MPEG-TS outputs with MPEG-2, H.264 or H.265 video codec and AAC audio codec
+- MP4 outputs with H.264 video codec and AAC audio codec
+- HTTP Live Streaming (HLS) outputs with H.264 or H.265 video codec and AAC audio codec
 	
 # Related Links
 {: #rellinks}
 
 ## Tutorials and Samples
 {: #samples}
-
-* [Vantrix Transcoding API QuickStart](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API_QuickStart){:new_window}
-* [Introducing Vantrix Transcoder User Interface](http://vantrix.com/knowledgebase/Introducing_Vantrix_Transcoder_User_Interface){:new_window}
+* [Vantrix Transcoding API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf){:new_window}
+* [Introducing Vantrix Transcoder User Interface](http://vantrix.com/wp-content/uploads/2016/04/Introducing_Vantrix_Transcoder_User_Interface.pdf){:new_window}
+* [Vantrix VTA Developer Guide](http://vantrix.com/wp-content/uploads/2016/09/VTA-Developer-Guide-v61.pdf) 
 
 ## API Reference
 {: #api}
-
-* [Vantrix Transcoding API Specification](http://vantrix.com/knowledgebase/Vantrix_Transcoding_API){:new_window}
+[Vantrix Transcoding API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf){:new_window}
 
 ## Related Links
 {: #general}
-
-* [Vantrix Resources](http://vantrix.com/resources/){:new_window}
+[Vantrix Resources](http://vantrix.com/resources/knowledgebase/){:new_window}

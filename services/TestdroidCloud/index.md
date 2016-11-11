@@ -44,4 +44,3 @@ To get started quickly with Bitbar Testing Cloud, complete these steps:
 {: #general}
 * [Mobile App Testing with Bitbar Testing](http://bitbar.com/testing)
 * [Bitbar Testing Community Portal](http://bitbar.com/testing/blog/)
-
