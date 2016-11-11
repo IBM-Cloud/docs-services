@@ -27,7 +27,7 @@ Testdroid Cloud is designed to be very flexible for its users, as well as provid
 
 ## Test automation frameworks
 
-Devices can be used in parallel with test automation frameworks. For remote manual access, only one device can be used at time. Testdroid Cloud provides support for [native, hybrid, and web apps on Android and iOS devices](http://testdroid.com/) and browsers. Any applications created on PhoneGap, Titanium, Unity, or some other framework are fully supported at Testdroid Cloud devices.
+Devices can be used in parallel with test automation frameworks. For remote manual access, only one device can be used at time. Testdroid Cloud provides support for [native, hybrid, and web apps on Android and iOS devices](http://bitbar.com/testing) and browsers. Any applications created on PhoneGap, Titanium, Unity, or some other framework are fully supported at Testdroid Cloud devices.
 
 The supported test automation frameworks include:
 
@@ -38,7 +38,6 @@ For Android:
 * [Robotium](http://robotium.com)
 * [Espresso](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 * [uiautomator](http://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
-* [App Crawler](http://testdroid.com/news/automatic-ios-app-testing-with-testdroid-app-crawler)
 
 For iOS:
 
@@ -57,23 +56,23 @@ For websites and web apps:
 
 ## Devices
 
-Testdroid Cloud provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Testdroid Cloud provides a test automation, [remote manual device access](http://testdroid.com/tech/remote-manual-access-to-any-android-device-at-testdroid-cloud) and REST API to access, run and manage any tests with these devices.
+Bitbar Testing Cloud provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM and hardware configurations for Android and iOS developers. Bitbar Testing Cloud provides a test automation, [remote manual device access](http://bitbar.com/remote-manual-access-to-any-android-device-at-testdroid-cloud/) and REST API to access, run and manage any tests with these devices.
 
-Testdroid Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate.
+Bitbar Testing Cloud is a mobile app, game and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are all hosted on our secure premises. These devices are hosted in three different locations - Wroclaw, Poland, Mountain View, CA and Oulu, Finland - and are monitored and maintained 24 hours per business day. Our up-time is over 99% and sophisticated monitoring system keeps our devices running at the same rate.
 
 The devices, infrastructure, test runs and assets will be maintained and all data resides on our premises.
 
 The test reports contain detailed information about the execution of app on these devices, with access to logs, pixel-accurate screenshots, performance statistics/data, as well as high-level result overview of success/failure of the test runs. All this data will be available when test run on each device in completed. The data is downloadable and considered as your own asset.
 
-Testdroid Cloud allows users to upload their own tests or use built-in, script-free compatibility tests and crawlers. Devices can be used in parallel with test automation frameworks. For remote manual access only one device can be used at time.
+Bitbar Testing Cloud allows users to upload their own tests or use built-in, script-free compatibility tests and crawlers. Devices can be used in parallel with test automation frameworks. For remote manual access only one device can be used at time.
 
-Testdroid Cloud provides support for native, hybrid and web apps on Android and iOS devices and browsers. Any applications created on PhoneGap, Titanium, Unity3D or some other framework are fully supported at Testdroid Cloud devices.
+Bitbar Testing Cloud provides support for native, hybrid and web apps on Android and iOS devices and browsers. Any applications created on PhoneGap, Titanium, Unity3D or some other framework are fully supported at Bitbar Testing Cloud devices.
 
 ## Test automation
 
 Developing mobile applications is very different from developing PC software or even embedded software. Mobile development is meant to be agile, and a lot of great tools and practices have been developed for that agility. However, doing something manually — such as testing an app — is never agile, which is why test automation has shown tremendous growth among app and game developers, speeding up their doings and yielding robust and better results.
 
-All Testdroid products have been built for test automation. The remote manual access to devices on our data centers complements this offering and occasionally developers want to make sure their apps work just like they've planned - and this is where our Testdroid Manual Testing is extremely useful.
+All Bitbar products have been built for test automation. The remote manual access to devices on our data centers complements this offering and occasionally developers want to make sure their apps work just like they've planned - and this is where our Manual Testing is extremely useful.
 
 Test Automation relies real mobile devices (Android, iOS) and offers the possibility to test mobile apps and websites instantly and effectively using test automation frameworks. Our infrastructure is build to support unlimited number of simultaneous test runs, meaning that you can select any number of devices for your test run.
 
@@ -143,6 +142,6 @@ In order to evaluate what test automation framework works you the best please ta
 
 ## REST API
 
-Testdroid provides a compelling REST API for its users to manage all aspects of mobile development and testing automatically. The integration API will bridge your development tools, environment with our real Android and iOS devices on Testdroid Cloud.
+Bitbar Testing provides a compelling REST API for its users to manage all aspects of mobile development and testing automatically. The integration API will bridge your development tools, environment with our real Android and iOS devices on Bitbar Testing Cloud.
 
-This [Testdroid API Reference Guide](http://docs.testdroid.com/testdroid-cloud-integration/api/) includes the full reference guide to our integration API.
+This [Bitbar Testing API Reference Guide](http://docs.testdroid.com/testdroid-cloud-integration/api/) includes the full reference guide to our integration API.
