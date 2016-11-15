@@ -1,3 +1,15 @@
+---
+
+
+
+copyright:
+
+  years:  2016
+
+lastupdated: "2016-11-15"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -12,8 +24,6 @@ Please delete out content examples and coding that you are not using for your se
 # Getting started with <service_short_name>
 {: #gettingstarted}
 <!-- Provide an appropriate ID above -->
-*Last updated: nn month yyyy*
-{: .last-updated}
 
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
