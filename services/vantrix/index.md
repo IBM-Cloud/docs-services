@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-10-12"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with Vantrix Transcoder for Bluemix
 {: #gettingstarted}
-*Last updated: 12 October 2016*
 
 Vantrix Transcoder for Bluemix is a flexible and powerful transcoding service that you can use to adapt your single-rate VODs to multiple adaptive bitrate (ABR) outputs. It provides a complete transcoding workflow with support for various input/output formats (see [About](https://github.com/IBM-Bluemix/docs-services/blob/master/services/vantrix/index.md#about-supported-formats-and-codecs)) as well as closed captioning. Vantrix Transcoder includes both an intuitive UI and a REST-based HTTP API. 
 {:shortdesc}
