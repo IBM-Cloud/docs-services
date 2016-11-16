@@ -1,6 +1,21 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-14"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
 
 # Getting started with ElephantSQL
-*Last updated: 14 April 2016*
+{: #gettingstarted}
 
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
