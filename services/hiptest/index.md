@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-04"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with Hiptest
 {: #gettingstarted}
-*Last updated: 04 04 2016*
 
 Hiptest is a realtime test management platform that supports behaviour driven development and seamlessly blends in continuous delivery processes. Gain real time visibility on your tests and the quality of your pipeline.
 {:shortdesc}
