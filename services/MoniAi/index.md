@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-18"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -9,7 +19,6 @@
 
 # Getting started with Moni.ai
 {: #gettingstarted}
-*Last updated: 18 04 2016*
 
 Moni.ai allows you to define new ways to interact with your business by defining Voice Channels. A Voice Channel starts with a trigger pattern that Moni listens to. After a user said that trigger pattern you define what happens visually using Node-Red. Doing that you have full control over the process and you can query databases, retrieve relevant information or call APIs and perform tasks.
 After defining a Voice Channel you can talk to Moni using the iOS or Android app or using the Moni.ai website.
