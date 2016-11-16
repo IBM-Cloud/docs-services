@@ -1,3 +1,12 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-05-16"
+
+---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -7,8 +16,6 @@
 
 # Getting started with Testdroid Cloud
 {: #gettingstarted} 
-
-*Last updated: 16 May 2016*
 
 Testdroid Cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Testdroid Cloud, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.
 {:shortdesc}
