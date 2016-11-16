@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-18"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -7,7 +17,6 @@
 
 # Getting started with Kinetise
 {: #gettingstarted}
-*Last updated: 18 April 2016*
 
 Kinetise is a codeless mobile applications development suite, allowing to create even most advanced apps in under 24 hours. Web-based drag&drop editor enables rapid prototyping, connecting to APIs, and creating fully-functional native iOS and Android builds.
 {:shortdesc}
