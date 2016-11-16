@@ -1,6 +1,14 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-14"
+
+---
 
 # Getting started with CloudAMQP
-*Last updated: 14 April 2016*
 
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
