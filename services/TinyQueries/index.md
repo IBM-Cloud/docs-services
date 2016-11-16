@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-04-21"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with TinyQueries
 {: #gettingstarted}
-*Last updated: 21 April 2016*
 
 TinyQueries is a SQL query generator service which can be connected to a SQL database running on Bluemix. 
 TinyQueries can be used to create fast running SQL queries easily, which can be published as a REST api. 
