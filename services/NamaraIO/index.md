@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-05-02"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with Namara.io
 {: #gettingstarted}
-*Last updated: 2 May 2016*
 
 The [Namara.io](https://namara.io){:new_window} platform aggregates available open data released by all levels of government and presents it to users in a single portal. It organizes and catalogues this public data, providing users with API access to high value information.
 {:shortdesc}
