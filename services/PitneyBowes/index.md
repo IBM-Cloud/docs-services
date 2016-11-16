@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-09-08"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -7,9 +17,6 @@
 
 # Getting started with Pitney Bowes APIs
 {: #gettingstarted}
-
-*Last updated: 08 September 2016*
-{: .last-updated}
 
 Pitney Bowes APIs allow any developer to access enterprise-class solutions for applications ranging from business intelligence to customer engagement and commerce. These solutions are used by leading companies in industries such as banking, insurance and retail, enabling end users to make the best decisions and achieve the best business outcomes. Now available to developers through modern REST APIs, developers in any size organization can access these class-leading tools and datasets, rapidly deploying and scaling solutions.
 {:shortdesc}
