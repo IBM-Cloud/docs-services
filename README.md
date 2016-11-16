@@ -37,6 +37,30 @@ The getting started template and guidelines are provided as a way to consistentl
 
 **Important:** For IBM Bluemix Service 3rd party service docs, you are only required to have a **Getting started with service_name** topic (getting_started_template/index.md). You can link off to your full documentation from the related links.
 
+## Using the Copyright and Last Updated header (Required)
+Both the span of years your content has been published across, and the last date that you updated your content must be included within YAML at the top of your file.
+
+```
+
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-11-25"
+
+---
+
+```
+
+The copyright and lastupdated information is YAML content that must occur at the top of the MD file, before attributes are listed.  
+  * It must be --- surrounded by 3 dashes ---
+  * The value "years" can contain just one year or a two years separated by a comma. (years: 2014, 2016)
+  * The value "lastupdated" must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
+  * The value for "years" must be indented 2 spaces under "copyright", followed by "lastupdated" which should start on its own non-indented line.
+  * Ensure that each time you update your Markdown topic, you also update the "lastupdated" date.
+
 The getting started steps should include information on how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard. 
  * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
  * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples…if they start to become more common, move them into the docs flow as child task flows)
