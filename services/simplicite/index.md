@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-05-18"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
@@ -6,7 +16,6 @@
 
 # Getting started with Simplicit&eacute;
 {: #gettingstarted}
-*Last updated: 18 may 2016*
 
 **Simplicit&eacute;** is a versatile backend enterprise application platform designed to satisfy
 your custom business requirements using web-based business model configuration.
