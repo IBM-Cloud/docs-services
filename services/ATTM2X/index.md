@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-05-24"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with AT&T M2X on Bluemix
 {: #gettingstarted}
-*Last updated: 24 May 2016*
 
 AT&T M2X on Bluemix provides cloud based time-series data storage, device management, message brokering, event triggering, geo-fencing, and data visualization for connected devices. Collect and store data from device sensors onto the highly available M2X cloud, configure event based triggers that act on incoming data in real time, monitor device location, and create custom embeddable visualizations using M2X Dashboards.
 {:shortdesc}
