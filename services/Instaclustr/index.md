@@ -1,3 +1,14 @@
+
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-07-15"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,9 +17,6 @@
 
 # Getting started with Instaclustr Cassandra
 {: #gettingstarted}
-
-*Last updated: 15 July 2016*
-{: .last-updated}
 
 Instaclustr provides a cloud hosted, fully managed Apache Cassandra NoSQL database. Cassandra is a distributed database that can store huge amounts of data, whilst providing linear scalability, continuous availability and low latency data access. We provide a fully managed service that includes 24/7 support, monitoring and alerting, system patches and updates, daily backups, and automated system repairs. We are a team of Cassandra experts with hundreds of thousands of node-hours experience running Cassandra, and our performance-optimized Cassandra solutions power mission-critical always-on applications.
 {:shortdesc}
