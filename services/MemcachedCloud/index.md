@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-05-18"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with Memcached Cloud
 {: #gettingstarted}
-*Last updated: 18 May 2016*
 
 [Memcached Cloud](http://redislabs.com/memcached-cloud) is a fully-managed service for running your Memcached in a reliable and fail-safe manner. Your dataset is constantly replicated, so if a node fails, an auto-switchover mechanism guarantees data is served without interruption. Memcached Cloud provides various data persistence options as well as remote backups for disaster recovery purposes. You can quickly and easily get your apps up and running with Memcached Cloud through its add-on for Codename: BlueMix, just tell us how much memory you need and get started instantly with your first Memcached bucket.
 
