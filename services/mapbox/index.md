@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-10-13"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,8 +16,6 @@
 
 # Getting started with Mapbox maps
 {: #gettingstarted}
-*Last updated: 13 October 2016*
-{: .last-updated}
 
 Mapbox APIs enables you to create, share, and interact with maps on your web and mobile applications on Bluemix. Start with a basemap built by our cartographers or create your own custom style in [Mapbox Studio](www.mapbox.com/studio), then add your own spatial data, embed the map in your app, and interact using [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/).
 
