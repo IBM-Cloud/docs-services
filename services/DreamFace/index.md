@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-06-20"
+
+---
+
 {:new_window: target="_blank"} 
 {:shortdesc: .shortdesc} 
 {:screen:.screen} 
@@ -6,9 +16,6 @@
 
 # Getting started with DreamFace
 {: #gettingstarted}
-
-Last updated: June 20, 2016 
-{: .last-updated}
 
 DreamFace is an open-source, cloud-native development platform for creating enterprise web and mobile applications.
 
