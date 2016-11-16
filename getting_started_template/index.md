@@ -1,7 +1,5 @@
 ---
 
-
-
 copyright:
 
   years:  2016
