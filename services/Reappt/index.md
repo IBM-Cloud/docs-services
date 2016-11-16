@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2016
+
+lastupdated: "2016-07-01"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,10 +16,6 @@
 
 # Getting started with Reappt
 {: #gettingstarted}
-
-*Last updated: 01 July 2016*
-{: .last-updated}
-
 
 Reappt from Push Technology helps you develop reactive applications faster with lower costs and reduced risks. Reappt enables you to stream data at extreme scale and speed, to thousands of connections in real time.
 {:shortdesc}
