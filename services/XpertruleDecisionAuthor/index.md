@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years:  2016
+
+lastupdated: "2016-11-15"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -6,7 +16,6 @@
 
 # Getting started with XpertRule Decision Automation
 {: #gettingstarted} 
-*Last updated: 29 Nov 2016*
 
 XpertRule Decision Automation for Bluemix is a tool for capturing and automating expert knowledge and decision making. Ideal for complex diagnostics, algorithms / calculations, root cause analysis, troubleshooting and decisions. Used by non-technical domain experts to combine data with knowledge and experience. Ingest any data source, apply decision automation and deliver rapid business outcomes. Used for Industrial IoT condition monitoring, Healthcare diagnostics, Smart Home Insurance IoT, Operational Intelligence in Financial Services. 
 {:shortdesc}
