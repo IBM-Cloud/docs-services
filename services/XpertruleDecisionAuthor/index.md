@@ -47,7 +47,7 @@ XpertRule Decision Automation for Bluemix is a tool for capturing and automating
 
 	The pop up will display a url, copy it to use later. Press done. Exit Decision Author
 
-## publishing a knowledge base into a Bluemix node js app
+## Publishing a knowledge base into a Bluemix node js app
 
 1. Now as an example we will show how to call the deployed ‘Transactional’ knowledgebase from a bluemix application. For the purposes of this demo we have created a sample app which contains the necessary code to call the knowledge base from a bluemix application. 
 
