@@ -14,10 +14,10 @@ lastupdated: "2016-11-29"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with XpertRule Decision Automation
+# Getting started with XpertRule Decision & Rules Automation
 {: #gettingstarted} 
 
-XpertRule Decision Automation for Bluemix is a tool for capturing and automating expert knowledge and decision making. Ideal for complex diagnostics, algorithms / calculations, root cause analysis, troubleshooting and decisions. Used by non-technical domain experts to combine data with knowledge and experience. Ingest any data source, apply decision automation and deliver rapid business outcomes. Used for Industrial IoT condition monitoring, Healthcare diagnostics, Smart Home Insurance IoT, Operational Intelligence in Financial Services. 
+XpertRule Decision & Rules Automation for Bluemix is a tool for capturing and automating expert knowledge and decision making. Ideal for complex diagnostics, algorithms / calculations, root cause analysis, troubleshooting and decisions. Used by non-technical domain experts to combine data with knowledge and experience. Ingest any data source, apply decision automation and deliver rapid business outcomes. Used for Industrial IoT condition monitoring, Healthcare diagnostics, Smart Home Insurance IoT and Performance Impovement in Financial Services. 
 {:shortdesc}
 
 ## Publishing knowledge in Decision Author
@@ -59,7 +59,7 @@ XpertRule Decision Automation for Bluemix is a tool for capturing and automating
 	- -> Download Zip
 	- Unzip the downloaded file and store in a place you’ll remember
 
-At this point you open the main.js file to familiarise yourself with the code that will call the knowledge base and enter/update the knowledge object with the parameters of the knowledge base you published a little earlier.
+At this point you open the main.js file located in the downloaded folder to familiarise yourself with the code that will call the knowledge base and enter/update the knowledge object with the parameters of the knowledge base you published a little earlier.
 
 So for example, from the URL published earlier, just copy the path name and paste it into knowledge.request_path in the main.js file 
 http://ibmxrkb.xpertrule.com:8125/pathname 
