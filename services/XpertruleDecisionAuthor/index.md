@@ -59,10 +59,10 @@ XpertRule Decision & Rules Automation for Bluemix is a tool for capturing and au
 	- -> Download Zip
 	- Unzip the downloaded file and store in a place you’ll remember
 
-At this point you open the main.js file located in the downloaded folder to familiarise yourself with the code that will call the knowledge base and enter/update the knowledge object with the parameters of the knowledge base you published a little earlier.
+	At this point you open the main.js file located in the downloaded folder to familiarise yourself with the code that will call the knowledge base and enter/update the knowledge object with the parameters of the knowledge base you published a little earlier.
 
-So for example, from the URL published earlier, just copy the path name and paste it into knowledge.request_path in the main.js file 
-http://ibmxrkb.xpertrule.com:8125/pathname 
+	So for example, from the URL published earlier, just copy the path name and paste it into knowledge.request_path in the main.js file 
+	http://ibmxrkb.xpertrule.com:8125/pathname 
 
 2. Next, open a new command prompt
 
