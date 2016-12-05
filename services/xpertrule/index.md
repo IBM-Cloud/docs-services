@@ -16,7 +16,6 @@ lastupdated: "2016-10-28"
 
 # Getting started with XpertRule Decision Automation for node-RED
 {: #gettingstarted} 
-*Last updated: 28 Oct 2016*
 
 XpertRule Decision Author for Node-RED is a tool for developers to rapidly add complex decision and analytics automation to Node-RED flows. XpertRule Decision Author is ideal in manufacturing, utilities, aerospace, automotive sectors and anywhere that requires automation of complex decisions, calculations, diagnosis or root-cause analysis. It's simple to deploy as a Node-RED node and execute wherever Node-RED can be run: edge or cloud.
 {:shortdesc}
