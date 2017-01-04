@@ -44,5 +44,5 @@ To get up and running quickly with AT&T Flow Designer, once you have signed up f
 {: #general}
 
 * [Frequently Asked Questions](https://flow.att.com/faq){:new_window}
-* [Features] (https://flow.att.com/features){:new_window}
+* [Features](https://flow.att.com/features){:new_window}
 
