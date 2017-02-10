@@ -18,26 +18,13 @@ Each directory in this repo must synch with the overall architecture of the Blue
 6. You will receive a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
 7. Your content will go live, or you will iterate through additional emails until it does.
 
-## How to suggest changes or updates to Bluemix documentation
 
-All you need is a GitHub ID, and you can suggest edits and changes to Bluemix docs. A Bluemix team member will review any pull requests, and merge all or parts of your suggested changes as quickly as possible.
-To make your changes:
-
-    1. Fork the project or create a branch right from the repository.
-    2. Edit files.
-    3. When your changes are complete, send a pull request from your branch with your changes.
-    4. Wait for a Bluemix team member to review your changes and merge all or parts of your suggested changes
-    5. After you are notified of your changes, tidy up your branches using the delete button in the pull request or on the branches page.
-
-For more detailed information on how to contribute content to Bluemix documentation, see https://developer.ibm.com/bluemix/2016/01/13/bluemix-docs-now-open-source-on-github/. Also see the following help from GitHub:
-https://help.github.com/articles/github-flow-in-the-browser/
-
-# Getting started template
+## Getting started template
 The getting started template and guidelines are provided as a way to consistently represent service documentation within the Bluemix platform. The product documentation provided for a service should enable a user to quickly get up and running. Supplemental information should be task-based and support the productive use of the service.
 
 **Important:** For IBM Bluemix Service 3rd party service docs, you are only required to have a **Getting started with service_name** topic (getting_started_template/index.md). You can link off to your full documentation from the related links.
 
-## Using the Copyright and Last Updated header (Required)
+### Using the Copyright and Last Updated header (Required)
 Both the span of years your content has been published across, and the last date that you updated your content must be included within YAML at the top of your file, as shown in the following example:
 
 ```
@@ -45,9 +32,9 @@ Both the span of years your content has been published across, and the last date
 
 copyright:
 
-  years: 2016
+  years: 2017
 
-lastupdated: "2016-11-25"
+lastupdated: "2017-02-10"
 
 ---
 ```
@@ -81,12 +68,74 @@ Troubleshooting information would then be the last section in the flow, includin
  * Troubleshooting (troubleshooting.md)
   * child topics 
 
-# Sample Applications
+## Creating a table of contents (TOC) for your service catalog entry
+
+To begin, you need to create a TOC map file in GitHub. This file must be in the root directory of your service. See the sample TOC in this (docs-services) folder.  You can copy it into the root directory of your service and edit it from there.
+
+**Important note**:  The `toc` file has no extension.  It is just named `toc`.
+
+List the markdown files you want included in your table of contents. Files not listed are excluded from your TOC. If you were creating the sample outline above, your toc file would look like the following example:
+
+```
+[Getting Started with <Name_of_Service>](docs/<folder_name>/index.html)
+    index.md
+    About.md
+    Configuring.md
+        ConfigurationDetails.md
+    Administering.md
+        AdminsteringDetails.md
+    Creating.md
+        CreatingDetails.md
+    Troubleshooting.md
+        TroubleshootingDetails.md
+```
+
+**Note**: Nesting files is as simple as indenting 4 spaces. You can nest multiple levels of files, as shown in the previous example.
+
+Make sure that you have your Getting started topic listed twice. We need a top level container to nest your collection within. The first instance should not be indented. The second instance must be indented 4 spaces. All subsequent entries must be nested 4 spaces in from the first entry, and can be nested deeper depending on your structure.
+    
+After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
+
+ 
+### Adding external links to your TOC file
+
+Notice that in the example above there is an html value, rather than a markdown value, for the first instance of the Getting Started topic. In most cases you can just add duplicate index.md entries, but because this Getting Started example has several subheaders that we want to generate TOC values for, creating a pre-defined custom html url was a way to create the top-level container without displaying all the nested sub-headers beneath it:
+
+```
+[Getting Started with <Name_of_Service>](docs/<folder_name>/index.html)
+```
+
+You can use this same standard markdown code used to specify a URL at any time in your toc map file to create an internal or external link. For example if I wanted to add a TOC entry for an API in API explorer, I could add: [REST API](https://sample-console.{DomainName}/apidocs) to my toc map file in the appropriate place.
+
+**Tip**: Keep in mind that the search results are generated from your TOC. (A search is generated from the TOC JSON file.) One of the ways you can improve SEO is to ensure that your TOC contains the critical topics you want your customers to find.
+
+
+### Excluding unwanted headers
+
+You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. For example, you need to exclude your related links, as is shown in the Getting Started template.
+
+To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example: 
+
+```
+# Related Links
+{: #rellinks notoc}
+
+## API Reference
+{: #api}
+
+* [REST API Documentation](./sampleAPI.html#sample_restapi)
+* [REST API](https://sample-console.{DomainName}/apidocs){:new_window}
+```
+
+**Note**: In the previous example, the notoc attribute is only on the H1 header. The notoc attribute cascades down and excludes any sub-headers nested beneath the header you specify to exclude. You can add the notoc attribute to any header at any depth; H1, H2, H3, etc…
+
+
+## Sample Applications
 We recommend that all 3rd party services provide sample apps for customers to use. Include links in your documentation that point to these sample apps.
 
 **Note**: At a minimum, please provide your sample apps in Node and Java.
 
-# Authoring Bluemix content in Markdown
+## Authoring Bluemix content in Markdown
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML.
 
 The Markdown used for Bluemix is based on GitHub-flavored Markdown. The following resources can be helpful in coding the markup for you content:
@@ -94,6 +143,20 @@ The Markdown used for Bluemix is based on GitHub-flavored Markdown. The followin
 * https://help.github.com/articles/github-flavored-markdown/
 
 Bluemix has designed a parser that transforms Markdown into HTML5. Because the syntax available in standard Markdown is limited, the Bluemix team has developed Extensions to provide an enhanced authoring experience. These extensions provide key features available in DITA today, adding, for example, the ability to use metadata attributes and content references in Markdown. This document provides instructions for using these extensions.
+
+## How to suggest changes or updates to Bluemix documentation
+
+All you need is a GitHub ID, and you can suggest edits and changes to Bluemix docs. A Bluemix team member will review any pull requests, and merge all or parts of your suggested changes as quickly as possible.
+To make your changes:
+
+1. Fork the project or create a branch right from the repository.
+2. Edit files.
+3. When your changes are complete, send a pull request from your branch with your changes.
+4. Wait for a Bluemix team member to review your changes and merge all or parts of your suggested changes
+5. After you are notified of your changes, tidy up your branches using the delete button in the pull request or on the branches page.
+
+For more detailed information on how to contribute content to Bluemix documentation, see https://developer.ibm.com/bluemix/2016/01/13/bluemix-docs-now-open-source-on-github/. Also see the following help from GitHub:
+https://help.github.com/articles/github-flow-in-the-browser/
 
 ## Markdown Editors
 There are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. Notepad ++ is free, compatible, and also supports YAML, which is used to define content reference keywords.
@@ -152,7 +215,7 @@ There are many free Markdown editors available, however, not all editors will ho
 | **shortdesc**    | `<shortdesc>	<p class="shortdesc">	` | This is a shortdesc paragraph<br>`{: shortdesc} `<br>**Note:** This requires the following attribute definition available in the attribute definition template: `{:shortdesc: .shortdesc}` | `<p class="shortdesc">`|
 | **term**    | `<span class="ph term">term</span>` |`*term*` | `<em>term</em>`|
 
-#Bluemix special mappings for how to code in DITA vs Markdown
+## Bluemix special mappings for how to code in DITA vs Markdown
 
 |  Dita Element     |   HTML 5 output from Dita  |   How to code in Markdown    | HTML 5 output from Markdown  |
 |-----------------|-----------|-------------|-------------------|
@@ -164,7 +227,7 @@ There are many free Markdown editors available, however, not all editors will ho
 | **Bluemix App Data**<br><br>`user's app related metadata: "app_name", "app_url", "service_name", "service_instance_name", "plan", "host"` | ? | ?<br>**Note:** This requires the following attribute definition available in the attribute definition template: `{:?: .?}` | ? |
 
 
-# Bluemix Extensions
+## Bluemix Extensions
  The following Bluemix extensions to Markdown are supported:
  * Output all MarkDown markup to standard, valid HTML5 tags
  * Attributes
