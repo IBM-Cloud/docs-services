@@ -2,7 +2,7 @@
 
 copyright:
 
-  years:  2016
+  years:  2016, 2017
 
 lastupdated: "2016-11-15"
 
@@ -102,7 +102,7 @@ Use {:new_window} for external links to open a new window.-->
 <!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
