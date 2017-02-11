@@ -28,9 +28,9 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
+Passport delivers authentication, authorization and user management with modern REST APIs to your Bluemix application that results in faster development, increased speed to market and the ability to serve users more effectively.
+
+Sure, you could build your own user login and registration, but we’ve already built it for you. Focus on your core business, let Passport handle your users.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
@@ -141,5 +141,5 @@ Use {:new_window} for external links to open a new window.-->
 <!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
 <!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
 
+* [Plans and Pricing](https://www.inversoft.com/try-passport){:new_window}
 * [1.x Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/){:new_window}
-* [Pricing](https://www.inversoft.com/try-passport)
