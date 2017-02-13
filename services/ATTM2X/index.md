@@ -48,7 +48,7 @@ To get up and running quickly with AT&T M2X, once you've added the M2X service t
 To get started using the M2X API check out the full [API documentation](https://m2x.att.com/developer/documentation/v2/overview).
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
