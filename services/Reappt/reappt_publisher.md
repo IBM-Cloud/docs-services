@@ -7,22 +7,22 @@
 # Create a Node.js publisher
 {: #reappt_publisher}
 
-*Last updated: 01 July 2016*
+*Last updated: 13 February 2017*
 {: .last-updated}
 
 
-Create a Node.js™ app hosted in Bluemix that is bound to Reappt and uses it to publish data through topics.
+Create a Node.js™ app hosted in Bluemix that is bound to Diffusion Cloud and uses it to publish data through topics.
 {:shortdesc}
 
 
-To complete this example, you need [a Reappt service](https://console.ng.bluemix.net/catalog/services/reappt-from-push-technology/) and a Bluemix web application that uses [SDK for Node.js](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/).  
+To complete this example, you need [a Diffusion Cloud service](https://console.ng.bluemix.net/catalog/services/diffusion-cloud-from-push-technology/) and a Bluemix web application that uses [SDK for Node.js](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs/).  
 
 
-This example steps through creating an SDK for Node.js app that uses a bound Reappt service to publish data. The full code example is provided after the steps.
+This example steps through creating an SDK for Node.js app that uses a bound Diffusion Cloud service to publish data. The full code example is provided after the steps.
 
 
-1. Use the Bluemix user interface to bind your Reappt service to your Node.js app.
-   The credentials that are created for the binding use a principal that has the `CLIENT`, `TOPIC_CONTROL`, and `CLIENT_CONTROL` roles. In the Reappt Dashboard, you can modify the roles that the principal has, but do not delete the principal or change its password.
+1. Use the Bluemix user interface to bind your Diffusion Cloud service to your Node.js app.
+   The credentials that are created for the binding use a principal that has the `CLIENT`, `TOPIC_CONTROL`, and `CLIENT_CONTROL` roles. In the Diffusion Cloud Dashboard, you can modify the roles that the principal has, but do not delete the principal or change its password.
 
 2. Select Start Coding from the left sidebar.
 
@@ -136,11 +136,11 @@ app.listen(appEnv.port, '0.0.0.0', function() {
 ## Start publishing
 {: #start_publishing}
 
-* [Start publishing in JavaScript](http://developer.reappt.io/docs/manual/html/developerguide/apis/javascript/getting_started_publisher.html){:new_window}
-* [Start publishing in Android](http://developer.reappt.io/docs/manual/html/developerguide/apis/android/getting_started_publisher.html){:new_window}
-* [Start publishing in Apple](http://developer.reappt.io/docs/manual/html/developerguide/apis/apple/getting_started_publisher.html){:new_window}
-* [Start publishing in Java](http://developer.reappt.io/docs/manual/html/developerguide/apis/java/getting_started_publisher.html){:new_window}
-* [Start publishing in .NET](http://developer.reappt.io/docs/manual/html/developerguide/apis/dotnet/getting_started_publisher.html){:new_window}
-* [Start publishing in C](http://developer.reappt.io/docs/manual/html/developerguide/apis/c/getting_started_publisher.html){:new_window}
+* [Start publishing in JavaScript](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/javascript/getting_started_publisher.html){:new_window}
+* [Start publishing in Android](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/android/getting_started_publisher.html){:new_window}
+* [Start publishing in Apple](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/apple/getting_started_publisher.html){:new_window}
+* [Start publishing in Java](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/java/getting_started_publisher.html){:new_window}
+* [Start publishing in .NET](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/dotnet/getting_started_publisher.html){:new_window}
+* [Start publishing in C](http://docs.pushtechnology.com/cloud/latest/manual/html/developerguide/apis/c/getting_started_publisher.html){:new_window}
 
  
