@@ -31,7 +31,7 @@ To get up and running quickly with AT&T Flow Designer, once you have signed up f
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
