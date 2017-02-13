@@ -49,7 +49,7 @@ DreamFace applications are:
 
 
 Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 Getting Started Tutorials and Samples
 
