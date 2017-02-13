@@ -47,7 +47,7 @@ That's all there is to using Diffusion Cloud to stream your data.
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Videos
 {:Videos}
