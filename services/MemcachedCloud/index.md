@@ -211,7 +211,7 @@ When using the Memcached Cloud console, you can then find the dashboard using th
 Any Memcached Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
