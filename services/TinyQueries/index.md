@@ -58,7 +58,7 @@ To get up and running quickly with this service, follow these steps:
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
