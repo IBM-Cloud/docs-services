@@ -4,17 +4,17 @@
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Using Testdroid Cloud
+# Using Bitbar Testing Cloud
 {: #using} 
 
 *Last updated: 16 May 2016*
  
-The main menu at Testdroid Cloud provides its users a quick way to navigate through Testdroid Cloud and access the main features of it. 
+The main menu at Bitbar Testing Cloud provides its users a quick way to navigate through the cloud service and access the main features of it. 
 {:shortdesc}
 
 Currently, the following items are available on menu:
  
-![](http://testdroid.com/wp-content/uploads/2016/05/Selection_027.png)
+![](http://bitbar.com/wp-content/uploads/old_testdroid/2016/05/Selection_027.png)
  
 **Dashboard** links back the landing page where summary of projects, test runs as well as update of recent changes in Testdroid Cloud will be shown.
  
@@ -26,8 +26,8 @@ projects and test runs.
 **Device Groups** links to devices view where users can create their own
 device groups.
  
-**Manual Testing** opens Testdroid Cloud's Manual Testing feature wherein user
-can manually access any Testdroid Cloud device.
+**Manual Testing** opens Bitbar Testdroid Cloud's Manual Testing feature wherein user
+can manually access any Bitbar Testdroid Cloud device.
  
 ## Test success summary
  
@@ -57,7 +57,7 @@ Under **Projects** view users are able to create, remove and manage their projec
 
 ![](http://docs.testdroid.com/assets/user-manuals/projects_projects.png)
 
-On the right hand side, users can create project specific test runs, reports or share projects with other valid Testdroid Cloud user accounts.
+On the right hand side, users can create project specific test runs, reports or share projects with other valid Bitbar Testing Cloud user accounts.
  
 In test run section users can edit, insert tags or delete test runs. The view also shows the percentage of successful test runs, success of tests, the status of test run (how many devices have been finalized the test run), date and time information, as well as application specific information (e.g. the name of test and application file).
 
@@ -65,7 +65,7 @@ In test run section users can edit, insert tags or delete test runs. The view al
 
 User can access **Test Run view** either by starting a test run or clicking any of older test runs is dashboard or projects view. In this view test run execution information, execution time as well as success of test runs is shown in summary type of perspective.
 
-The Testdroid Cloud test run starts always with device cleaning (removing all content from devices, cleaning SD card and rebooting devices), followed by installation and launch of the app and tests.
+The Bitbar Cloud test run starts always with device cleaning (removing all content from devices, cleaning SD card and rebooting devices), followed by installation and launch of the app and tests.
 
 The first widget in Test Run View is summary.
 
@@ -178,7 +178,7 @@ reports, they can download the selected report by clicking the
 
 ## Device groups
 
-Testdroid Cloud enables its users to create a specific device groups that are used to point out on which devices tests are executed. The device group configuration can be found under the main menu - **Device Groups**.
+Bitbar Testing Cloud enables its users to create a specific device groups that are used to point out on which devices tests are executed. The device group configuration can be found under the main menu - **Device Groups**.
  
 Creation of a device group starts by giving a name for device group. After this, user needs to select either to be created device group is Android or iOS. Note that device groups can include devices from either platform, not both. By clicking **Create group** the device group will be created.
  
