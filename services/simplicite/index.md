@@ -138,7 +138,7 @@ app.listen(process.env.VCAP_APP_PORT || 3000, process.env.VCAP_APP_HOST || "loca
 You can get the complete example [in this JazzHub repository](https://hub.jazz.net/git/simplicite/simplicite-node){:new_window}
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
