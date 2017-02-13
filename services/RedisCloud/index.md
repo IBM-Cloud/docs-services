@@ -236,7 +236,7 @@ Any Redis Cloud support issues or product feedbacks are welcome via email at sup
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
