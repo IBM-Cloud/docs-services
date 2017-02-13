@@ -31,7 +31,8 @@ Applications built with Kinetise can connect to any JSON-based RESTful APIs. Blu
 The integration point between Kinetise and other Bluemix services happen by means of API URLs and request parameters that can be fully configured in the Kinetise editor. 
 	
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
+
 ## Tutorials and Samples
 {: #samples}
 * [Basic Moves (video)](https://www.youtube.com/watch?v=6Oz5L2DE7VA){:new_window}
