@@ -31,7 +31,8 @@ To get started quickly with Testdroid Cloud, complete these steps:
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
+
 * <a href="mailto:info@bitbar.com?Subject=Question from Bluemix" target="_top">Get in contact</a>
 
 ## Tutorials and Samples
