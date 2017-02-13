@@ -104,7 +104,7 @@ Use {:new_window} for external links to open a new window.-->
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
