@@ -61,7 +61,7 @@ To get started with Mapbox APIs on Bluemix:
 	{: pre}
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
