@@ -37,7 +37,7 @@ Once you have created a collection, your unique API key will be visible under th
 For further information, please read the API docs.
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 * [What is open data?](https://namara.io/#/opendata){:new_window}
 
