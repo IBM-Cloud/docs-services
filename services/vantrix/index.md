@@ -95,7 +95,7 @@ Note that the credentials are also available on the Account page of the VTA UI (
 
 To get started using the API to transcode your media files, please see the [API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf){:new_window} and the [VTA API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf){:new_window}. 
 
-# About Supported Formats and Codecs
+## About Supported Formats and Codecs
 The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS outputs with the following codecs: 
 - MPEG-TS inputs with MPEG-2 or H.264 video codec and AAC, MP3 or MP2 audio codec
 - MP4 inputs with H.264 video codec and AAC audio codec
