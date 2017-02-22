@@ -34,11 +34,11 @@ Complete these steps to get started with your Diffusion Cloud service:
    *  Add a user with the TOPIC_CONTROL role.
       This user can create topics and publish data to them. 
 
-3. Create a client app that subscribes to a topic.
-   [Subscribing to a topic](./reappt_subscriber.html)
+3. Create a client app that subscribes to a topic. See
+   [Subscribing to a topic](./DiffusionCloud_subscriber.html).
 
-4. Create a client app that publishes to a topic.
-   [Publishing to a topic](./reappt_publisher.html)
+4. Create a client app that publishes to a topic. See 
+   [Publishing to a topic](./DiffusionCloud_publisher.html).
 
 That's all there is to using Diffusion Cloud to stream your data.
 
