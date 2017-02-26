@@ -4,7 +4,7 @@ Getting started with MIIMETIQ Rules & Actions for Watson IoT
 
 NEXIONA presents MIIMETIQ Rules & Actions; easily set up automated responses to data from devices in your Watson IoT project. Quickly define Rules (e.g. 'WHEN' this temperature is reached) and required Actions to be taken (e.g. 'DO' switch off the heater). Set up simple rules for one device or more complex rules across multiple sources with actions ranging from dashboard indication, automated messages, control of other devices or sending data for analysis or use in business systems – a powerful way to selectively filter and control data ‘at the edge’. {:shortdesc}
 
-![MIIMETIQ Rules & Actions Screenshot](MIIMETIQ LITE.png)
+![MIIMETIQ Rules & Actions Screenshot](MIIMETIQ Rules & Actions.png)
 
 To get up and running quickly with MIIMETIQ Rules & Actions, once you have signed up for an account and have the appropriate sign in credentials, follow these steps:
 
