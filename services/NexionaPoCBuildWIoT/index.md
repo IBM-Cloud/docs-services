@@ -24,6 +24,6 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 ## Related Links
 {: #general}
 
-* [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
-* [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
+* [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg){:new_window}
+* [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg){:new_window}
 
