@@ -14,7 +14,7 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 # Related Links
 {: #rellinks notoc}
 
-## Tutorials and Samples
+## Tutorial Videos
 {: #samples}
 
 * [Getting Started](https://flow.att.com/start){:new_window}
@@ -24,6 +24,6 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 ## Related Links
 {: #general}
 
-* [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg}
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
-* [MIIMETIQ LITE Data Sheet](http://nexiona.com/lp-miimetiq-lite/}
+* [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
+
