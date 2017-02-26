@@ -28,11 +28,10 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-Passport delivers authentication, authorization and user management with modern REST APIs to your Bluemix application that results in faster development, increased speed to market and the ability to serve users more effectively.
-
-Sure, you could build your own user login and registration, but we’ve already built it for you. Focus on your core business, let Passport handle your users.
+Passport is a modern taken on identity access management. Passport delivers authentication, authorization, SSO and security to your Bluemix application with modern REST APIs. Focus on your core business, let Passport handle your users.
 {:shortdesc}
 
+The Passport APIs can be integrated into any platform. Our REST APIs are well documented and we have also provided native bindings in C#, Java, Node, PHP and Python. If we're missing an SDK for the library you'll be integrating Passport with let us know and we'll build it for you.
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
 <!-- Task section: REQUIRED
@@ -49,9 +48,7 @@ Before an application developer can embed single sign-on capability into an app,
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+To integrate the Passport service into your application, complete the following:
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -60,36 +57,63 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+1. Find Passport in the Bluemix Catalog
+  * Customize the sevice name field if necessary.
+2. Make a note of the Service name field, and change the name if you'd like. Make a note of this value. 
+2. If you don't already have a Passport license, register at [www.inversoft.com](https://www.inversoft.com "Inversoft") and complete the [Bluemix Integration](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration "Bluemix Integration Tutorial") tutorial. That tutorial will cover all steps provided here as well. 
+3. Complete the Passport Credentials section of the service. These values will be available to your application at runtime in order to connect and authenticate to the Paspport API.
+  * API Key
+  * Application Id
+  * Passport Backend URL
+  * Passport Frontend URL
+
+3. Complete the configuration by Connecting the Passport service to your application. On the left side of the page you'll see a 'Connect to:' selector, select the desired application, and then click on 'Create'. 
+
+4. In your application you may then access those values make API calls or utilize the Node.js Passport client.
 
 	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
+          const appenv = JSON.parse(process.env.VCAP_APPLICATION);
+          const services = appenv.services;
+
+          // Look up the service definition by name as specified in Step 2 above.
+         let passport = null;
+         const user_provided = services["user-provided"];
+         for (let i=0; i < user_provided.length; i++) {
+           if (user_provided[i].name === 'Passport-vz') {
+             passport = user_provided[i];
+           }
+         }
+ 
+         let apiKey = passport.credentials.api_key;
+         let applicationId = passport.credentials.application_id;
+         let backendURL = passport.credentials.passport_backend_url;
+         let frontendURL = passport.credentials.passport_frontend_url;
 	```
 	{: codeblock}
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+	```
+        // Use the Inversoft Passport Node Client if running in Node.
+        // If you need to compile for the browser this client will not currently work as it is written using ES6 features.
+        // Require the passport-node-client
+        // https://www.npmjs.com/package/passport-node-client 
+        // https://github.com/inversoft/passport-node-client
+        const PassportClient = require('passport-node-client');
+        
+        // Construct the client and start making API calls
+	let passportClient = new PassportCLient(apiKey, backendURL);
 
+        // Retrieve the JWT public key used to verify JWT signatures for our application
+        passportClient.retrieveJwtPublicKeys(applicationId)
+        .then((response) => {
+          // Store off this public key to use when verifying JWT signatures
+          const publicKey = response.successResponse.publicKey;
+        }).catch((response) => {
+          console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
+        });
+        	
 	```
-	my command -and -options
-	```
-	{: pre}
+        {: codeblock}
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
 
 
 
@@ -106,6 +130,12 @@ Use {:new_window} for external links to open a new window.-->
 
 ## Tutorials and Samples
 {: #samples}
+
+* [Getting Started with Passport on IBM Bluemix](https://www.ibm.com/blogs/bluemix/_pending_blog_publish_)
+* [Bluemix Integration Tutorial](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration)
+* [ToDo Application demonstrating Passport APIs Sample Application](https://github.com/inversoft/passport-bluemix-example)
+  * React front end making direct API calls to Passport and storing the JWT (access token)
+  * Node backend to a MySQL database using the JWT from the front end to verify identity.
 
 <!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
 
@@ -126,7 +156,7 @@ Use {:new_window} for external links to open a new window.-->
 
 <!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
 
-* [REST](https://www.inversoft.com/docs/passport/1.x/tech/apis/){:new_window}
+* [REST APIs](https://www.inversoft.com/docs/passport/1.x/tech/apis/){:new_window}
 
 ## Compatible Runtimes
 {: #buildpacks}
