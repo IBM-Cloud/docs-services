@@ -17,9 +17,11 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 ## Tutorial Videos
 {: #samples}
 
-* [Getting Started](https://flow.att.com/start){:new_window}
-* [Sample Code](https://flow.att.io/explore/projects/snippets_and_samples){:new_window}
-* [Public Projects](https://flow.att.io/explore/projects){:new_window}
+* [MIIMETIQ LITE Model Manager](https://www.youtube.com/watch?v=68XLRHt4mRM&index=2&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP){:new_window}
+* [MIIMETIQ LITE Device Management](https://www.youtube.com/watch?v=Vacn3QT2pZk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=3){:new_window}
+* [MIIMETIQ LITE Dashboards and Reports](https://www.youtube.com/watch?v=8M3WmZbGAyE&index=4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP){:new_window}
+* [MIIMETIQ LITE Rules and Actions](https://www.youtube.com/watch?v=GgrDyrVj5yM&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=5){:new_window}
+* [MIIMETIQ LITE Flexible DS - Flow Programming System](https://www.youtube.com/watch?v=Cux-QHV5XO4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=6){:new_window}
 
 ## Related Links
 {: #general}
