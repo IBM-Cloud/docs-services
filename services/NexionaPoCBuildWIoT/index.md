@@ -4,6 +4,8 @@ Getting started with MIIMETIQ LITE Proof of Concept Builder for Watson IoT
 
 Nexiona presents MIIMETIQ LITE; ideal for Proof of Concepts and small projects. Extract data from any type of device, display it quickly in customized Dashboards, create Rules, Actions and Reports. Bi-directional IoT data flows between MIIMETIQ LITE and Watson IoT Platform enabling deep analysis of data from the physical world of sensors and machines and to embed this into the customer’s business systems and processes. {:shortdesc}
 
+![ElephantSQL Bluemix overview](elephantsql_bluemix.png)
+
 To get up and running quickly with MIIMETIQ LITE, once you have signed up for an account and have the appropriate sign in credentials, follow these steps:
 
 1. Once you open up the MIIMETIQ LITE application you will notice a '?' at the top right. By selecting this you will be given the option to view the 'Quick Start Guide'. By stepping through this guide you will quickly become familiar with the various menus and options within MIIMETIQ LITE.
