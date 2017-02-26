@@ -8,10 +8,10 @@ Nexiona presents MIIMETIQ LITE; ideal for Proof of Concepts and small projects. 
 
 To get up and running quickly with MIIMETIQ LITE, once you have signed up for an account and have the appropriate sign in credentials, follow these steps:
 
-1. Once you open up the MIIMETIQ LITE application you will notice a '?' at the top right. By selecting this you will be given the option to view the 'Quick Start Guide'. By stepping through this guide you will quickly become familiar with the various menus and options within MIIMETIQ LITE.
+1. [Log into MIIMETIQ LITE](http://lite.trial.nexiona.io/#dashboard)and enter the correct user credentials.
+2. Once the MIIMETIQ LITE application is open you will notice a '?' at the top right. By selecting this two options are given: Quick Start guide and Video Tutorials. Select 'Quick Start Guide'; by stepping through this guide you will quickly become familiar with the various menus and options within MIIMETIQ LITE.
 2. After stepping through the Quick Start Guide select [Video Tutorials](https://www.youtube.com/watch?v=vmnOdSrzfLk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=1), here you will find short instructional vides on how to connect devices, view data in Dashboards, set up Rules & Actions and view reports.
 		 
-
 
 # Related Links
 {: #rellinks notoc}
