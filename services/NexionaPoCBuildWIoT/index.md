@@ -25,4 +25,6 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 {: #general}
 
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg}
+* [Video Tutorials](https://www.youtube.com/watch?v=vmnOdSrzfLk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=1)
+[Video Tutorials](https://www.youtube.com/watch?v=vmnOdSrzfLk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=1)
 * [MIIMETIQ LITE Data Sheet](http://nexiona.com/lp-miimetiq-lite/}
