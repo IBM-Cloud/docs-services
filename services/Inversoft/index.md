@@ -63,7 +63,6 @@ To integrate the Passport service into your application, complete the following:
 2. If you don't already have a Passport license, register at [www.inversoft.com](https://www.inversoft.com "Inversoft") and complete the [Bluemix Integration](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration "Bluemix Integration Tutorial") tutorial. That tutorial will cover all steps provided here as well. 
 3. Complete the Passport Credentials section of the service. These values will be available to your application at runtime in order to connect and authenticate to the Paspport API.
   * API Key
-  * Application Id
   * Passport Backend URL
   * Passport Frontend URL
 
@@ -88,6 +87,9 @@ To integrate the Passport service into your application, complete the following:
          let applicationId = passport.credentials.application_id;
          let backendURL = passport.credentials.passport_backend_url;
          let frontendURL = passport.credentials.passport_frontend_url;
+
+         // User defined Environment Variable for the Application Id, this will be specific for each Bluemix Application
+         let applicationid = process.env.passport_application_id;
 	```
 	{: codeblock}
 
