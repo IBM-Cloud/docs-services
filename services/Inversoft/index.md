@@ -54,7 +54,6 @@ for (let i=0; i < user_provided.length; i++) {
 }
  
 let apiKey = passport.credentials.api_key;
-let applicationId = passport.credentials.application_id;
 let backendURL = passport.credentials.passport_backend_url;
 let frontendURL = passport.credentials.passport_frontend_url;
 
