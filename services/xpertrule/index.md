@@ -67,7 +67,7 @@ Another big advantage of building knowledge in Decision Author is that you can t
 [This video is just under 2 mins](https://www.youtube.com/watch?v=mb8gxwwgJjo&amp;feature=youtu.be)
 
 ## Key Benefits
-- Decision Automation is a key enabler of Industrial IoT use cases, such as condition monitoring, anomaly detection and process optimization. Now that you have completed the demo, it is important that you understand the benefits of using XpertRule’s Decision Author:
+Decision Automation is a key enabler of Industrial IoT use cases, such as condition monitoring, anomaly detection and process optimization. Now that you have completed the demo, it is important that you understand the benefits of using XpertRule’s Decision Author:
 - Rapid development – The graphical programming UI and intuitive Decision Authoring are up to 30x faster than standard scripting / development.
 - Accessible to non-coders – Domain Experts, Business Analysts, Process Owners with no coding experience can build and maintain complex decision logic.
 - Rich Representation of Knowledge – Decision Flows, Decision Trees, Decision Tables, Tree Induction, Formula Editor and Scripting.
