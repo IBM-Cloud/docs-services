@@ -86,7 +86,6 @@ passportClient.retrieveJwtPublicKeys(applicationId)
 ## Tutorials and Samples
 {: #samples}
 
-* [Getting Started with Passport on IBM Bluemix](https://www.ibm.com/blogs/bluemix/_pending_blog_publish_){:new_window}
 * [Bluemix Integration Tutorial](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration){:new_window}
 * [ToDo Application demonstrating Passport APIs Sample Application](https://github.com/inversoft/passport-bluemix-example){:new_window}
   * React front end making direct API calls to Passport and storing the JWT (access token)
