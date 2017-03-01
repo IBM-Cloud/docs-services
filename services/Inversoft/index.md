@@ -110,4 +110,4 @@ passportClient.retrieveJwtPublicKeys(applicationId)
 {: #general}
 
 * [Plans and Pricing](https://www.inversoft.com/try-passport){:new_window}
-* [1.x Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/){:new_window}
+* [Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/){:new_window}
