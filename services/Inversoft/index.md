@@ -48,9 +48,9 @@ const user_provided = services["user-provided"];
 // User defined Environment Variable : passport_service_name
 const serviceName = process.env.passport_service_name;
 for (let i=0; i < user_provided.length; i++) {
-        if (user_provided[i].name === serviceName) {
-            passport = user_provided[i];
-        }
+  if (user_provided[i].name === serviceName) {
+    passport = user_provided[i];
+  }
 }
  
 let apiKey = passport.credentials.api_key;
@@ -72,10 +72,10 @@ let passportClient = new PassportClient(apiKey, backendURL);
 // Retrieve the JWT public key used to verify JWT signatures for our application
 passportClient.retrieveJwtPublicKeys(applicationId)
 .then((response) => {
-        // Store off this public key to use when verifying JWT signatures
-        const publicKey = response.successResponse.publicKey;
+  // Store off this public key to use when verifying JWT signatures
+  const publicKey = response.successResponse.publicKey;
 }).catch((response) => {
-        console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
+  console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
 });      	
 ```
 {: codeblock}
