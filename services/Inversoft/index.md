@@ -95,7 +95,7 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 ## SDK
 {: #sdk}
 
-[Passport Client Libraries](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/){:new_window}
+* [Passport Client Libraries](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/){:new_window}
 * [Java](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/java){:new_window}
 * [C#](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/csharp){:new_window}
 * [Node.js](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/node){:new_window}
