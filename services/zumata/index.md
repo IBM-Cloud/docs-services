@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-02-13"
+lastupdated: "2017-03-03"
 
 ---
 
@@ -28,7 +28,7 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-ZUMATA’s Artificial Intelligence for personalized hotel search experience.
+ZUMATA’s Artificial Intelligence provides a personalized hotel search experience.
 
 ZUMATA enables Artificial Intelligence for personalized hotel search experience. Our R&D in Natural Language understanding, tone analysis and image recognition read and understand complex search requirements and match users with the perfect hotel. Behind the scenes we’re compiling billions of data points from reviews, blogs, articles, social media, and even imagery to truly understand which properties offer the amenities, sentiments, or location you need.
 {:shortdesc}
