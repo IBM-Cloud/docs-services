@@ -39,46 +39,46 @@ This guide will have you up and running in 20 minutes or less. Before you can st
   * `passport_application_id = 4ed5eb32-0a97-40eb-a6d7-cca1f9fa3a0c`
   * `passport_service_name = Passport-vz`
 
-7. In your application you may then access those values make API calls or utilize the Node.js Passport client.
+7. In your application you may then access those values, make API calls, or utilize the Node.js Passport client.
 
-```
-const services = JSON.parse(process.env.VCAP_SERVICES);
-let passport = null;
-const user_provided = services["user-provided"];
-// User defined Environment Variable : passport_service_name
-const serviceName = process.env.passport_service_name;
-for (let i=0; i < user_provided.length; i++) {
-  if (user_provided[i].name === serviceName) {
-    passport = user_provided[i];
-  }
-}
- 
-let apiKey = passport.credentials.api_key;
-let backendURL = passport.credentials.passport_backend_url;
-let frontendURL = passport.credentials.passport_frontend_url;
-
-// User defined Environment Variable : passport_application_id
-let applicationid = process.env.passport_application_id;
-```
-{: codeblock}
+	```
+	const services = JSON.parse(process.env.VCAP_SERVICES);
+	let passport = null;
+	const user_provided = services["user-provided"];
+	// User defined Environment Variable : passport_service_name
+	const serviceName = process.env.passport_service_name;
+	for (let i=0; i < user_provided.length; i++) {
+	  if (user_provided[i].name === serviceName) {
+	    passport = user_provided[i];
+	  }
+	}
+	 
+	let apiKey = passport.credentials.api_key;
+	let backendURL = passport.credentials.passport_backend_url;
+	let frontendURL = passport.credentials.passport_frontend_url;
+	
+	// User defined Environment Variable : passport_application_id
+	let applicationid = process.env.passport_application_id;
+	```
+	{: codeblock}
 
 	
-```
-const PassportClient = require('passport-node-client');
-        
-// Construct the client and start making API calls
-let passportClient = new PassportClient(apiKey, backendURL);
-
-// Retrieve the JWT public key used to verify JWT signatures for our application
-passportClient.retrieveJwtPublicKeys(applicationId)
-.then((response) => {
-  // Store off this public key to use when verifying JWT signatures
-  const publicKey = response.successResponse.publicKey;
-}).catch((response) => {
-  console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
-});      	
-```
-{: codeblock}
+	```
+	const PassportClient = require('passport-node-client');
+	        
+	// Construct the client and start making API calls
+	let passportClient = new PassportClient(apiKey, backendURL);
+	
+	// Retrieve the JWT public key used to verify JWT signatures for our application
+	passportClient.retrieveJwtPublicKeys(applicationId)
+	.then((response) => {
+	  // Store off this public key to use when verifying JWT signatures
+	  const publicKey = response.successResponse.publicKey;
+	}).catch((response) => {
+	  console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
+	});      	
+	```
+	{: codeblock}
 
 
 # Related Links
