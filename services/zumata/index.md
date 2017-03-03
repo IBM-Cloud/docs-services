@@ -45,11 +45,14 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-In order to access the API, you will need an API key.
+To access the API, you will need an API key.  
 
-You can request an API Key by emailing apikeyrequest@zumata.com. Please state your name, company name, use case and contact information and we will get back to you.
+Use the following steps to obtain and use the API key:
 
-The API key should be included in the X-Api-Key header of each request. Note that the API key is case sensitive.
+1. Request an API Key by emailing apikeyrequest@zumata.com. 
+2. In your request, state your name, company name, use case and contact information and we will get back to you.
+3. Include the API key you receive in the X-Api-Key header of each request. 
+**Note**:  The API key is case sensitive.
 
 <!-- Related links section: REQUIRED.
 Related links display in the upper right of the getting started page. 
@@ -62,18 +65,7 @@ Use {:new_window} for external links to open a new window.-->
 # Related Links
 {: #rellinks notoc}
 
-## Tutorials and Samples
-{: #samples}
-
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
-
-<!--
-* [Getting Started](https://flow.att.com/start){:new_window}
-* [Sample Code](https://flow.att.io/explore/projects/snippets_and_samples){:new_window}
-* [Public Projects](https://flow.att.io/explore/projects){:new_window}
--->
-
-* [API docs](https://swagger-ui.zumata.com/?url=https://storage.googleapis.com/swagger-docs/nlp/v1.0.0.json#/search){:new_window}
-
 ## API Reference
 {: #api}
+
+* [API docs](https://swagger-ui.zumata.com/?url=https://storage.googleapis.com/swagger-docs/nlp/v1.0.0.json#/search){:new_window}
