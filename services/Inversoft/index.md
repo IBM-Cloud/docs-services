@@ -17,7 +17,7 @@ lastupdated: "2017-03-01"
 # Getting started with Passport
 {: #gettingstarted}
 
-Passport is a modern taken on identity access management. Passport delivers authentication, authorization, SSO and security to your Bluemix application with modern REST APIs. Focus on your core business, let Passport handle your users.
+Passport is a modern take on identity access management. Passport delivers authentication, authorization, SSO and security to your Bluemix application with modern REST APIs. Focus on your core business, let Passport handle your users.
 
 The Passport APIs can be integrated into any platform. Our REST APIs are well documented and we have also provided native bindings in C#, Java, Node, PHP and Python. If we're missing an SDK for the library you'll be integrating Passport with let us know and we'll build it for you.
 {:shortdesc}
