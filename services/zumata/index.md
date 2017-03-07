@@ -52,15 +52,7 @@ Use the following steps to obtain and use the API key:
 1. Request an API Key by emailing apikeyrequest@zumata.com. 
 2. In your request, state your name, company name, use case and contact information and we will get back to you.
 3. Include the API key you receive in the X-Api-Key header of each request.
-    **Note**:  The API key is case sensitive.
-
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+  **Note**:  The API key is case sensitive.
 
 # Related Links
 {: #rellinks notoc}
