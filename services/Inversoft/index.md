@@ -41,7 +41,7 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 
 7. In your application, you can then access those values, make API calls, or utilize the Node.js Passport client.
 
-	```
+  ```
 	const services = JSON.parse(process.env.VCAP_SERVICES);
 	let passport = null;
 	const user_provided = services["user-provided"];
@@ -59,10 +59,10 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	
 	// User defined Environment Variable : passport_application_id
 	let applicationid = process.env.passport_application_id;
-	```
-	{: codeblock}
+  ```
+  {: codeblock}
 	
-	```
+  ```
 	const PassportClient = require('passport-node-client');
 	        
 	// Construct the client and start making API calls
@@ -76,8 +76,8 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	}).catch((response) => {
 	  console.error('Failed to retrieve the JWT Public Key. Verify your Passport Configuration');
 	});      	
-	```
-	{: codeblock}
+  ```
+  {: codeblock}
 
 
 # Related Links
