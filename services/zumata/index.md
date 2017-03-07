@@ -51,8 +51,8 @@ Use the following steps to obtain and use the API key:
 
 1. Request an API Key by emailing apikeyrequest@zumata.com. 
 2. In your request, state your name, company name, use case and contact information and we will get back to you.
-3. Include the API key you receive in the X-Api-Key header of each request. 
-**Note**:  The API key is case sensitive.
+3. Include the API key you receive in the X-Api-Key header of each request.
+    **Note**:  The API key is case sensitive.
 
 <!-- Related links section: REQUIRED.
 Related links display in the upper right of the getting started page. 
