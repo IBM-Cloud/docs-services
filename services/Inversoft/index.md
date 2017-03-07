@@ -39,7 +39,7 @@ This guide will have you up and running in 20 minutes or less. Before you can st
   * `passport_application_id = 4ed5eb32-0a97-40eb-a6d7-cca1f9fa3a0c`
   * `passport_service_name = Passport-vz`
 
-7. In your application you may then access those values, make API calls, or utilize the Node.js Passport client.
+7. In your application, you can then access those values, make API calls, or utilize the Node.js Passport client.
 
 	```
 	const services = JSON.parse(process.env.VCAP_SERVICES);
@@ -61,7 +61,6 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	let applicationid = process.env.passport_application_id;
 	```
 	{: codeblock}
-
 	
 	```
 	const PassportClient = require('passport-node-client');
