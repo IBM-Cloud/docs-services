@@ -50,10 +50,10 @@ Once you've signed up to using Plaid, there are a few easy steps to go live.
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1. Review our comprehensive [Documentation](https://plaid.com/docs/api/){:new_window} and [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window} -- designed to make it as easy as possible to get up-and-running with Plaid.
-2. Step 2. Integrate with Plaid Link, a drop-in module that provides a secure, elegant authentication flow for each financial institution that Plaid supports.
-3. Step 3. For the best experience, copy your Plaid API keys from the Plaid Dashboard into the Bluemix Developer portal (note: never share your Plaid API keys outside of the Bluemix Developer portal!).
-4. Step 4. Start using Plaid!
+1. Review our comprehensive [Documentation](https://plaid.com/docs/api/){:new_window} and [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window} -- designed to make it as easy as possible to get up-and-running with Plaid.
+2. Integrate with Plaid Link, a drop-in module that provides a secure, elegant authentication flow for each financial institution that Plaid supports.
+3. For the best experience, copy your Plaid API keys from the Plaid Dashboard into the Bluemix Developer portal (note: never share your Plaid API keys outside of the Bluemix Developer portal!).
+4. Start using Plaid!
 
 Note that Plaid is free for the first 100 users. Once you reach 100 users, you'll need to request Production access in the Plaid dashboard.
 
