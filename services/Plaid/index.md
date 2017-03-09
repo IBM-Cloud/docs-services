@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-02"
+lastupdated: "2017-03-09"
 
 ---
 
@@ -22,7 +22,7 @@ Please delete out content examples and coding that you are not using for your se
 # Getting started with Plaid
 {: #gettingstarted_plaid}
 
-Plaid is a....
+Plaid is a financial infrastructure provider that makes it easy to access high-quality transaction data, validate account ownership, and mitigate risks in a user-friendly way.
 {:shortdesc}
 
 <!-- Task section: REQUIRED
@@ -35,11 +35,13 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Are there any preres?  If so, list here, if not remove this line.
+To learn more about using Plaid, visit our [website](https://plaid.com/){:new_window}.
+
+To start using Plaid, you must first sign up for an account. Click [here](https://dashboard.plaid.com/signup){:new_window} to get started!
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-Use the following steps to get started with Plaid:
+Once you've signed up to using Plaid, there are a few easy steps to go live.
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -48,85 +50,28 @@ Use the following steps to get started with Plaid:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+1. Step 1. Review our comprehensive [Documentation](https://plaid.com/docs/api/){:new_window} and [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window} -- designed to make it as easy as possible to get up-and-running with Plaid.
+2. Step 2. Integrate with Plaid Link, a drop-in module that provides a secure, elegant authentication flow for each financial institution that Plaid supports.
+3. Step 3. For the best experience, copy your Plaid API keys from the Plaid Dashboard into the Bluemix Developer portal (note: never share your Plaid API keys outside of the Bluemix Developer portal!).
+4. Step 4. Start using Plaid!
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+Note that Plaid is free for the first 100 users. Once you reach 100 users, you'll need to request Production access in the Plaid dashboard.
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
-
-# Related Links
-{: #rellinks notoc}
-
-## Tutorials and Samples
-{: #samples}
+## Getting Started
+{: #gettingstarted}
 
 <!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
 
-* [Text to display](URL){:new_window}
-
-## SDK
-{: #sdk}
-
-<!-- Links to SDK download and SDK Developer Guide -->
-
-* [link text](URL){:new_window}
-
-## API Reference
-{: #api}
-
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-
-* [link text](URL){:new_window}
-
-## Compatible Runtimes
-{: #buildpacks}
-
-<!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
-
-* [link text](URL)
+* [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window}
+* [Documentation](https://plaid.com/docs/api/){:new_window}
+* [Resources](https://plaid.com/docs/resources/#official-libraries){:new_window}
+* [FAQ](https://plaid.com/docs/faq/){:new_window}
 
 ## Related Links
 {: #general}
 
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
-
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
+* [Solutions](https://plaid.com/solutions/){:new_window}
+* [Pricing](https://plaid.com/pricing/){:new_window}
+* [Company](https://plaid.com/company/){:new_window}
+* [Security](https://plaid.com/security/){:new_window}
 
