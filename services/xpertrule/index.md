@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2016-02-28"
+lastupdated: "2016-03-07"
 
 ---
 
@@ -42,7 +42,7 @@ We start in Decision Author by creating 4 trees which provide a semantic represe
 
 In each of the 4 steps, there is an accompanying video. While there is no audio in the videos, each shows you the steps you need to take.
 
-[his video is a little over 11 minutes.](https://www.youtube.com/watch?v=iXw0lcRnJSA&amp;feature=youtu.be)
+[This video is a little over 11 minutes.](https://www.youtube.com/watch?v=iXw0lcRnJSA&amp;feature=youtu.be)
 
 ## Step 2
 Next we create a truth table which lists all the possible outcomes from our 4 trees. The next stage is to apply industry/domain knowledge using an expert (we didn’t have a plant growing expert in our office on the day we produced this demo so we’ve improvised) to select the various decision examples/outcomes (48 rows in total) that will be fed back into the node-RED flow.
