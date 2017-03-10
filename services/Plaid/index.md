@@ -33,6 +33,9 @@ Once you've signed up to use Plaid, there are a few easy steps to go live.
 
 Note that Plaid is free for the first 100 users. Once you reach 100 users, you'll need to request Production access in the Plaid dashboard.
 
+# Related Links
+{: #rellinks notoc}
+
 ## Getting Started
 {: #gettingstarted}
 
