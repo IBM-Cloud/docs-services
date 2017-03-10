@@ -1,7 +1,7 @@
 ---
 copyright:
   years:  2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-03-10"
 ---
 
 {:new_window: target="_blank"}
@@ -17,12 +17,23 @@ Accern alerts you on actionable stories about U.S. public companies. By monitori
 
 By using this systematic approach, Accern is able to provide users with quick delivery of actionable stories before they are exposed to the mass media. This helps our users make quicker and more informed decisions in their investment strategies.
 
-Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies. 
+Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies.
 {:shortdesc}
+
+## API access token
+
+You need an API access token to receive data from Accern APIs. To request an API access token, please follow the steps below:
+
+- Create an account on [Accern](https://app.accern.com/login) {:new_window}
+- Login to your Accern account.
+- From the dropdown menu in the top-right corner of the app, click on the `API Tokens` option.
+- Choose the number of API tokens and submit your request.
+
+Once you have submitted the API token request, our team will follow-up and send you the authentication tokens via email.
 
 ## Authentication
 
-To authenticate provide your authentication token in the url. We provide the authentication token in your welcome email.
+To authenticate, provide your authentication token in the url by inserting it in the `TOKEN` part.
 
 Shell
 ```shell
@@ -368,21 +379,30 @@ url <- "http://feed.accern.com/v3/alphas?ticker=aapl,amzn&token=TOKEN"
 
 ## File Format
 
+Shell
 ```shell
 curl "http://feed.accern.com/v3/alphas.csv?token=TOKEN"
 ```
+{: codeblock}
 
+Ruby
 ```ruby
 url = URI("http://feed.accern.com/v3/alphas.csv?token=TOKEN")
 ```
+{: codeblock}
 
+Python
 ```python
 url = "http://feed.accern.com/v3/alphas.csv?token=TOKEN"
 ```
+{: codeblock}
 
+R
 ```R
 url <- "http://feed.accern.com/v3/alphas.csv?token=TOKEN"
 ```
+{: codeblock}
+
 
 By default the response from the API feed is in JSON format. But if you append .csv you will get the data in CSV format.
 
