@@ -1,5 +1,20 @@
-Getting started with MIIMETIQ Dashboards and Reports for Watson IoT
+---
 
+copyright:
+
+  years: 2017
+
+lastupdated: "2017-03-10"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
+# Getting started with MIIMETIQ Dashboards and Reports for Watson IoT
 {: #gettingstarted}
 
 NEXIONA presents MIIMETIQ Dashboards and Reports; a simple way to create custom Reports and Dashboards for your Watson IoT Proof of Concept. As new 'widgets' are added, data from devices is immediately displayed either as a current value, values over time (in graphical or tabular view) or located on a map. Multiple layouts can be created per project. An ideal way to prove concepts before scaling up to the full project using the Watson IoT Platform. {:shortdesc}
