@@ -17,7 +17,8 @@ Accern alerts you on actionable stories about U.S. public companies. By monitori
 
 By using this systematic approach, Accern is able to provide users with quick delivery of actionable stories before they are exposed to the mass media. This helps our users make quicker and more informed decisions in their investment strategies.
 
-Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies. {:shortdesc}
+Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies. 
+{:shortdesc}
 
 ## Authentication
 
