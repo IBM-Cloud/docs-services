@@ -1,5 +1,20 @@
-Getting started with MIIMETIQ Device Connect and Manage for Watson IoT
+---
 
+copyright:
+
+  years: 2017
+
+lastupdated: "2017-03-10"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
+# Getting started with MIIMETIQ Device Connect and Manage for Watson IoT
 {: #gettingstarted}
 
 NEXIONA presents MIIMETIQ Device Connect & Manage; a simple way to manage, add, delete, replicate and extract data from devices for your Watson IoT project. Quickly capture data from any type of IoT device, using any type of communication protocol - ideal for Proof of Concept where several types of device need to be tested and where a seamless method for feeding data from devices into the Watson IoT Platform is required. {:shortdesc}
@@ -19,7 +34,6 @@ To get up and running quickly with MIIMETIQ Device Management, once you have sig
 
 ## Tutorial Videos
 {: #samples}
-
 
 * [MIIMETIQ LITE Device Management](https://www.youtube.com/watch?v=Vacn3QT2pZk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=3){:new_window}
 * [MIIMETIQ LITE Flexible DS - Flow Programming System](https://www.youtube.com/watch?v=Cux-QHV5XO4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=6){:new_window}
