@@ -1,5 +1,20 @@
-Getting started with MIIMETIQ LITE Proof of Concept Builder for Watson IoT
+---
 
+copyright:
+
+  years: 2017
+
+lastupdated: "2017-03-10"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
+# Getting started with MIIMETIQ LITE Proof of Concept Builder for Watson IoT
 {: #gettingstarted}
 
 Nexiona presents MIIMETIQ LITE; ideal for Proof of Concepts and small projects. Extract data from any type of device, display it quickly in customized Dashboards, create Rules, Actions and Reports. Bi-directional IoT data flows between MIIMETIQ LITE and Watson IoT Platform enabling deep analysis of data from the physical world of sensors and machines and to embed this into the customer’s business systems and processes. {:shortdesc}
