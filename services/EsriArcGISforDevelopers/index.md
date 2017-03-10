@@ -21,85 +21,65 @@ Please delete out content examples and coding that you are not using for your se
 
 # Getting started with Esri ArcGIS for Developers
 {: #gsEsriArcGISforDev}
-<!-- Provide an appropriate ID above -->
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+ArcGIS for Developers enables you to create and manage apps that include mapping, visualization, analysis, and more. Build web and mobile applications on Bluemix. Start with a basemap, then add your data, and interact using the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/).
 
-Examples: -->
+To get started with the ArcGIS API for JavaScript on Bluemix:
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
-{:shortdesc}
+1. Sign up for a free [ArcGIS Developer subscription](https://developers.arcgis.com/sign-up/){:new_window}.
+2. Reference the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) and load the neccessary modules.{:new_window}.
+3. Create the map and select one of our many basemaps.
+    ![](http://www.arcgis.com/features/img/maps/maps-banner.jpg)
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+4. Define the view. In the example below it is using a 2D MapView, but the API also supports a 3D ScenView.{:new_window}.
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+ ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Getting Started App</title>
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.2/esri/css/main.css">
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+    <style>
+      html, body, #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+    </style>
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+    <script src="https://js.arcgis.com/4.2/"></script>
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+    <script>
+      require([
+        "esri/Map",
+        "esri/views/MapView",
+        "dojo/domReady!"
+      ], function(Map, MapView) {
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+        var map = new Map({
+          basemap: "dark-gray-vector"
+        });
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          center: [-122.68, 45.52],
+          zoom: 10
+        });
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+      });
+    </script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+  </html>
+  ```
+5. Now that you have a map, go beyond basemaps and imagery and explore maps and data about people and businesses, transportation, and much more with your [ArcGIS developers subscription](https://developers.arcgis.com/content-and-services/).
 
 # Related Links
 {: #rellinks notoc}
@@ -107,37 +87,27 @@ Use {:new_window} for external links to open a new window.-->
 ## Tutorials and Samples
 {: #samples}
 
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
+* [ArcGIS API for JavaScript Samples](https://developers.arcgis.com/javascript/latest/sample-code/index.html){:new_window}
 
-* [link text](URL){:new_window}
 
-## SDK
+## ArcGIS API for JavaScript
 {: #sdk}
 
-<!-- Links to SDK download and SDK Developer Guide -->
+* [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/){:new_window}
 
-* [link text](URL){:new_window}
 
 ## API Reference
 {: #api}
 
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-
-* [link text](URL){:new_window}
+* [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/api-reference/index.html){:new_window}
 
 ## Compatible Runtimes
 {: #buildpacks}
 
-<!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
-
-* [link text](URL)
+* [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime/){:new_window}
 
 ## Related Links
 {: #general}
 
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
+* [ArcGIS for Developers Subscription](https://developers.arcgis.com/plans/){:new_window}
 
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
