@@ -139,7 +139,7 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
 
 
 # Related Links
-{: #rellinks}
+{: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
