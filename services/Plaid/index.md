@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-09"
+lastupdated: "2017-03-10"
 
 ---
 
@@ -28,21 +28,21 @@ Once you've signed up to use Plaid, there are a few easy steps to go live.
 
 1. Review our comprehensive [Documentation](https://plaid.com/docs/api/){:new_window} and [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window} -- designed to make it as easy as possible to get up-and-running with Plaid.
 2. Integrate with Plaid Link, a drop-in module that provides a secure, elegant authentication flow for each financial institution that Plaid supports.
-3. For the best experience, copy your Plaid API keys from the Plaid Dashboard into the Bluemix Developer portal (note: never share your Plaid API keys outside of the Bluemix Developer portal!).
+3. For the best experience, copy your Plaid API keys from the Plaid Dashboard into the Bluemix developer portal (Note: Never share your Plaid API keys outside of the Bluemix developer portal!).
 4. Start using Plaid!
 
-Note that Plaid is free for the first 100 users. Once you reach 100 users, you'll need to request Production access in the Plaid dashboard.
-
-# Related Links
-{: #rellinks notoc}
+Plaid is free for the first 100 users. Once you reach 100 users, you'll need to request Production access in the Plaid Dashboard.
 
 ## Getting Started
 {: #gettingstarted}
 
 * [Quickstart guide](https://plaid.com/docs/quickstart/){:new_window}
 * [Documentation](https://plaid.com/docs/api/){:new_window}
-* [Resources](https://plaid.com/docs/resources/#official-libraries){:new_window}
-* [FAQ](https://plaid.com/docs/faq/){:new_window}
+* [Resources](https://plaid.com/docs/resources/){:new_window}
+* [FAQ](https://support.plaid.com/customer/en/portal/articles/2571700-product-faqs){:new_window}
+
+# Related Links
+{: #rellinks notoc}
 
 ## Related Links
 {: #general}
