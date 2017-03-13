@@ -32,7 +32,7 @@ IBM Single Sign On is a policy-based authentication service for Bluemix. With Si
 With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
 Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
 -->
-RiskSpanEdge is a ... 
+RS Edge is a data discovery and modeling tool which prrovides access to billions of rows of mortgage performance data.  Our proprietary search and retrieval technology and scalable back-end data center allows for fast querying and ad-hoc analysis on-demand. Analysis is combined with RiskSpan's proprietary projection models to enable forecasting of credit and prepayment performance.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
@@ -50,49 +50,17 @@ The task section includes steps to integrate the service into the app.
 Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
 -->
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
+RS Edge provides a REST api to the data and analytic engine. 
+To integrate your app with the service, complete these steps: 
+1) Obtain auth ID from RiskSpan
+2) Create a bucketing criteria appropriate to your analysis
+3) Select the required stress scenario.
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
-
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
-
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
-
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
+REST api parameters:
+- auth_key - your key for accessing the RS Edge API
+- deal_name - name of the portfolio being analyzed (Please use the sample portfolio: ABANK)
+- trade_date - analysis date (YYYYMMDD format, example 20
+- bucket_key - RS Edge XML query format
 
 
 <!-- Related links section: REQUIRED.
@@ -103,22 +71,6 @@ Also ensure that the related links stay in position at the end of this file or t
 Use {:new_window} for external links to open a new window.-->
 <!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
 
-# Related Links
-{: #rellinks notoc}
-
-## Tutorials and Samples
-{: #samples}
-
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
-
-* [link text](URL){:new_window}
-
-## SDK
-{: #sdk}
-
-<!-- Links to SDK download and SDK Developer Guide -->
-
-* [link text](URL){:new_window}
 
 ## API Reference
 {: #api}
