@@ -17,9 +17,9 @@ lastupdated: "2017-03-13"
 
 # Getting started with Esri ArcGIS for Developers
 {: #gsEsriArcGISforDev}
-[Esri's ArcGIS APIs and SDKs](https://developers.arcgis.com/documentation/) allows you to create apps that include mapping, visualization, analysis, and much more on Bluemix. ArcGIS for Developers has [ready to use REST services](https://developers.arcgis.com/features/) such as [Directions](https://developers.arcgis.com/features/directions/), [Geocoding](https://developers.arcgis.com/features/geocoding/), and [Geoenrichment](https://developers.arcgis.com/features/geo-enrichment/) that you can use in your Bluemix application.
+[Esri's ArcGIS APIs and SDKs](https://developers.arcgis.com/documentation/) allow you to create apps that include mapping, visualization, and analysis on Bluemix. ArcGIS for Developers has [ready to use REST services](https://developers.arcgis.com/features/) such as [Directions](https://developers.arcgis.com/features/directions/), [Geocoding](https://developers.arcgis.com/features/geocoding/), and [Geoenrichment](https://developers.arcgis.com/features/geo-enrichment/) that you can use in your Bluemix application.
 
-To get started with using Esri APIs on Bluemix:
+To get started using ArcGIS on Bluemix:
 
 1. Sign up for a free [ArcGIS Developer Account](https://developers.arcgis.com/sign-up/). 
 2. Sign in to [ArcGIS for Developers](https://developers.arcgis.com/sign-in/).
@@ -28,7 +28,7 @@ To get started with using Esri APIs on Bluemix:
 
 Now that you have registered your application and obtained a `client_id` and `client_secret`, you can implement your app login to obtain a token. ArcGIS offers many paths 
 to assist you with this process. There is an [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript) and [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime) you can choose to implement in your app. Or you can work directly with the [ArcGIS REST API](http://resources.arcgis.com/en/help/arcgis-rest-api/#/The_ArcGIS_REST_API/02r300000054000000/).
-For this sample we are going to use the token that was generated when you registered your application and HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsbile for creating that token and also maintaining the security of those credentials. We are also going to use the Geoenrichment service to find a location's demographic characteristics. 
+For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsbile for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. 
 
 ![Step 4](images/bluemixoverview.png)
 
@@ -38,7 +38,7 @@ For this sample we are going to use the token that was generated when you regist
 ```python
 import requests	
 ```
-8. Add the parameters for the requests and copy/paste your token string 
+8. Add the parameters for the request and copy/paste your token string. 
 ```python
 params = {
     'f': 'json',
@@ -46,7 +46,7 @@ params = {
     'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]&dataCollections=["KeyGlobalFacts"]'
 }
 ```
-9. Set the geoenrichment service to use and post the request
+9. Set the geoenrichment service to use and post the request.
 ```python
 url = 'http://geoenrich.arcgis.com/arcgis/rest/services/World/GeoenrichmentServer/Geoenrichment/enrich'
 data = requests.post(url, params=params)
@@ -75,7 +75,7 @@ print(data.json())
           }
         } ]
 ```
-  
+11. Now that you're familar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
 
 # Related Links
 {: #rellinks notoc}
