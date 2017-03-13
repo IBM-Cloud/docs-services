@@ -26,19 +26,21 @@ To get started using ArcGIS on Bluemix:
 3. Go to the [applications list](https://developers.arcgis.com/applications/).
 4. Select ["Create New App](https://developers.arcgis.com/applications/#/new/) and register your application.
 
-Now that you have registered your application and obtained a `client_id` and `client_secret`, you can implement your app login to obtain a token. ArcGIS offers many paths 
-to assist you with this process. There is an [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript) and [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime) you can choose to implement in your app. Or you can work directly with the [ArcGIS REST API](http://resources.arcgis.com/en/help/arcgis-rest-api/#/The_ArcGIS_REST_API/02r300000054000000/).
-For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsbile for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. 
+	Now that you have registered your application and obtained a `client_id` and `client_secret`, you can implement your app login to obtain a token. ArcGIS offers many paths 
+	to assist you with this process. There is an [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript) and [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime) you can choose to implement in your app. Or you can work directly with the [ArcGIS REST API](http://resources.arcgis.com/en/help/arcgis-rest-api/#/The_ArcGIS_REST_API/02r300000054000000/).
+	For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsbile for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. 
 
 ![Step 4](images/bluemixoverview.png)
 
 5. Copy the token string in your registered application. If this has expired go ahead and renew it by clicking the `Generate Token` button.
 6. Open your favorite Python IDE and create a new project using Python 3. 
 7. Install the requests module if you don't have it.
-```python
-import requests	
-```
+
+	```python
+	import requests	
+	```
 8. Add the parameters for the request and copy/paste your token string. 
+
 ```python
 params = {
     'f': 'json',
@@ -47,6 +49,7 @@ params = {
 }
 ```
 9. Set the geoenrichment service to use and post the request.
+
 ```python
 url = 'http://geoenrich.arcgis.com/arcgis/rest/services/World/GeoenrichmentServer/Geoenrichment/enrich'
 data = requests.post(url, params=params)
@@ -55,6 +58,7 @@ print(data.json())
 
 ```
 10. This request will generate a 1-mile ring buffer around the point location with the following attributes: total population, total households, average household size, and  total male and female population.
+
 ```	json
  "features" : [ {
           "attributes" : {
