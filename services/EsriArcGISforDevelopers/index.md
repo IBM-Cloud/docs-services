@@ -41,44 +41,44 @@ To get started using ArcGIS on Bluemix:
 	```
 8. Add the parameters for the request and copy/paste your token string. 
 
-```python
-params = {
-    'f': 'json',
-    'token': 'korCbcmFWUqjDmGufeOWAl--pziwimdDYOkzOyDQZ5tnddAoOGI8DvnTATadhtH2-PCcA4zWMHGTJPVjV4JdesfTwdp2oHuNN_kDfMrGwJyLIyk0hpFRepFhLKpWb6H9g-AJxiTegt54abJ9ba7efw..',
-    'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]&dataCollections=["KeyGlobalFacts"]'
-}
-```
+	```python
+	params = {
+		'f': 'json',
+		'token': 'korCbcmFWUqjDmGufeOWAl--pziwimdDYOkzOyDQZ5tnddAoOGI8DvnTATadhtH2-PCcA4zWMHGTJPVjV4JdesfTwdp2oHuNN_kDfMrGwJyLIyk0hpFRepFhLKpWb6H9g-AJxiTegt54abJ9ba7efw..',
+		'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]&dataCollections=["KeyGlobalFacts"]'
+	}
+	```
 9. Set the geoenrichment service to use and post the request.
 
-```python
-url = 'http://geoenrich.arcgis.com/arcgis/rest/services/World/GeoenrichmentServer/Geoenrichment/enrich'
-data = requests.post(url, params=params)
+	```python
+	url = 'http://geoenrich.arcgis.com/arcgis/rest/services/World/GeoenrichmentServer/Geoenrichment/enrich'
+	data = requests.post(url, params=params)
 
-print(data.json())
+	print(data.json())
 
-```
+	```
 10. This request will generate a 1-mile ring buffer around the point location with the following attributes: total population, total households, average household size, and  total male and female population.
 
-```	json
- "features" : [ {
-          "attributes" : {
-            "ID" : "0",
-            "OBJECTID" : 1,
-            "sourceCountry" : "US",
-            "areaType" : "RingBuffer",
-            "bufferUnits" : "esriMiles",
-            "bufferUnitsAlias" : "Miles",
-            "bufferRadii" : 1,
-            "aggregationMethod" : "BlockApportionment:US.BlockGroups",
-            "HasData" : 1,
-            "TOTPOP" : 15041,
-            "TOTHH" : 7752,
-            "AVGHHSZ" : 1.61,
-            "TOTMALES" : 8471,
-            "TOTFEMALES" : 6570
-          }
-        } ]
-```
+	```	json
+	"features" : [ {
+			"attributes" : {
+				"ID" : "0",
+				"OBJECTID" : 1,
+				"sourceCountry" : "US",
+				"areaType" : "RingBuffer",
+				"bufferUnits" : "esriMiles",
+				"bufferUnitsAlias" : "Miles",
+				"bufferRadii" : 1,
+				"aggregationMethod" : "BlockApportionment:US.BlockGroups",
+				"HasData" : 1,
+				"TOTPOP" : 15041,
+				"TOTHH" : 7752,
+				"AVGHHSZ" : 1.61,
+				"TOTMALES" : 8471,
+				"TOTFEMALES" : 6570
+			}
+			} ]
+	```
 11. Now that you're familar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
 
 # Related Links
