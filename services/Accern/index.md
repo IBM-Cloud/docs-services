@@ -475,9 +475,9 @@ The API allows you to access data going back 30 days, anything older we provide 
 {: #rellinks notoc}
 
 ### Api Reference
-{: #api} [Overview of the Accern API](https://accern.github.io/docs/#accern-overview) {:new_window}
+{: #api} [Overview of the Accern API](http://docs.accern.com/#accern-overview) {:new_window}
 
-{: #api} [Detailed description of Accern analytics](https://accern.github.io/docs/#accern-analytics) {:new_window}
+{: #api} [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics) {:new_window}
 
 ### Resources
 {: #general} [Accern resources](https://www.accern.com/resources/) {:new_window}
