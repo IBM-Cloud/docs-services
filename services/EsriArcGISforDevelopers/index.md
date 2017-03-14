@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-02-10"
+lastupdated: "2017-03-13"
 
 ---
 
@@ -14,92 +14,72 @@ lastupdated: "2017-02-10"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
 
 # Getting started with Esri ArcGIS for Developers
 {: #gsEsriArcGISforDev}
-<!-- Provide an appropriate ID above -->
+[Esri's ArcGIS APIs and SDKs](https://developers.arcgis.com/documentation/) allow you to create apps that include mapping, visualization, and analysis on Bluemix. ArcGIS for Developers has [ready to use REST services](https://developers.arcgis.com/features/) such as [Directions](https://developers.arcgis.com/features/directions/), [Geocoding](https://developers.arcgis.com/features/geocoding/), and [Geoenrichment](https://developers.arcgis.com/features/geo-enrichment/) that you can use in your Bluemix application.
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+To get started using ArcGIS on Bluemix:
 
-Examples: -->
+1. Sign up for a free [ArcGIS Developer Account](https://developers.arcgis.com/sign-up/). 
+2. Sign in to [ArcGIS for Developers](https://developers.arcgis.com/sign-in/).
+3. Go to the [applications list](https://developers.arcgis.com/applications/).
+4. Select ["Create New App](https://developers.arcgis.com/applications/#/new/) and register your application.
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
-{:shortdesc}
+	Now that you have registered your application and obtained a `client_id` and `client_secret`, you can implement your app login to obtain a token. ArcGIS offers many paths 
+	to assist you with this process. There is an [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript) and [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime) you can choose to implement in your app. Or you can work directly with the [ArcGIS REST API](http://resources.arcgis.com/en/help/arcgis-rest-api/#/The_ArcGIS_REST_API/02r300000054000000/).
+	For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsible for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. 
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+	![Step 4](images/bluemixoverview.png)
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+5. Copy the token string in your registered application. If this has expired go ahead and renew it by clicking the `Generate Token` button.
+6. Open your favorite Python IDE and create a new project using Python 3. 
+7. Install the requests module if you don't have it.
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+	```python
+	import requests	
+	```
+8. Add the parameters for the request and copy/paste your token string. 
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+	```python
+	params = {
+		'f': 'json',
+		'token': 'korCbcmFWUqjDmGufeOWAl--pziwimdDYOkzOyDQZ5tnddAoOGI8DvnTATadhtH2-PCcA4zWMHGTJPVjV4JdesfTwdp2oHuNN_kDfMrGwJyLIyk0hpFRepFhLKpWb6H9g-AJxiTegt54abJ9ba7efw..',
+		'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]&dataCollections=["KeyGlobalFacts"]'
+	}
+	```
+9. Set the geoenrichment service to use and post the request.
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+	```python
+	url = 'http://geoenrich.arcgis.com/arcgis/rest/services/World/GeoenrichmentServer/Geoenrichment/enrich'
+	data = requests.post(url, params=params)
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
-
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
-
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+	print(data.json())
 
 	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
+10. This request will generate a 1-mile ring buffer around the point location with the following attributes: total population, total households, average household size, and  total male and female population.
+
+	```	json
+	"features" : [ {
+			"attributes" : {
+				"ID" : "0",
+				"OBJECTID" : 1,
+				"sourceCountry" : "US",
+				"areaType" : "RingBuffer",
+				"bufferUnits" : "esriMiles",
+				"bufferUnitsAlias" : "Miles",
+				"bufferRadii" : 1,
+				"aggregationMethod" : "BlockApportionment:US.BlockGroups",
+				"HasData" : 1,
+				"TOTPOP" : 15041,
+				"TOTHH" : 7752,
+				"AVGHHSZ" : 1.61,
+				"TOTMALES" : 8471,
+				"TOTFEMALES" : 6570
+			}
+			} ]
 	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+11. Now that you're familar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
 
 # Related Links
 {: #rellinks notoc}
@@ -107,37 +87,30 @@ Use {:new_window} for external links to open a new window.-->
 ## Tutorials and Samples
 {: #samples}
 
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
-
-* [link text](URL){:new_window}
+1. [Getting Started with Creating a 2D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-mapview/index.html){:new_window}
+2. [Getting Started with Creating a 3D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-sceneview/index.html){:new_window}
+3. [GeoEnrichment Service](https://developers.arcgis.com/rest/geoenrichment/api-reference/input-xy-locations.htm){:new_window}
 
 ## SDK
 {: #sdk}
 
-<!-- Links to SDK download and SDK Developer Guide -->
-
-* [link text](URL){:new_window}
+* [ArcGIS API for JavaScript Guide](https://developers.arcgis.com/javascript/latest/guide/index.html){:new_window}
 
 ## API Reference
 {: #api}
 
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
+* [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/api-reference/index.html){:new_window}
 
-* [link text](URL){:new_window}
 
 ## Compatible Runtimes
 {: #buildpacks}
 
-<!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
-
-* [link text](URL)
+* [ArcGIS Runtime SDK for iOS](https://developers.arcgis.com/ios/latest/){:new_window}
+* [ArcGIS Runtime SDK for Android](https://developers.arcgis.com/android/latest/){:new_window}
 
 ## Related Links
 {: #general}
 
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
-
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
+* [ArcGIS API for JavaScript Samples](https://developers.arcgis.com/javascript/latest/sample-code/index.html){:new_window}
+* [ArcGIS Runtime SDK for iOS Samples](https://developers.arcgis.com/ios/latest/swift/sample-code/sample-code.htm){:new_window}
+* [ArcGIS Runtime SDK for Android Samples](https://developers.arcgis.com/android/latest/sample-code/sample-code.htm){:new_window}
