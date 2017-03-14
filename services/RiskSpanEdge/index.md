@@ -90,14 +90,14 @@ Use {:new_window} for external links to open a new window.-->
 
 <!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
 
-* [link text](URL){:new_window}
+*  https://www.riskspan.com/rs-edge_api.pdf
 
 ## Compatible Runtimes
 {: #buildpacks}
 
 <!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
 
-* [link text](URL)
+
 
 ## Related Links
 {: #general}
@@ -105,7 +105,6 @@ Use {:new_window} for external links to open a new window.-->
 <!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
 <!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
 * RS Edge: https://www.riskspan.com/rs-edge
-* API: https://www.riskspan.com/rs-edge_api.pdf
 * Contact RiskSpan: https://www.riskspan.com/contact-us
 
 
