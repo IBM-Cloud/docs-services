@@ -26,6 +26,7 @@ RS Edge provides a REST API to the data and analytic engine. To integrate your a
 2. Create a bucketing criteria appropriate to your analysis
 3. Select the required stress scenario.
 
+
 **REST API parameters**
 
 * auth_key - your key for accessing the RS Edge API
@@ -34,6 +35,7 @@ RS Edge provides a REST API to the data and analytic engine. To integrate your a
 * bucket_key - RS Edge XML query format
 * scenario specification
 
+
 **Output**
 
 Output from the API is generated in JSON format. The output consists of:
@@ -41,13 +43,15 @@ Output from the API is generated in JSON format. The output consists of:
 * user defined loan performance aggregates
 * model performance including defaults and loss given defaults
 
+
 **Sample call**
 
 ```
 curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/EdgeRestService?deal_name=_ABANK&trade_date=20170306&auth_key=XXXXXXXX&bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%3CBucket%20Type=%22FactorDate%22%20Min=%2220150301%22%20Max=%2220150301%22%20Step=%221%22%20/%3E%3CBucket%20Type=%22property_type%22%20Value=%22Condo~MH~PUD~SF~Townhouse%22%20FilterFlag=%221%22%20/%3E%3CResultset%20Value=%22ScenarioSevereStress%22/%3E%3C/NewBucketingFile%3E"
 ```
 {: codeblock}
-  
+
+
 **Sample output** 
 
 ```
