@@ -81,3 +81,4 @@ curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/Edge
 
 * RS Edge: https://www.riskspan.com/rs-edge
 * Contact RiskSpan: https://www.riskspan.com/contact-us
+* Terms and conditions: https://riskspan.com/s/rs-edge-terms-and-conditions.pdf
