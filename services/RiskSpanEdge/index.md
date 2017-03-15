@@ -66,7 +66,7 @@ curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/Edge
 ## API Reference
 {: #api}
 
-*  https://www.riskspan.com/rs-edge_api.pdf
+*  https://riskspan.com/s/rs-edge-api.pdf
 
 
 ## Related Links
