@@ -61,8 +61,8 @@ curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/Edge
 {"TotalLoss24":2633.9005572687,"ClusterName":"property_type_Bucket:Lease;FactorDate_Bucket:20150301","TotalDefault24":14105.2054139588,"FactorDate":20150301},
 {"TotalLoss24":2910363.9010554748,"ClusterName":"property_type_Bucket:PUD;FactorDate_Bucket:20150301","TotalDefault24":1.049387823253114E7,"FactorDate":20150301},
 {"TotalLoss24":19602355.4886333,"ClusterName":"property_type_Bucket:SF;FactorDate_Bucket:20150301","TotalDefault24":7.659159340336753E7,"FactorDate":20150301},
-{"TotalLoss24":16602.2375726766,"ClusterName":"property_type_Bucket:Townhouse;FactorDate_Bucket:20150301","TotalDefault24":60480.4719230693,"FactorDate":20150301}]
-}}}
+{"TotalLoss24":16602.2375726766,"ClusterName":"property_type_Bucket:Townhouse;FactorDate_Bucket:20150301","TotalDefault24":60480.4719230693,"FactorDate":20150301}
+]
 ```
 {: screen}
 
