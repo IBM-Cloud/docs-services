@@ -22,22 +22,22 @@ RS Edge is a data discovery and modeling tool which prrovides access to billions
 
 
 RS Edge provides a REST API to the data and analytic engine. To integrate your app with the service, complete these steps: 
-1) Obtain auth ID from RiskSpan
-2) Create a bucketing criteria appropriate to your analysis
-3) Select the required stress scenario.
+1. Obtain auth ID from RiskSpan
+2. Create a bucketing criteria appropriate to your analysis
+3. Select the required stress scenario.
 
 REST api parameters:
-- auth_key - your key for accessing the RS Edge API
-- deal_name - name of the portfolio being analyzed (Please use the sample portfolio: ABANK)
-- trade_date - analysis date (YYYYMMDD format, example 2015 
-- bucket_key - RS Edge XML query format
-- scenario specification
+* auth_key - your key for accessing the RS Edge API
+* deal_name - name of the portfolio being analyzed (Please use the sample portfolio: ABANK)
+* trade_date - analysis date (YYYYMMDD format, example 2015 
+* bucket_key - RS Edge XML query format
+* scenario specification
 
 Output:
 Output from the API is generated in JSON format. The output consists of:
-- user defined data clusters
-- user defined loan performance aggregates
-- model performance including defaults and loss given defaults
+* user defined data clusters
+* user defined loan performance aggregates
+* model performance including defaults and loss given defaults
 
 Sample call:
 
