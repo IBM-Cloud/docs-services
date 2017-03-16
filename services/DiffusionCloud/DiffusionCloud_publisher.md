@@ -33,7 +33,7 @@ This example steps through creating an SDK for Node.js app that uses a bound Dif
    "dependencies": {
         "express": "4.13.x",
         "cfenv": "1.0.x",
-        "diffusion": "5.8.0"
+        "diffusion": "5.9.5"
    },
    ```
 

@@ -8,24 +8,22 @@ lastupdated: "2017-02-20"
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
-{:screen:.screen}
-{:codeblock:.codeblock}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
 {:pre: .pre}
 
 # Getting started with Diffusion Cloud
 {: #gettingstarted}
 
 Diffusion Cloud from Push Technology helps you develop reactive applications faster with lower costs and reduced risks. Reappt enables you to stream data at extreme scale and speed, to thousands of connections in real time.
-{:shortdesc}
 
+{:shortdesc}
 
 Before you can start creating apps that use realtime messaging, get a [Diffusion Cloud service instance](https://console.ng.bluemix.net/catalog/services/diffusion-cloud-from-push-technology/) by using the Bluemix user interface.
 
-
 Complete these steps to get started with your Diffusion Cloud service:
-
 
 1. Go to the dashboard of your Diffusion Cloud service.
    The Dashboard shows your service information and security information.
@@ -36,12 +34,11 @@ Complete these steps to get started with your Diffusion Cloud service:
    *  Add a user with the TOPIC_CONTROL role.
       This user can create topics and publish data to them. 
 
-3. Create a client app that subscribes to a topic.
-   [Subscribing to a topic](./reappt_subscriber.html)
+3. Create a client app that subscribes to a topic. See
+   [Subscribing to a topic](./DiffusionCloud_subscriber.html).
 
-4. Create a client app that publishes to a topic.
-   [Publishing to a topic](./reappt_publisher.html)
-
+4. Create a client app that publishes to a topic. See 
+   [Publishing to a topic](./DiffusionCloud_publisher.html).
 
 That's all there is to using Diffusion Cloud to stream your data.
 
@@ -69,7 +66,6 @@ That's all there is to using Diffusion Cloud to stream your data.
 * [Java API documentation](http://download.pushtechnology.com/docs/latest/java){:new_window}
 * [.NET API documentation](http://download.pushtechnology.com/docs/latest/dotnet){:new_window}
 * [C API documentation](http://download.pushtechnology.com/docs/latest/c){:new_window}
-
 
 ## Related Links
 {: #general}
