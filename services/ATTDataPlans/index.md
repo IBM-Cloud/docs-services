@@ -17,7 +17,7 @@ lastupdated: "2017-03-31"
 # Getting started with AT&T IoT Data Plans on Bluemix
 {: #gettingstarted}
 
-Unlock the power of the Internet of Things by prototyping, building and hosting IoT applications with AT&T Flow Designer on Bluemix. AT&T Flow Designer is a robust web-based development environment where data driven applications can be designed and deployed with ease. Flow makes it easy to prototype IoT and M2M solutions. Flow nodes are Open Source and available via GitHub. 
+Launch your IoT product fast with IoT data plans. Get up to 1,000 SIMs all sharing the same data plan.. 
 
 {:shortdesc}
 
