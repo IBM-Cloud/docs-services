@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-13"
+lastupdated: "2017-03-16"
 
 ---
 
@@ -27,7 +27,7 @@ RS Edge provides a REST API to the data and analytic engine. To integrate your a
 3. Select the required stress scenario.
 
 
-**REST API parameters**
+## REST API parameters
 
 * auth_key - your key for accessing the RS Edge API
 * deal_name - name of the portfolio being analyzed (Please use the sample portfolio: ABANK)
@@ -36,7 +36,7 @@ RS Edge provides a REST API to the data and analytic engine. To integrate your a
 * scenario specification
 
 
-**Output**
+## Output
 
 Output from the API is generated in JSON format. The output consists of:
 * user defined data clusters
@@ -44,7 +44,7 @@ Output from the API is generated in JSON format. The output consists of:
 * model performance including defaults and loss given defaults
 
 
-**Sample call**
+## Sample call
 
 ```
 curl 
@@ -58,7 +58,7 @@ bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
 {: codeblock}
 
 
-**Sample output** 
+## Sample output
 
 ```
 [
