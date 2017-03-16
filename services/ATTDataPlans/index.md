@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-01-03"
+lastupdated: "2017-03-31"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2017-01-03"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with AT&T Flow Designer on Bluemix
+# Getting started with AT&T IoT Data Plans on Bluemix
 {: #gettingstarted}
 
 Unlock the power of the Internet of Things by prototyping, building and hosting IoT applications with AT&T Flow Designer on Bluemix. AT&T Flow Designer is a robust web-based development environment where data driven applications can be designed and deployed with ease. Flow makes it easy to prototype IoT and M2M solutions. Flow nodes are Open Source and available via GitHub. 
