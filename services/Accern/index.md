@@ -24,7 +24,7 @@ Existing users include, but are not limited to hedge funds, asset managers, equi
 
 You need an API access token to receive data from Accern APIs. To request an API access token, please follow the steps below:
 
-- Create an account on [Accern](https://app.accern.com/login) {:new_window}
+- Create an account on [Accern](https://app.accern.com/login){:new_window}
 - Login to your Accern account.
 - From the dropdown menu in the top-right corner of the app, click on the `API Tokens` option.
 - Choose the number of API tokens and submit your request.
