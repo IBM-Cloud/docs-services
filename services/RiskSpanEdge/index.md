@@ -47,7 +47,13 @@ Output from the API is generated in JSON format. The output consists of:
 **Sample call**
 
 ```
-curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/EdgeRestService?deal_name=_ABANK&trade_date=20170306&auth_key=XXXXXXXX&bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%3CBucket%20Type=%22FactorDate%22%20Min=%2220150301%22%20Max=%2220150301%22%20Step=%221%22%20/%3E%3CBucket%20Type=%22property_type%22%20Value=%22Condo~MH~PUD~SF~Townhouse%22%20FilterFlag=%221%22%20/%3E%3CResultset%20Value=%22ScenarioSevereStress%22/%3E%3C/NewBucketingFile%3E"
+curl 
+-H "Accept:application/json" 
+"http://uat.riskspan.com:18080/RSEdgeRest/EdgeRestService?deal_name=_ABANK&trade_date=20170306&
+auth_key=X&
+bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
+3CBucket%20Type=%22FactorDate%22%20Min=%2220150301%22%20Max=%2220150301%22%/%3E%
+3CBucket%20Type=%22property_type%22%20Value=%22Condo~MH~PUD~SF~Townhouse%22/%3E%3C/NewBucketingFile%3E"
 ```
 {: codeblock}
 
@@ -56,12 +62,18 @@ curl -H "Accept:application/json" "http://uat.riskspan.com:18080/RSEdgeRest/Edge
 
 ```
 [
-{"TotalLoss24":5597.6096912743,"ClusterName":"property_type_Bucket:CoOp;FactorDate_Bucket:20150301","TotalDefault24":28972.4729673213,"FactorDate":20150301},
-{"TotalLoss24":1141830.3249466524,"ClusterName":"property_type_Bucket:Condo;FactorDate_Bucket:20150301","TotalDefault24":5239660.846315403,"FactorDate":20150301},
-{"TotalLoss24":2633.9005572687,"ClusterName":"property_type_Bucket:Lease;FactorDate_Bucket:20150301","TotalDefault24":14105.2054139588,"FactorDate":20150301},
-{"TotalLoss24":2910363.9010554748,"ClusterName":"property_type_Bucket:PUD;FactorDate_Bucket:20150301","TotalDefault24":1.049387823253114E7,"FactorDate":20150301},
-{"TotalLoss24":19602355.4886333,"ClusterName":"property_type_Bucket:SF;FactorDate_Bucket:20150301","TotalDefault24":7.659159340336753E7,"FactorDate":20150301},
-{"TotalLoss24":16602.2375726766,"ClusterName":"property_type_Bucket:Townhouse;FactorDate_Bucket:20150301","TotalDefault24":60480.4719230693,"FactorDate":20150301}
+{"TotalLoss24":5597.6096912743,"ClusterName":"property_type_Bucket:CoOp;FactorDate_Bucket:20150301",
+"TotalDefault24":28972.4729673213,"FactorDate":20150301},
+{"TotalLoss24":1141830.3249466524,"ClusterName":"property_type_Bucket:Condo;FactorDate_Bucket:20150301",
+"TotalDefault24":5239660.846315403,"FactorDate":20150301},
+{"TotalLoss24":2633.9005572687,"ClusterName":"property_type_Bucket:Lease;FactorDate_Bucket:20150301",
+"TotalDefault24":14105.2054139588,"FactorDate":20150301},
+{"TotalLoss24":2910363.9010554748,"ClusterName":"property_type_Bucket:PUD;FactorDate_Bucket:20150301",
+"TotalDefault24":1.049387823253114E7,"FactorDate":20150301},
+{"TotalLoss24":19602355.4886333,"ClusterName":"property_type_Bucket:SF;FactorDate_Bucket:20150301",
+"TotalDefault24":7.659159340336753E7,"FactorDate":20150301},
+{"TotalLoss24":16602.2375726766,"ClusterName":"property_type_Bucket:Townhouse;FactorDate_Bucket:20150301",
+"TotalDefault24":60480.4719230693,"FactorDate":20150301}
 ]
 ```
 {: screen}
