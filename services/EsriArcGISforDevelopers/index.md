@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-13"
+lastupdated: "2017-03-15"
 
 ---
 
@@ -28,7 +28,7 @@ To get started using ArcGIS on Bluemix:
 
 	Now that you have registered your application and obtained a `client_id` and `client_secret`, you can implement your app login to obtain a token. ArcGIS offers many paths 
 	to assist you with this process. There is an [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript) and [ArcGIS Runtime SDKs](https://developers.arcgis.com/arcgis-runtime) you can choose to implement in your app. Or you can work directly with the [ArcGIS REST API](http://resources.arcgis.com/en/help/arcgis-rest-api/#/The_ArcGIS_REST_API/02r300000054000000/).
-	For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsible for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. 
+	For this sample, we are going to use the token that was generated when you registered your application along with HTTP POST requests and JSON responses using Python. Remember this is a short lived token and you will be responsible for creating that token and also maintaining the security of those credentials. We are also going to use the geoenrichment service to find a location's demographic characteristics. To view the data sets available with the geoenrichment check out the [data browser](http://doc.arcgis.com/en/esri-demographics/) on the esri demographics page. 
 
 	![Step 4](images/bluemixoverview.png)
 
@@ -37,15 +37,17 @@ To get started using ArcGIS on Bluemix:
 7. Install the requests module if you don't have it.
 
 	```python
-	import requests	
+	import requests
+	
 	```
 8. Add the parameters for the request and copy/paste your token string. 
 
 	```python
 	params = {
 		'f': 'json',
-		'token': 'korCbcmFWUqjDmGufeOWAl--pziwimdDYOkzOyDQZ5tnddAoOGI8DvnTATadhtH2-PCcA4zWMHGTJPVjV4JdesfTwdp2oHuNN_kDfMrGwJyLIyk0hpFRepFhLKpWb6H9g-AJxiTegt54abJ9ba7efw..',
-		'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]&dataCollections=["KeyGlobalFacts"]'
+		'token': 'ILWJQ7doxrui_NnKE2skv3mYXUTcMPEy0ndgkJs8H5f76DfEtk7iGATMx_OP4RCkF3Bv6NK0MRbt1WLjj6-x1u3WiUkK2XPyY2BJ233hEHbjDaete8vYpn0ZNvlOLeDpUlaYuCNfHBAMFumINpRUmA..',
+    	'studyAreas': '[{"geometry":{"x":-97.741,"y":30.268}}]',
+    	'analysisvariables':'["populationtotals.TOTPOP_CY","Wealth.MEDHINC_CY","5yearincrements.MEDAGE_CY"]'
 	}
 	```
 9. Set the geoenrichment service to use and post the request.
@@ -57,29 +59,27 @@ To get started using ArcGIS on Bluemix:
 	print(data.json())
 
 	```
-10. This request will generate a 1-mile ring buffer around the point location with the following attributes: total population, total households, average household size, and  total male and female population.
+10. This request will generate a 1-mile ring buffer around the point location with the following attributes: total population, median household income, and median age.
 
 	```	json
 	"features" : [ {
 			"attributes" : {
 				"ID" : "0",
-				"OBJECTID" : 1,
-				"sourceCountry" : "US",
-				"areaType" : "RingBuffer",
-				"bufferUnits" : "esriMiles",
-				"bufferUnitsAlias" : "Miles",
-				"bufferRadii" : 1,
-				"aggregationMethod" : "BlockApportionment:US.BlockGroups",
-				"HasData" : 1,
-				"TOTPOP" : 15041,
-				"TOTHH" : 7752,
-				"AVGHHSZ" : 1.61,
-				"TOTMALES" : 8471,
-				"TOTFEMALES" : 6570
+            	"OBJECTID" : 1,
+            	"sourceCountry" : "US",
+            	"areaType" : "RingBuffer",
+            	"bufferUnits" : "esriMiles",
+            	"bufferUnitsAlias" : "Miles",
+            	"bufferRadii" : 1,
+            	"aggregationMethod" : "BlockApportionment:US.BlockGroups",
+            	"HasData" : 1,
+            	"TOTPOP_CY" : 23048,
+            	"MEDHINC_CY" : 52270,
+            	"MEDAGE_CY" : 36.8
 			}
 			} ]
 	```
-11. Now that you're familar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
+11. Now that you're familiar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
 
 # Related Links
 {: #rellinks notoc}
