@@ -64,7 +64,7 @@ To get started using ArcGIS on Bluemix:
 	```	json
 	"features" : [ {
 			"attributes" : {
-		"ID" : "0",
+		 "ID" : "0",
             	"OBJECTID" : 1,
             	"sourceCountry" : "US",
             	"areaType" : "RingBuffer",
