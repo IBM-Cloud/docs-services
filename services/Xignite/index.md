@@ -14,133 +14,61 @@ lastupdated: "2017-03-15"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with Xignite
+# Getting Started with Xignite Market Data APIs
 {: #gettingstarted_Xignite}
-<!-- Provide an appropriate ID above -->
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+Xignite APIs provide access to real-time and reference market data making it easy for fintech developers to integrate stock quotes or other finacnial information with Internet of Things devices. 
 
-Examples: -->
-<!--
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service. -->
+To get up and running quickly with calling an Xignite API, follow these steps:
+Register for free trial
+https://market-data.xignite.com/IBM_Marketplace.html
+You can choose one API for the trial. Your trial is for a maximum of 250 hits
 
-Xignite is a...  or You can use Xignite to...
-{:shortdesc}
+A Word About Hits
+• Most calls you make consume hits (some are free).
+• The number of hits a call consumes depends on the API and your INPUT parameters (e.g. number of symbols).
+• If you exceed your 250 trial hits, you will see an error message and will not be able to use the service for additional calls.
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+Our API Catalog
+https://www.xignite.com/ProductS/
+You can view the web services that Xignite offers here.
+On our API catalog page you can filter APIs by asset class, frequency, data types and region.
+Click on API List to go to the APIs and test form.
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+Web Service Page
+On the first page of each of Xignite's 45 web services the data coverage and key data points are provided, as well as related services and where Xignite has sourced this data.
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+API List Page
+The APIs are organized by group of related APIs. For instance APIs that list items will be grouped together, or chart APIs will be grouped as well.
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+Test Form
+Choose the API you are interested in and navigate to the test form. The test form is designed to help you play with the API as you implement it. Drop downs and Type Ahead functionality are available for certain input parameters. Enter your parameters and click View Results. Then click the color coded URL for your parameters. Click on it to open a new tab and pull up the results. Full Output Documentation is available is you scroll to the bottom of the page.
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+Customizing Your API Calls
+You can customize the output of each API by picking the fields you want to retrieve. This simplifies coding and speeds your calls by limiting network traffic.
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+Output
+All our APIs support XML, JSON or CSV formats. You can choose to view the output in a Grid format, in XML, JSON or CSV. Just pick the tab you want and click “View Results” The output of the call is displayed in the format you choose.
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+Accessing Documentation
+http://www.xignite.com/product/gold-metal/api/GetLastRealTimeMetalQuote
+All our documentation is online or available for download on the web site. If you don’t see it, most likely we do not have it! There are four standard output values: Outcome, Message, Identiy and Delay. The Code Tab provides you with many useful technical resources!
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+Authenticating Your API Calls
+We authenticate your calls using a token. You maintain your tokens using My Account. Tokens can be: 
+- A random value we generate
+- A mnemonic value you provide
+- An IP address
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+#KnowledgeBase
+http://www.xignite.com/Support/
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+#SDeveloper Documentation
+http://www.xignite.com/developers
 
-	```
-	my command -and -options
-	```
-	{: pre}
+#SDKs
+http://xignite.github.io/JavaSDK/
+http://xignite.github.io/DotNetSDK/
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
-
-# Related Links
-{: #rellinks notoc}
-
-## Tutorials and Samples
-{: #samples}
-
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
-
-* [link text](URL){:new_window}
-
-## SDK
-{: #sdk}
-
-<!-- Links to SDK download and SDK Developer Guide -->
-
-* [link text](URL){:new_window}
-
-## API Reference
-{: #api}
-
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-
-* [link text](URL){:new_window}
-
-## Compatible Runtimes
-{: #buildpacks}
-
-<!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
-
-* [link text](URL)
-
-## Related Links
-{: #general}
-
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
-
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
-
+#Pricing
+http://www.xignite.com/pricing
