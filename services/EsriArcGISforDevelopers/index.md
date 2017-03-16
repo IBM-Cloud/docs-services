@@ -63,19 +63,19 @@ To get started using ArcGIS on Bluemix:
 
 	```	json
 	"features" : [ {
-			"attributes" : {
-		 "ID" : "0",
-            	"OBJECTID" : 1,
-            	"sourceCountry" : "US",
-            	"areaType" : "RingBuffer",
-            	"bufferUnits" : "esriMiles",
-            	"bufferUnitsAlias" : "Miles",
-            	"bufferRadii" : 1,
-            	"aggregationMethod" : "BlockApportionment:US.BlockGroups",
-            	"HasData" : 1,
-            	"TOTPOP_CY" : 23048,
-            	"MEDHINC_CY" : 52270,
-            	"MEDAGE_CY" : 36.8
+		"attributes" : {
+            "ID" : "0",
+            "OBJECTID" : 1,
+            "sourceCountry" : "US",
+            "areaType" : "RingBuffer",
+            "bufferUnits" : "esriMiles",
+            "bufferUnitsAlias" : "Miles",
+            "bufferRadii" : 1,
+            "aggregationMethod" : "BlockApportionment:US.BlockGroups",
+            "HasData" : 1,
+            "TOTPOP_CY" : 23048,
+            "MEDHINC_CY" : 52270,
+            "MEDAGE_CY" : 36.8
 			}
 			} ]
 	```
