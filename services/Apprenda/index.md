@@ -29,8 +29,9 @@ For more detailed information about the platform, including [tutorials](http://d
 
  From there you will be able to add additional users and upload your applications, as well as manage resource allocation, security policies, and monitoring.
 
-# Related Links
+<!-- # Related Links
 {: #rellinks notoc}
+-->
 
 ## Help and Support
 {: #general}
