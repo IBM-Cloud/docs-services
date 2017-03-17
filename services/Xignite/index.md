@@ -71,7 +71,7 @@ We authenticate your calls using a token. You maintain your tokens using My Acco
 ## KnowledgeBase
 http://www.xignite.com/Support/
 
-## SDeveloper Documentation
+## Developer Documentation
 http://www.xignite.com/developers
 
 ## SDKs
