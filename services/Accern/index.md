@@ -465,19 +465,21 @@ article_url                |
 
 ## Streaming
 
-To stay in sync with the API you make a request with `last_id=[lastest document id]` then grab the id of the latest document that comes back and repeat. We packaged this logic up in our Accern gem, to install follow the instructions on the [repo](https://github.com/accern/accern).
+To stay in sync with the API you make a request with `last_id=[lastest document id]` then grab the id of the latest document that comes back and repeat. We packaged this logic up in our Accern gem, to install follow the instructions on the [repo](https://github.com/accern/accern){:new_window}.
 
 ## Backfill
 
 The API allows you to access data going back 30 days, anything older we provide via other means. To start from 30 days ago and move forward you have to provide `last_id=0`. Then continue to hit the API while setting the `last_id` query string parameter.
 
-## Related Links
+<!--
+# Related Links
 {: #rellinks notoc}
+-->
 
 ### Api Reference
-{: #api} [Overview of the Accern API](http://docs.accern.com/#accern-overview) {:new_window}
+{: #api} [Overview of the Accern API](http://docs.accern.com/#accern-overview){:new_window}
 
-{: #api} [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics) {:new_window}
+{: #api} [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics){:new_window}
 
 ### Resources
-{: #general} [Accern resources](https://www.accern.com/resources/) {:new_window}
+{: #general} [Accern resources](https://www.accern.com/resources/){:new_window}
