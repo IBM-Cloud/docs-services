@@ -81,8 +81,10 @@ To get started using ArcGIS on Bluemix:
 	```
 11. Now that you're familiar with accessing services, you can now add those to some cool [maps](http://www.arcgis.com/features/maps/index.html).  
 
+<!--
 # Related Links
 {: #rellinks notoc}
+-->
 
 ## Tutorials and Samples
 {: #samples}
