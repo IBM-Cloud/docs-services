@@ -63,8 +63,10 @@ We authenticate your calls using a token. You maintain your tokens using My Acco
 * A mnemonic value you provide
 * An IP address
 
+<!-- 
 # Related Links
 {: #rellinks notoc}
+-->
 
 ## KnowledgeBase
 http://www.xignite.com/Support/
