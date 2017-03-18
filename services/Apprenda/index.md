@@ -28,6 +28,9 @@ For more detailed information about the platform, including [tutorials](http://d
  If you are the first member of a Bluemix Organization to access the platform, you will be prompted to create a new Development Team. Once subscribed, you will be forwarded to a page that includes a Signup Token.  Follow the link to the Developer Portal and use the token to create your Development Team.
 
  From there you will be able to add additional users and upload your applications, as well as manage resource allocation, security policies, and monitoring.
+ 
+## Alpha Release
+ This is an Alpha release and should not be used for production workloads.  A resource policy is in effect to limit applications to 500MB of RAM and 50MB of storage.  Each development team is limited to 2GB of RAM and 1GB of storage.
 
 <!-- # Related Links
 {: #rellinks notoc}
