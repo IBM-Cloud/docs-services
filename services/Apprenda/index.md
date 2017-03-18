@@ -30,7 +30,7 @@ For more detailed information about the platform, including [tutorials](http://d
  From there you will be able to add additional users and upload your applications, as well as manage resource allocation, security policies, and monitoring.
  
 ## Alpha Release
- This is an Alpha release and should not be used for production workloads.  A resource policy is in effect to limit applications to 500MB of RAM and 50MB of storage.  Each development team is limited to 2GB of RAM and 1GB of storage.
+ This is an Alpha release and should not be used for production workloads.  A resource policy is in effect to limit workloads to 500MB of RAM and 50MB of storage.  Each development team is limited to 2GB of RAM and 1GB of storage.
 
 <!-- # Related Links
 {: #rellinks notoc}
