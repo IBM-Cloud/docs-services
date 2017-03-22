@@ -14,13 +14,12 @@ lastupdated: "2017-03-22"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with <service_short_name>
+# Getting started with Orange IoT Connect Express on Bluemix
 {: #gettingstarted}
+
+Orange IoT Connect Express provides a simpler and more efficient way to manage all your SIM cards, personalize their services, carry out remote analysis and reduce your operational costs. Our M2M API enables you to build services that seamlessly integrate all the information provided by your M2M SIM cards, allowing you to manage your SIM fleet in real-time.
+{:shortdesc}
+
 <!-- Provide an appropriate ID above -->
 
 <!-- Short description: REQUIRED
