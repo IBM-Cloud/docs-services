@@ -7,7 +7,6 @@ Apprenda Cloud Platform
     {: .navgroup id="learn"}
     index.md
 
-
     {: .topicgroup}
     Related links
     [Apprenda Home](https://apprenda.com/)
@@ -24,6 +23,6 @@ Apprenda Cloud Platform
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    Reference
     [Apprenda API Documentation](http://docs.apprenda.com/apprenda-apis)
-
     {: .navgroup-end}
