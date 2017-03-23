@@ -1,2 +1,29 @@
-[Getting Started with Apprenda Cloud Platform](/docs/Apprenda/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="apprenda" audience="service"}
+Apprenda Cloud Platform
+
+    {: .navgroup id="learn"}
     index.md
+
+
+    {: .topicgroup}
+    Related links
+    [Apprenda Home](https://apprenda.com/)
+    [For Developers](http://docs.apprenda.com/current/developers)
+    [Slack User Group](https://apprenda-bluemix.slack.com)
+    
+    {: .topicgroup}
+    Tutorials
+    [Developer Tutorials Home](http://docs.apprenda.com/current/tutorials)
+    
+    {: .topicgroup}
+    Support
+    [Support](https://support.apprenda.com/hc/en-us)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [Apprenda API Documentation](http://docs.apprenda.com/apprenda-apis)
+
+    {: .navgroup-end}
