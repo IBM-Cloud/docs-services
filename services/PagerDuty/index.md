@@ -14,10 +14,12 @@ lastupdated: "2017-01-27"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
+![PagerDuty banner](banner.png)
+
 # Getting started with PagerDuty
 {: #gettingstarted}
 
-PagerDuty is TODO
+PagerDuty is your fastest path to incident resolution, helping IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
 {:shortdesc}
 
 
