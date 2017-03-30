@@ -18,6 +18,8 @@ lastupdated: "2017-03-10"
 # Getting started with PagerDuty
 {: #gettingstarted}
 
+![PagerDuty banner](banner.png)
+
 PagerDuty is your fastest path to incident resolution, helping IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
 {:shortdesc}
 
