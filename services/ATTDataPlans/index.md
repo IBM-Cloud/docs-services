@@ -38,12 +38,12 @@ To get up and running quickly with AT&T IoT Data Plans, we recommend using the A
 ## Tutorials and Samples
 {: #samples}
 
-* [Quick Start Guide](https://starterkit.att.com/quickstart){:new_window}
-* [API Documentation](https://starterkit.att.com/docs#api-overview){:new_window}
-* [Tutorials](https://starterkit.att.com/tutorials){:new_window}
+* [Quick Start Guide](https://starterkit.att.com/quickstart) {:new_window}
+* [API Documentation](https://starterkit.att.com/docs#api-overview) {:new_window}
+* [Tutorials](https://starterkit.att.com/tutorials) {:new_window}
 
 ## Related Links
 {: #general}
 
-* [IoT Data Plans FAQ](https://iotdataplans.att.com/data-plan-faq){:new_window}
-* [IoT Staret Kit FAQ](https://starterkit.att.com/faq){:new_window}
+* [IoT Data Plans FAQ](https://iotdataplans.att.com/data-plan-faq) {:new_window}
+* [IoT Staret Kit FAQ](https://starterkit.att.com/faq) {:new_window}
