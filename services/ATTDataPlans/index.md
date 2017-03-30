@@ -17,17 +17,19 @@ lastupdated: "2017-03-31"
 # Getting started with AT&T IoT Data Plans on Bluemix
 {: #gettingstarted}
 
-Launch your IoT product fast with IoT data plans. Get up to 1,000 SIMs all sharing the same data plan.. 
+Launch your product fast with AT&T IoT Data Plans. Get enterprise grade SIMs, sharing a pool of prepaid data at low rates.
 
 {:shortdesc}
 
-To get up and running quickly with AT&T Flow Designer, once you have signed up for a free account, follow these steps:
+To get up and running quickly with AT&T IoT Data Plans, we recommend using the AT&T IoT Starter Kit, available at this [site] (https://starterkit.att.com). Follow these steps in the [Quick Start] (https://starterkit.att.com/quickstart) instructions to begin:
 
-1. Follow the [Getting Started](https://flow.att.com/start) instructions if you are brand new to visual prototyping or the Node-RED environment. If you have experience with Node-RED and want to jump right in, then:
+1. Be sure to select the instructions for your specific version of the Starter Kit. 
 
-2. Choose a [Sample Application](https://flow.att.io/explore/projects/snippets_and_samples) that suits your needs, or fork a [Public Project](https://flow.att.io/explore/projects) and add it to your dashboard. All sample code and public projects are open source and fully documented in their respective README.md files. Please refer to the sample code or public project of choice for usage instructions. 
+2. Follow the instructions to activate your SIM(s) [here] (https://starterkit.att.com/activate). 
 	
-2. For additional help or support, please consult the [User Forum](https://developer.att.com/forums/at-t-flow-designer), or if you are having trouble, submit a [Ticket](http://developer.att.com/developer/sso/salesforceRedirect.jsp?_fn=SessionTrigger)		 
+3. Once have successfully activated your SIM(s), you are good to go. If you are having trouble, submit a [Ticket](http://developer.att.com/developer/sso/salesforceRedirect.jsp?_fn=SessionTrigger).
+
+4. Begin prototyping on the AT&T IoT Platform tools for devlopers, [M2X Data Service] (https://m2x.att.com) and [AT&T Flow Designer] (https://flow.att.com).
 
 
 # Related Links
@@ -36,12 +38,12 @@ To get up and running quickly with AT&T Flow Designer, once you have signed up f
 ## Tutorials and Samples
 {: #samples}
 
-* [Getting Started](https://flow.att.com/start){:new_window}
-* [Sample Code](https://flow.att.io/explore/projects/snippets_and_samples){:new_window}
-* [Public Projects](https://flow.att.io/explore/projects){:new_window}
+* [Quick Start Guide] (https://starterkit.att.com/quickstart){:new_window}
+* [API Documentation] (https://starterkit.att.com/docs#api-overview) {:new_window}
+* [Tutorials] (https://starterkit.att.com/tutorials){:new_window}
 
 ## Related Links
 {: #general}
 
-* [Frequently Asked Questions](https://flow.att.com/faq){:new_window}
-* [Features](https://flow.att.com/features){:new_window}
+* [IoT Data Plans FAQ] (https://iotdataplans.att.com/data-plan-faq) {:new_window}
+* [IoT Staret Kit FAQ] (https://starterkit.att.com/faq){:new_window}
