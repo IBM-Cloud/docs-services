@@ -14,7 +14,6 @@ lastupdated: "2017-03-10"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-![PagerDuty banner](banner.png)
 
 # Getting started with PagerDuty
 {: #gettingstarted}
