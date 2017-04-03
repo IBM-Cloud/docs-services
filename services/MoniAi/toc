@@ -1,3 +1,24 @@
-[Getting Started with Moni.ai](/docs/MoniAi/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="MoniAi" audience="service"}
+Moni.ai
+
+    {: .navgroup id="learn"}
     index.md
- 
+
+    {: .topicgroup}
+    Related links
+    [Build "Voice Channels" with Moni.ai, your virtual assistant](https://developer.ibm.com/bluemix/2016/02/10/voice-channels-with-moni-ai-virtual-assistant/)
+    [Case study for "Voice Channels" on Moni.ai](https://developer.ibm.com/bluemix/2016/04/07/voice-channels-on-moni-ai/)
+    [Moni.ai Voice Channel designer](https://hub.jazz.net/deploy/index.html?repository=https://hub.jazz.net/git/moniai/voice-channel-design)
+    [Product page](http://business.moni.ai)
+    [Moni.ai on iTunes](https://itunes.apple.com/us/app/moni.ai/id964152543)
+    [Moni.ai on Google Play](https://play.google.com/store/apps/details?id=com.tagonsoft.askmoni)
+    [Moni.ai developers page](https://moni.ai/developers)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Moni.ai help articles](http://blog.moni.ai)
+    {: .navgroup-end}
