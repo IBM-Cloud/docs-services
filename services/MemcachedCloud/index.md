@@ -131,6 +131,7 @@ Add this code snippet to your configure block:
 [spymemcached](https://code.google.com/p/spymemcached/) is a simple, asynchronous, single-threaded memcached client written in Java. You can download the latest build from: https://code.google.com/p/spymemcached/downloads/list.
 
 To use the maven repository, start by specifying the repository:
+
 	```
 	<repositories>
 	    <repository>
