@@ -95,8 +95,6 @@ Use {:new_window} for external links to open a new window.-->
 ## Tutorials and Samples
 {: #samples}
 
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
-
 * [iOS OBD Example App](https://github.com/HellaVentures/iOS-OBD-Example-App){:new_window}
 * [Android OBD Example App](https://github.com/HellaVentures/Android-OBD-Example-App){:new_window}
 
@@ -104,14 +102,9 @@ Use {:new_window} for external links to open a new window.-->
 ## API Reference
 {: #api}
 
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-
 * [API Documentation](https://github.com/HellaVentures/Car-Diagnostic-API){:new_window}
 
 ## Related Links
 {: #general}
-
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
 
 * [IBM Developer Portal](https://production-hella-ventures-car-diagnostic-api.developer.eu.apiconnect.ibmcloud.com/){:new_window}
