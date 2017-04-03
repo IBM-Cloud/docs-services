@@ -55,34 +55,7 @@ Getting Started Tutorials and Samples
 
 {: #samples}
 
-[Exploring the Studio](https://www.youtube.com/watch?v=CejlR4SRXYU){:new_window}
-
-[Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html){:new_window}
-
-[Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html){:new_window}
-
-[Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html){:new_window}
-
-SDK
-
-{: #sdk}
-
-link text{:new_window}
-
-API Reference
-
-{: #api}
-
-link text{:new_window}
-Compatible Runtimes
-
-{: #buildpacks}
-
-link text
-Related Links
-
-{: #general}
-
-link text{:new_window}
-link text
-link text
+* [Exploring the Studio](https://www.youtube.com/watch?v=CejlR4SRXYU){:new_window}
+* [Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html){:new_window}
+* [Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html){:new_window}
+* [Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html){:new_window}
