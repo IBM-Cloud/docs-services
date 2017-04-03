@@ -59,7 +59,7 @@ To get up and running quickly with Orange IoT Express Connect follow these steps
 {: #api}
 
 <!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-* [API Documentation](./DVS107-WSDL-CC.pdf){:new_window}
+* [API Documentation](./MALIMA_API_G03R30C00_OME_Customer-OME_PF.zip){:new_window}
 * [link text](URL){:new_window}
 
 
