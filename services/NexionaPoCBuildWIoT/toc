@@ -1,5 +1,16 @@
-{: .toc}
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="NexionaPoCBuildWIoT" audience="service"}
 Proof of Concept Builder for Watson IoT
 
-    [Getting Started with Proof of Concept Builder for Watson IoT](index.html)
-        index.md
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+    [MIIMETIQ LITE Device Management](https://www.youtube.com/watch?v=Vacn3QT2pZk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=3)
+    [MIIMETIQ LITE Flexible DS - Flow Programming System](https://www.youtube.com/watch?v=Cux-QHV5XO4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=6)
+    [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
+    [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
+    {: .navgroup-end}
