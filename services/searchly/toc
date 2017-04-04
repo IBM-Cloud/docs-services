@@ -1,2 +1,18 @@
-[Getting Started with Searchly](/docs/searchly/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="searchly" audience="service"}
+Searchly
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+    [Link text](link URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Link text](link URL)
+    {: .navgroup-end}
