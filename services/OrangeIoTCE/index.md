@@ -60,9 +60,16 @@ To get up and running quickly with Orange IoT Express Connect follow these steps
 ## API Reference
 {: #api}
 
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-* [API ](./OrangeIoTCE_Services_overview_v1.2.pdf){:new_window}
-* [link text](URL){:new_window}
+* [API Connectivity Directory](./DVS107-WSDL-CD.pdf){:new_window}
+* [API Customer Catalogue](./DVS107-WSDL-CC.pdf){:new_window}
+* [API Option Management](./DVS107-WSDL-OM.pdf){:new_window}
+* [API Ordering](./DVS107-WSDL-ORD.pdf){:new_window}
+* [API SIM Lifecycle Management](./DVS107-WSDL-SLM.pdf){:new_window}
+* [API Traffic Tracking](./DVS107-WSDL-TT.pdf){:new_window}
+* [API Session History](./DVS107-WSDL-SH.pdf){:new_window}
+* [API Alarm](./DVS107-WSDL-SCA-V2.pdf){:new_window}
+* [API Device Info](./DVS107-WSDL-DIS.pdf){:new_window}
+
 
 
 ## Related Links
