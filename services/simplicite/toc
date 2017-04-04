@@ -1,2 +1,28 @@
-[Getting Started with Simplicité](/docs/simplicite/index.html)
+
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="simplicite" audience="service"}
+Simplicité
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+    [Sample business cases](https://www.simplicite.io/resources/modules/)
+    [The demo business case in-depth presentation](https://www.simplicite.io/resources/demo.pdf)
+    [The comprehensive training documentation](https://www.simplicite.io/resources/training/)
+    [Simplicite.io hub](https://www.simplicite.io)
+    [Simplicité Software website](https://www.simplicitesoftware.com)
+    [Documentation index](https://www.simplicite.io/resources/documentation/index.md)
+    [Tools and contributions (hosted on GitHub)](https://github.com/simplicitesoftware?tab=repositories)
+    [I/O command line interface - CLI](https://www.simplicite.io/resources/documentation/02-integration/io-commandline.md)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [REST webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/rest-services.md)
+    [SOAP webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/soap-services.md)
+    [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md)
+    {: .navgroup-end}
