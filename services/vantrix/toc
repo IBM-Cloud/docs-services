@@ -1,2 +1,21 @@
-[Getting Started with Vantrix Transcoder](/docs/vantrix/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="vantrix" audience="service"}
+Vantrix Transcoder
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+    [Vantrix Transcoding API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf)
+    [Introducing Vantrix Transcoder User Interface](http://vantrix.com/wp-content/uploads/2016/04/Introducing_Vantrix_Transcoder_User_Interface.pdf)
+    [Vantrix VTA Developer Guide](http://vantrix.com/wp-content/uploads/2016/09/VTA-Developer-Guide-v61.pdf) 
+    [Vantrix Resources](http://vantrix.com/resources/knowledgebase/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Vantrix Transcoding API Specification](http://www.vantrix.com/wp-content/uploads/2016/04/Vantrix_Transcoding_API.pdf)
+    {: .navgroup-end}
