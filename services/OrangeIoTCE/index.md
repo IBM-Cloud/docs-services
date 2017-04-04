@@ -20,6 +20,8 @@ lastupdated: "2017-03-22"
 Orange IoT Connect Express provides a simpler and more efficient way to manage all your SIM cards, personalize their services, carry out remote analysis and reduce your operational costs. Our M2M API enables you to build services that seamlessly integrate all the information provided by your M2M SIM cards, allowing you to manage your SIM fleet in real-time.
 {:shortdesc}
 
+To get started using Orange IoT Connect Express check out the full [Services overview](./OrangeIoTCE_Services_overview_v1.2.pdf).
+
 To get up and running quickly with Orange IoT Express Connect follow these steps:
 
 1. Step 1 to integrate app with the service.
@@ -59,7 +61,7 @@ To get up and running quickly with Orange IoT Express Connect follow these steps
 {: #api}
 
 <!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-* [Orange IoT Connect Express - Services overview](./OrangeIoTCE_Services_overview_v1.2.pdf){:new_window}
+* [API ](./OrangeIoTCE_Services_overview_v1.2.pdf){:new_window}
 * [link text](URL){:new_window}
 
 
