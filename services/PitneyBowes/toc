@@ -1,2 +1,14 @@
-[Getting Started with Pitney Bowes APIs](/docs/PitneyBowes/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="PitneyBowes" audience="service"}
+Pitney Bowes APIs
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .navgroup id="reference"}
+    Reference
+    [API QuickStart](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html)
+    [API Specification](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html)
+    {: .navgroup-end}
