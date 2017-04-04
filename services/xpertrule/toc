@@ -1,2 +1,8 @@
-[Getting Started with XpertRule Decision Automation for node-RED](/docs/xpertrule/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="" audience="service"}
+XpertRule Decision Automation for node-RED
+
+    {: .navgroup id="learn"}
     index.md
