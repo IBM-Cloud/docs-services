@@ -1,5 +1,18 @@
-{: .toc}
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="PagerDuty" audience="service"}
 PagerDuty
 
-    [Getting Started with PagerDuty](index.html)
-        index.md
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+    [PagerDuty Developer Hub](https://v2.developer.pagerduty.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
+    {: .navgroup-end}
