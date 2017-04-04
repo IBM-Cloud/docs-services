@@ -1,2 +1,8 @@
-[Getting Started with XpertRule Decision & Rules Automation](/docs/XpertruleDecisionAuthor/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="XpertruleDecisionAuthor" audience="service"}
+XpertRule Decision and Rules Automation
+
+    {: .navgroup id="learn"}
     index.md
