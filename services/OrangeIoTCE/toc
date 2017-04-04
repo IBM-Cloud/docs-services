@@ -1,2 +1,21 @@
 [Getting Started with Orange IoT Connect Express](/docs/OrangeIoTCE/index.html)
     index.md
+
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Apprenda" audience="service"}
+Apprenda Cloud Platform
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+    [Link text](link URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Link text](link URL)
+    {: .navgroup-end}
