@@ -63,7 +63,7 @@ With the Open Source Hiptest publisher, generate scripts for your favorite test 
 
 ## Tutorials
 
-* [Test automation with Hiptest: from test design to CI](http://blog.hiptest.net/2016/01/25/test-automation-with-hiptest-from-test-design-to-ci){:new_window}{:new_window}
+* [Test automation with Hiptest: from test design to CI](http://blog.hiptest.net/2016/01/25/test-automation-with-hiptest-from-test-design-to-ci){:new_window}
 * [Mobile test automation with Appium and Hiptest](http://blog.hiptest.net/2015/12/18/mobile-test-automation-with-appium-and-hiptest/){:new_window}
 * [A simple Selenium test from Hiptest](http://blog.hiptest.net/2015/10/30/tutorial-a-simple-selenium-test-from-hiptest/){:new_window}
 
