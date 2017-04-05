@@ -1,8 +1,8 @@
 ---
 
-copyright: Nexmo
+copyright:
 
-years: 2017
+  years: 2017
 
 lastupdated: "2017-04-04"
 
@@ -30,7 +30,7 @@ To get started with Nexmo APIs on Bluemix:
 
 This step-by-step instruction uses Node.js, so you need [Node.js](https://nodejs.org/) installed on your machine. Once you are ready, let’s get started!
 
-# Create a New Application
+## Creating a New Application
 
 Go to your [Dashboard](https://console.eu-gb.bluemix.net/dashboard/apps/), and click the **Create App** button:
 
@@ -46,7 +46,7 @@ Then, give your new application a unique name. In this tutorial, you are going t
 
 Now, it takes you to the dashboard and you should see some progress indicators that shows you the new application has been created.
 
-# Using Nexmo with the New Application
+## Using Nexmo with the New Application
 
 You are going to use Nexmo to build your SMS analysis app. Click **Catalog** at the top menu bar:
 
@@ -68,7 +68,7 @@ Go back to [the application dashboard](https://console.ng.bluemix.net/dashboard/
 
 
 
-# Using the Cloud Foundry Command Line interface
+## Using the Cloud Foundry Command Line interface
 
 To download, modify, and redeploy your Cloud Foundry applications and service instances, you need to download and install the [Cloud Foundry command line interface](https://www.ng.bluemix.net/docs/#starters/install_cli.html) (CLI).
 
@@ -92,7 +92,7 @@ $ cf login
 
 Now you got your Bluemix set up, so you can get started creating your Node.js application.
 
-# Setting up Your Nexmo Phone Number
+## Setting up Your Nexmo Phone Number
 
 In this tutorial, we are going to create a very basic app that sends a SMS message from your Nexmo phone number to your mobile phone number.
 
@@ -100,7 +100,7 @@ You can get your own number by going to your [Nexmo dashboard](https://dashboard
 
 ![image alt text](images/nexmo-buy-numbers.png)
 
-# Using the Nexmo REST API Client for Node.js
+## Using the Nexmo REST API Client for Node.js
 
 Now, let’s code! Make sure that node.js is installed on your machine to start coding.
 
@@ -165,7 +165,7 @@ const nexmo = new Nexmo({
 });
 ```
 
-## Sending SMS Messages with Node.js
+### Sending SMS Messages with Node.js
 
 
 To send a message, use the `nexmo.sms.sendSms` function and pass your virtual number you are sending the message from, a recipient number, and the message to be sent. Also, you can pass [optional params](https://docs.nexmo.com/messaging/sms-api/api-reference#request), and a callback.
@@ -195,7 +195,7 @@ $ node index.js
 
 As soon as you run the script, Nexmo will send the message to your phone. The time of the actual delivery depends on your mobile phone carrier, so it can be instant, or it might take some time.
 
-# Deploying Your Application
+## Deploying Your Application
 
 To deploy your application, you will be using the Cloud Foundry CLI again. You can push your code with `cf push` command:
 
