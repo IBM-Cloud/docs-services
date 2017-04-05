@@ -207,24 +207,4 @@ Once you deploy the application, your phone should receive a message. Sure, this
 
 To create something more practical using the Nexmo APIs, such as an app to make and receive voice calls; or setting up two-factor authentications, visit the [Nexmo Tutorial Blog](https://www.nexmo.com/blog/category/developers-2/tutorial/)!
 
-# Related Links
-{: #rellinks notoc}
-
-* [Nexmo SMS]([https://www.nexmo.com/products/sms](https://www.nexmo.com/products/sms)){:new_window}
-* [Nexo Voice]([https://www.nexmo.com/products/voice](https://www.nexmo.com/products/voice)){:new_window}
-* [Nexo Verify](https://www.nexmo.com/products/verify){:new_window}
-* [Nexo Number Insight](https://www.nexmo.com/products/number-insight){:new_window}
-
-
-## API Reference
-{: #api}
-* [Nexmo API Documentations]([https://docs.nexmo.com/](https://docs.nexmo.com/)){:new_window}
-
-## Client Libraries
-{: #lib}
-* [Nexmo Node.js Client Libraries]([https://github.com/Nexmo/nexmo-node](https://github.com/Nexmo/nexmo-node)){:new_window}
-* [Nexmo Python Client Libraries]([https://github.com/Nexmo/nexmo-python](https://github.com/Nexmo/nexmo-python)){:new_window}
-* [Nexmo Java Client Libraries]([https://github.com/Nexmo/nexmo-](https://github.com/Nexmo/nexmo-python)java){:new_window}
-* [Nexmo Ruby Client Libraries](https://github.com/Nexmo/nexmo-ruby){:new_window}
-* [Nexmo PHP Client Libraries]([https://github.com/Nexmo/nexmo-php](https://github.com/Nexmo/nexmo-php)){:new_window}
-* [Nexmo .NET Client Libraries](https://github.com/Nexmo/nexmo-dotnet){:new_window}
+<!-- # Related Links moved to toc file for new doc app experience -->
