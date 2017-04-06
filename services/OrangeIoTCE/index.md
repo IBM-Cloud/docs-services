@@ -60,6 +60,8 @@ To get up and running quickly with Orange IoT Express Connect follow these steps
 ## API Reference
 {: #api}
 
+* [API WSDL Package](./WSDL.zip){:new_window}
+
 * [API End Points](./EndPoints.txt){:new_window}
 * [API Quotas](./Quotas.txt){:new_window}
 
