@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-22"
+lastupdated: "2017-04-06"
 
 ---
 
@@ -22,38 +22,31 @@ Orange IoT Connect Express provides a simpler and more efficient way to manage a
 
 To get started using Orange IoT Connect Express check out the full [Services overview](./OrangeIoTCE_Services_overview_v1.2.pdf).
 
-To get up and running quickly with Orange IoT Express Connect follow these steps:
+Here are information to get up and running quickly with Orange IoT Express Connect :
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
-
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+After connecting the service to your application, you will have a VCAP_SERVICES environment variable that will have the three bits of information from the tile: login, password and (hardcoded) url. The credentials are valid for all APIs, endpoints for each API will be added to the url.
 
 	```
-	my command -and -options
-	```
-	{: pre}
+	"VCAP_SERVICES": {
+	 {"user-provided": [
+	    {"credentials": {
+		"login": "xxx",
+		"password": "xxx",
+		"url": "https://iosw-ba.orange.com/MLM_EXT_IMC/"
+	      },
+	      "syslog_drain_url": "",
+	      "label": "user-provided",
+	      "name": "Orange IoT Connect Express",
+	      "tags": []
+	    }
+	  ]
+	 }
+	}
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
 	```
 	{: screen}
+
+You will find on the Ressource tab all you need about the Orange IoT Connect Express APIs : the endpoints, the quotas, the documentation and the WSDL package.
 
 
 
