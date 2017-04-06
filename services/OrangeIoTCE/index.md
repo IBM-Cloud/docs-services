@@ -22,8 +22,6 @@ Orange IoT Connect Express provides a simpler and more efficient way to manage a
 
 To get started using Orange IoT Connect Express check out the full [Services overview](./OrangeIoTCE_Services_overview_v1.2.pdf).
 
-Here are information to get up and running quickly with Orange IoT Express Connect :
-
 After connecting the service to your application, you will have a VCAP_SERVICES environment variable that will have the three bits of information from the tile: login, password and (hardcoded) url. The credentials are valid for all APIs, endpoints for each API will be added to the url.
 
 	```
@@ -46,7 +44,7 @@ After connecting the service to your application, you will have a VCAP_SERVICES 
 	```
 	{: screen}
 
-You will find on the Ressource tab all you need about the Orange IoT Connect Express APIs : the endpoints, the quotas, the documentation and the WSDL package.
+And you will find on the Ressource tab all you need about the Orange IoT Connect Express APIs : the endpoints, the quotas, the documentation and the WSDL package.
 
 
 
