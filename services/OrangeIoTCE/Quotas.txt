@@ -1,0 +1,12 @@
+connectivityDirectory = 1000 + (3 * {number of subscriptions})
+customerCatalog = 2000 + (2 * {number of subscriptions})
+deviceInfo = 1000 + (2 * {number of subscriptions})
+lifeCycleManagment = 1000 + (0.06 * {number of subscriptions})
+optionManagment = 1000 + (0.5 * {number of subscriptions})
+ordering = 100 + (0.01 * {number of subscriptions})
+serviceCustomer = 1000 + (2 * {number of subscriptions})
+sessionHistory = 1000 + (0.2 * {number of subscriptions})
+trafficTracking = 10000 + (2 * {number of subscriptions})
+maximum number of alarms allowed = 200 + (0.5 * {number of subscriptions})
+triggers creation limit for scope GROUP and FLEET = 60
+triggers creation limit for scope SUBSCRIPTION = 100 + (0.015 * {number of subscriptions})
