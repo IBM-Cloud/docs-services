@@ -71,6 +71,7 @@ Complete these steps to get started with the CloudAMQP service:
 
 3. Set up connection Environment Variable: The connection and credential information for CloudAMQP is available in the Bluemix VCAP_SERVICES environment variable. It’s a nested JSON objected with all service credentials. 
 
+
 <!-- Related links section: moved to TOC.
 # Related Links
 {: #rellinks notoc}
@@ -98,7 +99,3 @@ Complete these steps to get started with the CloudAMQP service:
 * [FAQ](https://www.cloudamqp.com/docs/faq.html){:new_window}
 * [Blog and news](https://www.cloudamqp.com/blog/index.html){:new_window}
  -->
-
-
-
-
