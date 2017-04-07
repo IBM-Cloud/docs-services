@@ -14,6 +14,9 @@ Simplicité
     [The demo business case in-depth presentation](https://www.simplicite.io/resources/demo.pdf)
     [The comprehensive training documentation](https://www.simplicite.io/resources/training/)
     [Simplicite.io hub](https://www.simplicite.io)
+    
+    {: .topicgroup}
+    Tutorials and samples    
     [Simplicité Software website](https://www.simplicitesoftware.com)
     [Documentation index](https://www.simplicite.io/resources/documentation/index.md)
     [Tools and contributions (hosted on GitHub)](https://github.com/simplicitesoftware?tab=repositories)
@@ -26,3 +29,4 @@ Simplicité
     [SOAP webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/soap-services.md)
     [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md)
     {: .navgroup-end}
+
