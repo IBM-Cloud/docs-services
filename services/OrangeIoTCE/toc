@@ -1,2 +1,22 @@
-[Getting Started with Orange IoT Connect Express](/docs/OrangeIoTCE/index.html)
-    index.md
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="OrangeIoTCE" audience="service"}
+Orange IoT Connect Express
+
+    {: .navgroup id="reference"}
+    Reference
+    [API WSDL Package](./WSDL.zip)
+    [API End Points](./EndPoints.txt)
+    [API Quotas](./Quotas.txt)
+    [API Connectivity Directory](./DVS107-WSDL-CD.pdf)
+    [API Customer Catalogue](./DVS107-WSDL-CC.pdf)
+    [API Option Management](./DVS107-WSDL-OM.pdf)
+    [API Ordering](./DVS107-WSDL-ORD.pdf)
+    [API SIM Lifecycle Management](./DVS107-WSDL-SLM.pdf)
+    [API Traffic Tracking](./DVS107-WSDL-TT.pdf)
+    [API Session History](./DVS107-WSDL-SH.pdf)
+    [API Alarm](./DVS107-WSDL-SCA-V2.pdf)
+    [API Device Info](./DVS107-WSDL-DIS.pdf)
+    {: .navgroup-end}
+
