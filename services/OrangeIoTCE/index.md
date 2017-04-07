@@ -47,7 +47,7 @@ After connecting the service to your application, you will have a VCAP_SERVICES 
 And you will find on the Ressource tab all you need about the Orange IoT Connect Express APIs : the endpoints, the quotas, the documentation and the WSDL package.
 
 
-
+<!-- Rellinks moved to toc file for new nav 
 ## API Reference
 {: #api}
 
@@ -70,10 +70,4 @@ And you will find on the Ressource tab all you need about the Orange IoT Connect
 
 ## Related Links
 {: #general}
-
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
-
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
+-->
