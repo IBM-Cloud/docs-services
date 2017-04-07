@@ -29,7 +29,7 @@ To get started quickly with Testdroid Cloud, complete these steps:
 1. Create an instance of the service from the Bluemix catalog.
 2. Open the Testdroid Cloud dashboard to select or upload tests.
 
-
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -53,4 +53,4 @@ To get started quickly with Testdroid Cloud, complete these steps:
 
 * [Mobile App Testing with Testdroid](http://bitbar.com/testing/)
 * [Testdroid Community Portal](http://bitbar.com/testing/blog/)
-
+-->
