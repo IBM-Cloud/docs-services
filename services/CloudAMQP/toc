@@ -1,14 +1,20 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="CloudAMQP" audience="service"}
-CloudAMQP
+{: .toc subcollection="Folder" audience="service"}
+Name
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
+    [Plans and pricing](https://console.ng.bluemix.net/catalog/services/cloudamqp/)
+    [FAQ](https://www.cloudamqp.com/docs/faq.html)
+    [Blog and news](https://www.cloudamqp.com/blog/index.html)
+	
+	{: .topicgroup}
+	Tutorials and Samples
     [Ruby](https://www.cloudamqp.com/docs/ruby.html)
     [Python](https://www.cloudamqp.com/docs/python.html)
     [Celery](https://www.cloudamqp.com/docs/celery.html)
@@ -21,12 +27,5 @@ CloudAMQP
     [.NET](https://www.cloudamqp.com/docs/dotnet.html)
     [Perl](https://www.cloudamqp.com/docs/perl.html)
     [C](https://www.cloudamqp.com/docs/c.html)
-    [Plans and pricing](https://console.ng.bluemix.net/catalog/services/cloudamqp/)
-    [FAQ](https://www.cloudamqp.com/docs/faq.html)
-    [Blog and news](https://www.cloudamqp.com/blog/index.html)
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-    Reference
-    [Link text](link URL)
-    {: .navgroup-end}
