@@ -17,6 +17,7 @@ lastupdated: "2017-03-15"
 
 # Getting started with Esri ArcGIS for Developers
 {: #gsEsriArcGISforDev}
+
 [Esri's ArcGIS APIs and SDKs](https://developers.arcgis.com/documentation/) allow you to create apps that include mapping, visualization, and analysis on Bluemix. ArcGIS for Developers has [ready to use REST services](https://developers.arcgis.com/features/) such as [Directions](https://developers.arcgis.com/features/directions/), [Geocoding](https://developers.arcgis.com/features/geocoding/), and [Geoenrichment](https://developers.arcgis.com/features/geo-enrichment/) that you can use in your Bluemix application.
 {:shortdesc}
 
