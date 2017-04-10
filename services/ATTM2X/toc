@@ -6,32 +6,38 @@ AT&amp;T M2X
 
     {: .navgroup id="learn"}
     index.md
-
+    
     {: .topicgroup}
     Related links
+    [Supported Platforms](https://m2x.att.com/developer/supported-platforms)
+    [Changelog](http://changelog-m2x.att.com/)
+    [System Integrator Program](https://iotservices.att.com/integrators)
+    [Pricing](https://m2x.att.com/pricing)
+    
+    {: .topicgroup}
+    Tutorials and Samples
     [Getting Started](https://m2x.att.com/developer/get-started)
+    [Managing API Keys](https://m2x.att.com/developer/tutorials/managing-api-keys)
     [Device Onboarding](https://m2x.att.com/developer/tutorials/device-onboarding)
     [Pushing Data to M2X](https://m2x.att.com/developer/tutorials/pushing-data)
     [Retreiving Data from M2X](https://m2x.att.com/developer/tutorials/retrieving-data)
     [Using Event Based Triggers](https://m2x.att.com/developer/tutorials/triggers)
     [SAMPLE APP: CleverFaucet](https://github.com/attm2x/m2x-sample-cleverfaucet)
     [SAMPLE APP: Pimotion](https://github.com/citrusbyte/pimotion)
+    [M2X Tutorials](https://m2x.att.com/developer/tutorials)
+    [Sample Apps](https://m2x.att.com/developer/sample-code)
+
+    {: .topicgroup}
+    SDK
     [Java](https://github.com/attm2x/m2x-java)
     [Ruby](https://github.com/attm2x/m2x-ruby)
     [Node.js](https://github.com/attm2x/m2x-nodejs)
     [PHP](https://github.com/attm2x/m2x-PHP)
     [Python](https://github.com/attm2x/m2x-python)
     [See the full list of client libraries...](https://m2x.att.com/developer/client-libraries)
-    [M2X Tutorials](https://m2x.att.com/developer/tutorials)
-    [Sample Apps](https://m2x.att.com/developer/sample-code)
-    [Supported Platforms](https://m2x.att.com/developer/supported-platforms)
-    [Changelog](http://changelog-m2x.att.com/)
-    [System Integrator Program](https://iotservices.att.com/integrators)
-    [Pricing](https://m2x.att.com/pricing)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Managing API Keys](https://m2x.att.com/developer/tutorials/managing-api-keys)
     [AT&T M2X API Documentation](https://m2x.att.com/developer/documentation/v2/overview)
     {: .navgroup-end}
