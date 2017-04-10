@@ -233,7 +233,9 @@ When using the Redis Cloud console, you can then find the dashboard using the **
 
 ## Support
 Any Redis Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
-
+ 
+ 
+<!-- Related links moved to toc file:
 
 # Related Links
 {: #rellinks notoc}
@@ -249,3 +251,5 @@ Any Redis Cloud support issues or product feedbacks are welcome via email at sup
 
 * [Developers Resources](http://redislabs.com/redis-cloud){:new_window}
 * [Redis Documentation](http://redis.io/documentation){:new_window}
+
+-->
