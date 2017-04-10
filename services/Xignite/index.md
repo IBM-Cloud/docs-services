@@ -63,10 +63,11 @@ We authenticate your calls using a token. You maintain your tokens using My Acco
 * A mnemonic value you provide
 * An IP address
 
-<!-- 
+
+<!-- Related links move to toc file:
+
 # Related Links
 {: #rellinks notoc}
--->
 
 ## KnowledgeBase
 http://www.xignite.com/Support/
@@ -80,3 +81,6 @@ http://xignite.github.io/DotNetSDK/
 
 ## Pricing
 http://www.xignite.com/pricing
+
+-->
+
