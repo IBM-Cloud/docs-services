@@ -43,6 +43,7 @@ Complete these steps to get started with your Diffusion Cloud service:
 That's all there is to using Diffusion Cloud to stream your data.
 
 
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -74,3 +75,4 @@ That's all there is to using Diffusion Cloud to stream your data.
 * [Diffusion Cloud User Manual](http://docs.pushtechnology.com/cloud/latest/manual/html/){:new_window}
 * [Push Technology website](https://www.pushtechnology.com/){:new_window}
 * [Push Technology blog](https://www.pushtechnology.com/blog/){:new_window}
+-->
