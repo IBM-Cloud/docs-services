@@ -13,8 +13,8 @@ Name
     [FAQ](https://www.cloudamqp.com/docs/faq.html)
     [Blog and news](https://www.cloudamqp.com/blog/index.html)
 	
-	{: .topicgroup}
-	Tutorials and Samples
+    {: .topicgroup}
+    Tutorials and Samples
     [Ruby](https://www.cloudamqp.com/docs/ruby.html)
     [Python](https://www.cloudamqp.com/docs/python.html)
     [Celery](https://www.cloudamqp.com/docs/celery.html)
