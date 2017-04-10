@@ -31,7 +31,9 @@ To get started quickly with Testdroid Cloud, complete these steps:
 
 Questions?  <a href="mailto:info@bitbar.com?Subject=Question from Bluemix" target="_top">Get in contact</a>.
 
+
 <!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
@@ -53,4 +55,5 @@ Questions?  <a href="mailto:info@bitbar.com?Subject=Question from Bluemix" targe
 
 * [Mobile App Testing with Testdroid](http://bitbar.com/testing/)
 * [Testdroid Community Portal](http://bitbar.com/testing/blog/)
+
 -->
