@@ -41,6 +41,9 @@ Plaid is free for the first 100 users. Once you reach 100 users, you'll need to 
 * [Resources](https://plaid.com/docs/resources/){:new_window}
 * [FAQ](https://support.plaid.com/customer/en/portal/articles/2571700-product-faqs){:new_window}
 
+
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
@@ -52,3 +55,4 @@ Plaid is free for the first 100 users. Once you reach 100 users, you'll need to 
 * [Company](https://plaid.com/company/){:new_window}
 * [Security](https://plaid.com/security/){:new_window}
 
+-->
