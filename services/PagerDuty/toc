@@ -9,10 +9,10 @@ PagerDuty
 
     {: .topicgroup}
     Related links
-    [PagerDuty Developer Hub](https://v2.developer.pagerduty.com/)
+        [PagerDuty Developer Hub](https://v2.developer.pagerduty.com/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
+        [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
     {: .navgroup-end}
