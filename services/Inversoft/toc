@@ -9,24 +9,24 @@ Passport
 
     {: .topicgroup}
     Related links
-    [Plans and Pricing](https://www.inversoft.com/try-passport)
-    [Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/)
+        [Plans and Pricing](https://www.inversoft.com/try-passport)
+        [Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/)
     
     {: .topicgroup}
     Tutorials and Samples
-    [Bluemix Integration Tutorial](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration)
-    [ToDo Application demonstrating Passport APIs Sample Application](https://github.com/inversoft/passport-bluemix-example)
+        [Bluemix Integration Tutorial](https://www.inversoft.com/docs/passport/1.x/tech/tutorials/bluemix-integration)
+        [ToDo Application demonstrating Passport APIs Sample Application](https://github.com/inversoft/passport-bluemix-example)
 
     {: .topicgroup}
     SDK
-    [Passport Client Libraries](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/)
-    [Java](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/java)
-    [C#](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/csharp)
-    [Node.js](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/node)
-    [PHP](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/php)
+        [Passport Client Libraries](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/)
+        [Java](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/java)
+        [C#](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/csharp)
+        [Node.js](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/node)
+        [PHP](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/php)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [REST APIs](https://www.inversoft.com/docs/passport/1.x/tech/apis/)
+        [REST APIs](https://www.inversoft.com/docs/passport/1.x/tech/apis/)
     {: .navgroup-end}
