@@ -9,11 +9,11 @@ Accern API
 
     {: .topicgroup}
     Related links
-    [Accern resources](https://www.accern.com/resources/)
+        [Accern resources](https://www.accern.com/resources/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Overview of the Accern API](http://docs.accern.com/#accern-overview)
-    [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics)
+        [Overview of the Accern API](http://docs.accern.com/#accern-overview)
+        [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics)
     {: .navgroup-end}
