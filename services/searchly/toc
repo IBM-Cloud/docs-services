@@ -9,10 +9,10 @@ Searchly
 
     {: .topicgroup}
     Related links
-    [Link text](link URL)
+        [Link text](link URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Link text](link URL)
+        [Link text](link URL)
     {: .navgroup-end}
