@@ -9,13 +9,13 @@ Namara.io
 
     {: .topicgroup}
     Related links
-    [What is open data?](https://namara.io/#/opendata)
-    [About Namara](https://namara.io/#/about)
-    [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html)
+        [What is open data?](https://namara.io/#/opendata)
+        [About Namara](https://namara.io/#/about)
+        [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API docs](https://namara.io/#/api)
-    [API wrappers](https://github.com/namara-io)
+        [API docs](https://namara.io/#/api)
+        [API wrappers](https://github.com/namara-io)
     {: .navgroup-end}
