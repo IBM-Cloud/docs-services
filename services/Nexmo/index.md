@@ -18,7 +18,7 @@ lastupdated: "2017-04-04"
 {: #gettingstarted}
 
 
-[Nexmo](https://nexmo.com) provides tools for voice, messaging and phone verification, enabling you to embed programmable communications into mobile apps, websites and business systems. Nexmo APIs include SMS text messaging, two-factor authentication, voice, chat, and social media connect.
+[Nexmo](https://nexmo.com), The Vonage API Platform, provides tools for voice, messaging and phone verification, enabling you to embed programmable communications into mobile apps, websites and business systems. Nexmo APIs include SMS text messaging, two-factor authentication, voice, chat, and social media connect.
 
 To get started with Nexmo APIs on Bluemix:
 
@@ -36,7 +36,7 @@ Go to your [Dashboard](https://console.eu-gb.bluemix.net/dashboard/apps/), and c
 
 ![Create an app](images/01-create-app.png)
 
-Next, scroll down to *Cloud Foundry Apps*, and choose **SDK for Node.js****TM** :
+Next, scroll down to *Cloud Foundry Apps*, and choose **SDK for Node.js** :
 
 ![Create an app](images/02-create-app-js.png)
 
@@ -48,7 +48,7 @@ Now, it takes you to the dashboard and you should see some progress indicators t
 
 # Using Nexmo with the New Application
 
-You are going to use Nexmo to build your SMS analysis app. Click **Catalog** at the top menu bar:
+You are going to use Nexmo to simply send a SMS message. Click **Catalog** at the top menu bar:
 
 ![Create an app](images/04-go-to-catalog.png)
 
@@ -56,11 +56,7 @@ At the catalog, search under *Mobile*, then click **Nexmo**:
 
 ![Create an app](images/05-add-nexmo.png)
 
-Fill out your Nexmo API Key and API Secret.
-
-[I NEED THE SCREENSHOT!]
-
-Click Create.
+At the next screen, fill out your Nexmo **API Key** and **API Secret**, then click Create.
 
 ### Downloading Your Template Files
 
@@ -75,9 +71,7 @@ To download, modify, and redeploy your Cloud Foundry applications and service in
 After the installation, use the `cf` command to login and connect to the Bluemix environment:
 
 ```bash
-
 $ cf api [https://api.ng.bluemix.net](https://api.ng.bluemix.net)
-
 ```
 
 Or use the API endpoint for your region, [https://api.eu-gb.bluemix.net](https://api.eu-gb.bluemix.net/) (United Kingdom) and [https://api.au-syd.bluemix.net](https://api.au-syd.bluemix.net/) (Sydney).
@@ -85,9 +79,7 @@ Or use the API endpoint for your region, [https://api.eu-gb.bluemix.net](https:/
 Then login:
 
 ```bash
-
 $ cf login
-
 ```
 
 Now you got your Bluemix set up, so you can get started creating your Node.js application.
@@ -137,28 +129,35 @@ This will add the `nexmo` as the dependencies in your **package.json** file auto
 
 Also, check your **manifest.yml** file, which is used by Bluemix for the deployment. It should look like this:
 
-applications:
-
 ```bash
-- services:
-  - nexmo
+applications:
+- path: .
+  services
+  - Nexmo-yl
   name: send-sms
-  command: node app.js
+  host: send-sms
+...
 ```
 
-Now, open the app.js file, and assign your Nexmo API credentials. You can grab the credentials from the Bluemix, where it stores all service credentials. Access your Nexmo credentials within the `VCAP_SERVICES` environment variable with `cfenv` that parses Cloud Foundry-provided environment variables:
+For the service name,  you have an automatically generated for your application. It usually look like, `nexmo-`, and two random characters, such as `nexmo-yl`.
+
+Now, open the **app.js** file, and assign your Nexmo API credentials. You can grab the credentials from the Bluemix, where it stores all service credentials. Access your Nexmo credentials within the `VCAP_SERVICES` environment variable with `cfenv` that parses Cloud Foundry-provided environment variables:
 
 ```javascript
 const cfenv = require('cfenv');
-Const appEnv = cfenv.getAppEnv();
-const nexmoApiKey = appEnv.getService('api_key');
-Const nexmoApiSecret = appEnv.getService('api_secret');
+const appEnv = cfenv.getAppEnv();
+
+const nexmoApiKey = appEnv.getServiceCreds('Nexmo-yl').apiKey;
+const nexmoApiSecret = appEnv.getServiceCreds('Nexmo-yl').apiSecret
 ```
+
+The name must match your generated service name.
 
 Now, initialize a Nexmo instance with the credentials:
 
 ```javascript
 const Nexmo = require('nexmo');
+
 const nexmo = new Nexmo({
   apiKey: nexmoApiKey,
   apiSecret: nexmoApiSecret
@@ -185,15 +184,9 @@ nexmo.message.sendSms(
 );
 ```
 
-Let’s run this, and see if you get a SMS to your mobile phone.
+Now, let's deploy this to Bluemix.
 
-```bash
-$ node index.js
-```
 
-![SMS](images/sms-android.png)
-
-As soon as you run the script, Nexmo will send the message to your phone. The time of the actual delivery depends on your mobile phone carrier, so it can be instant, or it might take some time.
 
 # Deploying Your Application
 
@@ -203,7 +196,11 @@ To deploy your application, you will be using the Cloud Foundry CLI again. You c
 $ cf push
 ```
 
-Once you deploy the application, your phone should receive a message. Sure, this application isn’t the most practical, however, it should provide a good idea of how to use the Nexmo SMS API to build better applications!
+Once your application is deployed to Bluemix and run correctly, Nexmo will send the message to your phone. The time of the actual delivery depends on your mobile phone carrier, so it can be instant, or it might take some time.
+
+![SMS](images/sms-android.png)
+
+Sure, this sample application isn’t the most practical, however, it should provide a good idea of how to use the Nexmo SMS API to build better applications!
 
 To create something more practical using the Nexmo APIs, such as an app to make and receive voice calls; or setting up two-factor authentications, visit the [Nexmo Tutorial Blog](https://www.nexmo.com/blog/category/developers-2/tutorial/)!
 
