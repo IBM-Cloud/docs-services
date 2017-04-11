@@ -9,8 +9,8 @@ Redis Cloud
 
     {: .topicgroup}
     Related links
-    [FAQ](https://redislabs.com/company/faqs?page_source=cloud#redis)
-    [HowTo](https://redislabs.com/redis-howto)
-    [Developers Resources](http://redislabs.com/redis-cloud)
-    [Redis Documentation](http://redis.io/documentation)
+        [FAQ](https://redislabs.com/company/faqs?page_source=cloud#redis)
+        [HowTo](https://redislabs.com/redis-howto)
+        [Developers Resources](http://redislabs.com/redis-cloud)
+        [Redis Documentation](http://redis.io/documentation)
     {: .navgroup-end}
