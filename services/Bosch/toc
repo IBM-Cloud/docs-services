@@ -9,10 +9,10 @@ Bosch
 
     {: .topicgroup}
     Related links
-    [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API](URL)
+        [API link text](URL)
     {: .navgroup-end}
