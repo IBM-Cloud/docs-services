@@ -10,5 +10,5 @@ Intelligent Travel API
 
     {: .navgroup id="reference"}
     Reference
-    [API docs](https://swagger-ui.zumata.com/?url=https://storage.googleapis.com/swagger-docs/nlp/v1.0.0.json#/search)
+        [API docs](https://swagger-ui.zumata.com/?url=https://storage.googleapis.com/swagger-docs/nlp/v1.0.0.json#/search)
     {: .navgroup-end}
