@@ -94,13 +94,13 @@ Name of service
 
     {: .topicgroup}
     Related links
-    [Link text](URL)
-    [Link text](URL)
+        [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+        [API Documentation](URL)
     {: .navgroup-end}
 ```
 
