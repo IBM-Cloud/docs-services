@@ -100,16 +100,16 @@ Complete these steps to get started with the BigInsights service:
 
     {: .topicgroup}
     Related links
-    [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
-To add related links, indent the 4 spaces, put the name of the link in [] and the URL in (), like so:
-    [Link text](https://pathtolink.html)
+To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
+        [Link text](https://pathtolink.html)
     
 If you have API references to add, leave a blank line under the previous navgroup and then add:
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](https://pathtolink.html)
+        [API Documentation](https://pathtolink.html)
     {: .navgroup-end}
 -->
