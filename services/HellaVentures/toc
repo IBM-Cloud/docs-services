@@ -9,12 +9,12 @@ Car Diagnostic API
 
     {: .topicgroup}
     Related links
-    [iOS OBD Example App](https://github.com/HellaVentures/iOS-OBD-Example-App)
-    [Android OBD Example App](https://github.com/HellaVentures/Android-OBD-Example-App)
-    [IBM Developer Portal](https://production-hella-ventures-car-diagnostic-api.developer.eu.apiconnect.ibmcloud.com/)
+        [iOS OBD Example App](https://github.com/HellaVentures/iOS-OBD-Example-App)
+        [Android OBD Example App](https://github.com/HellaVentures/Android-OBD-Example-App)
+        [IBM Developer Portal](https://production-hella-ventures-car-diagnostic-api.developer.eu.apiconnect.ibmcloud.com/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](https://github.com/HellaVentures/Car-Diagnostic-API)
+        [API Documentation](https://github.com/HellaVentures/Car-Diagnostic-API)
     {: .navgroup-end}
