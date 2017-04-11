@@ -9,15 +9,15 @@ Mapbox maps
 
     {: .topicgroup}
     Related links
-    [Getting Started with Mapbox Studio](https://www.mapbox.com/help/getting-started-mapbox-studio-1/)
-    [Build a Store Locator with Mapbox GL JS](https://www.mapbox.com/help/building-a-store-locator/)
-    [Mapbox GL JS SDK](https://www.mapbox.com/mapbox-gl-js/api/)
-    [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/)
-    [Mapbox GL JS Examples](https://www.mapbox.com/mapbox-gl-js/examples/)
-    [Mapbox Data Driven Style Tutorial](https://www.mapbox.com/help/gl-dds-ref/)
+        [Getting Started with Mapbox Studio](https://www.mapbox.com/help/getting-started-mapbox-studio-1/)
+        [Build a Store Locator with Mapbox GL JS](https://www.mapbox.com/help/building-a-store-locator/)
+        [Mapbox GL JS SDK](https://www.mapbox.com/mapbox-gl-js/api/)
+        [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/)
+        [Mapbox GL JS Examples](https://www.mapbox.com/mapbox-gl-js/examples/)
+        [Mapbox Data Driven Style Tutorial](https://www.mapbox.com/help/gl-dds-ref/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Mapbox API](https://www.mapbox.com/api-documentation/#styles)
+        [Mapbox API](https://www.mapbox.com/api-documentation/#styles)
     {: .navgroup-end}
