@@ -23,6 +23,6 @@ Testdroid Cloud
 
     {: .navgroup id="reference"}
     Reference
-        [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
-        [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
+    [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
+    [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
     {: .navgroup-end}
