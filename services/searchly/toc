@@ -14,5 +14,5 @@ Searchly
 
     {: .navgroup id="reference"}
     Reference
-        [Link text](link URL)
+    [API link text](link URL)
     {: .navgroup-end}
