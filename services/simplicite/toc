@@ -25,8 +25,8 @@ Simplicit&eacute;
 
     {: .navgroup id="reference"}
     Reference
-        [REST webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/rest-services.md)
-        [SOAP webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/soap-services.md)
-        [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md)
+    [REST webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/rest-services.md)
+    [SOAP webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/soap-services.md)
+    [RAW webservices API documentation](https://www.simplicite.io/resources/documentation/02-integration/raw-services.md)
     {: .navgroup-end}
 
