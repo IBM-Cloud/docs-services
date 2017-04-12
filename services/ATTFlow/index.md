@@ -30,6 +30,7 @@ To get up and running quickly with AT&T Flow Designer, once you have signed up f
 2. For additional help or support, please consult the [User Forum](https://developer.att.com/forums/at-t-flow-designer), or if you are having trouble, submit a [Ticket](http://developer.att.com/developer/sso/salesforceRedirect.jsp?_fn=SessionTrigger)		 
 
 
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -45,4 +46,4 @@ To get up and running quickly with AT&T Flow Designer, once you have signed up f
 
 * [Frequently Asked Questions](https://flow.att.com/faq){:new_window}
 * [Features](https://flow.att.com/features){:new_window}
-
+-->

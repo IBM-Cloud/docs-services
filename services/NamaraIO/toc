@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NamaraIO" audience="service"}
+{: .toc subcollection="NamaraIO" audience="service" href="/docs/services/NamaraIO/index.html"}
 Namara.io
 
     {: .navgroup id="learn"}
@@ -9,9 +9,9 @@ Namara.io
 
     {: .topicgroup}
     Related links
-    [What is open data?](https://namara.io/#/opendata)
-    [About Namara](https://namara.io/#/about)
-    [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html)
+        [What is open data?](https://namara.io/#/opendata)
+        [About Namara](https://namara.io/#/about)
+        [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

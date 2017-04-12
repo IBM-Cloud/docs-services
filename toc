@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service"}
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
 Product name
 
     {: .navgroup id="learn"}
@@ -9,8 +9,8 @@ Product name
 
     {: .topicgroup}
     Related links
-    [Link text](URL)
-    [Link text](URL)
+        [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

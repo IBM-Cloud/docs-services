@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DiffusionCloud" audience="service"}
+{: .toc subcollection="DiffusionCloud" audience="service" href="/docs/services/DiffusionCloud/index.html"}
 Diffusion Cloud
 
     {: .navgroup id="learn"}
@@ -11,13 +11,13 @@ Diffusion Cloud
 
     {: .topicgroup}
     Related links
-    [Tutorials](https://www.youtube.com/watch?v=e38FbjF2zIs&list=PLYzjzg_h2Tcxc9BZfE6_8Chw2buBzL204)
-    [Feature focus](https://www.youtube.com/watch?v=didjrWCqmLw&list=PLYzjzg_h2TczawKhkEJ5-YIkRNbiOEWx-)
-    [Links to all our SDK](http://download.pushtechnology.com/cloud/latest/sdks.html)
-    [Diffusion Cloud in the IBM Bluemix catalog](https://console.ng.bluemix.net/catalog/services/diffusion-cloud-from-push-technology/) 
-    [Diffusion Cloud User Manual](http://docs.pushtechnology.com/cloud/latest/manual/html/)
-    [Push Technology website](https://www.pushtechnology.com/)
-    [Push Technology blog](https://www.pushtechnology.com/blog/)
+        [Tutorials](https://www.youtube.com/watch?v=e38FbjF2zIs&list=PLYzjzg_h2Tcxc9BZfE6_8Chw2buBzL204)
+        [Feature focus](https://www.youtube.com/watch?v=didjrWCqmLw&list=PLYzjzg_h2TczawKhkEJ5-YIkRNbiOEWx-)
+        [Links to all our SDK](http://download.pushtechnology.com/cloud/latest/sdks.html)
+        [Diffusion Cloud in the IBM Bluemix catalog](https://console.ng.bluemix.net/catalog/services/diffusion-cloud-from-push-technology/) 
+        [Diffusion Cloud User Manual](http://docs.pushtechnology.com/cloud/latest/manual/html/)
+        [Push Technology website](https://www.pushtechnology.com/)
+        [Push Technology blog](https://www.pushtechnology.com/blog/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

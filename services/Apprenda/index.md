@@ -32,9 +32,10 @@ For more detailed information about the platform, including [tutorials](http://d
 ## Alpha Release
  This is an Alpha release and should not be used for production workloads.  A resource policy is in effect to limit workloads to 500MB of RAM and 50MB of storage.  Each development team is limited to 2GB of RAM and 1GB of storage.
 
-<!-- # Related Links
+
+<!-- Related links moved to toc file:
+# Related Links
 {: #rellinks notoc}
--->
 
 ## Help and Support
 {: #general}
@@ -53,3 +54,4 @@ For more detailed information about the platform, including [tutorials](http://d
 {: #api}
 
 * [Apprenda API Documentation](http://docs.apprenda.com/apprenda-apis){:new_window}
+-->

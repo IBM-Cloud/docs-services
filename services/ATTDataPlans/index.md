@@ -33,6 +33,7 @@ To get up and running quickly with AT&T IoT Data Plans, we recommend using the A
 4. Begin prototyping on the AT&T IoT Platform tools for devlopers, [M2X Data Service](https://m2x.att.com) and [AT&T Flow Designer](https://flow.att.com).
 
 
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -48,3 +49,5 @@ To get up and running quickly with AT&T IoT Data Plans, we recommend using the A
 
 * [IoT Data Plans FAQ](https://iotdataplans.att.com/data-plan-faq) {:new_window}
 * [IoT Staret Kit FAQ](https://starterkit.att.com/faq) {:new_window}
+-->
+

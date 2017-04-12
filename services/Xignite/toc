@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Xignite" audience="service"}
+{: .toc subcollection="Xignite" audience="service" href="/docs/services/Xignite/index.html"}
 Xignite
 
     {: .navgroup id="learn"}
@@ -9,10 +9,10 @@ Xignite
 
     {: .topicgroup}
     Related links
-    [KnowledgeBase](http://www.xignite.com/Support/)
-    [Developer Documentation](http://www.xignite.com/developers)
-    [SDKs](http://xignite.github.io/JavaSDK/)
+        [KnowledgeBase](http://www.xignite.com/Support/)
+        [Developer Documentation](http://www.xignite.com/developers)
+        [SDKs](http://xignite.github.io/JavaSDK/)
 	[SDKs](http://xignite.github.io/DotNetSDK/)
-    [Pricing](http://www.xignite.com/pricing)
+        [Pricing](http://www.xignite.com/pricing)
     {: .navgroup-end}
 

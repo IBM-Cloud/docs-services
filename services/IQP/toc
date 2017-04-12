@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="IQP" audience="service"}
+{: .toc subcollection="IQP" audience="service" href="/docs/services/IQP/index.html"}
 IQP
 
     {: .navgroup id="learn"}
@@ -9,7 +9,7 @@ IQP
 
     {: .topicgroup}
     Related links
-    [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

@@ -58,7 +58,10 @@ Are you already an aficionado or plan to adopt BDD? Hiptest allows you to create
 
 With the Open Source Hiptest publisher, generate scripts for your favorite test execution frameworks and get the results back into Hiptest: RSpec, JUnit, Cucumber, Qunit, Jasmine and many more. See [automate your tests documentation](http://docs.hiptest.net/automate-your-tests){:new_window}
 
-# Links
+
+<!-- Related links moved to toc file:
+
+# Related links
 {: #rellinks notoc}
 
 ## Tutorials
@@ -75,3 +78,4 @@ With the Open Source Hiptest publisher, generate scripts for your favorite test 
 * [YouTube](https://www.youtube.com/channel/UCx8MFcFrl8tUbfrXSAPDnLw){:new_window}
 * [Hiptest features](https://hiptest.net/features){:new_window}
 
+-->

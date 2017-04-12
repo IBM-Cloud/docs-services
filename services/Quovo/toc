@@ -1,18 +1,19 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Bosch" audience="service" href="/docs/services/Bosch/index.html"}
-Bosch
+{: .toc subcollection="Quovo" audience="service" href="/docs/services/Quovo/index.html"}
+Quovo 
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
+        [Quovo documentation](link URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API link text](URL)
+    [API Link text](link URL)
     {: .navgroup-end}
+

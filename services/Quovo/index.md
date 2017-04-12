@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-02-10"
+lastupdated: "2017-04-05"
 
 ---
 
@@ -19,8 +19,8 @@ lastupdated: "2017-02-10"
 <!-- The name of this file should remain index.md.
 Please delete out content examples and coding that you are not using for your service. -->
 
-# Getting started with <service_short_name>
-{: #gettingstarted}
+# Getting started with Quovo
+{: #gettingstarted_quovo}
 <!-- Provide an appropriate ID above -->
 
 <!-- Short description: REQUIRED
@@ -28,9 +28,7 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
+Quovo is a data platform providing insights and connectivity for millions of consumer financial accounts across thousands of institutions. Our fintech API suite makes it easy to automatically create a 360° degree picture of your users' financial life, access deep transaction histories, authenticate account ownership, or verify income.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
@@ -45,13 +43,13 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+To learn more about Quovo and our suite of fintech APIs, visit our [website](https://www.quovo.com).
+
+If you're ready to start using Quovo, first sign up for an account by [clicking here](http://info.quovo.com/bluemix). 
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+Once you've submitted our sign up form, you can:
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -60,38 +58,9 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
-
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
+1. Review our Account Aggregation API documentaiton [here](https://api.quovo.com/docs/agg/).
+2. Review our Bank Authentication API documentation [here](https://api.quovo.com/docs/auth/).
+3. Start using Quovo!
 
 <!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
 
@@ -100,16 +69,17 @@ Complete these steps to get started with the BigInsights service:
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
+    [Link text](URL)
     {: .navgroup-end}
 
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
+To add related links, indent the 4 spaces, put the name of the link in [] and the URL in (), like so:
+    [Link text](https://pathtolink.html)
     
 If you have API references to add, leave a blank line under the previous navgroup and then add:
 
     {: .navgroup id="reference"}
     Reference
-        [API Documentation](https://pathtolink.html)
+    [API Documentation](https://pathtolink.html)
     {: .navgroup-end}
 -->
+

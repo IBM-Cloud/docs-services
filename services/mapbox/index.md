@@ -60,6 +60,9 @@ To get started with Mapbox APIs on Bluemix:
 	```
 	{: pre}
 
+
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
@@ -89,3 +92,5 @@ To get started with Mapbox APIs on Bluemix:
 
 * [Mapbox GL JS Examples](https://www.mapbox.com/mapbox-gl-js/examples/){:new_window}
 * [Mapbox Data Driven Style Tutorial](https://www.mapbox.com/help/gl-dds-ref/){:new_window}
+
+-->

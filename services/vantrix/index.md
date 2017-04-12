@@ -102,7 +102,10 @@ The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS o
 - MPEG-TS outputs with MPEG-2, H.264 or H.265 video codec and AAC audio codec
 - MP4 outputs with H.264 video codec and AAC audio codec
 - HTTP Live Streaming (HLS) outputs with H.264 or H.265 video codec and AAC audio codec
-	
+
+
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
@@ -119,3 +122,5 @@ The Bluemix Free Plan supports MPEG-TS and MP4 inputs and MPEG-TS, MP4 and HLS o
 ## Related Links
 {: #general}
 [Vantrix Resources](http://vantrix.com/resources/knowledgebase/){:new_window}
+
+-->

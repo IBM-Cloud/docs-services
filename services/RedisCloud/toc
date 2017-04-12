@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="RedisCloud" audience="service"}
+{: .toc subcollection="RedisCloud" audience="service" href="/docs/services/RedisCloud/index.html"}
 Redis Cloud
 
     {: .navgroup id="learn"}
@@ -9,8 +9,8 @@ Redis Cloud
 
     {: .topicgroup}
     Related links
-    [FAQ](https://redislabs.com/company/faqs?page_source=cloud#redis)
-    [HowTo](https://redislabs.com/redis-howto)
-    [Developers Resources](http://redislabs.com/redis-cloud)
-    [Redis Documentation](http://redis.io/documentation)
+        [FAQ](https://redislabs.com/company/faqs?page_source=cloud#redis)
+        [HowTo](https://redislabs.com/redis-howto)
+        [Developers Resources](http://redislabs.com/redis-cloud)
+        [Redis Documentation](http://redis.io/documentation)
     {: .navgroup-end}

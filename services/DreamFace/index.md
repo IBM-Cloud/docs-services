@@ -18,6 +18,7 @@ lastupdated: "2016-06-20"
 {: #gettingstarted}
 
 DreamFace is an open-source, cloud-native development platform for creating enterprise web and mobile applications.
+{:shortdesc}
 
 DreamFace X-Platform, (DFX) or just **DreamFace**, is part of an emerging category of cloud-native, Rapid Application
 Development (RAD) Platforms. It is built to empower Fullstack developers to deliver consistently well-architected,
@@ -45,9 +46,8 @@ DreamFace applications are:
 * are architected to scale
 * open-source, open and extensible
 
-{:shortdesc}
 
-
+<!-- Related links moved to toc file:
 Related Links
 {: #rellinks notoc}
 
@@ -59,3 +59,4 @@ Getting Started Tutorials and Samples
 * [Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html){:new_window}
 * [Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html){:new_window}
 * [Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html){:new_window}
+-->

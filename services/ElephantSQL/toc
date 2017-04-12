@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ElephantSQL" audience="service"}
+{: .toc subcollection="ElephantSQL" audience="service" href="/docs/services/ElephantSQL/index.html"}
 ElephantSQL
 
     {: .navgroup id="learn"}
@@ -9,15 +9,15 @@ ElephantSQL
 
     {: .topicgroup}
     Related links
-    [Ruby](http://www.elephantsql.com/docs/ruby.html)
-    [Python](http://www.elephantsql.com/docs/python.html)
-    [node.js](http://www.elephantsql.com/docs/nodejs.html)
-    [PHP](http://www.elephantsql.com/docs/php.html)
-    [Clojure](http://www.elephantsql.com/docs/clojure.html)
-    [Go](http://www.elephantsql.com/docs/go.html)
-    [.NET](http://www.elephantsql.com/docs/dotnet.html)
-    [Plans and pricing](https://console.ng.bluemix.net/catalog/services/elephantsql/)
-    [FAQ](http://www.elephantsql.com/docs/faq.html)
-    [Blog and news](http://www.elephantsql.com/blog/index.html)
+        [Ruby](http://www.elephantsql.com/docs/ruby.html)
+        [Python](http://www.elephantsql.com/docs/python.html)
+        [node.js](http://www.elephantsql.com/docs/nodejs.html)
+        [PHP](http://www.elephantsql.com/docs/php.html)
+        [Clojure](http://www.elephantsql.com/docs/clojure.html)
+        [Go](http://www.elephantsql.com/docs/go.html)
+        [.NET](http://www.elephantsql.com/docs/dotnet.html)
+        [Plans and pricing](https://console.ng.bluemix.net/catalog/services/elephantsql/)
+        [FAQ](http://www.elephantsql.com/docs/faq.html)
+        [Blog and news](http://www.elephantsql.com/blog/index.html)
     {: .navgroup-end}
     

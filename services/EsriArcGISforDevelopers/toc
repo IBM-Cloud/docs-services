@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="EsriArcGISforDevelopers" audience="service"}
+{: .toc subcollection="EsriArcGISforDevelopers" audience="service" href="/docs/services/EsriArcGISforDevelopers/index.html"}
 Esri ArcGIS for Developers
 
     {: .navgroup id="learn"}
@@ -9,14 +9,14 @@ Esri ArcGIS for Developers
 
     {: .topicgroup}
     Related links
-    [Getting Started with Creating a 2D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-mapview/index.html)
-    [Getting Started with Creating a 3D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-sceneview/index.html)
-    [GeoEnrichment Service](https://developers.arcgis.com/rest/geoenrichment/api-reference/input-xy-locations.htm)
-    [ArcGIS API for JavaScript Guide](https://developers.arcgis.com/javascript/latest/guide/index.html)
-    [ArcGIS Runtime SDK for iOS](https://developers.arcgis.com/ios/latest/)
-    [ArcGIS Runtime SDK for Android](https://developers.arcgis.com/android/latest/)
-    [ArcGIS Runtime SDK for iOS Samples](https://developers.arcgis.com/ios/latest/swift/sample-code/sample-code.htm)
-    [ArcGIS Runtime SDK for Android Samples](https://developers.arcgis.com/android/latest/sample-code/sample-code.htm)
+        [Getting Started with Creating a 2D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-mapview/index.html)
+        [Getting Started with Creating a 3D Map](https://developers.arcgis.com/javascript/latest/sample-code/get-started-sceneview/index.html)
+        [GeoEnrichment Service](https://developers.arcgis.com/rest/geoenrichment/api-reference/input-xy-locations.htm)
+        [ArcGIS API for JavaScript Guide](https://developers.arcgis.com/javascript/latest/guide/index.html)
+        [ArcGIS Runtime SDK for iOS](https://developers.arcgis.com/ios/latest/)
+        [ArcGIS Runtime SDK for Android](https://developers.arcgis.com/android/latest/)
+        [ArcGIS Runtime SDK for iOS Samples](https://developers.arcgis.com/ios/latest/swift/sample-code/sample-code.htm)
+        [ArcGIS Runtime SDK for Android Samples](https://developers.arcgis.com/android/latest/sample-code/sample-code.htm)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

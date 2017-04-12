@@ -173,9 +173,14 @@ To retrieve data use CQL SELECT.
 
 To learn more about Instaclustr and Cassandra, check out the documentation and tutorials on our support site.
 
+
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
 * [Instaclustr Home](https://www.instaclustr.com/){:new_window}
 * [Instaclustr Git Repository](https://github.com/instaclustr){:new_window}
 * [lnstaclustr Support Site](https://support.instaclustr.com/hc/en-us){:new_window}
+-->
+
