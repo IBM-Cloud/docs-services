@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="PagerDuty" audience="service"}
+{: .toc subcollection="PagerDuty" audience="service" href="/docs/services/PagerDuty/index.html"}
 PagerDuty
 
     {: .navgroup id="learn"}
