@@ -17,6 +17,6 @@ TinyQueries
 
     {: .navgroup id="reference"}
     Reference
-        [TQL - TinyQueries Language](http://docs.tinyqueries.com/tql)
-        [PHP client lib for TinyQueries](http://docs.tinyqueries.com/libs/php)
+    [TQL - TinyQueries Language](http://docs.tinyqueries.com/tql)
+    [PHP client lib for TinyQueries](http://docs.tinyqueries.com/libs/php)
     {: .navgroup-end}
