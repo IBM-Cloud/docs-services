@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="searchly" audience="service"}
+{: .toc subcollection="searchly" audience="service" href="/docs/services/searchly/index.html"}
 Searchly
 
     {: .navgroup id="learn"}
