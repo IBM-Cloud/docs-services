@@ -1,10 +1,9 @@
 ---
-
 copyright: Nexmo
 
 years: 2017
 
-lastupdated: "2017-04-11"
+lastupdated: "2017-04-12"
 
 ---
 
@@ -56,7 +55,11 @@ At the catalog, search under *Mobile*, then click **Nexmo**:
 
 ![Create an app](images/05-add-nexmo.png)
 
-At the next screen, fill out your Nexmo **API Key** and **API Secret**, then click Create.
+At the next screen, fill out your Nexmo **API Key** and **API Secret**.
+
+![Create an app](images/06-api-credentials.png)
+
+Now. click **Create**, then press **Create Connection** at the next screen to connect it with the new application you just created.
 
 ### Downloading Your Template Files
 
