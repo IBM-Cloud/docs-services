@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NexionaPoCBuildWIoT" audience="service"}
+{: .toc subcollection="NexionaPoCBuildWIoT" audience="service" href="/docs/services/NexionaPoCBuildWIoT/index.html"}
 Proof of Concept Builder for Watson IoT
 
     {: .navgroup id="learn"}
