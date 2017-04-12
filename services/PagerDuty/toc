@@ -14,5 +14,5 @@ PagerDuty
 
     {: .navgroup id="reference"}
     Reference
-        [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
+    [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
     {: .navgroup-end}
