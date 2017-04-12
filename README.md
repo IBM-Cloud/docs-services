@@ -100,7 +100,7 @@ Name of service
 
     {: .navgroup id="reference"}
     Reference
-        [API Documentation](URL)
+    [API Documentation](URL)
     {: .navgroup-end}
 ```
 
