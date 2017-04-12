@@ -22,10 +22,10 @@ Diffusion Cloud
 
     {: .navgroup id="reference"}
     Reference
-        [JavaScript API documentation](http://download.pushtechnology.com/docs/latest/js)
-        [Android API documentation](http://download.pushtechnology.com/docs/latest/android)
-        [Apple API documentation](http://download.pushtechnology.com/docs/latest/apple)
-        [Java API documentation](http://download.pushtechnology.com/docs/latest/java)
-        [.NET API documentation](http://download.pushtechnology.com/docs/latest/dotnet)
-        [C API documentation](http://download.pushtechnology.com/docs/latest/c)
+    [JavaScript API documentation](http://download.pushtechnology.com/docs/latest/js)
+    [Android API documentation](http://download.pushtechnology.com/docs/latest/android)
+    [Apple API documentation](http://download.pushtechnology.com/docs/latest/apple)
+    [Java API documentation](http://download.pushtechnology.com/docs/latest/java)
+    [.NET API documentation](http://download.pushtechnology.com/docs/latest/dotnet)
+    [C API documentation](http://download.pushtechnology.com/docs/latest/c)
     {: .navgroup-end}
