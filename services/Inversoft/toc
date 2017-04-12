@@ -28,5 +28,5 @@ Passport
 
     {: .navgroup id="reference"}
     Reference
-        [REST APIs](https://www.inversoft.com/docs/passport/1.x/tech/apis/)
+    [REST APIs](https://www.inversoft.com/docs/passport/1.x/tech/apis/)
     {: .navgroup-end}
