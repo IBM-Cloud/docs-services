@@ -16,6 +16,6 @@ Namara.io
 
     {: .navgroup id="reference"}
     Reference
-        [API docs](https://namara.io/#/api)
-        [API wrappers](https://github.com/namara-io)
+    [API docs](https://namara.io/#/api)
+    [API wrappers](https://github.com/namara-io)
     {: .navgroup-end}
