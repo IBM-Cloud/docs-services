@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="MoniAi" audience="service"}
+{: .toc subcollection="MoniAi" audience="service" href="/docs/services/MoniAi/index.html"}
 Moni.ai
 
     {: .navgroup id="learn"}
@@ -15,13 +15,13 @@ Moni.ai
         [Moni.ai developers page](https://moni.ai/developers)
     
     {: .topicgroup}
-    SDK
-        [Moni.ai Voice Channel designer](https://hub.jazz.net/deploy/index.html?repository=https://hub.jazz.net/git/moniai/voice-channel-design)
-    
-    {: .topicgroup}
     Tutorials and samples
         [Build "Voice Channels" with Moni.ai, your virtual assistant](https://developer.ibm.com/bluemix/2016/02/10/voice-channels-with-moni-ai-virtual-assistant/)
         [Case study for "Voice Channels" on Moni.ai](https://developer.ibm.com/bluemix/2016/04/07/voice-channels-on-moni-ai/)
+    
+    {: .topicgroup}
+    SDK
+        [Moni.ai Voice Channel designer](https://hub.jazz.net/deploy/index.html?repository=https://hub.jazz.net/git/moniai/voice-channel-design)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
