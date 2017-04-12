@@ -81,7 +81,7 @@ The following toc file would create the structure for the previous Example Outli
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service"}
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
 Name of service
 
     {: .navgroup id="learn"}
