@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NexionaDevConManWIoT" audience="service"}
+{: .toc subcollection="NexionaDevConManWIoT" audience="service" href="/docs/services/NexionaDevConManWIoT/index.html"}
 Device Connect and Manage for Watson IoT
 
     {: .navgroup id="learn"}
