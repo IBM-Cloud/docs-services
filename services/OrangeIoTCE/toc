@@ -4,8 +4,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Apprenda" audience="service"}
-Apprenda Cloud Platform
+{: .toc subcollection="OrangeIoTCE" audience="service" href="/docs/services/OrangeIoTCE/index.html"}
+Orange IoT Connect Express
 
     {: .navgroup id="learn"}
     index.md
