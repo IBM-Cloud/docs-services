@@ -1,6 +1,6 @@
 ---
 
-copyright: Nexmo
+copyright: 
 
   years: 2017
 
