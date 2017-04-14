@@ -34,7 +34,7 @@ After connecting the service to your application, you will have a VCAP_SERVICES 
 	      },
 	      "syslog_drain_url": "",
 	      "label": "user-provided",
-	      "name": "Orange IoT Connect Express",
+	      "name": "Orange_IoT_Connect_Express",
 	      "tags": []
 	    }
 	  ]
