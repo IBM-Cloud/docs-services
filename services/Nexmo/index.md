@@ -1,9 +1,10 @@
 ---
-copyright: Nexmo
 
-years: 2017
+copyright: 
 
-lastupdated: "2017-04-12"
+  years: 2017
+
+lastupdated: "2017-04-18"
 
 ---
 
