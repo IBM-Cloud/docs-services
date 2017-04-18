@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Plaid" audience="service"}
+{: .toc subcollection="Plaid" audience="service" href="/docs/services/Plaid/index.html"}
 Plaid
 
     {: .navgroup id="learn"}
@@ -9,12 +9,12 @@ Plaid
 
     {: .topicgroup}
     Related links
-    [Quickstart guide](https://plaid.com/docs/quickstart/)
-    [Documentation](https://plaid.com/docs/api/)
-    [Resources](https://plaid.com/docs/resources/)
-    [FAQ](https://support.plaid.com/customer/en/portal/articles/2571700-product-faqs)
-    [Solutions](https://plaid.com/solutions/)
-    [Pricing](https://plaid.com/pricing/)
-    [Company](https://plaid.com/company/)
-    [Security](https://plaid.com/security/)
+        [Quickstart guide](https://plaid.com/docs/quickstart/)
+        [Documentation](https://plaid.com/docs/api/)
+        [Resources](https://plaid.com/docs/resources/)
+        [FAQ](https://support.plaid.com/customer/en/portal/articles/2571700-product-faqs)
+        [Solutions](https://plaid.com/solutions/)
+        [Pricing](https://plaid.com/pricing/)
+        [Company](https://plaid.com/company/)
+        [Security](https://plaid.com/security/)
     {: .navgroup-end}

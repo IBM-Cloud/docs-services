@@ -141,12 +141,13 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
     {:pre}
 
 
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
-
 
 ## API Reference
 {: #api}
@@ -154,6 +155,8 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
 * [PagerDuty Developer Hub](https://v2.developer.pagerduty.com/)
 * [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
 
-
 ## Related Links
 {: #general}
+
+-->
+

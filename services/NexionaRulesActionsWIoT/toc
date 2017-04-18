@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NexionaRulesActionsWIoT" audience="service"}
+{: .toc subcollection="NexionaRulesActionsWIoT" audience="service" href="/docs/services/NexionaRulesActionsWIoT/index.html"}
 Rules and Actions for Watson IoT
 
     {: .navgroup id="learn"}
@@ -9,7 +9,7 @@ Rules and Actions for Watson IoT
 
     {: .topicgroup}
     Related links
-    [MIIMETIQ LITE Rules and Actions](https://www.youtube.com/watch?v=GgrDyrVj5yM&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=5)
-    [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
-    [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
+        [MIIMETIQ LITE Rules and Actions](https://www.youtube.com/watch?v=GgrDyrVj5yM&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=5)
+        [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
+        [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
     {: .navgroup-end}

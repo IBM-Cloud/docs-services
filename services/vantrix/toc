@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vantrix" audience="service"}
+{: .toc subcollection="vantrix" audience="service" href="/docs/services/vantrix/index.html"}
 Vantrix Transcoder
 
     {: .navgroup id="learn"}
@@ -9,10 +9,10 @@ Vantrix Transcoder
 
     {: .topicgroup}
     Related links
-    [Vantrix Transcoding API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf)
-    [Introducing Vantrix Transcoder User Interface](http://vantrix.com/wp-content/uploads/2016/04/Introducing_Vantrix_Transcoder_User_Interface.pdf)
-    [Vantrix VTA Developer Guide](http://vantrix.com/wp-content/uploads/2016/09/VTA-Developer-Guide-v61.pdf) 
-    [Vantrix Resources](http://vantrix.com/resources/knowledgebase/)
+        [Vantrix Transcoding API QuickStart](http://vantrix.com/wp-content/uploads/2016/06/VTA-QuickStart-v56.pdf)
+        [Introducing Vantrix Transcoder User Interface](http://vantrix.com/wp-content/uploads/2016/04/Introducing_Vantrix_Transcoder_User_Interface.pdf)
+        [Vantrix VTA Developer Guide](http://vantrix.com/wp-content/uploads/2016/09/VTA-Developer-Guide-v61.pdf) 
+        [Vantrix Resources](http://vantrix.com/resources/knowledgebase/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

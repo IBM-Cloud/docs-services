@@ -27,8 +27,9 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 1. [Log into MIIMETIQ LITE](http://lite.trial.nexiona.io/#dashboard) and enter the correct user credentials.
 2. Once the MIIMETIQ LITE application is open you will notice a '?' at the top right. By selecting this two options are shown: Quick Start Guide and Video Tutorials. Select 'Quick Start Guide'; by stepping through this guide you will quickly become familiar with the various menus and options within MIIMETIQ LITE.
 2. After stepping through the Quick Start Guide select [Video Tutorials](https://www.youtube.com/watch?v=vmnOdSrzfLk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=1), here you will find short instructional vides on how to connect devices, view data in Dashboards, set up Rules & Actions and view reports.
-		 
 
+
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -46,4 +47,4 @@ To get up and running quickly with MIIMETIQ LITE, once you have signed up for an
 
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg){:new_window}
 * [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg){:new_window}
-
+-->

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Kinetise" audience="service"}
+{: .toc subcollection="Kinetise" audience="service" href="/docs/services/Kinetise/index.html"}
 Kinetise
 
     {: .navgroup id="learn"}
@@ -9,17 +9,17 @@ Kinetise
 
     {: .topicgroup}
     Related links
-    [Basic Moves (video)](https://www.youtube.com/watch?v=6Oz5L2DE7VA)
-    [Adding Data (video)](https://www.youtube.com/watch?v=faRmRVGwP_k)
-    [Collecting Data (video)](https://www.youtube.com/watch?v=STkpgC6Wznk)
-    [Importing Data from Excel (video)](https://www.youtube.com/watch?v=baHh2SN_zWk)
-    [Configuring User Roles (video)](https://www.youtube.com/watch?v=Z7ZDM4BawoE)
-    [User Registration (video)](https://www.youtube.com/watch?v=zuUNOq9EKtA)
-    [Integration with IBM Watson Personality Insights (video)](https://www.youtube.com/watch?v=3vr_zNjeypU)
-    [Integration with IBM Bluemix Cloudant NoSQL DB (video)](https://www.youtube.com/watch?v=k6WfVF2G9Os)
-    [Service Demo](https://www.youtube.com/watch?v=JiRkEgDSEOE)
-    [Kinetise Help Center](https://helpcenter.kinetise.com/)
-    [More Video Tutorials](https://helpcenter.kinetise.com/video-tutorials)
+        [Basic Moves (video)](https://www.youtube.com/watch?v=6Oz5L2DE7VA)
+        [Adding Data (video)](https://www.youtube.com/watch?v=faRmRVGwP_k)
+        [Collecting Data (video)](https://www.youtube.com/watch?v=STkpgC6Wznk)
+        [Importing Data from Excel (video)](https://www.youtube.com/watch?v=baHh2SN_zWk)
+        [Configuring User Roles (video)](https://www.youtube.com/watch?v=Z7ZDM4BawoE)
+        [User Registration (video)](https://www.youtube.com/watch?v=zuUNOq9EKtA)
+        [Integration with IBM Watson Personality Insights (video)](https://www.youtube.com/watch?v=3vr_zNjeypU)
+        [Integration with IBM Bluemix Cloudant NoSQL DB (video)](https://www.youtube.com/watch?v=k6WfVF2G9Os)
+        [Service Demo](https://www.youtube.com/watch?v=JiRkEgDSEOE)
+        [Kinetise Help Center](https://helpcenter.kinetise.com/)
+        [More Video Tutorials](https://helpcenter.kinetise.com/video-tutorials)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

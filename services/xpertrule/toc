@@ -1,9 +1,17 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="" audience="service"}
+{: .toc subcollection="xpertrule" audience="service" href="/docs/services/xpertrule/index.html"}
 XpertRule Decision Automation for node-RED
 
     {: .navgroup id="learn"}
     index.md
+    
+    {: .topicgroup}
+    Related links
+        [Step 1:  Create 4 trees](https://www.youtube.com/watch?v=iXw0lcRnJSA&amp;feature=youtu.be)
+        [Step 2:  Create a truth table](https://www.youtube.com/watch?v=z5zoEIomgQ8&amp;feature=youtu.be)
+        [Step 3:  Induce decision tree](https://www.youtube.com/watch?v=PtgHa0lFio8&amp;feature=youtu.be)
+        [Step 4:  Deploy](https://www.youtube.com/watch?v=w9GWBqOhbH0&amp;feature=youtu.be)
+        [Testing](https://www.youtube.com/watch?v=mb8gxwwgJjo&amp;feature=youtu.be)
     {: .navgroup-end}

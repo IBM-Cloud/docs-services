@@ -39,6 +39,7 @@ To design a Voice Channel, complete these steps:
 
   After you designed your Voice Channel on Node-Red the trigger pattern will appear on the [Moni.ai developers page](https://moni.ai/developers). You are then able to publish your Voice Channel pressing the "publish" button. Your Voice Channel will then be availble to all users on Moni.ai.
 
+<!-- Moved related links to toc file
 # Related Links
 {: #rellinks notoc}
 
@@ -65,3 +66,4 @@ To design a Voice Channel, complete these steps:
 * [Moni.ai on iTunes](https://itunes.apple.com/us/app/moni.ai/id964152543)
 * [Moni.ai on Google Play](https://play.google.com/store/apps/details?id=com.tagonsoft.askmoni)
 * [Moni.ai developers page](https://moni.ai/developers)
+-->

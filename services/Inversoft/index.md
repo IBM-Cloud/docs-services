@@ -61,7 +61,9 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	let applicationid = process.env.passport_application_id;
   ```
   {: codeblock}
-	
+
+<!-- separate to test-->
+
   ```
 	const PassportClient = require('passport-node-client');
 	        
@@ -78,8 +80,10 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	});      	
   ```
   {: codeblock}
+  
+<!-- Separate to test-->  
 
-
+<!-- Related links are now in the toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -110,3 +114,5 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 
 * [Plans and Pricing](https://www.inversoft.com/try-passport){:new_window}
 * [Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/){:new_window}
+-->
+

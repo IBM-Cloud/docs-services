@@ -78,6 +78,7 @@ bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
 ```
 {: screen}
 
+<!-- Related links moved to toc file:
 
 # Related Links
 {: #rellinks notoc}
@@ -87,10 +88,11 @@ bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
 
 *  https://riskspan.com/s/rs-edge-api.pdf
 
-
 ## Related Links
 {: #general}
 
 * RS Edge: https://www.riskspan.com/rs-edge
 * Contact RiskSpan: https://www.riskspan.com/contact-us
 * Terms and conditions: https://riskspan.com/s/rs-edge-terms-and-conditions.pdf
+
+-->

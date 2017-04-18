@@ -30,7 +30,7 @@ To get started with Nexmo APIs on Bluemix:
 
 This step-by-step instruction uses Node.js, so you need [Node.js](https://nodejs.org/) installed on your machine. Once you are ready, let’s get started!
 
-# Create a New Application
+## Creating a New Application
 
 Go to your [Dashboard](https://console.eu-gb.bluemix.net/dashboard/apps/), and click the **Create App** button:
 
@@ -46,7 +46,7 @@ Then, give your new application a unique name. In this tutorial, you are going t
 
 Now, it takes you to the dashboard and you should see some progress indicators that shows you the new application has been created.
 
-# Using Nexmo with the New Application
+## Using Nexmo with the New Application
 
 You are going to use Nexmo to simply send a SMS message. Click **Catalog** at the top menu bar:
 
@@ -68,7 +68,7 @@ After you connected the Nexmo service to your "send-sms" application, click the 
 
 
 
-# Using the Cloud Foundry Command Line interface
+## Using the Cloud Foundry Command Line interface
 
 To download, modify, and redeploy your Cloud Foundry applications and service instances, you need to download and install the [Cloud Foundry command line interface](https://www.ng.bluemix.net/docs/#starters/install_cli.html) (CLI).
 
@@ -88,7 +88,7 @@ $ cf login
 
 Now you got your Bluemix set up, so you can get started creating your Node.js application.
 
-# Setting up Your Nexmo Phone Number
+## Setting up Your Nexmo Phone Number
 
 In this tutorial, we are going to create a very basic app that sends a SMS message from your Nexmo phone number to your mobile phone number.
 
@@ -96,7 +96,7 @@ You can get your own number by going to your [Nexmo dashboard](https://dashboard
 
 ![image alt text](images/nexmo-buy-numbers.png)
 
-# Using the Nexmo REST API Client for Node.js
+## Using the Nexmo REST API Client for Node.js
 
 Now, let’s code! Make sure that node.js is installed on your machine to start coding.
 
@@ -169,7 +169,7 @@ const nexmo = new Nexmo({
 });
 ```
 
-## Sending SMS Messages with Node.js
+### Sending SMS Messages with Node.js
 
 Now, let's send a SMS message from your Nexmo virtual number to your real mobile phone!
 
@@ -194,7 +194,7 @@ Now, let's deploy this app to Bluemix.
 
 
 
-# Deploying Your Application
+## Deploying Your Application
 
 To deploy your application, you will be using the Cloud Foundry CLI again. You can push your code with `cf push` command:
 
@@ -212,24 +212,5 @@ Surely, this sample application isn’t the most practical, however, it should p
 
 To create something more practical using the Nexmo APIs, such as an app to make and receive voice calls; or setting up two-factor authentications, visit the [Nexmo Tutorial Blog](https://www.nexmo.com/blog/category/developers-2/tutorial/)!
 
-# Related Links
-* [Nexmo SMS]([https://www.nexmo.com/products/sms](https://www.nexmo.com/products/sms)){:new_window}
-* [Nexmo Voice]([https://www.nexmo.com/products/voice](https://www.nexmo.com/products/voice)){:new_window}
-* [Nexmo Verify](https://www.nexmo.com/products/verify){:new_window}
-* [Nexmo Number Insight](https://www.nexmo.com/products/number-insight){:new_window}
 
-
-## API Reference
-* [Nexmo API Documentations]([https://docs.nexmo.com/](https://docs.nexmo.com/)){:new_window}
-
-## Client Libraries
-* [Nexmo Node.js Client Libraries]([https://github.com/Nexmo/nexmo-node](https://github.com/Nexmo/nexmo-node)){:new_window}
-* [Nexmo Python Client Libraries]([https://github.com/Nexmo/nexmo-python](https://github.com/Nexmo/nexmo-python)){:new_window}
-* [Nexmo Java Client Libraries]([https://github.com/Nexmo/nexmo-](https://github.com/Nexmo/nexmo-python)java){:new_window}
-* [Nexmo Ruby Client Libraries](https://github.com/Nexmo/nexmo-ruby){:new_window}
-* [Nexmo PHP Client Libraries]([https://github.com/Nexmo/nexmo-php](https://github.com/Nexmo/nexmo-php)){:new_window}
-* [Nexmo .NET Client Libraries](https://github.com/Nexmo/nexmo-dotnet){:new_window}
-
-## More Tutorials
-
-- [Tutorials on Nexmo Blog](https://www.nexmo.com/blog/category/developers-2/tutorial/){:new_window}
+<!-- # Related Links moved to toc file for new doc app experience -->

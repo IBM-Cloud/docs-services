@@ -30,6 +30,7 @@ To get up and running quickly with MIIMETIQ Dashboards and Reports, once you hav
 2. After stepping through the Quick Start Guide select [Video Tutorials](https://www.youtube.com/watch?v=8M3WmZbGAyE&index=4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP), here you will find a short instructional video on how to create Dashboards and Reports.
 
 
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -44,3 +45,5 @@ To get up and running quickly with MIIMETIQ Dashboards and Reports, once you hav
 
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg){:new_window}
 * [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg){:new_window}
+
+-->

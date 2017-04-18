@@ -30,6 +30,7 @@ To get up and running quickly with MIIMETIQ Rules & Actions, once you have signe
 2. After stepping through the Quick Start Guide select [Video Tutorials](https://www.youtube.com/watch?v=GgrDyrVj5yM&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=5), here you will find a short instructional video on how to create Rules & Actions.
 
 
+<!-- Related links moved to toc:
 # Related Links
 {: #rellinks notoc}
 
@@ -44,3 +45,5 @@ To get up and running quickly with MIIMETIQ Rules & Actions, once you have signe
 
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg){:new_window}
 * [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg){:new_window}
+-->
+

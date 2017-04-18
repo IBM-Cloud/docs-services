@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TestdroidCloud" audience="service"}
+{: .toc subcollection="TestdroidCloud" audience="service" href="/docs/services/TestdroidCloud/index.html"}
 Testdroid Cloud
 
     {: .navgroup id="learn"}
@@ -9,13 +9,16 @@ Testdroid Cloud
 
     {: .topicgroup}
     Related links
-    [How to Get Started with Appium](http://bitbar.com/37-things-you-should-know-about-appium/)
-    [Calabash Tutorial for Mobile App Testing](http://bitbar.com/calabash-tutorial-for-mobile-app-testing/)
-    [Getting Started with EarlGrey for iOS App Testing](http://bitbar.com/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework/)
-    [How to Use Espresso for Android App Testing](http://bitbar.com/how-to-use-espresso-v2-0-with-testdroid-cloud-devices/)
-    [Top 5 Android Test Automation Frameworks](http://bitbar.com/top-5-android-testing-frameworks-with-examples/)
-    [Mobile App Testing with Testdroid](http://bitbar.com/testing/)
-    [Testdroid Community Portal](http://bitbar.com/testing/blog/)
+        [Mobile App Testing with Testdroid](http://bitbar.com/testing/)
+        [Testdroid Community Portal](http://bitbar.com/testing/blog/)
+    
+    {: .topicgroup}
+    Tutorials and samples
+        [How to Get Started with Appium](http://bitbar.com/37-things-you-should-know-about-appium/)
+        [Calabash Tutorial for Mobile App Testing](http://bitbar.com/calabash-tutorial-for-mobile-app-testing/)
+        [Getting Started with EarlGrey for iOS App Testing](http://bitbar.com/how-to-get-started-with-earlgrey-ios-functional-ui-testing-framework/)
+        [How to Use Espresso for Android App Testing](http://bitbar.com/how-to-use-espresso-v2-0-with-testdroid-cloud-devices/)
+        [Top 5 Android Test Automation Frameworks](http://bitbar.com/top-5-android-testing-frameworks-with-examples/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

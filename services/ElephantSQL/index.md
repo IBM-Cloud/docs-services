@@ -89,13 +89,8 @@ Sample code, links to recommended libraries and further information about the cl
 
 3. Set up connection Environment Variable: The connection and credential information for CloudAMQP is available in the Bluemix VCAP_SERVICES environment variable. It’s a nested JSON objected with all service credentials. 
 
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+
+<!-- Related links section moved to toc file:
 
 # Related Links
 {: #rellinks notoc}
@@ -117,4 +112,4 @@ Use {:new_window} for external links to open a new window.-->
 * [Plans and pricing](https://console.ng.bluemix.net/catalog/services/elephantsql/){:new_window}
 * [FAQ](http://www.elephantsql.com/docs/faq.html){:new_window}
 * [Blog and news](http://www.elephantsql.com/blog/index.html){:new_window}
-
+-->

@@ -57,6 +57,8 @@ To get up and running quickly with this service, follow these steps:
 7. Click on 'Start creating queries' to go to the query editor - from this interface you can create and publish queries to the app.
 
 
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
@@ -78,3 +80,4 @@ To get up and running quickly with this service, follow these steps:
 * [Introduction to TinyQueries](http://docs.tinyqueries.com/intro){:new_window}
 * [Research by the Vrije Universiteit on TinyQueries](http://blog.tinyqueries.com/post/122837535107/preliminary-results-show-tinyqueries-is-faster-and){:new_window}
 
+-->

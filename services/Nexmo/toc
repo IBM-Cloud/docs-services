@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="nexmo" audience="service"}
+{: .toc subcollection="nexmo" audience="service" href="/docs/services/Nexmo/index.html"}
 Nexmo
 
     {: .navgroup id="learn"}
@@ -9,7 +9,21 @@ Nexmo
 
     {: .topicgroup}
     Related links
-        
+        [Nexmo SMS](https://www.nexmo.com/products/sms](https://www.nexmo.com/products/sms)
+        [Nexo Voice](https://www.nexmo.com/products/voice](https://www.nexmo.com/products/voice)
+        [Nexo Verify](https://www.nexmo.com/products/verify)
+        [Nexo Number Insight](https://www.nexmo.com/products/number-insight)
+
+    {: .topicgroup}
+    Client Libraries
+        [Nexmo Node.js Client Libraries](https://github.com/Nexmo/nexmo-node](https://github.com/Nexmo/nexmo-node)
+        [Nexmo Python Client Libraries](https://github.com/Nexmo/nexmo-python)
+        [Nexmo Java Client Libraries](https://github.com/Nexmo/nexmo-java)
+        [Nexmo Ruby Client Libraries](https://github.com/Nexmo/nexmo-ruby)
+        [Nexmo PHP Client Libraries](https://github.com/Nexmo/nexmo-php)
+        [Nexmo .NET Client Libraries](https://github.com/Nexmo/nexmo-dotnet)
+    
     {: .navgroup id="reference"}
     Reference
+    [Nexmo API Documentations](https://docs.nexmo.com/](https://docs.nexmo.com/)
     {: .navgroup-end}
