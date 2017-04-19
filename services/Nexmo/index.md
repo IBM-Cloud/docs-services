@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-04-12"
+lastupdated: "2017-04-18"
 
 ---
 
@@ -52,7 +52,7 @@ You are going to use Nexmo to simply send a SMS message. Click **Catalog** at th
 
 ![Create an app](images/04-go-to-catalog.png)
 
-At the catalog, search under *Mobile*, then click **Nexmo**:
+At the catalog, search **Nexmo** under *Application Services*, then click it:
 
 ![Create an app](images/05-add-nexmo.png)
 
@@ -64,7 +64,7 @@ Now. click **Create**, then press **Create Connection** at the next screen to co
 
 ### Downloading Your Template Files
 
-Go back to [the application dashboard](https://console.ng.bluemix.net/dashboard/apps/), choose your "send-sms" application, click **Getting Started** from the side menu, then click “*Download the Sample Code*” link to get the zip file, then unzip it. The folder should contain the template code files. Now you are ready to leave the Bluemix dashboard!
+After you connected the Nexmo service to your "send-sms" application, click the app, then **Getting Started** from the side menu, then click “*Download the Sample Code*” link to get the zip file to your computer, then unzip it. The folder should contain the template code files. Now you are ready to leave the Bluemix dashboard!
 
 
 
@@ -75,7 +75,7 @@ To download, modify, and redeploy your Cloud Foundry applications and service in
 After the installation, use the `cf` command to login and connect to the Bluemix environment:
 
 ```bash
-$ cf api [https://api.ng.bluemix.net](https://api.ng.bluemix.net)
+$ cf api https://api.ng.bluemix.net
 ```
 
 Or use the API endpoint for your region, [https://api.eu-gb.bluemix.net](https://api.eu-gb.bluemix.net/) (United Kingdom) and [https://api.au-syd.bluemix.net](https://api.au-syd.bluemix.net/) (Sydney).
@@ -111,13 +111,12 @@ Take a look at the project folder that you previously downloaded from your Bluem
 ├── package.json
 └── public
     ├── images
-    │   └── newapp-icon.png
     ├── index.html
     └── stylesheets
-        └── style.css
+        ...
 ```
 
-On terminal, ‘cd’ to the project root, then use the `npm` command to install dependencies:
+On terminal, `cd` to the project root, then use the `npm` command to install dependencies:
 
 ```bash
 $ npm install
@@ -143,19 +142,21 @@ applications:
 ...
 ```
 
-For the service name,  you have an automatically generated for your application. It usually look like, `nexmo-`, and two random characters, such as `nexmo-yl`.
+For the service name,  you have an automatically generated for your application. It usually look like, `nexmo-`, and two random characters, such as `nexmo-yl`. You will need your service name at the next step.
 
-Now, open the **app.js** file, and assign your Nexmo API credentials. You can grab the credentials from the Bluemix, where it stores all service credentials. Access your Nexmo credentials within the `VCAP_SERVICES` environment variable with `cfenv` that parses Cloud Foundry-provided environment variables:
+Now, open the **app.js** file. At the end of the code template, assign your Nexmo API credentials. You can access your Nexmo credentials within the `VCAP_SERVICES` environment variable with `cfenv` that parses Cloud Foundry-provided environment variables:
 
 ```javascript
+// The next two lines have been declared already in the template
 const cfenv = require('cfenv');
 const appEnv = cfenv.getAppEnv();
 
-const nexmoApiKey = appEnv.getServiceCreds('Nexmo-yl').apiKey;
-const nexmoApiSecret = appEnv.getServiceCreds('Nexmo-yl').apiSecret
+// Copy and paste these lines to your app.js
+const nexmoApiKey = appEnv.getServiceCreds('Nexmo-j1')['api_key'];
+const nexmoApiSecret = appEnv.getServiceCreds('Nexmo-j1')['api_secret'];
 ```
 
-The name must match your generated service name.
+Again, the name must match *your* generated service name. To find out all the `VCAP_SERVICES` info, use `cf env [APP_NAME]` command on terminal.
 
 Now, initialize a Nexmo instance with the credentials:
 
@@ -170,10 +171,11 @@ const nexmo = new Nexmo({
 
 ### Sending SMS Messages with Node.js
 
+Now, let's send a SMS message from your Nexmo virtual number to your real mobile phone!
 
-To send a message, use the `nexmo.sms.sendSms` function and pass your virtual number you are sending the message from, a recipient number, and the message to be sent. Also, you can pass [optional params](https://docs.nexmo.com/messaging/sms-api/api-reference#request), and a callback.
+To send a message, use the `nexmo.sms.sendSms` function and pass your virtual number (`YOUR_VIRTUAL_NUMBER`) you are sending the message from, a recipient number, and the message to be sent. Also, you can pass [optional params](https://docs.nexmo.com/messaging/sms-api/api-reference#request), and a callback.
 
-For this exercise, let’s simply hard-code a phone number (which should start with a country code, e.g. "15105551234") and a message to try the API:
+For this exercise, let’s simply hard-code your mobile real phone number (which should start with a country code, e.g. "15105551234") and a message to try the API:
 
 ```javascript
 nexmo.message.sendSms(
@@ -188,7 +190,7 @@ nexmo.message.sendSms(
 );
 ```
 
-Now, let's deploy this to Bluemix.
+Now, let's deploy this app to Bluemix.
 
 
 
@@ -200,12 +202,15 @@ To deploy your application, you will be using the Cloud Foundry CLI again. You c
 $ cf push
 ```
 
-Once your application is deployed to Bluemix and run correctly, Nexmo will send the message to your phone. The time of the actual delivery depends on your mobile phone carrier, so it can be instant, or it might take some time.
+The process will take a while. Once your application is deployed to Bluemix and run correctly, Nexmo will send the message to your phone. The time of the actual delivery depends on your mobile phone carrier, so it can be instant, or it might take extra seconds.
 
 ![SMS](images/sms-android.png)
 
-Sure, this sample application isn’t the most practical, however, it should provide a good idea of how to use the Nexmo SMS API to build better applications!
+I hope your mobile phone receive the first SMS message via Nexmo using Bluemix! 
+
+Surely, this sample application isn’t the most practical, however, it should provide a good idea of how to use the Nexmo SMS API to build better applications!
 
 To create something more practical using the Nexmo APIs, such as an app to make and receive voice calls; or setting up two-factor authentications, visit the [Nexmo Tutorial Blog](https://www.nexmo.com/blog/category/developers-2/tutorial/)!
+
 
 <!-- # Related Links moved to toc file for new doc app experience -->
