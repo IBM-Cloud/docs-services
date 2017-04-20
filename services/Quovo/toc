@@ -9,11 +9,13 @@ Quovo
 
     {: .topicgroup}
     Related links
-        [Quovo documentation](link URL)
+        [Quovo fintech products](https://www.quovo.com)
+        [Sign up for a Quovo account](http://info.quovo.com/bluemix)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Link text](link URL)
+    [Account Aggregation API documentaiton](https://api.quovo.com/docs/agg/)
+    [Bank Authentication API documentation](https://api.quovo.com/docs/auth/)
     {: .navgroup-end}
 
