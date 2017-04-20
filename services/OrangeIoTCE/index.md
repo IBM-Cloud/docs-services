@@ -44,7 +44,7 @@ After connecting the service to your application, you will have a VCAP_SERVICES 
 	```
 	{: screen}
 
-And you will find on the Ressource tab all you need about the Orange IoT Connect Express APIs : the endpoints, the quotas, the documentation and the WSDL package.
+And you will find, in the Reference section, all you need to know about the Orange IoT Connect Express APIs: the endpoints, the quotas, the documentation, and the WSDL package.
 
 
 <!-- Rellinks moved to toc file for new nav 
