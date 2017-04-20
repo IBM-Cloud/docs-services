@@ -1,5 +1,19 @@
-{: .toc}
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Accern" audience="service" href="/docs/services/Accern/index.html"}
 Accern API
 
-    [Getting Started with Accern API](index.html)
-        index.md
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Accern resources](https://www.accern.com/resources/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Overview of the Accern API](http://docs.accern.com/#accern-overview)
+    [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics)
+    {: .navgroup-end}

@@ -47,6 +47,7 @@ To get up and running quickly with AT&T M2X, once you've added the M2X service t
 
 To get started using the M2X API check out the full [API documentation](https://m2x.att.com/developer/documentation/v2/overview).
 
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -86,3 +87,4 @@ To get started using the M2X API check out the full [API documentation](https://
 * [Changelog](http://changelog-m2x.att.com/){:new_window}
 * [System Integrator Program](https://iotservices.att.com/integrators){:new_window}
 * [Pricing](https://m2x.att.com/pricing){:new_window}
+-->

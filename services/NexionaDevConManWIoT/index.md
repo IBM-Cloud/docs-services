@@ -29,7 +29,7 @@ To get up and running quickly with MIIMETIQ Device Management, once you have sig
 3. You will notice a '?' at the top right. By selecting this two options are shown: Quick Start Guide and Video Tutorials. Select 'Quick Start Guide'; by stepping through this guide you will quickly become familiar with the MIIMETIQ Device Management and Flexible DS sections of MIIMETIQ LITE.
 2. After stepping through the Quick Start Guide select [Video Tutorials](https://www.youtube.com/watch?v=vmnOdSrzfLk&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP&index=1), here you will find a short instructional video on how to Connect and Manage Devices, including the Flexible DS section.
 
-
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -44,3 +44,5 @@ To get up and running quickly with MIIMETIQ Device Management, once you have sig
 
 * [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg){:new_window}
 * [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg){:new_window}
+-->
+

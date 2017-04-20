@@ -1,2 +1,17 @@
-[Getting Started with AT&T Flow Designer](/docs/ATTFlow/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="ATTFlow" audience="service" href="/docs/services/ATTFlow/index.html"}
+AT&amp;T Flow Designer
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Getting Started](https://flow.att.com/start)
+        [Sample Code](https://flow.att.io/explore/projects/snippets_and_samples)
+        [Public Projects](https://flow.att.io/explore/projects)
+        [Frequently Asked Questions](https://flow.att.com/faq)
+        [Features](https://flow.att.com/features)
+    {: .navgroup-end}

@@ -14,9 +14,10 @@ Each directory in this repo must synch with the overall architecture of the Blue
   * The GitHub URL to your directory, a subfolder under /service, where you can create your files
   * Details on how to create your content in MarkDown
 4. Under your /service subfolder, add your Getting Started MarkDown source by following the template, getting_started_template.md.
-5. After you have created your Markdown files and you are ready to see it live in the Bluemix doc framework, send another note to to paynel@us.ibm.com (and copy sefuhrer@us.ibm.com), asking for a build.
-6. You will receive a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
-7. Your content will go live, or you will iterate through additional emails until it does.
+5. Under your /services subfolder, add your TOC file (lowercased toc, no file extension).
+6. After you have created your Markdown files and you are ready to see it live in the Bluemix doc framework, send another note to to paynel@us.ibm.com (and copy sefuhrer@us.ibm.com), asking for a build.
+7. You will receive a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
+8. Your content will go live, or you will iterate through additional emails until it does.
 
 
 ## Getting started template
@@ -74,26 +75,37 @@ To begin, you need to create a TOC map file in GitHub. This file must be in the 
 
 **Important note**:  The `toc` file has no extension.  It is just named `toc`.
 
-List the markdown files you want included in your table of contents. Files not listed are excluded from your TOC. If you were creating the sample outline above, your toc file would look like the following example:
+The following toc file would create the structure for the previous Example Outline: 
 
 ```
-[Getting Started with <Name_of_Service>](docs/<folder_name>/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+Name of service
+
+    {: .navgroup id="learn"}
     index.md
-    About.md
-    Configuring.md
-        ConfigurationDetails.md
-    Administering.md
-        AdminsteringDetails.md
-    Creating.md
-        CreatingDetails.md
-    Troubleshooting.md
-        TroubleshootingDetails.md
+        about.md
+        configuring.md
+        administering.md
+        creating.md
+        troubleshooting.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](URL)
+    {: .navgroup-end}
 ```
 
 **Note**: Nesting files is as simple as indenting 4 spaces. You can nest multiple levels of files, as shown in the previous example.
-
-Make sure that you have your Getting started topic listed twice. We need a top level container to nest your collection within. The first instance should not be indented. The second instance must be indented 4 spaces. All subsequent entries must be nested 4 spaces in from the first entry, and can be nested deeper depending on your structure.
-    
+  
 After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
  
@@ -112,19 +124,14 @@ You can use this same standard markdown code used to specify a URL at any time i
 
 ### Excluding unwanted headers
 
-You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. For example, you need to exclude your related links, as is shown in the Getting Started template.
-
-To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example: 
+You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example: 
 
 ```
-# Related Links
-{: #rellinks notoc}
+# Header I want to exclude
+{: #xreftext notoc}
 
-## API Reference
+## Another header nested underneath
 {: #api}
-
-* [REST API Documentation](./sampleAPI.html#sample_restapi)
-* [REST API](https://sample-console.{DomainName}/apidocs){:new_window}
 ```
 
 **Note**: In the previous example, the notoc attribute is only on the H1 header. The notoc attribute cascades down and excludes any sub-headers nested beneath the header you specify to exclude. You can add the notoc attribute to any header at any depth; H1, H2, H3, etc…

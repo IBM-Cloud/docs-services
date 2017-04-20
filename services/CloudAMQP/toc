@@ -1,2 +1,31 @@
-[Getting Started with CloudAMQP](/docs/CloudAMQP/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="cloudamqp" audience="service" href="/docs/services/CloudAMQP/index.html"}
+CloudAMQP
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Plans and pricing](https://console.ng.bluemix.net/catalog/services/cloudamqp/)
+        [FAQ](https://www.cloudamqp.com/docs/faq.html)
+        [Blog and news](https://www.cloudamqp.com/blog/index.html)
+	
+    {: .topicgroup}
+    Tutorials and Samples
+        [Ruby](https://www.cloudamqp.com/docs/ruby.html)
+        [Python](https://www.cloudamqp.com/docs/python.html)
+        [Celery](https://www.cloudamqp.com/docs/celery.html)
+        [node.js](https://www.cloudamqp.com/docs/nodejs.html)
+        [PHP](https://www.cloudamqp.com/docs/php.html)
+        [Java](https://www.cloudamqp.com/docs/java.html)
+        [Clojure](https://www.cloudamqp.com/docs/clojure.html)
+        [Go](https://www.cloudamqp.com/docs/go.html)
+        [Android](https://www.cloudamqp.com/docs/android.html)
+        [.NET](https://www.cloudamqp.com/docs/dotnet.html)
+        [Perl](https://www.cloudamqp.com/docs/perl.html)
+        [C](https://www.cloudamqp.com/docs/c.html)
+    {: .navgroup-end}
+

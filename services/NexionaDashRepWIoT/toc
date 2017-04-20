@@ -1,5 +1,17 @@
-{: .toc}
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="NexionaDashRepWIoT" audience="service" href="/docs/services/NexionaDashRepWIoT/index.html"}
 Dashboards and Reports for Watson IoT
 
-    [Getting Started with Dashboards and Reports for Watson IoT](index.html)
-        index.md
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [MIIMETIQ LITE Dashboards and Reports](https://www.youtube.com/watch?v=8M3WmZbGAyE&index=4&list=PLSkT4X0x-Kkgd-ZPr57Pfqja8tmoH-6QP)
+        [MIIMETIQ LITE Overview Video](https://youtu.be/C6UQYY5xVJg)
+        [MIIMETIQ LITE Data sheet](https://youtu.be/C6UQYY5xVJg)
+    {: .navgroup-end}
+
+    

@@ -1,8 +1,12 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="OrangeIoTCE" audience="service"}
+{: .toc subcollection="OrangeIoTCE" audience="service" href="/docs/services/OrangeIoTCE/index.html"}
 Orange IoT Connect Express
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
@@ -19,4 +23,3 @@ Orange IoT Connect Express
     [API Alarm](./DVS107-WSDL-SCA-V2.pdf)
     [API Device Info](./DVS107-WSDL-DIS.pdf)
     {: .navgroup-end}
-

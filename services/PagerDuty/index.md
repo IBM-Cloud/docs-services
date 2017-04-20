@@ -14,10 +14,13 @@ lastupdated: "2017-03-10"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
+
 # Getting started with PagerDuty
 {: #gettingstarted}
 
-PagerDuty is TODO
+![PagerDuty banner](banner.png)
+
+PagerDuty is your fastest path to incident resolution, helping IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
 {:shortdesc}
 
 
@@ -138,12 +141,13 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
     {:pre}
 
 
+<!-- Related links moved to toc file:
+
 # Related Links
 {: #rellinks notoc}
 
 ## Tutorials and Samples
 {: #samples}
-
 
 ## API Reference
 {: #api}
@@ -151,6 +155,8 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
 * [PagerDuty Developer Hub](https://v2.developer.pagerduty.com/)
 * [API Reference](https://v2.developer.pagerduty.com/v2/page/api-reference)
 
-
 ## Related Links
 {: #general}
+
+-->
+

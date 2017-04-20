@@ -1,2 +1,16 @@
-[Getting Started with Memcached Cloud](/docs/MemcachedCloud/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="MemcachedCloud" audience="service" href="/docs/services/MemcachedCloud/index.html"}
+Memcached Cloud
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [FAQ](https://redislabs.com/company/faqs?page_source=memcached#memcached)
+        [HowTo](https://redislabs.com/memcached-howto?page_source=memcached)
+        [Developers Resources](http://redislabs.com/memcached-cloud)
+        [Memcached Wiki](https://code.google.com/p/memcached/wiki/NewStart)
+    {: .navgroup-end}

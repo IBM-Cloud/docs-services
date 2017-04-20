@@ -1,2 +1,20 @@
-[Getting Started with AT&T IoT Data Plans](/docs/ATTDataPlans/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="ATTDataPlans" audience="service" href="/docs/services/ATTDataPlans/index.html"}
+AT&amp;T IoT Data Plans
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Quick Start Guide](https://starterkit.att.com/quickstart)
+        [Tutorials](https://starterkit.att.com/tutorials)
+        [IoT Data Plans FAQ](https://iotdataplans.att.com/data-plan-faq)
+        [IoT Staret Kit FAQ](https://starterkit.att.com/faq)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](https://starterkit.att.com/docs#api-overview)
+    {: .navgroup-end}

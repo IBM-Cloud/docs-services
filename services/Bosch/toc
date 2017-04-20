@@ -1,2 +1,18 @@
-[Getting Started with Bosch](/docs/Bosch/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Bosch" audience="service" href="/docs/services/Bosch/index.html"}
+Bosch
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API link text](URL)
+    {: .navgroup-end}

@@ -17,7 +17,7 @@ lastupdated: "2017-03-16"
 # Getting started with RiskSpanEdge
 {: #gettingstarted_RiskSpanEdge}
 
-RS Edge is a data discovery and modeling tool which prrovides access to billions of rows of mortgage performance data.  Our proprietary search and retrieval technology and scalable back-end data center allows for fast querying and ad-hoc analysis on-demand. Analysis is combined with RiskSpan's proprietary projection models to enable forecasting of credit and prepayment performance.
+RS Edge is a data discovery and modeling tool which provides access to billions of rows of mortgage performance data.  Our proprietary search and retrieval technology and scalable back-end data center allows for fast querying and ad-hoc analysis on-demand. Analysis is combined with RiskSpan's proprietary projection models to enable forecasting of credit and prepayment performance.
 {:shortdesc}
 
 
@@ -78,6 +78,7 @@ bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
 ```
 {: screen}
 
+<!-- Related links moved to toc file:
 
 # Related Links
 {: #rellinks notoc}
@@ -87,10 +88,11 @@ bucket_file=%3CNewBucketingFile%3E%3CDataset%20Value=%22_ABANK%22%20/%3E%
 
 *  https://riskspan.com/s/rs-edge-api.pdf
 
-
 ## Related Links
 {: #general}
 
 * RS Edge: https://www.riskspan.com/rs-edge
 * Contact RiskSpan: https://www.riskspan.com/contact-us
 * Terms and conditions: https://riskspan.com/s/rs-edge-terms-and-conditions.pdf
+
+-->

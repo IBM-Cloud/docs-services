@@ -471,15 +471,19 @@ To stay in sync with the API you make a request with `last_id=[lastest document 
 
 The API allows you to access data going back 30 days, anything older we provide via other means. To start from 30 days ago and move forward you have to provide `last_id=0`. Then continue to hit the API while setting the `last_id` query string parameter.
 
-<!--
+
+<!--  Moved Related links to toc file:
 # Related Links
 {: #rellinks notoc}
--->
 
 ### Api Reference
-{: #api} [Overview of the Accern API](http://docs.accern.com/#accern-overview){:new_window}
+{: #api} 
 
-{: #api} [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics){:new_window}
+* [Overview of the Accern API](http://docs.accern.com/#accern-overview){:new_window}
+* [Detailed description of Accern analytics](http://docs.accern.com/#accern-analytics){:new_window}
 
 ### Resources
-{: #general} [Accern resources](https://www.accern.com/resources/){:new_window}
+{: #general} 
+
+* [Accern resources](https://www.accern.com/resources/){:new_window}
+-->

@@ -58,12 +58,15 @@ Are you already an aficionado or plan to adopt BDD? Hiptest allows you to create
 
 With the Open Source Hiptest publisher, generate scripts for your favorite test execution frameworks and get the results back into Hiptest: RSpec, JUnit, Cucumber, Qunit, Jasmine and many more. See [automate your tests documentation](http://docs.hiptest.net/automate-your-tests){:new_window}
 
-# Links
+
+<!-- Related links moved to toc file:
+
+# Related links
 {: #rellinks notoc}
 
 ## Tutorials
 
-* [Test automation with Hiptest: from test design to CI](http://blog.hiptest.net/2016/01/25/test-automation-with-hiptest-from-test-design-to-ci){:new_window}{:new_window}
+* [Test automation with Hiptest: from test design to CI](http://blog.hiptest.net/2016/01/25/test-automation-with-hiptest-from-test-design-to-ci){:new_window}
 * [Mobile test automation with Appium and Hiptest](http://blog.hiptest.net/2015/12/18/mobile-test-automation-with-appium-and-hiptest/){:new_window}
 * [A simple Selenium test from Hiptest](http://blog.hiptest.net/2015/10/30/tutorial-a-simple-selenium-test-from-hiptest/){:new_window}
 
@@ -75,3 +78,4 @@ With the Open Source Hiptest publisher, generate scripts for your favorite test 
 * [YouTube](https://www.youtube.com/channel/UCx8MFcFrl8tUbfrXSAPDnLw){:new_window}
 * [Hiptest features](https://hiptest.net/features){:new_window}
 
+-->

@@ -1,2 +1,17 @@
-[Getting Started with RiskSpanEdge](/docs/RiskSpanEdge/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="RiskSpanEdge" audience="service" href="/docs/services/RiskSpanEdge/index.html"}
+RiskSpanEdge
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [RS Edge](https://www.riskspan.com/rs-edge)
+        [Contact RiskSpan](https://www.riskspan.com/contact-us)
+        [Terms and conditions](https://riskspan.com/s/rs-edge-terms-and-conditions.pdf)
+        [API](https://riskspan.com/s/rs-edge-api.pdf)
+    {: .navgroup-end}
+

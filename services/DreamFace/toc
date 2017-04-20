@@ -1,2 +1,16 @@
-[Getting Started with DreamFace](/docs/DreamFace/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="DreamFace" audience="service" href="/docs/services/DreamFace/index.html"}
+DreamFace
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Exploring the Studio](https://www.youtube.com/watch?v=CejlR4SRXYU)
+        [Exploring the Studio](http://interactive-clouds.com/documentation/devguide/ref-dfx-studio.html)
+        [Hello World](http://interactive-clouds.com/documentation/gsguide/tutorials/hello-world.html)
+        [Connecting to Data](http://interactive-clouds.com/documentation/gsguide/tutorials/connecting-data.html)
+    {: .navgroup-end}

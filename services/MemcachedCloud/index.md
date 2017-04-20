@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2016
+  years:  2016
 
 lastupdated: "2016-05-18"
 
@@ -131,6 +131,7 @@ Add this code snippet to your configure block:
 [spymemcached](https://code.google.com/p/spymemcached/) is a simple, asynchronous, single-threaded memcached client written in Java. You can download the latest build from: https://code.google.com/p/spymemcached/downloads/list.
 
 To use the maven repository, start by specifying the repository:
+
 	```
 	<repositories>
 	    <repository>
@@ -210,6 +211,8 @@ When using the Memcached Cloud console, you can then find the dashboard using th
 ## Support
 Any Memcached Cloud support issues or product feedbacks are welcome via email at support@redislabs.com or from the service's console under the **SUPPORT->Helpdesk** menu item.
 
+
+<!-- Related links moved to toc file:
 # Related Links
 {: #rellinks notoc}
 
@@ -224,3 +227,6 @@ Any Memcached Cloud support issues or product feedbacks are welcome via email at
 
 * [Developers Resources](http://redislabs.com/memcached-cloud){:new_window}
 * [Memcached Wiki](https://code.google.com/p/memcached/wiki/NewStart){:new_window}
+
+-->
+

@@ -34,7 +34,10 @@ Private collections will not be visible to other users, but will remain accessib
 
 Once you have created a collection, your unique API key will be visible under the title of each collection. Start adding data sets to your collections to access them via API. All API access must be associated with a collection API key.
 
-For further information, please read the API docs.
+For further information, please read the [API docs](https://namara.io/#/api){:new_window}.
+
+
+<!-- Related links moved to toc file:
 
 # Related Links
 {: #rellinks notoc}
@@ -52,3 +55,6 @@ For further information, please read the API docs.
 
 * [About Namara](https://namara.io/#/about){:new_window}
 * [Namara and Bluemix](http://press.thinkdataworks.com/2015/02/19/namara-and-bluemix.html){:new_window}
+
+-->
+

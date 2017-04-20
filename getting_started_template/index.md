@@ -93,51 +93,23 @@ Complete these steps to get started with the BigInsights service:
 
 
 
-<!-- Related links section: REQUIRED.
-Related links display in the upper right of the getting started page. 
-Ensure that you retain the lowercase anchor IDs (eg. {: #rellinks}) as shown in this template. These are used as IDs during transform and the doc framework keys off the IDs for display. 
-The headings coded here are not actually used. The doc framework provides the correct headings. 
-Also ensure that the related links stay in position at the end of this file or the doc framework will not display them properly.
-Use {:new_window} for external links to open a new window.-->
-<!-- Please delete all comments within the related links section to avoid breaking the build. Thanks. -->
+<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
 
-# Related Links
-{: #rellinks notoc}
+{: .navgroup id="learn"}
+    index.md
 
-## Tutorials and Samples
-{: #samples}
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+    {: .navgroup-end}
 
-<!-- Recommended external links to your top three devWorks articles and sample applications. NOTE: sample apps should be in node and java at a minimum. Link text should be: <sample_name> sample or developerworks: <article_name>. To confirm the available articles for your service, go to http://www.ibm.com/developerworks/views/global/libraryview.jsp?show_abstract=falsecontentarea_by=All+Zonesproduct_by=-1topic_by=BlueMixindustry_by=-1type_by=All+Typesibm-search=Search and select your service from the product drop-down menu -->
+To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
+        [Link text](https://pathtolink.html)
+    
+If you have API references to add, leave a blank line under the previous navgroup and then add:
 
-* [link text](URL){:new_window}
-
-## SDK
-{: #sdk}
-
-<!-- Links to SDK download and SDK Developer Guide -->
-
-* [link text](URL){:new_window}
-
-## API Reference
-{: #api}
-
-<!-- External links to the landing page of each generated doc for the APIs that are supported by your service. Use only the type of API as the link text (Java, JavaScript, REST, Objective-C) -->
-
-* [link text](URL){:new_window}
-
-## Compatible Runtimes
-{: #buildpacks}
-
-<!-- MAY BE REMOVING THIS: Peer links to the Getting Started page of each runtime that is supported by your service. Use only the name of the runtime as the link text (Node.js, Liberty for Java, Ruby on Rails, Ruby Sinatra) -->
-
-* [link text](URL)
-
-## Related Links
-{: #general}
-
-<!-- Include a link to your full product documentation, pricing sheet, IBM Bluemix prerequisites -->
-<!-- NOTE: Remove these comments when using this template. Otherwise the comment will break the build! Thanks. -->
-
-* [link text](URL){:new_window}
-* [link text](URL)
-* [link text](URL)
+    {: .navgroup id="reference"}
+    Reference
+        [API Documentation](https://pathtolink.html)
+    {: .navgroup-end}
+-->

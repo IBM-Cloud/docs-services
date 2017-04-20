@@ -1,2 +1,18 @@
-[Getting Started with IQP](/docs/IQP/index.html)
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="IQP" audience="service" href="/docs/services/IQP/index.html"}
+IQP
+
+    {: .navgroup id="learn"}
     index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Link text](URL)
+    {: .navgroup-end}
