@@ -21,7 +21,7 @@ lastupdated: "2017-04-18"
 
 To get started with Nexmo APIs on Bluemix:
 
-1. If you don't already have a Nexmo account, [sign up for ](https://dashboard.nexmo.com/sign-up)an account{:new_window}.
+1. If you don't already have a Nexmo account, [sign up for](https://dashboard.nexmo.com/sign-up){:new_window} an account.
 
 2. Login to [Nexmo Dashboard](https://dashboard.nexmo.com/settings){:new_window}. Scroll to the **API Settings** section to get your API credentials. You will need the *API Key* and *API Secret* for this tutorial.
 
