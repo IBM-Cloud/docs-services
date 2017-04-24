@@ -1,5 +1,4 @@
 ---
-
 copyright: 
 
   years: 2017
@@ -32,7 +31,7 @@ This step-by-step instruction uses Node.js, so you need [Node.js](https://nodejs
 
 ## Creating a New Application
 
-Go to your [Dashboard](https://console.eu-gb.bluemix.net/dashboard/apps/), and click the **Create App** button:
+Go to your [Dashboard](https://console.ng.bluemix.net/dashboard/apps/), and click the **Create App** button:
 
 ![Create an app](images/01-create-app.png)
 
@@ -100,7 +99,7 @@ You can get your own number by going to your [Nexmo dashboard](https://dashboard
 
 Now, let’s code! Make sure that node.js is installed on your machine to start coding.
 
-Take a look at the project folder that you previously downloaded from your Bluemix dashboard. Ot should contains files like this:
+Take a look at the project folder that you previously downloaded from your Bluemix dashboard. Or should contains files like this:
 
 ```bash
 .
