@@ -1,3 +1,19 @@
+---
+
+copyright:
+
+  years: 2017
+
+lastupdated: "2017-04-26"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
 # Getting Started with the flowthings.io service for Bluemix
 
 [flowthings.io](https://flowthings.io) is a cloud based solution for real time data collection, complex event processing, and data delivery. The service is built from the ground up to make it extremely easy to use and easy to integrate with almost any software or device.
