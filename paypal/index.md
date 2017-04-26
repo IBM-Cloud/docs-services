@@ -62,11 +62,3 @@ PayPal Payments Pro has the customization capability, technical maturity, and pr
 $30 per month, plus 2.9% + $0.30 per transaction.
 Discounts available for large volume customers and non-profits. No hidden fees or surcharges. 
 
-># Related Links {:class="linklist"}
->## Related Links {:id="general"}
->* [PayPal Express Checkout](https://www.paypal.com/webapps/mpp/express-checkout)
->* [PayPal Payments Pro](https://www.paypal.com/us/webapps/mpp/paypal-payments-pro)
->* [PayPal Technical Support](http://ppmts.custhelp.com/app/ask)
->* [PayPal Demo Portal](https://demo.paypal.com/home)
->
->{:elementKind="article" id="rellinks"}
