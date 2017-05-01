@@ -44,7 +44,17 @@ PagerDuty is your fastest path to incident resolution, helping IT Operations and
 
 6. Copy the **Integration Key** for your new integration.
 
-## Creating an OpenWhisk action
+### In Bluemix
+
+1. Go to the **Catalog** within your Bluemix account.
+
+2. Click on the **PagerDuty Service**.
+
+3. Add the **Integration Key** you copied above as well as a **Service Name** and an app to **Connect To**.
+
+4. Click **Create** to deploy the **PagerDuty Service**. The application will now contain the **Integration Key** in their **VCAP_SERVICES** environment variables.
+
+## Creating an OpenWhisk action for PagerDuty
 
 1. Copy this code.
 
