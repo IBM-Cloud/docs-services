@@ -60,7 +60,8 @@ To integrate your app with the service, follow these steps:
 
 5. Add a connection to the user of the app ( https://docs.unificationengine.com/#add-connection ).
   ```
-  curl -XPOST https://apiv2.unificationengine.com/v2/connection/add -u USER_ACCESS_KEY:USER_ACCESS_SECRET --data'{"uri":"CONNECTOR_SCHEME://CLIENT_ID:CLIENT_SECRET@CONNECTOR_SCHEME.com","name":"UNIQUE_CONNECTION_NAME"}'
+  curl -XPOST https://apiv2.unificationengine.com/v2/connection/add -u USER_ACCESS_KEY:USER_ACCESS_SECRET
+  --data'{"uri":"CONNECTOR_SCHEME://CLIENT_ID:CLIENT_SECRET@CONNECTOR_SCHEME.com","name":"UNIQUE_CONNECTION_NAME"}'
   ```
 
   ![Connector Details](connectorDetails.png)
@@ -85,7 +86,11 @@ To integrate your app with the service, follow these steps:
 
 6. Send a message from your connector ( https://docs.unificationengine.com/#send-message ).
   ```
-  curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET  --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" , \"Connector\": \" UNIQUE_CONNECTION_NAME \"}],\"sender\": {\"address\": \" FROM_ADDRESS \"  },\"parts\": [{\"id\": \"1\",\"contentType\": \" text/plain \", \"data\":\"test message body\" ,\"size\":MESSAGE_BODY_SIZE,\"type\": \"body\",\"sort\":0}]}}"
+  curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET
+  --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" ,
+  \"Connector\": \" UNIQUE_CONNECTION_NAME \"}],\"sender\": {\"address\": \" FROM_ADDRESS \"  },
+  \"parts\": [{\"id\": \"1\",\"contentType\": \" text/plain \", \"data\":\"test message body\" ,
+  \"size\":MESSAGE_BODY_SIZE,\"type\": \"body\",\"sort\":0}]}}"
   ```
   {: pre}
 
