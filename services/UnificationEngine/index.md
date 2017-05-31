@@ -75,17 +75,19 @@ To integrate your app with the service, follow these steps:
   The success response for an add connection will be something like:
 
   ```
- {
+  {
    "status": 200,
    "info": "OK"
   } 
   ```
+  {: pre}
 
 
 6. Send a message from your connector ( https://docs.unificationengine.com/#send-message ).
   ```
-curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET  --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" , \"Connector\": \" UNIQUE_CONNECTION_NAME \"}],\"sender\": {\"address\": \" FROM_ADDRESS \"  },\"parts\": [{\"id\": \"1\",\"contentType\": \" text/plain \", \"data\":\"test message body\" ,\"size\":MESSAGE_BODY_SIZE,\"type\": \"body\",\"sort\":0}]}}"
+  curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET  --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" , \"Connector\": \" UNIQUE_CONNECTION_NAME \"}],\"sender\": {\"address\": \" FROM_ADDRESS \"  },\"parts\": [{\"id\": \"1\",\"contentType\": \" text/plain \", \"data\":\"test message body\" ,\"size\":MESSAGE_BODY_SIZE,\"type\": \"body\",\"sort\":0}]}}"
   ```
+  {: pre}
 
 
 <!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
