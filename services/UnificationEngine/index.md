@@ -24,7 +24,7 @@ UnificationEngine (UE) is an intelligent IoT messaging platform that solves IoT 
 {:shortdesc}
 
 
-To integrate your app with the service, follow these steps:
+To integrate your app with UnificationEngine, follow these steps:
 
 1. Register as a developer in UnificationEngine developer portal at https://developer.unificationengine.com/.
 
