@@ -1,0 +1,19 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Bondevalue" audience="service" href="/docs/services/Bondevalue/index.html"}
+Bondevalue
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](URL)
+    {: .navgroup-end}
