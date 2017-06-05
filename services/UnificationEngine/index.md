@@ -14,81 +14,85 @@ lastupdated: "2017-05-30"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
 
-<!-- The name of this file should remain index.md.
-Please delete content examples and coding that you are not using for your service. -->
 
 # Getting started with UnificationEngine
 {: #gettingstarted_UnificationEngine}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
-I have added your short description, but feel free to edit here: -->
 
 UnificationEngine (UE) is an intelligent IoT messaging platform that solves IoT challanges for users, developers, and manufacturers by providing security, interoperability, and convenience. With a single, integrated API, UE simplifies both the user onboarding and device provisioning experiences.
 {:shortdesc}
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+To integrate your app with UnificationEngine, follow these steps:
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. 
+1. Register as a developer in UnificationEngine developer portal at https://developer.unificationengine.com/.
 
-For example: -->
+![Register](register.png)
+        
+2. Create an app in UnificationEngine by providing app name at https://developer.unificationengine.com/apps. Once the app is created it will automatically generate an app key  [APP_KEY] and secret [APP_SECRET]. This key and secret is used to create a user for an app.
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+![Create App](createApp.png)
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+![App Details](appDetails.png)
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+3. Add a connector from the available list of connectors in UnificationEngine to the app you have created in developer portal using the 'Add Connector' button.
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+![Add Connector](addConnector.png)
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+4. Create a user for an app in UnificationEngine. On successful creation of a user, an access key [USER_ACCESS_KEY] and secret [USER_ACCESS_SECRET]  for the user will be returned as response, which is required for all further api calls like add connection, sent message etc ( https://docs.unificationengine.com/#create-user ).
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+  ```
+  curl -XPOST https://apiv2.unificationengine.com/v2/user/create -u APP_KEY:APP_SECRET –data ’{}’ -k
+  ```
+  {: pre}
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+  The response for the create user will be something like:
 
-	```
-	my command -and -options
-	```
-	{: pre}
+  ```
+ {
+   "status": 200,
+   "info": "OK", 
+   "uri":"user://USER_ACCESS_KEY:USER_ACCESS_SECRET@"
+  }
+  ```
+  {: pre}
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+5. Add a connection to the user of the app ( https://docs.unificationengine.com/#add-connection ).
+  ```
+  curl -XPOST https://apiv2.unificationengine.com/v2/connection/add -u USER_ACCESS_KEY:USER_ACCESS_SECRET
+  --data'{"uri":"CONNECTOR_SCHEME://CLIENT_ID:CLIENT_SECRET@CONNECTOR_SCHEME.com","name":"UNIQUE_CONNECTION_NAME"}'
+  ```
 
+  ![Connector Details](connectorDetails.png)
+
+- **USER_ACCESS_KEY**  -  your access key
+- **USER_ACCESS_SECRET**  -  your access secret
+- **CONNECTOR_SCHEME**  -  the scheme of the connector
+- **CLIENT_ID**  -  the client id of the respective service/channel
+- **CLIENT_SECRET**  -   the client secret of the respective service/channel
+- **UNIQUE_CONNECTION_NAME**  -   a unique name for the connection
+  
+  The success response for an add connection will be something like:
+
+  ```
+  {
+   "status": 200,
+   "info": "OK"
+  } 
+  ```
+  {: pre}
+
+
+6. Send a message from your connector ( https://docs.unificationengine.com/#send-message ).
+  ```
+  curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET
+  --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" ,
+  \"Connector\": \" UNIQUE_CONNECTION_NAME \"}],\"sender\": {\"address\": \" FROM_ADDRESS \"  },
+  \"parts\": [{\"id\": \"1\",\"contentType\": \" text/plain \", \"data\":\"test message body\" ,
+  \"size\":MESSAGE_BODY_SIZE,\"type\": \"body\",\"sort\":0}]}}"
+  ```
+  {: pre}
 
 
 <!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
@@ -98,16 +102,16 @@ Complete these steps to get started with the BigInsights service:
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
+        [UnificationEngine Developer Account](https://developer.unificationengine.com/)
     {: .navgroup-end}
 
 To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
+        [UnificationEngine Developer Account](https://developer.unificationengine.com/)
     
 If you have API references to add, leave a blank line under the previous navgroup and then add:
 
     {: .navgroup id="reference"}
     Reference
-        [API Documentation](https://pathtolink.html)
+        [API Documentation](https://docs.unificationengine.com)
     {: .navgroup-end}
 -->
