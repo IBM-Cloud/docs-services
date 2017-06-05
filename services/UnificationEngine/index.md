@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-05-30"
+lastupdated: "2017-06-05"
 
 ---
 
@@ -42,8 +42,9 @@ To integrate your app with UnificationEngine, follow these steps:
 
 4. Create a user for an app in UnificationEngine. On successful creation of a user, an access key [USER_ACCESS_KEY] and secret [USER_ACCESS_SECRET]  for the user will be returned as response, which is required for all further api calls like add connection, sent message etc ( https://docs.unificationengine.com/#create-user ).
 
+
   ```
-  curl -XPOST https://apiv2.unificationengine.com/v2/user/create -u APP_KEY:APP_SECRET –data ’{}’ -k
+  curl -XPOST https://apiv2.unificationengine.com/v2/user/create -u APP_KEY:APP_SECRET â€“data â€™{}â€™ -k
   ```
   {: pre}
 
@@ -59,6 +60,7 @@ To integrate your app with UnificationEngine, follow these steps:
   {: pre}
 
 5. Add a connection to the user of the app ( https://docs.unificationengine.com/#add-connection ).
+
   ```
   curl -XPOST https://apiv2.unificationengine.com/v2/connection/add -u USER_ACCESS_KEY:USER_ACCESS_SECRET
   --data'{"uri":"CONNECTOR_SCHEME://CLIENT_ID:CLIENT_SECRET@CONNECTOR_SCHEME.com","name":"UNIQUE_CONNECTION_NAME"}'
@@ -85,6 +87,7 @@ To integrate your app with UnificationEngine, follow these steps:
 
 
 6. Send a message from your connector ( https://docs.unificationengine.com/#send-message ).
+
   ```
   curl -XPOST https://apiv2.unificationengine.com/v2/message/send  -u USER_ACCESS_KEY: USER_ACCESS_SECRET
   --data "{ \"message\": { \"receivers\": [{\"name\": \"name\", \"address\": \"TO_ADDRESS\" ,
