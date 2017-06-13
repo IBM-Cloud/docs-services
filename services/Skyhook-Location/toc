@@ -1,0 +1,19 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Skyhook-Location" audience="service" href="/docs/services/Skyhook-Location/index.html"}
+Skyhook Precision Location
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](URL)
+    {: .navgroup-end}
