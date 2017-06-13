@@ -59,12 +59,12 @@ To integrate your app with UnificationEngine, follow these steps:
   ```
   
   ![Connector Details](connectorDetails.png)
-- **USER_ACCESS_KEY**  -  your access key
-- **USER_ACCESS_SECRET**  -  your access secret
-- **CONNECTOR_SCHEME**  -  the scheme of the connector
-- **CLIENT_ID**  -  the client id of the respective service/channel
-- **CLIENT_SECRET**  -   the client secret of the respective service/channel
-- **UNIQUE_CONNECTION_NAME**  -   a unique name for the connection
+    - **USER_ACCESS_KEY**  -  your access key
+    - **USER_ACCESS_SECRET**  -  your access secret
+    - **CONNECTOR_SCHEME**  -  the scheme of the connector
+    - **CLIENT_ID**  -  the client id of the respective service/channel
+    - **CLIENT_SECRET**  -   the client secret of the respective service/channel
+    - **UNIQUE_CONNECTION_NAME**  -   a unique name for the connection
   
   The success response for an add connection will be something like:
 
