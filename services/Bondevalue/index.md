@@ -31,24 +31,12 @@ liquidity, riskiness, news and many other data points which help them to make mo
 decisions at the time of bond trading.
 {:shortdesc}
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
-
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
-
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
-
 ## Viewing the API data
 
-You need to follow the below mentioned steps to gain access for viewing the real time and historical bond data points.
+Use the following steps to gain access for viewing the real time and historical bond data points:
 
-- Create and Login to your account on [Bondevalue](https://bondevalue.com/app/userRegisteration){:new_window}.
-- From the dropdown menu in the top-left corner of the page, click on the “Daily Price API data” and “Historical Price API data” option to view the daily and historical bond prices respectively.
+1. Create and Login to your account on [Bondevalue](https://bondevalue.com/app/userRegisteration){:new_window}.
+2. From the dropdown menu in the top-left corner of the page, click on the “Daily Price API data” and “Historical Price API data” option to view the daily and historical bond prices respectively.
 
 ## Daily Price API Data
 
@@ -84,14 +72,7 @@ JSON Format
 	}
 	```
 	{: codeblock}
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
  
 API Field Name      | Description
 --------------------|------------
@@ -164,11 +145,11 @@ API Field   | Name Description
 ## Using BondEvalue APIs
 
 You need an API access token to receive data from BondEvalue APIs. To request an API access token,
-please follow the steps below:
+use the following steps:
 
-- Register and login to your account on Bondevalue
-- From the dropdown menu in the top-left corner of the page, click on the “Instructions to use API” option as shown below.
-- Once the link is clicked you will be provided with a 16-character token which is required to access the APIs.
+1. Register and login to your account on Bondevalue
+2. From the dropdown menu in the top-left corner of the page, click on the “Instructions to use API” option as shown below.
+3. After the link is clicked you will be provided with a 16-character token which is required to access the APIs.
 
 ## Using the Daily Price API
 
@@ -178,7 +159,7 @@ please follow the steps below:
 - Request Parameter : requestData = "{\"data\":{\"userToken\":\"[userToken]\"}}" 
 - [Note: The requestData will be encrypted by an encryption algorithm]
 
-In order to encrypt the request parameter, the developer needs to follow the following steps:
+To encrypt the request parameter, the developer needs to use the following information:
 
 - Encryption Algorithm Used: ALGO = "AES/ECB/PKCS5Padding";
 - The encryption algorithm uses AES 128 method where the 16-character token provided will act as the 128 bits key to encrypt.
