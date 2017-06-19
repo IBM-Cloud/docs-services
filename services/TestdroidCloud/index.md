@@ -20,7 +20,7 @@ lastupdated: "2016-05-16"
 Testdroid Cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Testdroid Cloud, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.
 {:shortdesc}
 
-![](http://docs.testdroid.com/assets/logos/Testdroid_CLOUD_logo-HORIZONTAL_800px.png)
+![](https://bitbar.com/wp-content/uploads/2017/04/bitbar_testing01a-820x200.png)
 
 [Testdroid](http://bitbar.com/testing/) Cloud provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM, and hardware configurations for Android and iOS developers. Testdroid Cloud provides test automation, remote manual access, and a REST API to access, run, and manage any tests with these devices. These devices are hosted in three different locations (Wroclaw, Poland; Mountain View, CA; and Oulu, Finland) and are monitored and maintained 24 hours per business day. Up-time is over 99% and a sophisticated monitoring system keeps the devices running at the same rate. 
 
