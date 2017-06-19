@@ -19,16 +19,13 @@ lastupdated: "2017-06-01"
 <!-- The name of this file should remain index.md.
 Please delete out content examples and coding that you are not using for your service. -->
 
-# Getting started with BondEvalue API
+# Getting started with BondEvalue APIs
 {: #gettingstarted_Bondevalue}
 
 BondEvalue provides you access to live and historical bond prices and yields data for bonds. Unlike
 equities which have already been digitally disrupted, bonds have remained unchanged for decades,
-with private bank clients unable to access live prices
-With the help of our advanced algorithm we monitor the bond specific data points from a large
-variety of sources and enable individual investors to get the latest and accurate bond prices, yields,
-liquidity, riskiness, news and many other data points which help them to make more informed
-decisions at the time of bond trading.
+with private bank clients unable to access live prices. With the help of our advanced algorithm we monitor the bond specific data points from a large variety of sources and enable individual investors to get the latest and accurate bond prices, yields, liquidity, riskiness, news and many other data points which help them to make more informed decisions at the time of bond trading.
+
 {:shortdesc}
 
 ## Viewing the API data
@@ -41,9 +38,8 @@ Use the following steps to gain access for viewing the real time and historical 
 ## Daily Price API Data
 
 JSON Format
-	
-	```json
-	{
+```json
+{
 	"country": "CHN",
 	"callable": "Yes",
 	"issuerNameInBoldLetters": "361 Degrees",
@@ -69,9 +65,9 @@ JSON Format
 	"countryName": "China",
 	"yieldChange": "-0.02",
 	"countryOfRiskName": "China"
-	}
-	```
-	{: codeblock}
+}	
+```
+{: codeblock}
 
  
 API Field Name      | Description
@@ -94,45 +90,45 @@ API Field Name      | Description
 ## Historical Price API Data
 
 JSON Format
-	
-	```json
-	{
- 	"ISINSDetailMap": {
-	 "IssuerISINId": "77",
- 	"bondCoupon": "2.75",
- 	"bondISIN": "XS1209864229"
-	 },
-	 "bondDetailsGraphDataList": [
- 	{
- 	"UIFormattedDate": "Wed,Dec 07",
- 	"bondPrice": "99.326",
- 	"day_of_year": "342",
-	 "year": "2016",
- 	"month_of_year": "12",
- 	"day_of_month": "7",
- 	"bondYield": "2.96",
- 	"month": "December",
- 	"bondDataUpdateDate": "2016-12-07",
- 	"day": "Wednesday",
- 	"week_of_year": "49",
-	 "day_of_week": "4"
- 	},
- 	{
- 	"UIFormattedDate": "Thu,Dec 08",
- 	"bondPrice": "99.447",
- 	"day_of_year": "343",
-	 "year": "2016",
- 	"month_of_year": "12",
- 	"day_of_month": "8",
- 	"bondYield": "2.93",
- 	"month": "December",
- 	"bondDataUpdateDate": "2016-12-08",
- 	"day": "Thursday",
- 	"week_of_year": "49",
- 	"day_of_week": "5"
- 	}
-	```
-	{: codeblock}
+```json
+{
+	"ISINSDetailMap": {
+		"IssuerISINId": "77",
+		"bondCoupon": "2.75",
+		"bondISIN": "XS1209864229"
+	},
+	"bondDetailsGraphDataList": [{
+			"UIFormattedDate": "Wed,Dec 07",
+			"bondPrice": "99.326",
+			"day_of_year": "342",
+			"year": "2016",
+			"month_of_year": "12",
+			"day_of_month": "7",
+			"bondYield": "2.96",
+			"month": "December",
+			"bondDataUpdateDate": "2016-12-07",
+			"day": "Wednesday",
+			"week_of_year": "49",
+			"day_of_week": "4"
+		},
+		{
+			"UIFormattedDate": "Thu,Dec 08",
+			"bondPrice": "99.447",
+			"day_of_year": "343",
+			"year": "2016",
+			"month_of_year": "12",
+			"day_of_month": "8",
+			"bondYield": "2.93",
+			"month": "December",
+			"bondDataUpdateDate": "2016-12-08",
+			"day": "Thursday",
+			"week_of_year": "49",
+			"day_of_week": "5"
+		}
+	]
+}
+```
+{: codeblock}
 	
 API Field   | Name Description
 ------------|------------
@@ -148,7 +144,7 @@ You need an API access token to receive data from BondEvalue APIs. To request an
 use the following steps:
 
 1. Register and login to your account on Bondevalue
-2. From the dropdown menu in the top-left corner of the page, click on the “Instructions to use API” option as shown below.
+2. From the dropdown menu in the top-left corner of the page, click on the “Instructions to use API” option.
 3. After the link is clicked you will be provided with a 16-character token which is required to access the APIs.
 
 ## Using the Daily Price API
