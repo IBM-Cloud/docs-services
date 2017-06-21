@@ -73,7 +73,7 @@ JSON Format
 API Field Name      | Description
 --------------------|------------
 "callable"	    | Provides the value if the bond is callable or not.
-"ISINCode"          | Filters documents by the index, see below table for supported indexes. To filter by multiple indexes pass a comma separated list of indexes.
+"ISINCode"          | Provides the unique ISIN value of the bond.
 "bondPrice"         | The current price of the bond.
 "YieldChangeInBpUnit"	|	The daily yield change value is terms of basis points system.
 "rating"		|Information about the riskiness of the bond.
