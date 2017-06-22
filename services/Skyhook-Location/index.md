@@ -22,14 +22,10 @@ Please delete out content examples and coding that you are not using for your se
 # Getting started with Skyhook Precision Location
 {: #gettingstarted_SkyhookLocation}
 
+The Skyhook Precision Location API provides access to positioning information derived from the analysis of positioning anchors including Wi-Fi access points, cell IDs and others in known locations. The client applications make XML-over-HTTPS calls to the API while providing a listing of observed positioning anchors within range of the client device, along with GPS information if available. The Location Server API returns a calculated geographic location based on those inputs, and optionally a street address and time zone.
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+In addition to the derived location the API returns location based on the client's IP address. While this information is not a reliable source for navigation, it can be used to provide context in the event that more accurate methods are not available, it may be used as the best estimate of location.
 
-Examples: -->
-
-Skyhook Precision Location is a ...  -OR-
-Use Skyhook Precision Location for ...
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
