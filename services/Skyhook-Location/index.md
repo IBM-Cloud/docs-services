@@ -27,7 +27,17 @@ To learn more about using Skyhook Precision Location, visit our [website](http:/
 
 ## Before you begin
 
-To start using Skyhook Precision Location, you must first sign up for an account. Click [website](https://my.skyhookwireless.com){:new_window} to get started!
+To start using Skyhook Precision Location, you must first sign up for an account and obtain an API key. Click [website](https://my.skyhookwireless.com){:new_window} to get started!
+
+1. Create a new account [here](http://my.skyhookwireless.com)
+2) Once registration is completed, you will be shown steps to create your first project
+from your account dashboard.
+3) Hovering over the “Start a New Project” card, select “Precision Location” as the project
+type.
+4) Name your project whatever you like. For API testing, you can select either Linux or
+Android as your platform of choice when prompted on the interface.
+5) Once your project is created, your API key will be displayed in the top right hand side of
+your project dashboard.
 
 ## Getting Started
 
