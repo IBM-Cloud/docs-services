@@ -14,19 +14,19 @@ lastupdated: "2017-06-13"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
 # Getting started with Skyhook Precision Location
 {: #gettingstarted_SkyhookLocation}
 
 The Skyhook Precision Location API provides access to positioning information derived from the analysis of positioning anchors including Wi-Fi access points, cell IDs and others in known locations. The client applications make XML-over-HTTPS calls to the API while providing a listing of observed positioning anchors within range of the client device, along with GPS information if available. The Location Server API returns a calculated geographic location based on those inputs, and optionally a street address and time zone.
 
-In addition to the derived location the API returns location based on the client's IP address. While this information is not a reliable source for navigation, it can be used to provide context in the event that more accurate methods are not available, it may be used as the best estimate of location.
+In addition to the derived location the API returns location based on the client's IP address. While this information is not a reliable source for navigation, it can be used to provide context in the event that more accurate methods are not available, it may be used as the best estimate of location.{:shortdesc}
 
-{:shortdesc}
+To learn more about using Skyhook Precision Location, visit our website{:new_window}.
+
+To start using Skyhook Precision Location, you must first sign up for an account. Click here{:new_window} to get started!
+
+Once you've signed up to use xxxx, there are a few easy steps to go live.
+
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
