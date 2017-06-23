@@ -48,7 +48,7 @@ Once you've registered, there are a few easy steps to start performing locations
 2. Add code to your device that collects signal information needed to peform a geolocation. Supported signals include Wi-Fi, GPS, and Cell. A code example if runing on a Linux device :
 
 	```
-proc = subprocess.Popen(["/sbin/wpa_cli", "scan_results"], stdout=subprocess.PIPE, universal_newlines=True)  
+    proc=subprocess.Popen(["/sbin/wpa_cli", "scan_results"], stdout=subprocess.PIPE, universal_newlines=True)
 	```
 
 3. Parse the signal information into the correct format required by Skyhook's Precision Location API (example XML is shown in the API Documentation).
