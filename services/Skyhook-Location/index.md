@@ -51,8 +51,9 @@ Once you've registered, there are a few easy steps to start performing locations
     proc=subprocess.Popen(["/sbin/wpa_cli", "scan_results"], stdout=subprocess.PIPE, universal_newlines=True)
 	```
 
-3. Parse the signal information into the correct format required by Skyhook's Precision Location API (example XML is shown in the API Documentation).
-4. Perfom the location request and receive the response.
+3. Parse the signal information into the correct schema format required by Skyhook's Precision Location API. The schema format description is found in the API Documentation starting on page 4.
+4. Perfom the location request (schema description start on page 4 of the API Documentation) and receive the response (schema description starts on page 13 of the API Documentation).
+5. Example XML code can be found on page 17 of the API Documentation.
 
 ## Getting Help
 {:getting_help}
