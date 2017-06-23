@@ -49,28 +49,14 @@ your project dashboard.
 Once you've registered, there are a few easy steps to start performing locations.
 
 1. First, review our comprehensive API Documentation{:new_window}.
+2. Add code to your device that collects signal information needed to peform a geolocation. Supported signals include Wi-Fi, GPS, and Cell. 
+3. Parse the signal information into the correct format required by Skyhook's Precision Location API (example XML is shown in the API Documentation).
+4. Perfom the location request and receive the response.
 
-2. Start using xxxx!
+## Getting Help
+{:getting_help}
+
+Support requests to Skyhook's sales support engineering team can be submitted [here](http://my.skyhookwireless.com) through your Skyhook account.
 
 
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
-
-{: .navgroup id="learn"}
-    index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
-
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
-
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
--->
