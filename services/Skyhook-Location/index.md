@@ -60,7 +60,7 @@ Once you've registered, there are a few easy steps to start locating devices.
 ## Getting Help
 {:getting_help}
 
-Support requests to Skyhook's sales support engineering team can be submitted [here](http://hubs.ly/H07V59T0) through your Skyhook account.
+Support requests to Skyhook's sales support engineering team can be submitted [here](http://hubs.ly/H07V59T0) through your Skyhook account or via email at support@skyhook.com.
 
 
 
