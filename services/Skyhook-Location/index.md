@@ -43,6 +43,7 @@ To start using Skyhook Precision Location, you must first sign up for an account
 
 ## Getting Started
 {:getting_started}
+****decide on code snippets and replacing api document****
 
 Once you've registered, there are a few easy steps to start locating devices.
 
