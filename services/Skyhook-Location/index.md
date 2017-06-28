@@ -22,7 +22,6 @@ Skyhook Precision Location is a service on {{site.data.keyword.Bluemix}} that yo
 ## Overview
 {:overview}
 
-### Introduction
 The Skyhook Precision Location API provides access to positioning information calculated by comparing information concerning positioning anchors in the vicinity of the IoT device, to positioning anchors in the Skyhook Precision Location database.  Positioning anchors may  include Wi-Fi access points, cell IDs and others. 
 
 The client applications make XML-over-HTTPS calls to the API while providing a listing of observed positioning anchors within range of the client device, along with GPS information if available. The Precision Location API calculates and returns a geographic location based on those inputs, and optionally a street address and time zone.
