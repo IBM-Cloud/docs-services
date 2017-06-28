@@ -50,7 +50,7 @@ With the Precision Location API, the device must collect data about the radio si
 For API calls, always use the DNS. Using hard-coded IP addresses is not supported by Skyhook and could cause a failure to return location requests.
 If all API calls are being forwarded from a centralized server before being forward to the Skyhook API end-point, the x-forwarded-for HTTP header must be used with the original IP address of the device making the request. For example:
 ```
-	Forwarded: for=192.0.2.60; proto=http; by=203.0.113.43
+Forwarded: for=192.0.2.60; proto=http; by=203.0.113.43
 ```
 ### Submitting a Device “Username”
 You must submit a unique device ID, or “username”, for the end-user device with each unique location request.  Doing so will enable more accurate location results and impact redundancy of how your location data is processed and weighted for optimization.  In addition to improved location accuracy for your apps or devices, reporting and API performance may also be impacted if “username” is not provided.  Please note that these individual DeviceIDs are not stored permanently anywhere in Skyhook’s system.  Rather, they are stored with a rotating hash in accordance to our user and commercial privacy policies.  
