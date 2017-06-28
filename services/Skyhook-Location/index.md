@@ -22,6 +22,7 @@ Skyhook Precision Location is a service on {{site.data.keyword.Bluemix}} that yo
 ## Overview
 {:overview}
 
+### Introduction
 The Skyhook Precision Location API provides access to positioning information calculated by comparing information concerning positioning anchors in the vicinity of the IoT device, to positioning anchors in the Skyhook Precision Location database.  Positioning anchors may  include Wi-Fi access points, cell IDs and others. 
 
 The client applications make XML-over-HTTPS calls to the API while providing a listing of observed positioning anchors within range of the client device, along with GPS information if available. The Precision Location API calculates and returns a geographic location based on those inputs, and optionally a street address and time zone.
@@ -43,20 +44,72 @@ To start using Skyhook Precision Location, you must first sign up for an account
 
 ## Getting Started
 {:getting_started}
-****decide on code snippets and replacing api document****
 
-Once you've registered, there are a few easy steps to start locating devices.
+With the Precision Location API, the device must collect data about the radio signal environment, including Wi-Fi access point MAC addresses, cell tower IDs, and signal strengths. This data is then submitted using the Precision Location API. When accessible, include GPS location in your submissions along with Wi-Fi and cell tower IDs to improve location results, even when GPS is unavailable.  As of version 2.21 GPS switching has also been added to our server-side functionality. For full API documentation, including Wi-Fi and Cell capabilities, please contact Skyhook at support@skyhook.com. 
 
-1. First, review our comprehensive API Documentation{:new_window}.
-2. Add code to your device that collects signal information needed to peform a geolocation. Supported signals include Wi-Fi, GPS, and Cell. A code example if running on a Linux device :
+### IP Addresses
+For API calls, always use the DNS. Using hard-coded IP addresses is not supported by Skyhook and could cause a failure to return location requests.
+If all API calls are being forwarded from a centralized server before being forward to the Skyhook API end-point, the x-forwarded-for HTTP header must be used with the original IP address of the device making the request. For example:
+```
+	Forwarded: for=192.0.2.60; proto=http; by=203.0.113.43
+```
+### Submitting a Device “Username”
+You must submit a unique device ID, or “username”, for the end-user device with each unique location request.  Doing so will enable more accurate location results and impact redundancy of how your location data is processed and weighted for optimization.  In addition to improved location accuracy for your apps or devices, reporting and API performance may also be impacted if “username” is not provided.  Please note that these individual DeviceIDs are not stored permanently anywhere in Skyhook’s system.  Rather, they are stored with a rotating hash in accordance to our user and commercial privacy policies.  
 
-	```
-    proc=subprocess.Popen(["/sbin/wpa_cli", "scan_results"], stdout=subprocess.PIPE, universal_newlines=True)
-	```
+### Example
 
-3. Parse the signal information into the correct schema format required by Skyhook's Precision Location API. The schema format description is found in the API Documentation starting on page 4.
-4. Perfom the location request (schema description starts on page 4 of the API Documentation) and receive the response (schema description starts on page 13 of the API Documentation).
-5. Example XML code can be found on page 17 of the API Documentation.
+#### API Request
+```
+<LocationRQ xmlns="http://skyhookwireless.com/wps/2005"
+            version="2.24"
+            street-address-lookup="full">
+<authentication version="2.2">
+<key key="YOUR API KEY HERE" username="DEVICE SERIAL NUM, MAC ADDRESS, OR OTHER UNIQUE ID HERE"/>
+</authentication>
+	<access-point>
+		<mac>E01C413B9414</mac>
+		<ssid>SkyFi-Corp</ssid>
+		<signal-strength>-66</signal-strength>
+	</access-point>
+	<access-point>
+		<mac>E01C413BD528</mac>
+		<ssid>SkyFi-Corp</ssid>
+		<signal-strength>-63</signal-strength>
+	</access-point>
+	<access-point>
+		<mac>E01C413BD514</mac>
+		<ssid>SkyFi-Corp</ssid>
+		<signal-strength>-68</signal-strength>
+	</access-point>
+</LocationRQ>
+```
+
+#### API Response
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LocationRS version="2.24" xmlns="http://skyhookwireless.com/wps/2005">
+	<location age="0" ncell="0" nlac="0" lap="-P0Y1M27D" nap="1">
+		<latitude>42.351774</latitude>
+		<longitude>-71.046730</longitude>
+		<hpe>337</hpe>
+		<street-address distanceToPoint="22.914528142">
+			<street-number>89</street-number>
+			<address-line>Pittsburgh St</address-line>
+			<city>Boston</city>
+			<postal-code>02210</postal-code>
+			<county>Suffolk</county>
+			<state code="MA">Massachusetts</state>
+			<country code="US">United States</country>
+		</street-address>
+	</location>
+</LocationRS>
+```
+
+#### Code snippet
+```
+curl -H "Content-Type: text/xml" -d @location_rq.xml https://api.skyhookwireless.com/wps2/location
+```
+
 
 ## Getting Help
 {:getting_help}
