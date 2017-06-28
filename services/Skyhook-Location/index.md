@@ -69,16 +69,19 @@ You must submit a unique device ID, or “username”, for the end-user device w
 		<mac>E01C413B9414</mac>
 		<ssid>SkyFi-Corp</ssid>
 		<signal-strength>-66</signal-strength>
+		<age>5</age>
 	</access-point>
 	<access-point>
 		<mac>E01C413BD528</mac>
 		<ssid>SkyFi-Corp</ssid>
 		<signal-strength>-63</signal-strength>
+		<age>6</age>
 	</access-point>
 	<access-point>
 		<mac>E01C413BD514</mac>
 		<ssid>SkyFi-Corp</ssid>
 		<signal-strength>-68</signal-strength>
+		<age>4</age>
 	</access-point>
 </LocationRQ>
 ```
