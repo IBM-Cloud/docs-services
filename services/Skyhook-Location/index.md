@@ -63,7 +63,7 @@ You must submit a unique device ID, or “username”, for the end-user device w
             version="2.24"
             street-address-lookup="full">
 <authentication version="2.2">
-<key key="YOUR API KEY HERE" username="DEVICE SERIAL NUM, MAC ADDRESS, OR OTHER UNIQUE ID HERE"/>
+	<key key="YOUR API KEY HERE" username="DEVICE SERIAL NUM, MAC ADDRESS, OR OTHER UNIQUE ID HERE"/>
 </authentication>
 	<access-point>
 		<mac>E01C413B9414</mac>
