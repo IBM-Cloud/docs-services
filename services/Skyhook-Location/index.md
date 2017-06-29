@@ -36,24 +36,26 @@ To learn more about using Skyhook Precision Location, visit our [website](http:/
 To start using Skyhook Precision Location, you must first sign up for an account and obtain an API key. To do so, follow the steps below:
 
 1. Create a new account [here](http://hubs.ly/H07V59T0).
-2. Once registration is completed, you will be shown steps to create your first project from your account dashboard.
+2. Once you're registered, the steps to create your first project from your account dashboard will be displayed.
 3. Hovering over the “Start a New Project” card, select “Precision Location” as the project type.
 4. Name your project whatever you like. For API testing, you should select Linux as the default platform when prompted on the interface.  [the actual platform does not need to be Linux]
-5. Once your project is created, your API key will be displayed in the top right hand side of your project dashboard.
+5. Once your project is created, your API key will be displayed in the top right-hand side of your project dashboard.
 
 ## Getting Started
 {:getting_started}
 
-With the Precision Location API, the device must collect data about the radio signal environment, including Wi-Fi access point MAC addresses, cell tower IDs, and signal strengths. This data is then submitted using the Precision Location API. When accessible, include GPS location in your submissions along with Wi-Fi and cell tower IDs to improve location results, even when GPS is unavailable.  As of version 2.21 GPS switching has also been added to our server-side functionality. For full API documentation, including Wi-Fi and Cell capabilities, please contact Skyhook at support@skyhook.com. 
+With the Precision Location API, the device must collect data about the radio signal environment, including Wi-Fi access point MAC addresses, cell IDs, and signal strengths. This data is then submitted using the Precision Location API. When accessible, include GPS location in your submissions along with Wi-Fi and cell IDs to improve location results, even when GPS is unavailable.  As of version 2.21 GPS switching has also been added to our server-side functionality. For full API documentation, including Wi-Fi and Cell capabilities, please contact Skyhook at support@skyhook.com. 
 
 ### IP Addresses
 For API calls, always use the DNS. Using hard-coded IP addresses is not supported by Skyhook and could cause a failure to return location requests.
-If all API calls are being forwarded from a centralized server before being forward to the Skyhook API end-point, the x-forwarded-for HTTP header must be used with the original IP address of the device making the request. For example:
+
+If all API calls are being forwarded from a centralized server before being sent to the Skyhook API end-point, the x-forwarded-for HTTP header must be used with the original IP address of the device making the request. For example:
 ```
 Forwarded: for=192.0.2.60; proto=http; by=203.0.113.43
 ```
+
 ### Submitting a Device “Username”
-You must submit a unique device ID, or “username”, for the end-user device with each unique location request.  Doing so will enable more accurate location results and impact redundancy of how your location data is processed and weighted for optimization.  In addition to improved location accuracy for your apps or devices, reporting and API performance may also be impacted if “username” is not provided.  Please note that these individual DeviceIDs are not stored permanently anywhere in Skyhook’s system.  Rather, they are stored with a rotating hash in accordance to our user and commercial privacy policies.  
+You must submit a unique device ID, or “username”, for the end-user device with each unique location request.  Doing so will enable more accurate location results and impact redundancy of how your location data is processed and weighted for optimization.  In addition to improved location accuracy for your apps or devices, reporting and API performance may also be impacted if “username” is not provided.  Please note that these individual DeviceIDs are not stored permanently.  Rather, they are stored with a rotating hash in accordance with our user and commercial privacy policies.  
 
 ### Example
 
