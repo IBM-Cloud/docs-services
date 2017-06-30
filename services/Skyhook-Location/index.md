@@ -68,10 +68,10 @@ You must submit a unique device ID, or “username”, for the end-user device w
 	<key key="YOUR API KEY HERE" username="DEVICE SERIAL NUM, MAC ADDRESS, OR OTHER UNIQUE ID HERE"/>
 </authentication>
 	<access-point>
-		<mac>E01C413B9414</mac>
-		<ssid>SkyFi-Corp</ssid>
-		<signal-strength>-66</signal-strength>
-		<age>5</age>
+		<mac>E01C413B9414</mac>			<!--- MAC address, capitlized with all seperators removed -->
+		<ssid>SkyFi-Corp</ssid>			<!--- SSID of access point, if available -->
+		<signal-strength>-66</signal-strength>	<!--- Observed signal strength of the access point, in decibels (dBm) -->
+		<age>5</age>				<!--- Relative time, in ms, since this access point was scanned -->
 	</access-point>
 	<access-point>
 		<mac>E01C413BD528</mac>
