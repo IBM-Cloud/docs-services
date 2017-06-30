@@ -111,7 +111,7 @@ You must submit a unique device ID, or “username”, for the end-user device w
 
 #### Code snippet
 ```
-curl -H "Content-Type: text/xml" -d @location_rq.xml https://api.skyhookwireless.com/wps2/location
+curl -H "Content-Type: text/xml" -H "X-forwarded-for: 127.0.0.1" -d @location_rq.xml https://api.skyhookwireless.com/wps2/location
 ```
 
 
