@@ -27,8 +27,7 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-Kitewalk GEO Web Services provide ...  -OR-
-Use Kitewalk GEO Web Services to ...
+Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
@@ -43,13 +42,11 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+Kitewalk technology and its use cases are described in [this video](https://youtu.be/ll3GT-sRwB0). Before an application developer can embed Kitewalk capabilities into an app, the administrator will need to specify its Kitewalk API Id and its Kitewalk API Key inside the Bluemix user interface.
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+To integrate your app with Kitewalk GEO Web Services, complete these steps:
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -58,22 +55,18 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+1. Registration to Kitewalk GEO Web Services -> follow the instructions included in our [First Steps Guide](http://api.kitewalk.com#first-login)
+2. Initial tests of Kitewalk GEO Web Services-> follow the instructions included in our [First Tests Guide](http://api.kitewalk.com#first-login)
 
 	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
+	Testing the services is free. A sandbox/testing API ID and API KEY will be provided for such purpose.
+	The sandbox/testing site at http://ws.kitewalk.com will also help developpers to debug/inspect API calls.
 	```
 	{: codeblock}
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+3. Once the services will be mastered in the sandbox/testing environment, a production (API ID, API KEY) couple can be requested to Kitewalk at any time. Such production keys will allow the use of Kitewalk GEO Web Services in a fully independent single-tenant environment which can be fully customized to meet the customer requirements in terms of categories of contents, time and distances. The Kitewalk API Id and its Kitewalk API Key inside the Bluemix user interface will need to be updated accordingly.
 
+<!-- 
 	```
 	my command -and -options
 	```
@@ -89,7 +82,7 @@ Complete these steps to get started with the BigInsights service:
 	```
 	{: screen}
 
-
+ -->
 
 <!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
 
