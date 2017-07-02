@@ -56,7 +56,7 @@ To integrate your app with Kitewalk GEO Web Services, complete these steps:
  -->
 
 1. Registration to Kitewalk GEO Web Services -> follow the instructions included in our [First Steps Guide](http://api.kitewalk.com#first-login)
-2. Initial tests of Kitewalk GEO Web Services-> follow the instructions included in our [First Tests Guide](http://api.kitewalk.com#first-login)
+2. Initial tests of Kitewalk GEO Web Services-> follow the instructions included in our [First Tests Guide](http://api.kitewalk.com#first-tests)
 
 	```
 	Testing the services is free. A sandbox/testing API ID and API KEY will be provided for such purpose.
