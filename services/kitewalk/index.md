@@ -15,8 +15,8 @@ lastupdated: "2017-06-29"
 {:pre: .pre}
 
 
-<!-- The name of this file should remain index.md.
-
+<!-- The name of this file should remain index.md.  -->
+ 
 # Getting started with Kitewalk GEO Web Services
 {: #gettingstarted_kitewalk}
 
@@ -40,7 +40,7 @@ To integrate your app with Kitewalk GEO Web Services, complete these steps:
 3. After the services are mastered in the sandbox/testing environment, a production (API ID, API KEY) couple can be requested from Kitewalk at any time. Such production keys will allow the use of Kitewalk GEO Web Services in a fully independent single-tenant environment which can be fully customized to meet the customer requirements in terms of categories of contents, time and distances. The Kitewalk API Id and its Kitewalk API Key inside the Bluemix user interface will need to be updated accordingly.
 
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following: -->
+<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following: 
 
 {: .navgroup id="learn"}
     index.md
@@ -52,12 +52,13 @@ To integrate your app with Kitewalk GEO Web Services, complete these steps:
         [Pricing](http://kitewalk.com/offer#pricing)
     {: .navgroup-end}
 
-<!-- To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
+To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
         [Link text](https://pathtolink.html)
     
-If you have API references to add, leave a blank line under the previous navgroup and then add: -->
+If you have API references to add, leave a blank line under the previous navgroup and then add: 
 
     {: .navgroup id="reference"}
     Reference
         [API Documentation](http://api.kitewalk.com)
     {: .navgroup-end}
+-->
