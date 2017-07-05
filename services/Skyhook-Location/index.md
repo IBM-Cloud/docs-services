@@ -35,7 +35,7 @@ To learn more about using Skyhook Precision Location, visit our [website](http:/
 
 To start using Skyhook Precision Location, you must first sign up for an account and obtain an API key. To do so, follow the steps below:
 
-1. Create a new account [here](http://hubs.ly/H07V59T0).
+1. Create a new account [here](http://hubs.ly/H07V59T0){:new_window}.
 2. Once you're registered, the steps to create your first project from your account dashboard will be displayed.
 3. Hovering over the “Start a New Project” card, select “Precision Location” as the project type.
 4. Name your project whatever you like. For API testing, you should select Linux as the default platform when prompted on the interface.  [the actual platform does not need to be Linux]
@@ -118,7 +118,7 @@ curl -H "Content-Type: text/xml" -H "X-forwarded-for: 127.0.0.1" -d @location_rq
 ## Getting Help
 {:getting_help}
 
-Support requests to Skyhook's sales support engineering team can be submitted [here](http://hubs.ly/H07V59T0) through your Skyhook account or via email at support@skyhook.com.
+Support requests to Skyhook's sales support engineering team can be submitted [here](http://hubs.ly/H07V59T0){:new_window} through your Skyhook account or via email at support@skyhook.com.
 
 
 
