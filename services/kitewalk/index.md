@@ -40,25 +40,4 @@ To integrate your app with Kitewalk GEO Web Services, complete these steps:
 3. After the services are mastered in the sandbox/testing environment, a production (API ID, API KEY) couple can be requested from Kitewalk at any time. Such production keys will allow the use of Kitewalk GEO Web Services in a fully independent single-tenant environment which can be fully customized to meet the customer requirements in terms of categories of contents, time and distances. The Kitewalk API Id and its Kitewalk API Key inside the Bluemix user interface will need to be updated accordingly.
 
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following: 
-
-{: .navgroup id="learn"}
-    index.md
-
-    {: .topicgroup}
-    Related links
-        [IBM Blog entry](http://api.kitewalk.com)
-        [Use Cases](http://kitewalk.com/index#use)
-        [Pricing](http://kitewalk.com/offer#pricing)
-    {: .navgroup-end}
-
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add: 
-
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](http://api.kitewalk.com)
-    {: .navgroup-end}
--->
+<!-- Related links section: REQUIRED but moved to toc file (in your same kitewalk folder).  Edit there. -->
