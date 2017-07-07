@@ -17,7 +17,8 @@ lastupdated: "2017-06-13"
 # Getting started with Skyhook Precision Location
 {: #gettingstarted_SkyhookLocation}
 
-Skyhook Precision Location is a service on {{site.data.keyword.Bluemix}} that you can use to geolocate IoT devices. {:shortdesc}
+Skyhook Precision Location is a service on {{site.data.keyword.Bluemix}} that you can use to geolocate IoT devices. 
+{:shortdesc}
 
 ## Overview
 {:overview}
