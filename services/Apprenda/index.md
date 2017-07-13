@@ -25,12 +25,14 @@ For more detailed information about the platform, including [tutorials](http://d
 
 
 ## First Time Setup
- If you are the first member of a Bluemix Organization to access the platform, you will be prompted to create a new Development Team. Once subscribed, you will be forwarded to a page that includes a Signup Token.  Follow the link to the Developer Portal and use the token to create your Development Team.
+ If you are the first member of a Bluemix Organization Space to access the platform, you will be prompted to create a new Development Team. Once subscribed, you will be forwarded to a registration page that includes a Signup Token.  Complete the form to create your new Developer Team.
 
- From there you will be able to add additional users and upload your applications, as well as manage resource allocation, security policies, and monitoring.
+ From there you will be presented with a list of tutorials, including deploying your own app, using the Visual Studio Extension, understanding how billing works, andusing IBM Watson services.
  
-## Alpha Release
- This is an Alpha release and should not be used for production workloads.  A resource policy is in effect to limit workloads to 500MB of RAM and 50MB of storage.  Each development team is limited to 2GB of RAM and 1GB of storage.
+ You can access the platform portal directly at https://apps.bm.apprenda.com.
+ 
+## Pricing
+ Pricing is based on gigabytes per hour for RAM resources used by each running application workload you deploy.  RAM resources are determined by Resource Policies you allocate while configuring your application (Small, Medium, Large). Once allocated, the minimum billable time unit is 1 hour. Additional users can be added via the Apprenda Developer Portal at no additional cost. Users are added directly to the Apprenda Platform, IBM accounts are not required. Additional information can be found [here](https://apps.bm.apprenda.com/tutorial/how-bluemix-net-billing-works.html).
 
 
 <!-- Related links moved to toc file:
@@ -48,6 +50,7 @@ For more detailed information about the platform, including [tutorials](http://d
 ## Tutorials
 {: #samples}
 
+* [Tutorials Home](https://apps.bm.apprenda.com/tutorial/){:new_window}
 * [Developer Tutorials Home](http://docs.apprenda.com/current/tutorials){:new_window}
 
 ## API Reference
