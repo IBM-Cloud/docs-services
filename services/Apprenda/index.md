@@ -25,7 +25,7 @@ For more detailed information about the platform, including [tutorials](http://d
 
 
 ## First Time Setup
- If you are the first member of a Bluemix Organization Space to access the platform, you will be prompted to create a new Development Team. Once subscribed, you will be forwarded to a registration page that includes a Signup Token.  Complete the form to create your new Developer Team.
+ If you are the first member of a Bluemix Space to access the platform, you will be prompted to create a new Development Team. Once subscribed, you will be forwarded to a registration page to complete the process.
 
  From there you will be presented with a list of tutorials, including deploying your own app, using the Visual Studio Extension, understanding how billing works, andusing IBM Watson services.
  
