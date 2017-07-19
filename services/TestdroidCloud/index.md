@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2016
+  years: 2017
 
-lastupdated: "2016-05-16"
+lastupdated: "2017-07-19"
 
 ---
 
@@ -14,20 +14,20 @@ lastupdated: "2016-05-16"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Testdroid Cloud
+# Getting Started with Bitbar Testing
 {: #gettingstarted} 
 
-Testdroid Cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Testdroid Cloud, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.
+Bitbar Testing cloud is a mobile app, game, and web testing service that enables developers to run their tests on real, physical Android and iOS devices that are hosted on secure premises. With Bitbar Testing, you can upload your own tests or use built-in, script-free compatibility tests and crawlers.
 {:shortdesc}
 
 ![](https://bitbar.com/wp-content/uploads/2017/04/bitbar_testing01a-820x200.png)
 
-[Testdroid](http://bitbar.com/testing/) Cloud provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM, and hardware configurations for Android and iOS developers. Testdroid Cloud provides test automation, remote manual access, and a REST API to access, run, and manage any tests with these devices. These devices are hosted in three different locations (Wroclaw, Poland; Mountain View, CA; and Oulu, Finland) and are monitored and maintained 24 hours per business day. Up-time is over 99% and a sophisticated monitoring system keeps the devices running at the same rate. 
+[Bitbar Testing](http://bitbar.com/testing/) provides the largest device farm of real mobile devices, gathered from different regions globally, including the most versatile OS, OEM, and hardware configurations for Android and iOS developers. Bitbar provides test automation, remote manual access, and a REST API to access, run, and manage any tests with these devices. These devices are hosted in three different locations (Wroclaw, Poland; Mountain View, CA; and Oulu, Finland) and are monitored and maintained 24 hours per business day. Up-time is over 99% and a sophisticated monitoring system keeps the devices running at the same rate. 
 
-To get started quickly with Testdroid Cloud, complete these steps:
+To get started quickly with Testing cloud, complete these steps:
 
 1. Create an instance of the service from the Bluemix catalog.
-2. Open the Testdroid Cloud dashboard to select or upload tests.
+2. Open the Bitbar Testing dashboard to select or upload tests.
 
 Questions?  <a href="mailto:info@bitbar.com?Subject=Question from Bluemix" target="_top">Get in contact</a>.
 
@@ -47,13 +47,13 @@ Questions?  <a href="mailto:info@bitbar.com?Subject=Question from Bluemix" targe
 
 ## API Reference
 {: #api}
-* [Testdroid REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
-* [Testdroid Samples](https://github.com/bitbar/testdroid-samples)
+* [REST API](http://docs.testdroid.com/testdroid-cloud-integration/api/)
+* [Samples](https://github.com/bitbar/testdroid-samples)
 
 # Related Links
 {: #rellinks notoc}
 
-* [Mobile App Testing with Testdroid](http://bitbar.com/testing/)
-* [Testdroid Community Portal](http://bitbar.com/testing/blog/)
+* [Mobile App Testing with Bitbar Testing](http://bitbar.com/testing/)
+* [Community Portal](http://bitbar.com/testing/blog/)
 
 -->
