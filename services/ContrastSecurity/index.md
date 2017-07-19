@@ -23,12 +23,14 @@ Use Contrast Security to detect security vulnerabilities in your application and
 {:shortdesc}
 
 
-Before an application developer can use our agent within an app, please visit our [website](https://www.contrastsecurity.com) for information about creating an account.
+Before an application developer can use our agent within an app, please visit our [website](https://www.contrastsecurity.com/bluemix) for information about creating an account.
 
 Complete these steps to get started with the Contrast Security service:
 
 
 1. Step 1. You will need to provide 4 pieces of information to create a service plan.
+	![Service Creation](./screenshot.png)
+	
 	* Contrast Url - The url you use to get to your Contrast dashboard.  In most cases this will be https://app.contrastsecurity.com
 	* Api Key - Can be found within Teamserver: Click your name then in the dropdown choose Organization Settings then select API
 	* Service Key - Can be found within Teamserver: Click your name then in the dropdown choose Organization Settings then select API
