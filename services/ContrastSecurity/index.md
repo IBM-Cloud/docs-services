@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-14"
+lastupdated: "2017-07-19"
 
 ---
 
@@ -14,102 +14,66 @@ lastupdated: "2017-07-14"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
 
 # Getting started with Contrast Security
 {: #gettingstarted_ContrastSecurity}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
 
-Examples: -->
-
-Contrast Security is a... 
--OR-
-Use Contrast Security to...
+Use Contrast Security to detect security vulnerabilities in your application and protect them against attacks.
 {:shortdesc}
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+Before an application developer can use our agent within an app, please visit our [website](https://www.contrastsecurity.com/bluemix) for information about creating an account.
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+Complete these steps to get started with the Contrast Security service:
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+1. Step 1. You will need to provide 4 pieces of information to create a service plan.
+	![Service Creation](./screenshot.png)
+	
+	* Contrast Url - The url you use to get to your Contrast dashboard.  In most cases this will be https://app.contrastsecurity.com
+	* Api Key - Can be found within Teamserver: Click your name then in the dropdown choose Organization Settings then select API
+	* Service Key - Can be found within Teamserver: Click your name then in the dropdown choose Organization Settings then select API
+	* Username - email or username used to log into teamserver
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+2. Step 2. Once the service has been created, you can bind it to an application.
+	 Replace contrast-security-service in the example below with the name you used for the service.
+	 ```
+	 cf bind-service your_app_name contrast-security-service
+	 ```
+	 {: screen}
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
-
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+3. Step 3. Now that the service has been bound to an application the service plan will be shown in the applications VCAP_SERVICES environment variables.
 
 	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
+	"VCAP_SERVICES": {
+      "user-provided": [
+        {
+          "credentials": {
+            "api_key": "your_api_key",
+            "service_key": "your_service_key",
+            "teamserver_url": "https://app.contrastsecurity.com",
+            "username": "your_username_or_email",
+						"contrast_referral_tile":"true"
+          },
+          "syslog_drain_url": "",
+          "volume_mounts": [],
+          "label": "user-provided",
+          "name": "contrast-security-service",
+          "tags": []
+        }
+      ]
+    }
 	```
-	{: codeblock}
+	{: screen}
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
+4. Step 4 Once the application is restaged the Contrast Security Java Agent will be downloaded and configured to work with your application.
 	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
+	cf restage your_app_name
 	```
 	{: screen}
 
 
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
-
-{: .navgroup id="learn"}
-    index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
-
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
-
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
--->
-
+## Support
+Any Contrast Security support issues or product feedbacks are welcome via email at support@contrastsecurity.com.
