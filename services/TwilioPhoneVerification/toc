@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection=" TwilioPhoneVerification" audience="service" href="/docs/services/TwilioPhoneVerification/index.html"}
- Twilio Phone Verification
+{: .toc subcollection="TwilioPhoneVerification" audience="service" href="/docs/services/TwilioPhoneVerification/index.html"}
+Twilio Phone Verification
 
     {: .navgroup id="learn"}
     index.md
