@@ -27,9 +27,7 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-Zuznow is a.... -OR-
-With Zuznow, you can ...  -OR-
-Use Zuznow to...
+Zuznow provides an automatic mobile adaptation platform that adapts even the most complex web applications to mobile apps Using Zuznow platform, once can fully preserve the original application’s user experience, content, functionality, and business logic. Zuznow platform is composed of an automatic responsive engine, which runs CSS and style changes - on the fly and in real-time on the entire application, creating a mobile app in an instant; and of an adaptive engine - which offers a full featured customization dashboard (the Editor) that web developers can use to customize the automatic result, using simple CSS, HTML and jQuery commands.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
