@@ -98,7 +98,9 @@ Complete these steps to get started with the BigInsights service:
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
+        [Visit our support forum]https://zuznow.atlassian.net/wiki
+	[Submit a ticket to consult our experts]https://zuznow.atlassian.net/servicedesk/customer/portal/1
+	[Read the latest from Zuznow's blog]https://www.zuznow.com/blog/
     {: .navgroup-end}
 
 To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
