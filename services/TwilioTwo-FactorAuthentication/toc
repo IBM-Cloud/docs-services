@@ -1,19 +1,24 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TwilioTwo-FactorAuthentication" audience="service" href="/docs/services/TwilioTwo-FactorAuthentication/index.html"}
-Twilio Two-Factor Authentication
+{: .toc subcollection="TwilioProgrammableSMS" audience="service" href="/docs/services/TwilioProgrammableSMS/index.html"}
+Twilio Programmable SMS
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
-    {: .navgroup-end}
+        [Twilio Sign Up](https://www.twilio.com/try-twilio)
+        [Twilio Console](https://www.twilio.com/console)
+        [Twilio’s Two Factor Authentication](https://www.twilio.com/two-factor-authentication)
+        [Authy Two-Factor Quickstart application](https://github.com/TwilioDevEd/authy2fa-node)
+        [Authy Applications Dashboard](https://www.twilio.com/console/authy/applications)
+        [Twilio Documentation site](https://www.twilio.com/docs/)
+        [Node.js application tutorials](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node)
+        [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
-{: .navgroup-end}
+    [Twilio API Documentation](https://www.twilio.com/docs/api)
+    {: .navgroup-end}
