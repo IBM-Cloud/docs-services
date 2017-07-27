@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-24"
+lastupdated: "2017-07-26"
 
 ---
 
@@ -14,101 +14,106 @@ lastupdated: "2017-07-24"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
 # Getting started with Twilio Programmable SMS
 {: #gettingstarted_TwilioProgrammableSMS}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+Twilio’s [Programmable SMS](https://www.twilio.com/sms) makes it simple to add
+SMS and MMS applications to your web application. With Twilio’s cloud
+communications power plus the serverless capabilities of IBM’s Bluemix, you’ve
+got an unbeatable team.
+{: shortdesc}
 
-Examples: -->
+## About
 
-Twilio Programmable SMS is a.... -OR-
-With Twilio Programmable SMS, you can ...  -OR-
-Use Twilio Programmable SMS to...
-{:shortdesc}
+We’re going to build a serverless application using Cloud Foundry Apps and the
+Twilio Service on Bluemix to both send outgoing text messages and to respond
+to incoming text messages. We’re going to be basing it heavily on our own
+[Node.js SMS Quickstart](https://www.twilio.com/docs/quickstart/node/programmable-sms){: new_window},
+with some adaptations for the IBM cloud. 
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+## Setting the project
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+1. Sign into the [Twilio Console](https://www.twilio.com/console){: new_window}
+   or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
+   Account
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+2. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+   - Change the API Endpoint and Login:
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+     ```
+     bluemix api https://api.ng.bluemix.net
+     bluemix login
+     ```
+     {: codeblock}
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+3. Log into Bluemix Console and create a Twilio App
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+   - Click 'Catalog' at the top of the screen
+   - Enter 'twilio'
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+   ![Twilio app from Bluemix catalog](images/01-bluemix-catalog-twilio.png)
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+4. In the ensuing screen, enter your `Account SID` and `Auth Token` from the
+   Twilio Console. In the Twilio Console, your credentials can be found here:
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+   ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-	```
-	my command -and -options
-	```
-	{: pre}
+   Once complete (and correct), 'Create' the App.
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+5. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
+   then select the `SDK for Node.js`. Name it something memorable.
 
+6. In the Bluemix Dashboard, click on your Twilio Service under 'Services',
+   then click the 'Create connection +' button. Connect it to your new Node.js
+   App.
 
+7. Set two environment variables:
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
+   ```
+   TWILIO_PHONE_NUMBER
+   TWILIO_OUTGOING_PHONE_NUMBER
+   ```
+   {: screen}
 
-{: .navgroup id="learn"}
-    index.md
+   The first should be a Twilio controlled phone number you’ve purchased
+   (with SMS capabilities). The second should be a cell phone number where
+   you can receive texts.
 
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
+8. Locally, clone our sample application:
 
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
+   ```
+   git clone https://github.com/TwilioDevEd/twilio-bluemix-sms-quickstart.git
+   ```
+   {: pre}
 
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
--->
+9. Deploy the application using the command line tools:
+
+   ```
+   bluemix app push <Your App Name>
+   ```
+   {: pre}
+
+10. In the Twilio console, you need to add a Webhook for the 'receive-sms'
+    route.
+
+    ![Twilio webhooks](images/03-twilio-webhooks.png)
+
+    It can be found here in the Bluemix console.
+
+    ![Bluemix routes](images/04-bluemix-routes.png)
+
+11. In the browser, visit `<your Bluemix URL>/send-sms`. You’ll get a
+    controversial statement in response. Make sure you reply with your best
+    argument.
+
+12. To complete the loop, you should receive a well-argued retort.
+
+And with that you’ve got the bones of a SMS sending and receiving application.
+
+Want to take it further? You’ve now got the Twilio Node.js SDK installed, so
+you can build out in any direction. Find all of our Node.js communications
+application tutorials on our Documentation site.
+
+We can’t wait to see what you build!
