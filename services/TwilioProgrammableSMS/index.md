@@ -51,7 +51,7 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 3. Log into Bluemix Console and create a Twilio App
 
    - Click 'Catalog' at the top of the screen
-   - Enter 'twilio'
+   - Enter 'twilio programmable sms'
 
    ![Twilio app from Bluemix catalog](images/01-bluemix-catalog-twilio.png)
 
@@ -60,26 +60,26 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
+   Next, navigate to your [Phone Number Inventory](https://www.twilio.com/console/phone-numbers/incoming).  
+   Choose a number which has SMS capabilities, and enter it in [E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers) format.
+
    Once complete (and correct), 'Create' the App.
 
 5. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name it something memorable.
 
-6. In the Bluemix Dashboard, click on your Twilio Service under 'Services',
+6. In the Bluemix Dashboard, click on your Twilio Programmable SMS Service under 'Services',
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
 
-7. Set two environment variables:
+7. Set an environment variable:
 
    ```
-   TWILIO_PHONE_NUMBER
-   TWILIO_OUTGOING_PHONE_NUMBER
+   OUTGOING_PHONE_NUMBER
    ```
    {: screen}
 
-   The first should be a Twilio controlled phone number you’ve purchased
-   (with SMS capabilities). The second should be a cell phone number where
-   you can receive texts.
+   This should be a cell phone number (or similar) where you can receive SMSes.
 
 8. Locally, clone our sample application:
 
@@ -108,7 +108,7 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
     controversial statement in response. Make sure you reply with your best
     argument.
 
-12. To complete the loop, you should receive a well-argued retort.
+12. To complete the loop, you should receive a well-argued retort!
 
 And with that you’ve got the bones of a SMS sending and receiving application.
 
