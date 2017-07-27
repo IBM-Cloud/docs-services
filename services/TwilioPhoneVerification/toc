@@ -9,11 +9,13 @@ Twilio Phone Verification
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
-    {: .navgroup-end}
+        [Twilio Verification](Programmable Video)
+        [Twilio Tutorials](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank)
+        [Twilio Console](https://www.twilio.com/console)
+        [Twilio Sign Up](https://www.twilio.com/try-twilio)
+        [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
-{: .navgroup-end}
+    [Twilio API Documentation](https://www.twilio.com/docs/api)
+    {: .navgroup-end}
