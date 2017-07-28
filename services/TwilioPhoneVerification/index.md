@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-24"
+lastupdated: "2017-07-27"
 
 ---
 
@@ -14,101 +14,122 @@ lastupdated: "2017-07-24"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with Twilio Phone Verification
-{: #gettingstarted_TwilioPhoneVerification}
-
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
-
-Examples: -->
-
-Twilio Phone Verification is a.... -OR-
-With Twilio Phone Verification, you can ...  -OR-
-Use Twilio Phone Verification to...
-{:shortdesc}
-
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
-
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
-
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
-
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
-
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
-
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
-
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
-
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
-
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+# Getting started with Twilio Account Verifiction
+{: #gettingstarted_TwilioAccountVerification}
 
 
+When a customer registers for your App it’s always a good idea that you’re
+dealing with… that customer. With
+[Twilio Verification](https://www.twilio.com/verification){: new_window}, it’s very easy to
+verify that your newest registree has a device in their possession as they hit
+the button.
+{: shortdesc}
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
+## About
 
-{: .navgroup id="learn"}
-    index.md
+In this sample, you’ll build out a serverless App on IBM Bluemix that will
+verify your customer has the phone they are registering. When he or she hits
+the register button, they will be texted a code which will need to be
+presented to the App to continue. This quickstart is based on
+[our Phone Verification with Node.js tutorial](https://www.twilio.com/docs/tutorials/account-verification-node-express){: new_window}.
 
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
+## Let's build it now!
+1. (Optional) On your phone, using your platform’s Application Store download
+   the Authy Two-Factor application.
+   * Exact steps are platform dependent, but you should link your phone number
+   to the Authy app.  Our web app will eventually use this to authenticate.
 
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
+1. (Optional) Register your phone with Authy.
 
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
--->
+1. Sign into the [Twilio Console](https://www.twilio.com/console){: new_window}
+   or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
+   Account
+
+1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+   - Change the API Endpoint and Login:
+
+     ```
+     bluemix api https://api.ng.bluemix.net
+     bluemix login
+     ```
+     {: codeblock}
+
+1. Create a new Bluemix App, naming it ‘Twilio-Phone-Verify’ or similar
+   (this name will be taken, so choose something memorable)
+
+1. Log into Bluemix Console and create a Twilio App
+      <ol type="a">
+        <li>Click 'Catalog' at the top of the screen</li>
+        <li>Enter ‘twilio’</li>
+      </ol>
+
+   ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
+
+1. In the following screen, enter your `Account SID` and `Auth Token` from the
+   Twilio Console. In the Twilio Console, your credentials can be found here:
+
+   ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
+
+1. In the [Bluemix Dashboard](https://console.bluemix.net/dashboard/apps/){: new_window},
+   click on your Twilio Service under ‘Services’, then click the
+   ‘Create connection +’ button.  Connect it to your new Node.js App.
+
+1. Next, create a new Compose for MongoDB App.
+    <ol type="a">
+      <li>Click ‘Catalog’ at the top of the screen</li>
+      <li>Enter ‘mongodb’</li>
+    </ol>
+    ![Compose MongoDB](images/compose-mongodb.png)
+
+1. Name the app as you wish, and wait for it to be created.
+
+1. When it is finished, click the new Mongo service and ‘Create connection +’.
+   Connect it to the Twilio Two-Factor App you’ve created.
+
+1. In the Twilio Console’s Authy Dashboard, click the ‘+ New Application’ Button:
+   ![Authy Dashboard](images/authy-dashboard.png)
+
+1. Click through to the ‘Settings’ page in the left sidebar, and click on “Eye”
+   logo to reveal your App API Key:  
+
+   ![Authy Settings](images/authy-settings.png)
+
+1. Back in the Bluemix Dashboard, navigate to your Authy Two Factor App. In
+   ‘Runtime’ on the left side, add two environment variables (and one optional one),
+   pasting in the App’s API Key, a Twilio Phone number, and optionally an App Secret:
+     ```bash
+     APP_API_KEY
+     TWILIO_PHONE_NUMBER
+     ```
+     And optionally(avoid this in production):
+     ```bash
+     APP_SECRET
+     ```
+     {: screen}
+
+   ![Environment Variables](images/bluemix-dash-env-vars.png)
+
+1. Locally, clone our sample application:
+
+    ```bash
+    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/account-verification-node
+    ```
+    {: pre}
+
+1. Deploy the application using the command line tools:
+
+   ```bash
+   bluemix app push <Your App Name>
+   ```
+   {: pre}
+
+1. Back in the Bluemix Console, ‘Visit’ the site that is now running and register
+
+1. Follow the prompts on your phone and the site!
+
+And that’s not all… we’ve got more [Node.js
+communications application tutorials](https://www.twilio.com/docs/tutorials?filter-language=node&order_by=-popularity_rank){: new_window} on our [Documentation site](https://www.twilio.com/docs/){: new_window}.
+Visit for ideas on what to build into your App, best practices, and code
+samples for using Twilio’s security and communications APIs.
+
+What’s next is up to you, but regardless of your path we can’t wait to see what you build!
