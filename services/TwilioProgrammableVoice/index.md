@@ -20,7 +20,7 @@ lastupdated: "2017-07-26"
 Twilio’s [Programmable Voice](https://www.twilio.com/voice) makes it incredibly
 easy to add Voice capabilities to your mobile or web application.  Add easy
 ingoing and outgoing calling with monitoring and logging capabilities in no time
-flat with the power of Twilio’s cloud Voice capabilities.  It’s only a few
+flat with the power of Twilio’s Cloud Voice capabilities.  It’s only a few
 steps from our communications APIs to a contact center, unique support
 capabilities, browser dialing, or any other application you can dream.
 {: shortdesc}
@@ -47,10 +47,10 @@ number, and you will need access to a WebRTC capable web browser.
      ```
      {: codeblock}
 
-1. Log into Bluemix Console and create a Twilio App
+1. Log into Bluemix Console and create a Twilio Programmable Voice Service
 
    - Click 'Catalog' at the top of the screen
-   - Enter 'twilio'
+   - Enter 'twilio programmable voice'
 
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
@@ -59,39 +59,29 @@ number, and you will need access to a WebRTC capable web browser.
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-   Once complete (and correct), 'Create' the App.
-
-1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
-   then select the `SDK for Node.js`. Name it something memorable.
-
-1. In the Bluemix Dashboard, click on your Twilio Service under 'Services',
-   then click the 'Create connection +' button. Connect it to your new Node.js
-   App.
-
+   Copy them to the integration.
 1. Navigate to the [TwiML App section](https://www.twilio.com/console/voice/dev-tools/twiml-apps)
    of the Twilio Console and *Create* a new TwiML App.  Name it ‘Bluemix_App’
-   or similar.  In the *voice* REQUEST URL section, use the above IBM Bluemix
-   URL (the https version) with the /voice path appended.  Also, copy the App SID:
+   or similar.  Copy and paste the App SID into the service.
+
+1. In the Phone Numbers section of the Twilio Console, either purchase or
+   choose an existing voice capable Phone number.  Copy and paste the phone number in [E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers) format into the service.
+
+   Once complete (and correct), 'Create' the Service.
+
+1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
+   then select the `SDK for Node.js`. Name your App something memorable.
+
+1. With the URL of the newly created App, copy and paste the URL with `/voice` 
+   appended into the 'Voice Request URL' back in the TwiML app you made above.
+
+   If you closed it, you can get back to the [TwiML App here](https://www.twilio.com/console/voice/dev-tools/twiml-apps)
 
    ![Configure TwiML App](images/06-create-twiml-app-in-twilio-console.png)
 
-1. In the Phone Numbers section of the Twilio Console, either purchase or
-   choose an existing voice capable Phone number.  Copy it for usage in the
-   Bluemix App.
-
-1. In the Bluemix Dashboard, click on your Twilio Service under ‘Services’,
-   then click the ‘Create connection +’ button.  Connect it to your new Node.js App.
-
-1. Navigate back to your Bluemix app and click ‘Runtime’ on the left sidebar.
-   In environment variables, set two environment variables. Copy and paste the
-   APP Sid and a Voice-capable phone number:
-
-    ```bash
-    TWILIO_TWIML_APP_SID
-    TWILIO_NUMBER
-    ```
-
-    ![Set Environment Variables](images/09-env-variables.png)
+1. In the Bluemix Dashboard, click on your Twilio Programmable Voice Service under 'Services',
+   then click the 'Create connection +' button. Connect it to your new Node.js
+   App.
 
 1. Locally, clone our sample application:
 
@@ -107,7 +97,7 @@ number, and you will need access to a WebRTC capable web browser.
 
 1. In a browser which supports WebRTC, visit `<your Bluemix URL>`.  Enter your
    cell phone number (or any voice capable phone or phone number) in the
-   ensuing dialog box and dial!
+   ensuing dialog box and dial...
 
 1. Enjoy a conversation with yourself!
 
