@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-24"
+lastupdated: "2017-07-27"
 
 ---
 
@@ -14,101 +14,127 @@ lastupdated: "2017-07-24"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with Twilio Two-Factor Authentication
+# Getting started with Twilio Two-Factor Authentication and Bluemix
 {: #gettingstarted_TwilioTwo-FactorAuthentication}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
+[Twilio’s Two Factor Authentication](https://www.twilio.com/two-factor-authentication){: new_window}
+lets you easily build an additional measure of security into your login or
+verification process.  Using Twilio’s Authy Authenticator App on your mobile
+device, you can increase your confidence in the user logging in and help your
+users protect their accounts with easy-to-implement Two Factor Authentication.
+{: shortdesc}
 
-Examples: -->
+## About
 
-Twilio Two-Factor Authentication is a.... -OR-
-With Twilio Two-Factor Authentication, you can ...  -OR-
-Use Twilio Two-Factor Authentication to...
-{:shortdesc}
+Today we’re going to build a sample Two Factor Authentication app... the
+serverless way... with IBM’s Bluemix, and IBM’s Compose for MongoDB on the
+backend. This example is based on our
+[Authy Two-Factor Quickstart application](https://github.com/TwilioDevEd/authy2fa-node){: new_window}.
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+## Setting the project
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+Follow this steps to get started with Twilio Two-Factor Authentication on
+Bluemix:
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+1. Using your phone platform’s Application Store download the Authy
+   Two-Factor application.
+   - Exact steps are platform dependent, but you should link your phone number
+     to the Authy app. Our web app will eventually use this to authenticate.
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+2. Register your phone with Authy.
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+3. If necessary, download and install the
+   [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+   - Change the API Endpoint and Login:
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+     ```
+     bluemix api https://api.ng.bluemix.net
+     bluemix login
+     ```
+     {: codeblock}
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+4. Create a new Bluemix App, naming it 'Twilio-Two-Factor' or similar (this
+   name will be taken, so choose something memorable)
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+5. While logged into the Bluemix Console, create a new Compose for MongoDB App.
+   - Click 'Catalog' at the top of the screen
+   - Enter 'mongodb'
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+     ![Bluemix Compose for MongoDB](images/01-bluemix-composer-mongodb.png)
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+6. Name the app as you wish, and wait for it to be created.
 
-	```
-	my command -and -options
-	```
-	{: pre}
+7. When it is finished, click the new Mongo service and 'Create connection +'.
+   Connect it to the Authy Two-Factor App.
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+8. In the Twilio Console’s
+   [Authy Applications Dashboard](https://www.twilio.com/console/authy/applications){: new_window},
+   click the '+ New Application' Button:
 
+   ![Twilio Add Authy Application](images/02-twilio-add-authy-application.png)
 
+   Name it something like “Bluemix Two Factor”
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
+9. In the 'Settings' section (found on the left sidebar) click the "Eye" icon
+   to reveal your Production API Key.
 
-{: .navgroup id="learn"}
-    index.md
+   ![Twilio Get Production API Key](images/03-twilio-production-api-key.png)
 
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
+10. Back in the Bluemix Dashboard, navigate to your Authy Two Factor App. In
+    'Runtime' on the left side, add one environmental variable, pasting in the
+    Authy API Key:
 
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
+    ```
+    AUTHY_API_KEY
+    ```
+    {: screen}
 
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
--->
+   ![Bluemix Put Authy API Key](images/04-bluemix-put-api-key.png)
+
+11. Clone our branch of the Two Factor Quickstart repository for Node:
+
+    ```
+    git clone -b bluemix-quickstart
+    ```
+    {: pre}
+
+12. Push the application to Bluemix:
+
+    ```
+    Bluemix app push <Your Twilio Authy App Name>
+    ```
+    {: pre}
+
+13. Back in the Bluemix Console, 'Visit' the site that is now running!
+
+    ![Bluemix Visit Site](images/05-bluemix-visit-site.png)
+
+14. 'Register' for a new account with your phone number (the one now connected
+    to the Authy app).  Log out as soon as you’ve registered.
+
+15. Before you log back in, copy the URL to the App (the same as the 'Visit'
+    link, e.g. `https://twilio-quickstart-authy-2fa.mybluemix.net` or similar.)
+
+16. In the back in the Twilio Console on your Authy Application Dashboard,
+    navigate to 'Settings' and paste the URL with `/authy/callback` appended
+    into the Webhook field.  Save it now.  The ‘Webhooks’ field will look
+    something like this:
+
+    ![Twilio Authy Webhook](images/06-twilio-auhty-webhook.png)
+
+17. Drumroll please - back on the site, "Login" to the account you made 3 steps
+    above. Depending on your phone setup, you'll now receive a SMS or a Onetouch
+    Two Factor option - `Accept` it and celebrate!
+
+And with that, you’ve successfully built out a serverless Two Factor
+Authentication application with Twilio and Node! Your app’s users will now have
+an additional layer of protection while logging into your site, with native Authy
+applications for their phones.
+
+But wait, there’s more - you can find all of our
+[Node.js communications application tutorials](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node){: new_window}
+on our [Documentation site](https://www.twilio.com/docs/){: new_window}. We’ve got sample
+applications and ideas on how to extend your application using our security
+and communications services and products.
+
+Where you go from here is up to you - we can’t wait to see what you build!
