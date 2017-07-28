@@ -54,13 +54,10 @@ presented to the App to continue. This quickstart is based on
      ```
      {: codeblock}
 
-1. Create a new Bluemix App, naming it ‘Twilio-Phone-Verify’ or similar
-   (this name will be taken, so choose something memorable)
-
-1. Log into Bluemix Console and create a Twilio App
+1. Log into Bluemix Console and create a Twilio Phone Verification App
       <ol type="a">
         <li>Click 'Catalog' at the top of the screen</li>
-        <li>Enter ‘twilio’</li>
+        <li>Enter ‘twilio phone verification’</li>
       </ol>
 
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
@@ -70,22 +67,6 @@ presented to the App to continue. This quickstart is based on
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-1. In the [Bluemix Dashboard](https://console.bluemix.net/dashboard/apps/){: new_window},
-   click on your Twilio Service under ‘Services’, then click the
-   ‘Create connection +’ button.  Connect it to your new Node.js App.
-
-1. Next, create a new Compose for MongoDB App.
-    <ol type="a">
-      <li>Click ‘Catalog’ at the top of the screen</li>
-      <li>Enter ‘mongodb’</li>
-    </ol>
-    ![Compose MongoDB](images/compose-mongodb.png)
-
-1. Name the app as you wish, and wait for it to be created.
-
-1. When it is finished, click the new Mongo service and ‘Create connection +’.
-   Connect it to the Twilio Two-Factor App you’ve created.
-
 1. In the Twilio Console’s Authy Dashboard, click the ‘+ New Application’ Button:
    ![Authy Dashboard](images/authy-dashboard.png)
 
@@ -94,14 +75,33 @@ presented to the App to continue. This quickstart is based on
 
    ![Authy Settings](images/authy-settings.png)
 
+   Add the App API Key to the service, then 'Create' it!
+
+1. Next, create a new Compose for MongoDB App.
+    <ol type="a">
+      <li>Click ‘Catalog’ at the top of the screen</li>
+      <li>Enter ‘mongodb’</li>
+    </ol>
+
+    ![Compose MongoDB](images/compose-mongodb.png)
+
+1. Create a new Bluemix Node.js App, naming it ‘Twilio-Phone-Verify’ or similar
+   (this name will be taken, so choose something memorable)
+
+1. When it is finished, navigate to new Mongo service and ‘Create connection +’.
+   Connect it to the Twilio Two-Factor App you’ve created.
+
+1. In the [Bluemix Dashboard](https://console.bluemix.net/dashboard/apps/){: new_window},
+   click on your  Twilio Phone Verification Service under ‘Services’, then click the
+   ‘Create connection +’ button.  Connect it to your Twilio Two-Factor App.
+
 1. Back in the Bluemix Dashboard, navigate to your Authy Two Factor App. In
-   ‘Runtime’ on the left side, add two environment variables (and one optional one),
-   pasting in the App’s API Key, a Twilio Phone number, and optionally an App Secret:
+   ‘Runtime’ on the left side, add one environment variable (and one optional one),
+   pasting in a Twilio Phone number and optionally an App Secret:
      ```bash
-     APP_API_KEY
      TWILIO_PHONE_NUMBER
      ```
-     And optionally(avoid this in production):
+     And optionally (do this for sure in production):
      ```bash
      APP_SECRET
      ```
