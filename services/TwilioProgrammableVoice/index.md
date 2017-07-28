@@ -62,15 +62,15 @@ number, and you will need access to a WebRTC capable web browser.
    Copy them to the integration.
 1. Navigate to the [TwiML App section](https://www.twilio.com/console/voice/dev-tools/twiml-apps)
    of the Twilio Console and *Create* a new TwiML App.  Name it ‘Bluemix_App’
-   or similar.  Copy and paste the the App SID into the service.
+   or similar.  Copy and paste the App SID into the service.
 
 1. In the Phone Numbers section of the Twilio Console, either purchase or
-   choose an existing voice capable Phone number.  Copy and paste it into the service.
+   choose an existing voice capable Phone number.  Copy and paste the phone number in [E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers) format into the service.
 
    Once complete (and correct), 'Create' the Service.
 
 1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
-   then select the `SDK for Node.js`. Name it something memorable.
+   then select the `SDK for Node.js`. Name your App something memorable.
 
 1. With the URL of the newly created App, copy and paste the URL with `/voice` 
    appended into the 'Voice Request URL' back in the TwiML app you made above.
@@ -82,10 +82,6 @@ number, and you will need access to a WebRTC capable web browser.
 1. In the Bluemix Dashboard, click on your Twilio Programmable Voice Service under 'Services',
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
-
-
-1. In the Bluemix Dashboard, click on your Twilio Programmable Voice Service under ‘Services’,
-   then click the ‘Create connection +’ button.  Connect it to your new Node.js App.
 
 1. Locally, clone our sample application:
 
