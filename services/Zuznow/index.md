@@ -47,9 +47,7 @@ Before an application developer can embed single sign-on capability into an app,
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+Complete these steps to get started with the Zuznow service:
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -58,36 +56,23 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+1. Register at Zuznow
+Enter your Dashboard username and password and click Log in. If you don’t have a user, you can create a new one or log in using your Google account.
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+2. Create a new site
+Select New App in the Dashboard side menu to access the wizard where you define a new mobile app.
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+3. Define the following parameters for the new mobile site:
+a. App Parameters
+Define the following parameters for the new mobile app: App Name: Enter your App project name. This can be any text Domain: The URL of the application domain to be mobilized. Click the Next button to define the App Features
+b. App Features
+Automatic Responsive Design: choose Enabled to allow automatic responsive design
+Tablet support: choose Enabled to allow customized Tablet support for your app
+Cache: choose personalized or anonymous depending on the original application
+SSL Support: choose Enabled for SSL encrypted communication
+Click Create to automatically build your mobile app. Congratulations - your app is ready!
+4. Copy your app credentials
+From “My Apps” tab, open your new application, and copy the App ID and API Key to the Bluemix console
 
 
 
@@ -102,14 +87,9 @@ Complete these steps to get started with the BigInsights service:
 	[Submit a ticket to consult our experts]https://zuznow.atlassian.net/servicedesk/customer/portal/1
 	[Read the latest from Zuznow's blog]https://www.zuznow.com/blog/
     {: .navgroup-end}
-
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
     
-If you have API references to add, leave a blank line under the previous navgroup and then add:
-
     {: .navgroup id="reference"}
     Reference
-        [API Documentation](https://pathtolink.html)
+        [API Clients](https://github.com/zuznow?tab=repositories)
     {: .navgroup-end}
 -->
