@@ -69,6 +69,7 @@ Select New App in the Dashboard side menu to access the wizard where you define 
 a. App Parameters
 
 Define the following parameters for the new mobile app: App Name: Enter your App project name. This can be any text Domain: The URL of the application domain to be mobilized. Click the Next button to define the App Features
+
 b. App Features
 
 Automatic Responsive Design: choose Enabled to allow automatic responsive design
