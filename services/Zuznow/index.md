@@ -57,21 +57,32 @@ Complete these steps to get started with the Zuznow service:
  -->
 
 1. Register at Zuznow
+
 Enter your Dashboard username and password and click Log in. If you don’t have a user, you can create a new one or log in using your Google account.
 
 2. Create a new site
+
 Select New App in the Dashboard side menu to access the wizard where you define a new mobile app.
 
 3. Define the following parameters for the new mobile site:
+
 a. App Parameters
+
 Define the following parameters for the new mobile app: App Name: Enter your App project name. This can be any text Domain: The URL of the application domain to be mobilized. Click the Next button to define the App Features
 b. App Features
+
 Automatic Responsive Design: choose Enabled to allow automatic responsive design
+
 Tablet support: choose Enabled to allow customized Tablet support for your app
+
 Cache: choose personalized or anonymous depending on the original application
+
 SSL Support: choose Enabled for SSL encrypted communication
+
 Click Create to automatically build your mobile app. Congratulations - your app is ready!
+
 4. Copy your app credentials
+
 From “My Apps” tab, open your new application, and copy the App ID and API Key to the Bluemix console
 
 
