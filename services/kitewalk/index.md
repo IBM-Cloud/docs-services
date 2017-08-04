@@ -28,7 +28,7 @@ https://www.ibm.com/blogs/bluemix/2017/07/what-is-a-geo-intelligent-communicatio
 
 The following graphic shows the object types which can be created and managed through Kitewalk GEO Web Services:
 
-![Kitewalk GEO Web Services - Object Types](diagrama-01.jpg)
+![Kitewalk GEO Web Services - Object Types](diagrama_01.jpg)
 
 To integrate your app with Kitewalk GEO Web Services, complete these steps:
 
