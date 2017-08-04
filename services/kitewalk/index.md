@@ -20,7 +20,7 @@ lastupdated: "2017-06-29"
 # Getting started with Kitewalk GEO Web Services
 {: #gettingstarted_kitewalk}
 
-Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position.
+Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position. A [diagram](https://kitewalk.com/img/ws-api.jpg){:new_window} which describes graphically the objects which can be created and manipulated via Kitewalk GEO Web Services can be found [here](https://kitewalk.com/img/ws-api.jpg){:new_window}.
 {:shortdesc}
 
 
