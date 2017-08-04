@@ -5,20 +5,6 @@ The docs-services repo is for the product content for IBM Bluemix that is author
 
 Each directory in this repo must synch with the overall architecture of the Bluemix doc app.
 
-## I am a 3rd party service provider, and I want to create a new service for Bluemix:
-1. Register at https://github.com/
-2. Send the following information to paynel@us.ibm.com (and copy sefuhrer@us.ibm.com)
-  * Your GitHub ID, and any team member GitHub IDs that will need access to the docs repo
-  * The Name of your service
-3. You will receive a response within one working day (24 hrs) which will include:
-  * The GitHub URL to your directory, a subfolder under /service, where you can create your files
-  * Details on how to create your content in MarkDown
-4. Under your /service subfolder, add your Getting Started MarkDown source by following the template, getting_started_template.md.
-5. Under your /services subfolder, add your TOC file (lowercased toc, no file extension).
-6. After you have created your Markdown files and you are ready to see it live in the Bluemix doc framework, send another note to to paynel@us.ibm.com (and copy sefuhrer@us.ibm.com), asking for a build.
-7. You will receive a response within one working day (24 hours) pointing you to a production preview URL where you can verify your content before it goes live. Please respond ASAP, telling the Bluemix ID contact to either push content live, or to hold off until further changes.
-8. Your content will go live, or you will iterate through additional emails until it does.
-
 
 ## Getting started template
 The getting started template and guidelines are provided as a way to consistently represent service documentation within the Bluemix platform. The product documentation provided for a service should enable a user to quickly get up and running. Supplemental information should be task-based and support the productive use of the service.
