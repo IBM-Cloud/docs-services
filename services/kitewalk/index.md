@@ -20,10 +20,12 @@ lastupdated: "2017-06-29"
 # Getting started with Kitewalk GEO Web Services
 {: #gettingstarted_kitewalk}
 
-Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position. A [diagram](https://kitewalk.com/img/ws-api.jpg){:new_window} which describes graphically the objects which can be created and manipulated via Kitewalk GEO Web Services can be found [here](https://kitewalk.com/img/ws-api.jpg){:new_window}.
+Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position.
 {:shortdesc}
 
-
+A [diagram](https://kitewalk.com/img/ws-api.jpg){:new_window} which describes graphically the objects which can be created and manipulated via Kitewalk GEO Web Services can be found [here](https://kitewalk.com/img/ws-api.jpg){:new_window}. The following  article has been included in the [IBM Bluemix blog](
+https://www.ibm.com/blogs/bluemix/2017/07/what-is-a-geo-intelligent-communication-platform-kitewalk-explains/){:new_window}. 
+ 
 Kitewalk technology and its use cases are described in [this video](https://youtu.be/ll3GT-sRwB0){:new_window}. Before an application developer can embed Kitewalk capabilities into an app, the administrator will need to specify its Kitewalk API Id and its Kitewalk API Key inside the Bluemix user interface.
 
 To integrate your app with Kitewalk GEO Web Services, complete these steps:
