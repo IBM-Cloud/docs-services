@@ -93,23 +93,5 @@ Complete these steps to get started with the BigInsights service:
 
 
 
-<!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
-
-{: .navgroup id="learn"}
-    index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-    {: .navgroup-end}
-
-To add related links, indent the 8 spaces, put the name of the link in [] and the URL in (), like so:
-        [Link text](https://pathtolink.html)
-    
-If you have API references to add, leave a blank line under the previous navgroup and then add:
-
-    {: .navgroup id="reference"}
-    Reference
-        [API Documentation](https://pathtolink.html)
-    {: .navgroup-end}
+<!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->
