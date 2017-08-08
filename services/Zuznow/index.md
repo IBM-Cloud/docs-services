@@ -90,18 +90,5 @@ From “My Apps” tab, open your new application, and copy the App ID and API K
 
 <!-- Related links section: REQUIRED but moved to toc file (in your same folder).  Edit there by adding the following:
 
-{: .navgroup id="learn"}
-    index.md
 
-    {: .topicgroup}
-    Related links
-        [Visit our support forum]https://zuznow.atlassian.net/wiki
-	[Submit a ticket to consult our experts]https://zuznow.atlassian.net/servicedesk/customer/portal/1
-	[Read the latest from Zuznow's blog]https://www.zuznow.com/blog/
-    {: .navgroup-end}
-    
-    {: .navgroup id="reference"}
-    Reference
-        [API Clients](https://github.com/zuznow?tab=repositories)
-    {: .navgroup-end}
 -->
