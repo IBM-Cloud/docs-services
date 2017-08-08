@@ -22,7 +22,7 @@ Use Contrast Security to detect security vulnerabilities in your application and
 {:shortdesc}
 
 
-Before an application developer can use the Contrast agent within an app, please visit our [website]https://www.contrastsecurity.com/bluemix) to sign up for an account.
+Before an application developer can use the Contrast agent within an app, please visit our https://www.contrastsecurity.com/bluemix) to sign up for an account.
 
 Complete these steps to get started with the Contrast Security service:
 
