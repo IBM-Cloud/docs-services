@@ -9,12 +9,12 @@ Zuznow
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [Visit our support forum]https://zuznow.atlassian.net/wiki
+	    [Submit a ticket to consult our experts]https://zuznow.atlassian.net/servicedesk/customer/portal/1
+	    [Read the latest from Zuznow's blog]https://www.zuznow.com/blog/
     {: .navgroup-end}
-
+    
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
-{: .navgroup-end}
-
+        [API Clients](https://github.com/zuznow?tab=repositories)
+    {: .navgroup-end}
