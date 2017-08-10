@@ -22,14 +22,7 @@ Please delete out content examples and coding that you are not using for your se
 # Getting started with DriveWealth
 {: #gettingstarted_DriveWealth}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
-
-Examples: -->
-
-DriveWealth is a ... -OR-
-With DriveWealth, you can ...  -OR-
-Use DriveWealth to ...
+DriveWealth is a full stack FINRA registered broker dealer, providing APIs that allows developers to build a native roboadvisory or trading application to their clients. With the DriveWealth APIs, you can create a scalable investing solution for your clients around the world, straight from the Bluemix platform.
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
