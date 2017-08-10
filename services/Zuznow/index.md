@@ -41,17 +41,17 @@ Complete these steps to get started with the Zuznow service:
 
 3. Define the following parameters for the new mobile site:
 
-  a. **App Parameters**  Define the following parameters for the new mobile app: 
-  *App Name*: Enter your App project name. This can be any text 
-  *Domain*: The URL of the application domain to be mobilized. 
-  Click the **Next** button to define the App Features.
+    a. **App Parameters**  Define the following parameters for the new mobile app: 
+    *App Name*: Enter your App project name. This can be any text 
+    *Domain*: The URL of the application domain to be mobilized. 
+    Click the **Next** button to define the App Features.
 
-  b. **App Features**  
-  *Automatic Responsive Design*: Choose **Enabled** to allow automatic responsive design.
-  *Tablet support*: Choose **Enabled** to allow customized Tablet support for your app.
-  *Cache*: Choose **personalized** or **anonymous**, depending on the original application.
-  *SSL Support*: Choose **Enabled** for SSL encrypted communication.
-  Click **Create** to automatically build your mobile app. Congratulations - your app is ready!
+    b. **App Features**  
+    *Automatic Responsive Design*: Choose **Enabled** to allow automatic responsive design.
+    *Tablet support*: Choose **Enabled** to allow customized Tablet support for your app.
+    *Cache*: Choose **personalized** or **anonymous**, depending on the original application.
+    *SSL Support*: Choose **Enabled** for SSL encrypted communication.
+    Click **Create** to automatically build your mobile app. Congratulations - your app is ready!
 
 4. Copy your app credentials. From the **My Apps** tab, open your new application and copy the App ID and API Key to the Bluemix console.
 
