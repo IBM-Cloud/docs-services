@@ -1,18 +1,25 @@
-# docs-services
-IBM Bluemix Service 3rd party service docs
+# Creating content for the Bluemix doc app in the docs-services repository
 
-The docs-services repo is for the product content for IBM Bluemix that is authored in Markdown. The Bluemix  doc app builds all 3rd party service Markdown source from this location for all regions.
+Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-services/tree/master/services) where you will create documentation for your service to be added to the Bluemix doc app.  
 
-Each directory in this repo must synch with the overall architecture of the Bluemix doc app.
+After it is created, your folder in the docs-services repository must contain two files:
+* A Getting Started template that is always named index.md
+* A toc file that has no file extension, which creates some of the page structure
 
+**Important:** These files are required. You can link to any of your existing documentation using the related links in the toc file and you can add additional files, as needed.
 
-## Getting started template
-The getting started template and guidelines are provided as a way to consistently represent service documentation within the Bluemix platform. The product documentation provided for a service should enable a user to quickly get up and running. Supplemental information should be task-based and support the productive use of the service.
+These files are sourced in Markdown, a lightweight markup language, and managed in GitHub.  
 
-**Important:** For IBM Bluemix Service 3rd party service docs, you are only required to have a **Getting started with service_name** topic (getting_started_template/index.md). You can link off to your full documentation from the related links.
+The Bluemix doc app builds all 3rd party service Markdown source from this location for all regions.
+
+## Prerequisites
+Before getting started on your content, you will need to get a GitHub ID (https://github.com) and provide it to the IBM liaison who will enable write access to your GitHub folder.  You will also provide the IBM liaison with your official service name and the Bluemix catalog category it belongs in.
+
+## Using the getting started template (Required)
+The getting started template and the guideline comments it contains provide a consistent look and feel to the service documentation within the Bluemix platform. The product documentation provided for a service should enable users to quickly determine that they want your service and then quickly get up and running. Any Supplemental information you choose to add should be task-based and support the productive use of the service.
 
 ### Using the Copyright and Last Updated header (Required)
-Both the span of years your content has been published across, and the last date that you updated your content must be included within YAML at the top of your file, as shown in the following example:
+Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format shown in the following example:
 
 ```
 ---
@@ -21,47 +28,35 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-02-10"
+lastupdated: "2017-08-18"
 
 ---
 ```
 
-The copyright and lastupdated information is YAML content that must occur at the top of the MD file, before attributes are listed.  
+The copyright and lastupdated information must occur at the top of the MD file, before attributes are listed.  
   * It must be --- surrounded by 3 dashes ---
-  * The value "years" can contain just one year or a two years separated by a comma. (years: 2014, 2016)
+  * The value "years" can contain just one year or two years separated by a comma, for example, years: 2016, 2017. If the topic was created in the current year, provide just one year for the years variable. If you have updated the topic over a span of more than the current year, provide the first year and the last (current) year, separated by a comma. Don't include the intervening years. For example, for a topic created in 2016 and updated until 2017, "2016, 2017"
   * The value "lastupdated" must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
-  * The value for "years" must be indented 2 spaces under "copyright", followed by "lastupdated" which should start on its own non-indented line.
   * Ensure that each time you update your Markdown topic, you also update the "lastupdated" date.
 
-The getting started steps should include information on how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard. 
+### Adding a short description (Required)
+The short description should be 1-3 sentences that provide a very high level summary of your service. The purpose of the short description is to help your users determine, at a glance, that your service is the one they want to use.
+
+### Adding getting started steps (Required)
+The getting started steps should include information about how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard.
  * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
  * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples…if they start to become more common, move them into the docs flow as child task flows)
  * Include code snippets in all programming languages that can be copied, as well as VCAP service info.
 
-For additional tasks to use the service (after the getting started), create separately chunked groups of task topics. Example containers would be "Configuring x", "Administering y", "Creating z".
+For additional tasks to use the service (after the getting started topic), you can create additional task topics (files). See Creating additional topics for more information.
 
-Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages. 
-
-**Example Outline:**
-
- * Getting started (index.md)
- * About (about.md)
- * Configuring x (configuring.md)
-  * child topics
- * Administering y (administering.md)
-  * child topics
- * Creating z (creating.md)
-  * child topics
- * Troubleshooting (troubleshooting.md)
-  * child topics 
-
-## Creating a table of contents (TOC) for your service catalog entry
+## Creating a table of contents (TOC) for your service catalog entry (Required)
 
 To begin, you need to create a TOC map file in GitHub. This file must be in the root directory of your service. See the sample TOC in this (docs-services) folder.  You can copy it into the root directory of your service and edit it from there.
 
 **Important note**:  The `toc` file has no extension.  It is just named `toc`.
 
-The following toc file would create the structure for the previous Example Outline: 
+The following toc file would create the structure for the previous Example Outline:
 
 ```
 {:navgroup: .navgroup}
@@ -72,11 +67,6 @@ Name of service
 
     {: .navgroup id="learn"}
     index.md
-        about.md
-        configuring.md
-        administering.md
-        creating.md
-        troubleshooting.md
 
     {: .topicgroup}
     Related links
@@ -91,12 +81,11 @@ Name of service
 ```
 
 **Note**: Nesting files is as simple as indenting 4 spaces. You can nest multiple levels of files, as shown in the previous example.
-  
+
 After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
- 
-### Adding external links to your TOC file
 
+### Adding external links to your TOC file
 Notice that in the example above there is an html value, rather than a markdown value, for the first instance of the Getting Started topic. In most cases you can just add duplicate index.md entries, but because this Getting Started example has several subheaders that we want to generate TOC values for, creating a pre-defined custom html url was a way to create the top-level container without displaying all the nested sub-headers beneath it:
 
 ```
@@ -107,10 +96,59 @@ You can use this same standard markdown code used to specify a URL at any time i
 
 **Tip**: Keep in mind that the search results are generated from your TOC. (A search is generated from the TOC JSON file.) One of the ways you can improve SEO is to ensure that your TOC contains the critical topics you want your customers to find.
 
+### Adding Sample applications (recommended)
+We recommend that all 3rd party services provide sample apps for customers to use. Include links in your documentation that point to these sample apps.
+
+**Note**: At a minimum, please provide your sample apps in Node and Java.
+
+## Creating additional topics (optional)
+If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template.  Example containers would be "Configuring x", "Administering y", "Creating z".  Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages.  The following example outline shows possible additional topics that you might want to add:
+
+**Example Outline:**
+
+ * Getting started (index.md)
+ * About (about.md)
+ * Configuring x (configuring.md)
+  * child topics
+ * Administering y (administering.md)
+  * child topics
+ * Creating z (creating.md)
+  * child topics
+ * Troubleshooting (troubleshooting.md)
+  * child topics
+
+  The following toc file would create the structure for the previous example outline:
+
+  ```
+  {:navgroup: .navgroup}
+  {:topicgroup: .topicgroup}
+
+  {: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+  Name of service
+
+      {: .navgroup id="learn"}
+      index.md
+          about.md
+          configuring.md
+          administering.md
+          creating.md
+          troubleshooting.md
+
+      {: .topicgroup}
+      Related links
+          [Link text](URL)
+          [Link text](URL)
+      {: .navgroup-end}
+
+      {: .navgroup id="reference"}
+      Reference
+      [API Documentation](URL)
+      {: .navgroup-end}
+  ```
 
 ### Excluding unwanted headers
 
-You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example: 
+You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example:
 
 ```
 # Header I want to exclude
@@ -121,12 +159,6 @@ You might not want every single header in your markdown topic or topics to be re
 ```
 
 **Note**: In the previous example, the notoc attribute is only on the H1 header. The notoc attribute cascades down and excludes any sub-headers nested beneath the header you specify to exclude. You can add the notoc attribute to any header at any depth; H1, H2, H3, etc…
-
-
-## Sample Applications
-We recommend that all 3rd party services provide sample apps for customers to use. Include links in your documentation that point to these sample apps.
-
-**Note**: At a minimum, please provide your sample apps in Node and Java.
 
 ## Authoring Bluemix content in Markdown
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML.
@@ -173,19 +205,19 @@ There are many free Markdown editors available, however, not all editors will ho
 | **paragraph** | `<p>` | `<p>` | No equivalent, Paragraphs in Markdown are just one or more lines of consecutive text followed by one or more blank lines. | `<p>` |
 | **code** | `<pre>` | `<pre>` | ```` ```code``` ```` | <pre class="codeblock"><code> |
 | **syntax highlighting** | | | ```` ``` ```` <br>`ruby`<br>`require 'redcarpet'<br>markdown = Redcarpet.new("Hello World!")`<br>`puts markdown.to_html`<br> ```` ``` ```` | need to look into this one...or if the Bluemix usage of the Highlighter for Dojo and use the css styles from the highlighter.js removes the need to set a codeLanguage <br> [Languages supported] (https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) |
-| **table** | | | `Header 1`  `|` `Header 2` <br> ------------- `|` ------------- <br> `Content`  `|` `Content` <br> `Content`  `|` `Content` <br> **Notes**: <br>1. Your cells do not need to line up on the page in Markdown when editing. <br>2. Tables in Markdown do not support explicit line breaks. To cheat, you can use the `<br>` HTML tag. | `<table>`<br>`<thead>`<br>`<tr>`<br>`<th>Header 1</th>`<br>`<th>Header 2</th>`<br>`</tr>`<br>`</thead>`<br>`<tbody>`<br>`<tr>`<br>`<td>`<br>`Content</td>`<br>`<td>Content</td>`<br>`</tr>`<br>`</tbody>`<br>`</table>` | 
-| **italics** | `<i>` |  | `*italic*` | `<em>` | 
-| **bold** | `<b>` |  | `**bold**` | `<strong>` |	
+| **table** | | | `Header 1`  `|` `Header 2` <br> ------------- `|` ------------- <br> `Content`  `|` `Content` <br> `Content`  `|` `Content` <br> **Notes**: <br>1. Your cells do not need to line up on the page in Markdown when editing. <br>2. Tables in Markdown do not support explicit line breaks. To cheat, you can use the `<br>` HTML tag. | `<table>`<br>`<thead>`<br>`<tr>`<br>`<th>Header 1</th>`<br>`<th>Header 2</th>`<br>`</tr>`<br>`</thead>`<br>`<tbody>`<br>`<tr>`<br>`<td>`<br>`Content</td>`<br>`<td>Content</td>`<br>`</tr>`<br>`</tbody>`<br>`</table>` |
+| **italics** | `<i>` |  | `*italic*` | `<em>` |
+| **bold** | `<b>` |  | `**bold**` | `<strong>` |
 | **strikethrough** |  |  | `~~strikethrough~~` | `<del>` |
 | **monospace** |  |  |``monospace`` | `<code>` | 	
-| **links** | | | You can create an inline link by wrapping link text in brackets `( [ ] )`, and then wrapping the link in parenthesis `( ( ) )`. <br><br> GFM will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL. <br><br>**Note**: to create an external link that opens in a new window, place the following attribute defintion at the top of your file: `{:new_window: target="_blank"}` and then use the following attribute after your link `[link](url){: new_window}` | `<a href="https://www.link.com">Link Text</a>` |	
-| **blockquote** |  |  |`In the words of Abraham Lincoln:`<br>`> Pardon my french` | `<blockquote>`<br>`<p>text</p>`<br>`</blockquote>` |	
+| **links** | | | You can create an inline link by wrapping link text in brackets `( [ ] )`, and then wrapping the link in parenthesis `( ( ) )`. <br><br> GFM will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL. <br><br>**Note**: to create an external link that opens in a new window, place the following attribute defintion at the top of your file: `{:new_window: target="_blank"}` and then use the following attribute after your link `[link](url){: new_window}` | `<a href="https://www.link.com">Link Text</a>` |
+| **blockquote** |  |  |`In the words of Abraham Lincoln:`<br>`> Pardon my french` | `<blockquote>`<br>`<p>text</p>`<br>`</blockquote>` |
 | **image** |  |  | `![alt text for my graphic](images/image_name.jpg)` | `<p><img src="images/1.png" alt="alt text"></p>` |
-| **video** |  |  | `<video width="400px" controls>`<br>`<source src="mov_bbb.mp4" type="video/mp4">`<br>`<source src="mov_bbb.ogg" type="video/ogg">`<br>`Your browser does not support HTML5 video.`<br>`</video>` | `<video width="400px" controls>`<br>`<source src="video/BlueMix Mobile Data iOS Demo v2.mp4" type="video/mp4">`<br>`Your browser does not support HTML5 video.`<br>`</video>` |	
-| **keywords** | `<prolog>`<br>`<metadata>`<br>`<keywords>`<br>`<indexterm>`<br>`keyword`<br>`</indexterm>`<br>`</keywords>`<br>`</metadata>`<br>`</prolog>` | | `currently not available` | `<meta name="keywords" content="keyword">` |	
+| **video** |  |  | `<video width="400px" controls>`<br>`<source src="mov_bbb.mp4" type="video/mp4">`<br>`<source src="mov_bbb.ogg" type="video/ogg">`<br>`Your browser does not support HTML5 video.`<br>`</video>` | `<video width="400px" controls>`<br>`<source src="video/BlueMix Mobile Data iOS Demo v2.mp4" type="video/mp4">`<br>`Your browser does not support HTML5 video.`<br>`</video>` |
+| **keywords** | `<prolog>`<br>`<metadata>`<br>`<keywords>`<br>`<indexterm>`<br>`keyword`<br>`</indexterm>`<br>`</keywords>`<br>`</metadata>`<br>`</prolog>` | | `currently not available` | `<meta name="keywords" content="keyword">` |
 | **metadata** |  |  | `{{site.data.product.bluemix}}` | `data-hd-metadata` |		
-| **comments** |  |  | `<!-– comment -->` | `<!-– comment -->` |	
-| **mdash** |  |  | `no equivalent` | `&mdash;` |	
+| **comments** |  |  | `<!-– comment -->` | `<!-– comment -->` |
+| **mdash** |  |  | `no equivalent` | `&mdash;` |
 
 #Mappings for how to code in DITA vs Markdown
 
@@ -193,9 +225,9 @@ There are many free Markdown editors available, however, not all editors will ho
 |-----------------|-----------|-------------|-------------------|
 | **codeblock**    | `<pre class="codeblock">` | ```` ```code``` ```` <br>`{: codeblock}`<br>**Note:** This requires the following attribute definition available in the attribute definition template: `{:codeblock: .codeblock} ` | `<pre class="codeblock">`<br>`<code>code</code>`<br>`</pre>`|
 | **pre**    | `<pre class="pre">` | ```` ```code``` ````  | `<pre>`<br>`<code>code</code>`<br>`</pre>`|
-| **systemoutput**    | `<samp class="ph systemoutput">` | ```` `systemoutput` ```` | `<code>systemoutput</code>`|	
+| **systemoutput**    | `<samp class="ph systemoutput">` | ```` `systemoutput` ```` | `<code>systemoutput</code>`|
 | **codeph**    | `<samp class="ph codeph">` | ```` `codeph` ```` | `<code>codeph</code>`|			
-| **userinput**    | `<kbd class="ph userinput">` | ```` `userinput` ```` | `<code>userinput</code>`|	
+| **userinput**    | `<kbd class="ph userinput">` | ```` `userinput` ```` | `<code>userinput</code>`|
 | **screen**    | `<pre class="pre screen"><code>screen</code></pre>` | ```` ```code``` ```` <br>`{: screen} `<br>**Note:** This requires the following attribute definition available in the attribute definition template: `{:screen: .screen} ` | `<pre class="screen">`<br>`<code>code</code>`<br>`</pre>`|
 | **cmdname**    | `<span class="keyword cmdname">cmdname</span>` | `**cmdname**` | `<strong>cmdname</strong>`|
 | **varname**    | `<span class="keyword varname">varname</span>` | `*varname*` | `<em>varname</em>`|
@@ -203,7 +235,7 @@ There are many free Markdown editors available, however, not all editors will ho
 | **parml**    | `<dl class="parml"><dt class="pt dlterm">pt</dt>`<br>`<dd class="pd">pd</dd>`<br>`</dl>` | `**title**`<br>definition  | `<p><strong>parameter title</strong>`<br>`Definition of the parameter</p>`|			
 | **uicontrol**    | `<span class="ph uicontrol">uicontrol</span>` | `**uicontrol**` | `<strong>uicontrol</strong>`|
 | **menucascade**    | `<span class="ph uicontrol">uicontrol &gt; uicontrol</span>` | `**uicontrol &gt; uicontrol**` | `<strong>uicontrol &gt; uicontrol</strong>`|
-| **apiname**    | `<span class="keyword apiname">apiname</span>` | ```` `apiname` ```` | `<code>apiname</code>`|	
+| **apiname**    | `<span class="keyword apiname">apiname</span>` | ```` `apiname` ```` | `<code>apiname</code>`|
 | **filepath**    | `<span class="ph filepath">filepath</span>` | ```` `filepath` ```` | `<code>filepath</code>`|
 | **shortdesc**    | `<shortdesc>	<p class="shortdesc">	` | This is a shortdesc paragraph<br>`{: shortdesc} `<br>**Note:** This requires the following attribute definition available in the attribute definition template: `{:shortdesc: .shortdesc}` | `<p class="shortdesc">`|
 | **term**    | `<span class="ph term">term</span>` |`*term*` | `<em>term</em>`|
@@ -212,8 +244,8 @@ There are many free Markdown editors available, however, not all editors will ho
 
 |  Dita Element     |   HTML 5 output from Dita  |   How to code in Markdown    | HTML 5 output from Markdown  |
 |-----------------|-----------|-------------|-------------------|
-| **Bluemix Messages**<br>msg<br><br>msgBody<br><br>msgID<br><br>msgPrefix<br><br>msgNumber<br><br>msgSuffix<br><br>msgExplanation<br><br>msgUserResponse    | `<section class="section section msgExplanation">Explanation:`<br><br>`<section class="section section msgUserResponse">Action:` | ```` `msgph` ```` <br><br> `>`msgblock of text<br>`>`this is more text<br>`>`and some more text<br><br>`## BXNUI0001E`<br>`**The attempt to determine whether a session exists failed.**`<br><br>For instructions to fix this problem, see this `[troubleshooting topic](https://www.ng.bluemix.net/docs/troubleshoot/index-gentopic3.html#tr_err)`. | `<code>msgph</code>`<br>`<h2 id="bxnui0001e">BXNUI0001E</h2>`<br>`<p><b>The attempt to determine whether a session exists failed.</b></p>`<br>`<p>For instructions to fix this problem, see this <a href="https://www.ng.bluemix.net/docs/troubleshoot/index-gentopic3.html#tr_err">troubleshooting topic</a>.</p>`|	
-| **DITA troubleshooting specialization**<br><br>tsSymptom<br><br>tsCauses<br><br>tsResolve | `<section class="section tsSymptoms">What's happening`<br><br>`<section class="section tsCauses">Why it's happening`<br><br>`<section class="section tsResolve">How to fix it` | This is the "What's happening" paragraph <br>`{: tsSymptoms}`<br>This is the "Why it's happening" paragraph <br>`{: tsCauses}`<br>This is the "How to fix it" paragraph <br>`{: tsResolve}`<br><br>**Note:** This requires the following attribute definitions available in the attribute definition template: <br>`{:tsSymptoms: .tsSymptoms}`<br>`{:tsCauses: .tsCauses}`<br>`{:tsResolve: .tsResolve}` | `<p class="tsSymptoms">This is the "What's happening" paragraph</p>`<br><br>`<p class="tsCauses">This is the "Why it's happening" paragraph</p>`<br><br>`<p class="tsResolve">This is the "How to fix it" paragraph</p>`<br><br> |	
+| **Bluemix Messages**<br>msg<br><br>msgBody<br><br>msgID<br><br>msgPrefix<br><br>msgNumber<br><br>msgSuffix<br><br>msgExplanation<br><br>msgUserResponse    | `<section class="section section msgExplanation">Explanation:`<br><br>`<section class="section section msgUserResponse">Action:` | ```` `msgph` ```` <br><br> `>`msgblock of text<br>`>`this is more text<br>`>`and some more text<br><br>`## BXNUI0001E`<br>`**The attempt to determine whether a session exists failed.**`<br><br>For instructions to fix this problem, see this `[troubleshooting topic](https://www.ng.bluemix.net/docs/troubleshoot/index-gentopic3.html#tr_err)`. | `<code>msgph</code>`<br>`<h2 id="bxnui0001e">BXNUI0001E</h2>`<br>`<p><b>The attempt to determine whether a session exists failed.</b></p>`<br>`<p>For instructions to fix this problem, see this <a href="https://www.ng.bluemix.net/docs/troubleshoot/index-gentopic3.html#tr_err">troubleshooting topic</a>.</p>`|
+| **DITA troubleshooting specialization**<br><br>tsSymptom<br><br>tsCauses<br><br>tsResolve | `<section class="section tsSymptoms">What's happening`<br><br>`<section class="section tsCauses">Why it's happening`<br><br>`<section class="section tsResolve">How to fix it` | This is the "What's happening" paragraph <br>`{: tsSymptoms}`<br>This is the "Why it's happening" paragraph <br>`{: tsCauses}`<br>This is the "How to fix it" paragraph <br>`{: tsResolve}`<br><br>**Note:** This requires the following attribute definitions available in the attribute definition template: <br>`{:tsSymptoms: .tsSymptoms}`<br>`{:tsCauses: .tsCauses}`<br>`{:tsResolve: .tsResolve}` | `<p class="tsSymptoms">This is the "What's happening" paragraph</p>`<br><br>`<p class="tsCauses">This is the "Why it's happening" paragraph</p>`<br><br>`<p class="tsResolve">This is the "How to fix it" paragraph</p>`<br><br> |
 | **Bluemix Runtime Classes**<br>[More Information](https://www.ng.bluemix.net/docs/starters/rt_landing.html)<br> | `<ul class="runtimeIconList">`<br>`<p class="runtimeIcon">`<br>`<p class="runtimeTitle">`<br>`<p class="runtimeLink">` | `*list item 1`<br>`*list item 2`<br>`{: runtimeIconList}` <br><br>Paragraph of text<br>`{: runtimeIcon}`<br><br>Paragraph of text<br>`{: runtimeTitle}`<br><br>Paragraph of text<br>`{: runtimeLink}`<br><br>**Note:** This requires the following attribute definitions available in the attribute definition template: <br>`{:runtimeIconList: .runtimeIconList}`<br>`{:runtimeIcon: .runtimeIcon}`<br>`{:runtimeTitle: .runtimeTitle}`<br>`{:runtimeLink: .runtimeLink}`  | `<ul class="runtimeIconList">`<br>`<li>list item 1</li>`<br>`<li>list item 2</li></ul>`<br><br>`<p class="runtimeIcon">Paragraph of text</p>`<br>`<p class="runtimeTitle">Paragraph of text</p>`<br>`<p class="runtimeLink">Paragraph of text</p>`|
 | **Bluemix Related Links** <br><br>`id="rellinks"`<br>id of wrapper tag of all related links section<br><br> `id='general'`<br>id of RELATED LINKS<br><br>`id='api'`<br>id of API REFERENCE<br><br>`id='samples'`<br>id of TUTORIALS AND SAMPLES<br><br>`id='buildpacks'`<br>id of COMPATIBLE RUNTIMES<br><br>`id='sdk'`<br>id of SDK REFERENCE  | `<article class="topic reference nested1" aria-labelledby="d68e338" lang="en-us" id="rellinks"><h2 class="topictitle2" id="d68e338">Related links</h2>`<br>`<aside>`<br>`<div class="linklist" id="general"><h3 class="linklistlabel">Related Links</h3>`<br>`<ul><li><img src="./sout.gif" alt=""><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/personality-insights" rel="external" title="(Opens in a new tab or window)">Detailed Documentation</a></li>`<br>`<li><img src="./sout.gif" alt=""><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/personality-insights.html" rel="external" title="(Opens in a new tab or window)"><span class="keyword">Personality Insights</span> home page</a></li>`<br>`<li><img src="./sout.gif" alt=""><a href="https://developer.ibm.com/watson/" rel="external" title="(Opens in a new tab or window)">Watson developer cloud community</a></li>`<br>`</ul></div>`<br><br>`<div class="linklist" id="samples"><h3 class="linklistlabel">Tutorials and Samples</h3>`<br>`<ul><li><img src="./sout.gif" alt=""><a href="https://watson-pi-demo.mybluemix.net/" rel="external" title="(Opens in a new tab or window)">Live Demo</a></li>`<br>`<li><img src="./sout.gif" alt=""><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/personality-insights/index.html#sampleApp" rel="external" title="(Opens in a new tab or window)">Sample Application source and instructions</a></li>`<br>`<li><img src="./sout.gif" alt=""><a href="https://github.com/watson-developer-cloud/nodejs-wrapper" rel="external" title="(Opens in a new tab or window)">Client-side library for Watson in Node.js</a></li>`<br>`<li><img src="./sout.gif" alt=""><a href="https://github.com/watson-developer-cloud/java-wrapper" rel="external" title="(Opens in a new tab or window)">Client-side library for Watson in Java</a></li>`<br>`</ul></div>`<br><br>`<div class="linklist" id="api"><h3 class="linklistlabel">API Reference</h3>`<br>`<ul><li><img src="./sout.gif" alt=""><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/#!/personality-insights" rel="external" title="(Opens in a new tab or window)">REST API</a></li>`<br>`</ul></div>`<br>`</aside></article>` | `# rellinks`<br><br>`## samples`<br>`* [link text](http://URL)`<br>`* [link text](http://URL)`<br><br>`## sdk`<br>`* [link text](http://URL)`<br>`* [link text](http://URL)`<br><br>`## api`<br>`* [link text](http://URL)`<br>`* [link text](http://URL)`<br><br>`## buildpacks`<br>`* [link text](http://URL)`<br>`* [link text](http://URL)`<br><br>`## general`<br>`* [link text](http://URL)`<br>`* [link text](http://URL)` | `<h1 id="rellinks">rellinks</h1>`<br>`<h2 id="samples">samples</h2>`<br>`<ul>`<br>`<li>`<br>`<li>`<br>`</ul>`<br><br>`<h2 id="sdk">sdk</h2>`<br>`<ul>`<br>`<li>`<br>`<li>`<br>`</ul>`<br><br>`<h2 id="api">api</h2>`<br>`<ul>`<br>`<li>`<br>`<li>`<br>`</ul>`<br><br>`<h2 id="buildpacks">buildpacks</h2>`<br>`<ul>`<br>`<li>`<br>`<li>`<br>`</ul>`<br><br>` <h2 id="general">general</h2>`<br>`<ul>`<br>`<li><a href="http://www.softlayer.com/security">Soflayer Security Compliance</a></li>`<br>`<li><a href="../services/SingleSignOn/index.html">Getting started with Single Sign On</a></li>`<br>`</ul>` |
 | **Bluemix Context Switching**<br><br>`data-hd-programlang="languagecode"`<br>`//programming language and OS`<br>`csAllProgramlangs: [`<br>`{key:"generic", label:"Generic"},`<br>`{key:"java", label:"Java"},`<br>`{key:"ruby", label:"Ruby"},`<br>`{key:"c#", label:"C#"},`<br>`{key:"objectc", label:"Objective C"},`<br>`{key:"python", label:"Python"},`<br>`{key:"javascript", label:"JavaScript"},`<br>`{key:"php", label:"PHP"},`<br>`{key:"swift", label:"Swift"}`<br>`   ],`<br>`csAllOperatingsystems: [`<br>`{key:"generic", label:"Generic"},`<br>`{key:"ios", label:"iOS"},`<br>`{key:"android", label:"Android"}`<br>`   ],` | `<pre class="codeblock"`<br>`data-hd-programlang="javascript"><code>&lt;script&gt;`<br><br>`var setup = {`<br>`applicationId:'&lt;<var class="keyword varname">applicationId</var>&gt;',`<br>`applicationRoute:'&lt;<var class="keyword varname">applicationRoute</var>&gt;',`<br>`applicationSecret:'&lt;<var class="keyword varname">applicationSecret</var>&gt;'`<br>`}`<br><br>`IBMBluemix.initialize(setup);`<br>`&lt;/script&gt;</code>`<br>`</pre>`<br><br>`<pre class="codeblock" data-hd-operatingsystem="ios"><code>[IBMBluemix initializeWithApplicationId: <var class="keyword varname">applicationId</var> andApplicationSecret: <var class="keyword varname">applicationSecret</var> andApplicationRoute: <var class="keyword varname">applicationRoute</var>]</code></pre>` | `<!-- Attribute definitions -->`<br>`{:javascript: #javascript .ph data-hd-programlang='javascript'}`<br>`{:java: #java .ph data-hd-programlang='java'}`<br>`{:ruby: #ruby .ph data-hd-programlang='ruby'}`<br>`{:shortdescription: .shortdesc}`<br><br>`<!-- Applying the above definitions to inline code tags and paragraph tags -->`<br>`You can use the `Node.js`{: javascript} `Java`{: java} `Ruby`{: ruby} sample application to try the RabbitMQ service.`<br>`{: shortdescription}`<br><br>**Note:** This requires attribute definitions available in the attribute definition template. | `<p class="shortdesc">You can use the <code id="javascript" class="ph" data-hd-programlang="javascript">Node.js</code> <code id="java" class="ph" data-hd-programlang="java">Java</code> <code id="ruby" class="ph" data-hd-programlang="ruby">Ruby</code> sample application to try the RabbitMQ service.</p>` |
@@ -230,10 +262,10 @@ There are many free Markdown editors available, however, not all editors will ho
  * TOC file
  * Output is fully accessible
  * Additional functionality
- 
+
 
 ### Attributes
-The Bluemix Markdown parser allows you to define additional attributes in Markdown. After your attributes are defined, you can apply these values to any markdown element, like headers, paragraphs, and codeblocks. 
+The Bluemix Markdown parser allows you to define additional attributes in Markdown. After your attributes are defined, you can apply these values to any markdown element, like headers, paragraphs, and codeblocks.
 
 You can use the Bluemix attributes extension to map the following attributes to an element:
   * ID
@@ -241,15 +273,15 @@ You can use the Bluemix attributes extension to map the following attributes to 
   * Custom value
 
 **Note**: Attributes, when defined and applied within a Markdown file, are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run.
-  
+
 ####How attributes are defined in Markdown
 Attributes are defined at the top of your Markdown file. Each Attribute definition must be enclosed in curly brackets { }, and must contain a unique name. While you can provide attribute definition values for ID, Class, and Custom, none of these values are required, and you can define any combination of these different attribute values. The Bluemix Attribute Definitions implimentation is based on the Kramdown / Maraku Attribute Definiton extension: (http://kramdown.gettalong.org/syntax.html#attribute-list-definitions).
 
 For Example:
 ```
-<!-- Attribute definition --> 
+<!-- Attribute definition -->
 {:Name: #ID .Class Custom='custom attribute'}
-<!-- Sample Attribute definition --> 
+<!-- Sample Attribute definition -->
 {:java: #java .ph data-hd-programlang='java'}
 
 ```
@@ -257,7 +289,7 @@ For Example:
 * **:Name:** is the name of the attribute. This value does not get passed through to the output, it is an internal Markdown name that is used to map the attribute definition at the top of the page to one or more uses throughout the Markdown file. This value must be surrounded by colons (: :).
 * **#ID** sets a value associated with the `id` attribute. This value is optional. If I define an ID of `#java` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 id="java"></h1>`. This value must begin with a pound sign (#).
 * **.Class** sets a value associated with the Class attribute. This value is optional. If I define a Class of `.ph` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 Class="ph"></h1>`. This value must begin with a pound period (.).
-* **.Custom** sets a custom attribute value. This value is optional. If I define a Custom value of `data-hd-programlang='java'` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 data-hd-programlang='java'></h1>`. 
+* **.Custom** sets a custom attribute value. This value is optional. If I define a Custom value of `data-hd-programlang='java'` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 data-hd-programlang='java'></h1>`.
 
 ####How attributes are applied in Markdown
 After you define your attribute at the top of your Markdown file, you can apply the attribute by adding a call to the name of your attribute to the end of the Markdown tag you want to bind your attribute to. The implimentation of Bluemix attribute usage is based on the Kramdown / Maraku Block/Span Inline Attribute Lists: http://kramdown.gettalong.org/syntax.html#inline-attribute-lists
@@ -268,10 +300,10 @@ For example:
 I define a short description attribute at the top of my file and then apply it to a paragraph:
 ```
  {:shortdescription: .shortdesc}
- 
+
  This is a short description paragraph
  {: shortdescription}
- 
+
 ```
 The Markdown parser will output HTML5 that looks like this:
 
@@ -279,7 +311,7 @@ The Markdown parser will output HTML5 that looks like this:
 <p class="shortdesc">This is a short description paragraph</p>
 
 ```
-  
+
 ####Attributes in DITA vs Markdown  
 In DITA, attributes are used to add metadata to elements. For example, you might add a `product`, `props`, or `otherprops` attribute on a phrase or paragraph element in order to associate a value with that phrase or paragraph. These values allow for filtering either during build or runtime. DITA transforms to HTML5 also apply Class attributes to HTML5 elements, and these values are used by the .CSS stylesheets at runtime to control the display.
 
@@ -309,19 +341,19 @@ Example of Markdown attributes definitions and applications (from `using_rabbitm
 The DITA source example above from `using_rabbitmq_service.dita` is an example of a file that has been designed for context switching. When the HTML5 output is displayed at runtime in the Bluemix doc framework, if the user selects to view only Ruby, elements containing the attribute `data-hd-programlang="ruby"` will be displayed, and elements with the attribute of `data-hd-programlang` that contain anything other than `"ruby"` will be hidden. Below I have created a near-equivalent version of the DITA topic in Markdown, complete with attributes that support context switching.
 
 ```
-<!-- Attribute definitions --> 
+<!-- Attribute definitions -->
 {:javascript: #javascript .ph data-hd-programlang='javascript'}
 {:java: #java .ph data-hd-programlang='java'}
 {:ruby: #ruby .ph data-hd-programlang='ruby'}
 {:shortdescription: .shortdesc}
 
-<!-- Applying the above definitions to inline code tags and paragraph tags --> 
+<!-- Applying the above definitions to inline code tags and paragraph tags -->
 You can use the `Node.js`{: javascript} `Java`{: java} `Ruby`{: ruby} sample application to try the RabbitMQ service.
 {: shortdescription}
 
 ```
- 
-Output of HTML5 from Markdown parser: 
+
+Output of HTML5 from Markdown parser:
 
 ```
 <p class="shortdesc">You can use the <code id="javascript" class="ph" data-hd-programlang="javascript">Node.js</code> <code id="java" class="ph" data-hd-programlang="java">Java</code> <code id="ruby" class="ph" data-hd-programlang="ruby">Ruby</code> sample application to try the RabbitMQ service.</p>
@@ -334,7 +366,7 @@ Bluemix needed to add copyright and metadata to the header of the HTML 5 output.
 ####Anchor IDs Generated for all Headers
 When the Bluemix Markdown parser transforms Markdown to HTML5, it automatically binds an anchor ID to all Header elements. Any time the parser transforms a Markdown file that contains a header, the HTML5 output of that header tag will produce an `id` attribute, with a value that is unique. Unique anchor IDs on headers provide writers with the ability to link directly to a sub-topic that begins with a Header.
 
-For example, here is a level 4 Header in Markdown: 
+For example, here is a level 4 Header in Markdown:
 ```
 ####Content references in DITA vs Markdown
 ```
@@ -393,17 +425,17 @@ My short description links to the [Applications heading](filename.html#header_id
 ##Applications
 {: #applications}
 
-I want to create a link within my short description that links to the second sub-heading, Applications. 
-To do this, I would use the following format: [Link text for header](filename.html#header_id). 
+I want to create a link within my short description that links to the second sub-heading, Applications.
+To do this, I would use the following format: [Link text for header](filename.html#header_id).
 For this example, I would use [Applications](readme.html#applications).
 ```
 
 ### Content References
-The Bluemix conref extension is invoked by the parser by using the conrefFile flag: `--conrefFile=cloudoeconrefs.yml`. 
- 
- >node mdProcessor.js --sourceDir=C:\pilot\sourceMD --destDir=C:\pilot\outputMD --headerFile=header.txt --footerFile=footer.txt 
+The Bluemix conref extension is invoked by the parser by using the conrefFile flag: `--conrefFile=cloudoeconrefs.yml`.
+
+ >node mdProcessor.js --sourceDir=C:\pilot\sourceMD --destDir=C:\pilot\outputMD --headerFile=header.txt --footerFile=footer.txt
  >**--conrefFile=cloudoeconrefs.yml** -overwrite
- 
+
 Conrefs are stored in `cloudoeconrefs.yml`. `cloudoeconrefs.yml` is a YAML file, and can be placed in any directory as specified in the `--conrefFile` parameter. Typically, `cloudoeconrefs.yml` can be found in `C:\Users\IBM_ADMIN\Documents\GitHub\markdownProcessor`.
 
 Conref definitions in YAML are structured in nested keys, each key that contains a value or a subkey must be followed by a colon (:), and the next line must be indented 2 space. For example:
@@ -413,32 +445,32 @@ Conref definitions in YAML are structured in nested keys, each key that contains
     conref value 1
   subkey2:
     conref value 2
-    
+
 ```
 Conrefs in Markdown are called by using the following syntax: `{{site.data.key1.key2...keyN}}`
 **Note:** While you can Nest keys as deep as you like in YAML, and call deeper sets of keys from markdown, Bluemix conrefs use only 2 keys. For example: `{{site.data.keyword.bluemix}}`  
 
 ####Content references in DITA vs Markdown
-In DITA, a content reference, or conref, is a way of reusing or pulling content from one file into another file; effectively making a copy during the transform. 
- 
+In DITA, a content reference, or conref, is a way of reusing or pulling content from one file into another file; effectively making a copy during the transform.
+
 Example of conrefs sourced in DITA (stored in cloudoeconrefs.dita):
 ```
 	<!--//Do not translate - Begin-->
 	<p><keyword id="bluemix"><tm tmtype="reg" trademark="IBM">IBM</tm> <tm tmtype="tm" trademark="Bluemix">Bluemix</tm></keyword></p>
 	<p><keyword id="bluemix_short"><tm tmtype="tm" trademark="Bluemix">Bluemix</tm></keyword></p>
-	
+
 ```
 Example of a conref being called from a DITA file (called from rails.dita):
- 
+
 ```
-	<p>This Ruby starter application is a boilerplate for <keyword conref="cloudoeconrefs.dita#cloudoeconrefs/bluemix_short">BlueMix</keyword> Ruby web application development.</p>	
- 
+	<p>This Ruby starter application is a boilerplate for <keyword conref="cloudoeconrefs.dita#cloudoeconrefs/bluemix_short">BlueMix</keyword> Ruby web application development.</p>
+
 ```
- 
+
 In the Bluemix Markdown extension, we create a similar mechanism for reusing or pulling content from one file into another file. The extension uses YAML as a source for the conrefs.  
- 
+
 Example of conrefs sourced in YAML (stored in cloudoeconrefs.yml):
- 
+
 ```
 	#Bluemix conref equivalent file to cloudoeconrefs.dita
 
@@ -467,20 +499,20 @@ Example of conrefs sourced in YAML (stored in cloudoeconrefs.yml):
 	    Advanced Mobile Access
 
 ```
- 
+
 Example of conrefs called from Markdown (called from test.md):
- 
+
 ```
-	This is a new paragraph all about using conrefs. This word here: {{site.data.keyword.bluemix}} is actually a conref! I can use {{site.data.keyword.bluemix}} multiple times in a paragraph. 
+	This is a new paragraph all about using conrefs. This word here: {{site.data.keyword.bluemix}} is actually a conref! I can use {{site.data.keyword.bluemix}} multiple times in a paragraph.
 	* I can use the full product name: {{site.data.keyword.bluemix}}
 	* Or I can use the shortened product name: {{site.data.keyword.bluemix_short}}
-	* {{site.data.keyword.activedeployshort}} is a Service. 
+	* {{site.data.keyword.activedeployshort}} is a Service.
 	* So is {{site.data.keyword.amashort}}
-	
+
 ```
 
 Results:
- 
+
 ```
 	 This is a new paragraph all about using conrefs. This word here: IBM® Bluemix™ is actually a conref! I can use IBM® Bluemix™ multiple times in a paragraph.
 
@@ -488,7 +520,7 @@ Results:
 		Or I can use the shortened product name: Bluemix™
 		Active Deploy is a Service.
 		So is Advanced Mobile Access
-		
+
 ```
 
 ### TOC File
@@ -522,9 +554,8 @@ Additional accessibility *might* be needed as content is migrated to Markdown. A
  * Copy of non-.md files: Copies (doesn't process) image files (.bmp, .jpg, .png, .gif, .SVG) and other file extensions like .html, .pdf, .json, .js
  * Recurse sub-directories: Processes all directories in the specified source directory
  * Overwrite: Addition of an overwrite flag to replace previous output
- 
+
 ### Tips for avoiding common errors
 
 1. Using HTML within your Markdown topics is allowed, and in some cases encouraged (the only way to output a definition list is by using HTML). However, if you chose to use HTML, **always ensure your HTML is well-formed**. Any tag that does not have a closing tag associated with it will break the parser, and your build will fail. For example, the only way that you can create a line break inside a table cell in Markdown is to use a break tag, however, using `<br>` will actually break the build. You must close the break tag like so: `<br/>`. If you use HTML, carefully validate that your tags are matching and that you close all open tags.
 2. Avoid using `<` and `>`. For all special characters, it is recommended that you use the `&` value. For example, for `>` use `&gt;`.  All of the following special characters are also supported: (http://www.w3.org/MarkUp/HTMLPlus/htmlplus_13.html)
-
