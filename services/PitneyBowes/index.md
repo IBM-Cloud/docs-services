@@ -78,4 +78,4 @@ The credentials block provides everything you need to use the APIs from Pitney B
 * apiKey: Your key for accessing the Pitney Bowes API
 * apiSecret: The secret for accessing the Pitney Bowes API
 
-To get started using the API to transcode your media files, see the [API QuickStart](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html){:new_window} and [the API Specification](https://developer2.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html){:new_window}.
+To get started using the API to transcode your media files, see the [API QuickStart](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html){:new_window} and [the API Specification](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html){:new_window}.
