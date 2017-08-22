@@ -63,7 +63,7 @@ camera and microphone.
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-   Also enter the API Key and Secret you just created in the above step.
+   Also enter the `API Key` and `Secret` you just created in the above step.
 
 1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name it something memorable.
