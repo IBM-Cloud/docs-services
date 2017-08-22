@@ -47,10 +47,14 @@ camera and microphone.
      ```
      {: codeblock}
 
+1. Navigate to the API Key Creation Screen in the Twilio Console. Create a new
+   API Key, saving both the `Key` and the `Secret` - you won’t be able to get them back again!
+
 1. Log into Bluemix Console and create a Twilio App
 
    - Click 'Catalog' at the top of the screen
-   - Enter 'twilio'
+   - Enter 'twilio programmable video'
+   - Select it to create an integration
 
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
@@ -59,8 +63,7 @@ camera and microphone.
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-1. Navigate to the API Key Creation Screen in the Twilio Console. Create a new
-   API Key, saving both the `key` and the `secret` - you won’t be able to get it back again!
+   Also enter the `API Key` and `Secret` you just created in the above step.
 
 1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name it something memorable.
@@ -69,24 +72,14 @@ camera and microphone.
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
 
-1. Navigate back to your Bluemix app and click ‘Runtime’ on the left sidebar.
-   In environment variables, set two environment variables. Copy and paste the
-   APP Sid and a Voice-capable phone number:
-
-    ```bash
-    TWILIO_TWIML_APP_SID
-    TWILIO_NUMBER
-    ```
-    {: screen}
-
-    ![Set Environment Variables](images/09-env-variables.png)
-
 1. Locally, clone our sample application:
 
     ```bash
     git clone -b bluemix-quickstart https://github.com/TwilioDevEd/video-quickstart-js
     ```
     {: pre}
+
+1. Run `npm install` in the root directory of the cloned application.
 
 1. Deploy the application using the command line tools:
 
