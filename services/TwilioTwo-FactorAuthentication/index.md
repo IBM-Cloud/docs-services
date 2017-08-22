@@ -84,7 +84,7 @@ Bluemix:
     - Enter 'Twilio Two-Factor' and you should see the integration.
     - Click it to start entering values
 
-    ![Bluemix Put Authy API Key](images/04-add-two-factor-app.png)
+  ![Bluemix Put Authy API Key](images/04-add-two-factor.png)
 
 
 11. Enter five environment variables:
