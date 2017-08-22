@@ -86,7 +86,6 @@ Bluemix:
 
   ![Bluemix Put Authy API Key](images/04-add-two-factor.png)
 
-
 11. Enter five environment variables:
   ```
   Twilio Account SID
@@ -96,6 +95,7 @@ Bluemix:
   Application Secret
   ```
   {: pre}
+  
     - Your Account SID and Token are found in the [Twilio Console](https://www.twilio.com/console/){: new_window}
     - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming) inventory
     - Paste in the Authy API Key from the above steps
