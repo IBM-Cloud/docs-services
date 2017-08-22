@@ -33,7 +33,7 @@ backend. This example is based on our
 
 ## Setting the project
 
-Follow this steps to get started with Twilio Two-Factor Authentication on
+Follow these simple steps to get started with Twilio Two-Factor Authentication on
 Bluemix:
 
 1. Using your phone platform’s Application Store download the Authy
@@ -94,8 +94,7 @@ Bluemix:
   Application API Key
   Application Secret
   ```
-  {: pre}
-  
+
     - Your Account SID and Token are found in the [Twilio Console](https://www.twilio.com/console/){: new_window}
     - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming) inventory
     - Paste in the Authy API Key from the above steps
