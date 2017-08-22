@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-08-16"
 
 ---
 
@@ -14,83 +14,39 @@ lastupdated: "2017-08-09"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with InfluxCloud
+# Getting started with InfluxCloud on Bluemix
 {: #gettingstarted_InfluxCloud}
 
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
 
-Examples: -->
-
-InfluxCloud is a... -OR-
-With InfluxCloud, you can...  -OR-
-Use InfluxCloud to...
+The [InfluxCloud](https://cloud.influxdata.com/) on Bluemix is a cloud service for storing metric, event, and time-series data using the [InfluxData platform](https://www.influxdata.com/).
+An InfluxCloud cluster provides an [InfluxDB Enterprise](https://www.influxdata.com/influxenterprise/) cluster for time series storage, a [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) node to create alerts, and [Chronograf](https://www.influxdata.com/time-series-platform/chronograf/) to create dashboards.
+InfluxCloud exposes the [InfluxDB](http://docs.influxdata.com/influxdb/v1.3/guides/writing_data/) and [Kapacitor](http://docs.influxdata.com/kapacitor/v1.3/api/api/) HTTP APIs.
 {:shortdesc}
 
-<!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+To get up and running quickly on InfluxCloud service, follow these steps:
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+1. Sign into [InfluxCloud](https://cloud.influxdata.com/){: new_window} or [register for a free trial](https://cloud.influxdata.com/trial/user){: new_window}.
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+	![InfluxCloud plan picker](images/01-plan-picker.png)
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+2. Record the admin credentials during the InfluxCloud cluster creation flow, these will be used later for the "Username" and "Password" fields in the Bluemix InfluxCloud service creation page.
 
-<!-- Include a sentence to briefly introduce the steps. Examples: -->
+	![InfluxCloud credential form](images/02-credentials-form.png)
 
-To integrate your app with the service, complete these steps: -OR-
-To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+3. Once the cluster creation flow is complete, the newly provisioned cluster will spin up and be displayed on the dashboard after a few minutes. You'll want to record the hostname of your newly created cluster.
 
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+	![InfluxCloud dashboard cluster hostname](images/03-dashboard-hostname.png)
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+4. Add the credentials and hostname of the InfluxCloud cluster to a new Bluemix service.
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+	![Bluemix InfluxCloud service creation](/images/04-bluemix-influxcloud.png)
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+5. Follow the [InfluxCloud Getting Started guide](https://help.influxcloud.net/getting_started/) to learn more about how to integrate your Bluemix applications with InfluxCloud.
 
-	```
-	my command -and -options
-	```
-	{: pre}
+## About
 
-4. Step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  You can edit the file there.
--->
+The InfluxData platform includes
+- [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/), a collection agent with plug-ins to easily gather metrics from 80+ services
+- [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/), a high-performance database for metrics and analytics
+- [Chronograf](https://www.influxdata.com/time-series-platform/chronograf/), a visual user interface for graphing InfluxDB data and creating Kapacitor alerts
+- [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/), a metrics and event processing and alerting engine

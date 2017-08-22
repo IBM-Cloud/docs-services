@@ -9,11 +9,13 @@ InfluxCloud
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [InfluxCloud Site](https://cloud.influxdata.com/)
+        [InfluxCloud Getting Started Guide](https://help.influxcloud.net/getting_started/)
+        [Bluemix CLI](https://console.bluemix.net/docs/starters/install_cli.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+    [InfluxCloud Documentation](https://help.influxcloud.net/)
+    [InfluxData Documentation](http://docs.influxdata.com/)
     {: .navgroup-end}
