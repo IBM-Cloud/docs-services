@@ -33,7 +33,7 @@ backend. This example is based on our
 
 ## Setting the project
 
-Follow this steps to get started with Twilio Two-Factor Authentication on
+Follow these simple steps to get started with Twilio Two-Factor Authentication on
 Bluemix:
 
 1. Using your phone platform’s Application Store download the Authy
@@ -80,25 +80,36 @@ Bluemix:
 
    ![Twilio Get Production API Key](images/03-twilio-production-api-key.png)
 
-10. Back in the Bluemix Dashboard, navigate to your Authy Two Factor App. In
-    'Runtime' on the left side, add one environmental variable, pasting in the
-    Authy API Key:
+10. Back in the 'Catalog', add a new Twilio Two-Factor Authentication App.
+    - Enter 'Twilio Two-Factor' and you should see the integration.
+    - Click it to start entering values
+
+  ![Bluemix Put Authy API Key](images/04-add-two-factor.png)
+
+11. Enter five environment variables:
+  ```
+  Twilio Account SID
+  Twilio Auth Token
+  Twilio Phone Number
+  Application API Key
+  Application Secret
+  ```
+
+    - Your Account SID and Token are found in the [Twilio Console](https://www.twilio.com/console/){: new_window}
+    - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming) inventory
+    - Paste in the Authy API Key from the above steps
+    - Enter any secret key to hash user cookies
+
+12. Clone our branch of the Two Factor Quickstart repository for Node:
 
     ```
-    AUTHY_API_KEY
-    ```
-    {: screen}
-
-   ![Bluemix Put Authy API Key](images/04-bluemix-put-api-key.png)
-
-11. Clone our branch of the Two Factor Quickstart repository for Node:
-
-    ```
-    git clone -b bluemix-quickstart
+    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/authy2fa-node.git
     ```
     {: pre}
 
-12. Push the application to Bluemix:
+13. Run `npm install` locally.
+
+14. Push the application to Bluemix:
 
     ```
     Bluemix app push <Your Twilio Authy App Name>
