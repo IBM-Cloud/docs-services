@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-02-10"
+lastupdated: "2017-09-11"
 
 ---
 
@@ -28,9 +28,9 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-IBM Single Sign On is a policy-based authentication service for Bluemix. With Single Sign On, you can easily embed single sign-on capability in Node.js or Liberty for Java apps. -OR-
-With IBM IoT Real-Time Insights on Bluemix, you can perform analytics on real-time data from your Internet of Things devices, and gain insights about their health and the overall state of your operations.  -OR-
-Use IBM BigInsights for Apache Hadoop for Bluemix to provision enterprise-scale, multi-node big data clusters on the IBM SoftLayer cloud. After they are provisioned, you can manage and access these clusters from the BigInsights service.
+<service_name> is a... -OR-
+With <service_name>, you can...  -OR-
+Use <service_name> to...
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
@@ -45,7 +45,7 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
+Before an application developer can... the administrator must ...
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
@@ -74,7 +74,7 @@ Complete these steps to get started with the BigInsights service:
 	```
 	{: codeblock}
 
-3. Step 3. In this step, we have a single line command example. When displayed by the doc framework, it will have a $ shown at the beginning of the line, and a copy button on the right. The copy button will copy the command but not the $.
+3. Step 3. In this step, <introduce the example that follows>.
 
 	```
 	my command -and -options
