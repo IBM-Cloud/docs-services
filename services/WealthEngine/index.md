@@ -19,18 +19,17 @@ lastupdated: "2017-09-11"
 <!-- The name of this file should remain index.md.
 Please delete out content examples and coding that you are not using for your service. -->
 
-# Getting started with <service_short_name>
-{: #gettingstarted}
-<!-- Provide an appropriate ID above -->
+# Getting started with WealthEngine API
+{: #gettingstarted_WealthEngineAPI}
 
 <!-- Short description: REQUIRED
 The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
 
 Examples: -->
 
-<service_name> is a... -OR-
-With <service_name>, you can...  -OR-
-Use <service_name> to...
+WealthEngine API is a... -OR-
+With <WealthEngine API, you can...  -OR-
+Use WealthEngine API to...
 {:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
