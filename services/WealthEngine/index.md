@@ -50,7 +50,7 @@ To get up and running quickly with the WealthEngine API, follow these steps:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Register for a developer account at ( [ (( https://dev.wealthengine.com/app/#/register )) ])
+1. Register for a developer account on our ( [ developer site ]) (( https://dev.wealthengine.com/app/#/register ))
 	
 	![Register for a developer account](images/BlueMix_WE1.jpg)
 	
