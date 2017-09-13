@@ -56,11 +56,11 @@ To get up and running quickly with the WealthEngine API, follow these steps:
 	
 2. You will receive an email asking you to verify your email address.
 
-	![Register for a developer account](images/BlueMix_WE2.jpg)
+	![Please verify your email address](images/BlueMix_WE2.jpg)
 	
 3. Once verified, following the prompts to use your new email and password to login. 
 
-	
+	![Enter your developer credentials to login](images/Bluemix_WE3.jpg)
 
 4. To get sandbox access for testing purposes, click on API Keys. 
 	
