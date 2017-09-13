@@ -51,40 +51,29 @@ To get up and running quickly with the WealthEngine API, follow these steps:
  -->
 
 1. Register for a developer account at https://dev.wealthengine.com/app/#/register
+	
+	![Register for a developer account](images/BlueMix_WE1.jpg)
+	
 2. You will receive an email asking you to verify your email address.
 
-	```
-	Copyable example for this step. 
-	This example might be multiline code
-	to copy into a file. 
-	When displayed in the doc framework, 
-	it will have a copy button on the right.
-	The user can click to copy the example 
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
+	![Please verify your email address](images/BlueMix_WE2.png)
 
 3. Once verified, following the prompts to use your new email and password to login. 
 
-	```
-	my command -and -options
-	```
-	{: pre}
+	![Log into the developer site](images/BlueMix_WE3.jpg)
 
 4. To get sandbox access for testing purposes, click on API Keys. 
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
+	
+	![Click on API Keys](images/BlueMix_WE4.jpg)
+	
 5. Click on New API Key to generate a new sandbox API key for your use. 
 
+	![Click New API Key](images/BlueMix_WE5.jpg.png)
+	
 6. Give your API key a name and click OK. 
 
-
+	![Create a new API Key](images/BlueMix_WE6.jpg.png)
+	
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->
 
