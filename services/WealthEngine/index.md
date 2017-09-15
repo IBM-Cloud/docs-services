@@ -40,11 +40,11 @@ To get up and running quickly with the WealthEngine API, follow these steps:
 	
 5. Click on New API Key to generate a new sandbox API key for your use. 
 
-	![Click New API Key](images/BlueMix_WE5.jpg.png)
+	![Click New API Key](images/BlueMix_WE5.jpg)
 	
 6. Give your API key a name and click OK. 
 
-	![Create a new API Key](images/BlueMix_WE6.jpg.png)
+	![Create a new API Key](images/BlueMix_WE6.jpg)
 	
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->
