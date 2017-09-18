@@ -32,7 +32,7 @@ To get up and running quickly with the WealthEngine API, follow these steps:
 	
 3. Once verified, following the prompts to use your new email and password to login. 
 
-	![Enter your developer credentials to login](images/Bluemix_WE3.jpg)
+	![Enter your developer credentials to login](images/Bluemix_WE3_B.jpg)
 
 4. To get sandbox access for testing purposes, click on API Keys. 
 	
