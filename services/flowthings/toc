@@ -1,0 +1,16 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="<flowthings>" audience="service" href="/docs/services/flowthings/index.html"}
+flowthings.io 
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [documentation](https://flowthings.io/docs/getting-started)
+        [tutorials](https://flowthings.io/developers/tutorials)
+        [Libraries](https://flowthings.io/developers/libraries)
+        [flowthings.io](https://flowthings.io)
+    {: .navgroup-end}
