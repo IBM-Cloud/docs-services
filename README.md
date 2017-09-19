@@ -294,54 +294,6 @@ The Markdown parser will output HTML5 that looks like this:
 
 ```
 
-####Attributes in DITA vs Markdown  
-In DITA, attributes are used to add metadata to elements. For example, you might add a `product`, `props`, or `otherprops` attribute on a phrase or paragraph element in order to associate a value with that phrase or paragraph. These values allow for filtering either during build or runtime. DITA transforms to HTML5 also apply Class attributes to HTML5 elements, and these values are used by the .CSS stylesheets at runtime to control the display.
-
-Example of DITA attributes (from `using_rabbitmq_service.dita`):
-Here we can see that the author has added a `props` attribute to 3 phrase tags, and added a unique programming language value to each `prop`.
-
-```
-<shortdesc>You can use the <ph props="programlang(javascript)">Node.js</ph> <ph
-props="programlang(java)">Java</ph> <ph props="programlang(ruby)">Ruby</ph> sample
-application to try the <keyword
-conref="cloudoeconrefs.dita#cloudoeconrefs/rabbitmq">RabbitMQ</keyword> service.</shortdesc>
-
-```
-HTML5 output transformed with IDWB:
-
-```
-<p class="shortdesc">You can use the <span class="ph" data-hd-programlang="javascript">Node.js</span> <span class="ph" data-hd-programlang="java">Java</span> <span class="ph" data-hd-programlang="ruby">Ruby</span> sample
-application to try the <span class="keyword">RabbitMQ</span> service.</p>
-
-```
-
-In Markdown, the Bluemix parser will apply whatever attributes you define to any of the supported Markdown elements, (For example, Header, Paragraph, Codeblock, Blockquote, Inline Code, Bold, Italics, Table, etc.). While Markdown does not support the Phrase tag, you can still bind attributes to single words or phrases by using inline tags like Code, Bold, or Italics.
-
-The Bluemix doc framework provides runtime context switching functionality that looks for attributes on HTML5 elements and hides or displays this content depending on selections made by the user. Support for context switching in Markdown source is just one of the ways writers can use the Bluemix attribute extension. In addition, writers can add anchor IDs to multiple elements, overwrite anchor IDs on headers, add Class attributes like `shortdesc` to a paragraph to define the output as a shortdescription, as well as define their own custom attribute values on supported elements.
-
-Example of Markdown attributes definitions and applications (from `using_rabbitmq_service.md`):
-The DITA source example above from `using_rabbitmq_service.dita` is an example of a file that has been designed for context switching. When the HTML5 output is displayed at runtime in the Bluemix doc framework, if the user selects to view only Ruby, elements containing the attribute `data-hd-programlang="ruby"` will be displayed, and elements with the attribute of `data-hd-programlang` that contain anything other than `"ruby"` will be hidden. Below I have created a near-equivalent version of the DITA topic in Markdown, complete with attributes that support context switching.
-
-```
-<!-- Attribute definitions -->
-{:javascript: #javascript .ph data-hd-programlang='javascript'}
-{:java: #java .ph data-hd-programlang='java'}
-{:ruby: #ruby .ph data-hd-programlang='ruby'}
-{:shortdescription: .shortdesc}
-
-<!-- Applying the above definitions to inline code tags and paragraph tags -->
-You can use the `Node.js`{: javascript} `Java`{: java} `Ruby`{: ruby} sample application to try the RabbitMQ service.
-{: shortdescription}
-
-```
-
-Output of HTML5 from Markdown parser:
-
-```
-<p class="shortdesc">You can use the <code id="javascript" class="ph" data-hd-programlang="javascript">Node.js</code> <code id="java" class="ph" data-hd-programlang="java">Java</code> <code id="ruby" class="ph" data-hd-programlang="ruby">Ruby</code> sample application to try the RabbitMQ service.</p>
-
-```
-
 ### Headers and footers
 Bluemix needed to add copyright and metadata to the header of the HTML 5 output. We have standard header and footer files that are called during transformation.
 
