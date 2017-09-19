@@ -3,20 +3,20 @@
 Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-services/tree/master/services) where you will create documentation for your service to be added to the Bluemix doc app.  
 
 After it is created, your folder in the docs-services repository must contain two files:
-* A Getting Started template that is always named index.md
-* A toc file that has no file extension, which creates some of the page structure
+* A [Getting Started template](https://github.com/IBM-Bluemix/docs-services/blob/staging/getting_started_template/index.md) that is always named [index.md]
+* A [toc file](https://github.com/IBM-Bluemix/docs-services/blob/staging/toc) that has no file extension, which creates some of the page structure
 
 **Important:** These files are required. You can link to any of your existing documentation using the related links in the toc file and you can add additional files, as needed.
 
 These files are sourced in Markdown, a lightweight markup language, and managed in GitHub.  
 
-The Bluemix doc app builds all 3rd party service Markdown source from this location for all regions.
+The Bluemix doc app builds all 3rd party service Markdown files from this GitHub location for all regions.
 
 ## Prerequisites
 Before getting started on your content, you will need to get a GitHub ID (https://github.com) and provide it to the IBM liaison who will enable write access to your GitHub folder.  You will also provide the IBM liaison with your official service name and the Bluemix catalog category it belongs in.
 
 ## Using the getting started template (Required)
-The getting started template and the guideline comments it contains provide a consistent look and feel to the service documentation within the Bluemix platform. The product documentation provided for a service should enable users to quickly determine that they want your service and then quickly get up and running. Any Supplemental information you choose to add should be task-based and support the productive use of the service.
+The getting started template (and using the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The product documentation provided for a service should enable your potential users to quickly determine that they want your service and then quickly get up and running with it. Any supplemental information you choose to add should be task-based and it should support the productive use of the service.
 
 ### Using the Copyright and Last Updated header (Required)
 Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format shown in the following example:
@@ -28,22 +28,35 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-08-18"
+lastupdated: "2017-09-18"
 
 ---
 ```
 
 The copyright and lastupdated information must occur at the top of the MD file, before attributes are listed.  
   * It must be --- surrounded by 3 dashes ---
-  * The value "years" can contain just one year or two years separated by a comma, for example, years: 2016, 2017. If the topic was created in the current year, provide just one year for the years variable. If you have updated the topic over a span of more than the current year, provide the first year and the last (current) year, separated by a comma. Don't include the intervening years. For example, for a topic created in 2016 and updated until 2017, "2016, 2017"
-  * The value "lastupdated" must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
-  * Ensure that each time you update your Markdown topic, you also update the "lastupdated" date.
+  * The value `years` can contain just one year or two years separated by a comma, for example, `years: 2016, 2017`. If the topic was created in the current year, provide just one year for the years variable. If you have updated the topic over a span of more than the current year, provide the first year and the last (current) year, separated by a comma. Don't include the intervening years. For example, for a topic created in 2016 and updated until 2017, then list the years:  `2016, 2017`
+  * The value `lastupdated` must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
+  * Ensure that each time you update your Markdown topic, you also update the `lastupdated` date.
+  
+### Adding a unique ID
+After the H1 (`# Getting started with`) header, there is a `{: #gettingstarted}` ID tag that you need to edit to make it unique to your service.  If you are onboardind a service named, "All but the kitchen sink" for example, then your unique ID could be:
+
+`{: #gettingstarted_allbutkitchensink}`
 
 ### Adding a short description (Required)
 The short description should be 1-3 sentences that provide a very high level summary of your service. The purpose of the short description is to help your users determine, at a glance, that your service is the one they want to use.
 
+On the line immediately following your 1-3 sentence description, ensure that you have preserved the following code in the getting started template so that the description displays properly:
+
+`{:shortdesc}`
+
 ### Adding getting started steps (Required)
-The getting started steps should include information about how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the Catalog; we should assume the user is starting at the service dashboard.
+The getting started steps should include a brief introduction, which could be just a lead in sentence with a colon, for example:
+
+`Use the following steps to install and set up the application:`
+
+The getting started steps should follow and provide information about how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the catalog; we should assume the user is starting at the service dashboard.
  * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
  * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples…if they start to become more common, move them into the docs flow as child task flows)
  * Include code snippets in all programming languages that can be copied, as well as VCAP service info.
