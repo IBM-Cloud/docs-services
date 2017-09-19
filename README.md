@@ -4,6 +4,11 @@ Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-se
 
 You will have your own folder in the docs-services repository in which to develop your doc app content. Your IBM Liaison will notify you when your folder has been created and send you a link to access it.
 
+## Prerequisites
+Before getting started on your content, you will need to get a GitHub ID (https://github.com) and provide it to your IBM liaison who will enable write access to your GitHub folder.  You will also provide the IBM liaison with your official service name and the Bluemix catalog category it belongs in.
+
+# Required elements
+
 Your folder must contain two files:
 * A [Getting Started template](https://github.com/IBM-Bluemix/docs-services/blob/staging/getting_started_template/index.md) that is always named [index.md]
 * A [toc file](https://github.com/IBM-Bluemix/docs-services/blob/staging/toc) that has no file extension, which creates some of the page structure
@@ -13,9 +18,6 @@ Your folder must contain two files:
 These files are sourced in Markdown, a lightweight markup language, and managed in GitHub.  
 
 The Bluemix doc app builds all 3rd party service Markdown files from this GitHub location for all regions.
-
-## Prerequisites
-Before getting started on your content, you will need to get a GitHub ID (https://github.com) and provide it to your IBM liaison who will enable write access to your GitHub folder.  You will also provide the IBM liaison with your official service name and the Bluemix catalog category it belongs in.
 
 ## Using the getting started template (Required)
 The getting started template (and using the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The product documentation provided for a service should enable your potential users to quickly determine that they want your service and then quickly get up and running with it. Any supplemental information you choose to add should be task-based and it should support the productive use of the service.
@@ -113,6 +115,8 @@ Notice that the `(URL)` values in the toc file are exernal links. You can add as
 
 After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
+# Optional elements
+In addition to the required elements, there are additional elements you can add, like other files with more information.
 
 ## Creating additional topics (optional)
 If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template. Example topics could be "Configuring x", "Administering y", "Creating z".  Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages. The following example outline shows possible additional topics that you might want to add:
