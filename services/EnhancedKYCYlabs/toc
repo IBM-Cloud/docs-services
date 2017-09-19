@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
-Product name
+{: .toc subcollection="EnhancedKYCYlabs" audience="service" href="/docs/services/EnhancedKYCYlabs/index.html"}
+Enhanced KYC / Ylabs
 
     {: .navgroup id="learn"}
     index.md
