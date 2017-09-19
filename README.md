@@ -1,6 +1,6 @@
 # Creating content for the Bluemix doc app in the docs-services repository
 
-Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-services/tree/master/services) where you will create documentation for your service to be added to the Bluemix doc app.  
+Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-services/tree/staging) where you will create documentation for your service to be added to the Bluemix doc app.  
 
 You will have your own folder in the docs-services repository in which to develop your doc app content. Your IBM Liaison will notify you when your folder has been created and send you a link to access it.
 
@@ -41,8 +41,8 @@ The copyright and lastupdated information must occur at the top of the MD file, 
   * The value `lastupdated` must be followed by a machine date in quotes in the following format: "YYYY-MM-DD"
   * Ensure that each time you update your Markdown topic, you also update the `lastupdated` date.
   
-### Adding a unique ID
-After the H1 (`# Getting started with`) header, there is a `{: #gettingstarted}` ID tag that you need to edit to make it unique to your service.  If you are onboardind a service named, "All but the kitchen sink" for example, then your unique ID could be:
+### Adding a unique ID (Required)
+After the H1 (`# Getting started with`) heading, there is a `{: #gettingstarted}` ID tag that you need to edit to make it unique to your service.  If you are onboardind a service named, "All but the kitchen sink" for example, then your unique ID could be:
 
 `{: #gettingstarted_allbutkitchensink}`
 
@@ -160,19 +160,22 @@ If you do not have your service fully documented outside of the Bluemix doc app,
       {: .navgroup-end}
   ```
 
-### Excluding unwanted headers
+### Excluding unwanted heading
 
-You might not want every single header in your markdown topic or topics to be rendered as part of your TOC. To exclude a header, simply add the notoc attribute to the header you to exclude in your md file, as shown in the following example:
+You might not want every single heading in your markdown topic or topics to be rendered as part of your TOC. To exclude a heading, simply add the notoc attribute to the heading to exclude in your md file, as shown in the following example:
 
 ```
-# Header I want to exclude
+# Heading I want to exclude
 {: #xreftext notoc}
 
-## Another header nested underneath
+## Another heading nested underneath
 {: #api}
 ```
 
-**Note**: In the previous example, the notoc attribute is only on the H1 header. The notoc attribute cascades down and excludes any sub-headers nested beneath the header you specify to exclude. You can add the notoc attribute to any header at any depth; H1, H2, H3, etc…
+**Note**: In the previous example, the notoc attribute is only on the H1 heading. The notoc attribute cascades down and excludes any sub-headings nested beneath the heading you specify to exclude. You can add the notoc attribute to any heading at any depth; for example, H1, H2, H3, and so on.
+
+
+# Markdown reference and advanced features
 
 ## Authoring Bluemix content in Markdown
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML.
@@ -183,24 +186,8 @@ The Markdown used for Bluemix is based on GitHub-flavored Markdown. The followin
 
 Bluemix has designed a parser that transforms Markdown into HTML5. Because the syntax available in standard Markdown is limited, the Bluemix team has developed Extensions to provide an enhanced authoring experience. These extensions provide key features available in DITA today, adding, for example, the ability to use metadata attributes and content references in Markdown. This document provides instructions for using these extensions.
 
-## How to suggest changes or updates to Bluemix documentation
-
-All you need is a GitHub ID, and you can suggest edits and changes to Bluemix docs. A Bluemix team member will review any pull requests, and merge all or parts of your suggested changes as quickly as possible.
-To make your changes:
-
-1. Fork the project or create a branch right from the repository.
-2. Edit files.
-3. When your changes are complete, send a pull request from your branch with your changes.
-4. Wait for a Bluemix team member to review your changes and merge all or parts of your suggested changes
-5. After you are notified of your changes, tidy up your branches using the delete button in the pull request or on the branches page.
-
-For more detailed information on how to contribute content to Bluemix documentation, see https://developer.ibm.com/bluemix/2016/01/13/bluemix-docs-now-open-source-on-github/. Also see the following help from GitHub:
-https://help.github.com/articles/github-flow-in-the-browser/
-
-## Markdown Editors
-There are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. Notepad ++ is free, compatible, and also supports YAML, which is used to define content reference keywords.
-
-# Markdown coding reference
+## Markdown editors
+If you choose not to edit your content in the browswer UI, there are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. You can use [Atom](https://atom.io) or [Orion](https://orionhub.org/).  Notepad ++ is compatible, and also supports YAML, which is used to define content reference keywords.
 
 ## Mappings between MarkDown and HTML 5
 
@@ -233,20 +220,18 @@ There are many free Markdown editors available, however, not all editors will ho
 | **mdash** | `no equivalent` | `&mdash;` |
 
 
-
-## Bluemix Extensions
+## Bluemix extensions to Markdown
  The following Bluemix extensions to Markdown are supported:
  * Output all MarkDown markup to standard, valid HTML5 tags
- * Attributes
+ * Additonal attributes
  * Addition of headers and footers to the HTML output
- * Anchor IDs Generated for all Headers
- * Content References
+ * Anchor IDs generated for all Headers
+ * Content references
  * TOC file
  * Output is fully accessible
  * Additional functionality
 
-
-### Attributes
+### Additonal attributes
 The Bluemix Markdown parser allows you to define additional attributes in Markdown. After your attributes are defined, you can apply these values to any markdown element, like headers, paragraphs, and codeblocks.
 
 You can use the Bluemix attributes extension to map the following attributes to an element:
@@ -256,10 +241,9 @@ You can use the Bluemix attributes extension to map the following attributes to 
 
 **Note**: Attributes, when defined and applied within a Markdown file, are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run.
 
-####How attributes are defined in Markdown
-Attributes are defined at the top of your Markdown file. Each Attribute definition must be enclosed in curly brackets { }, and must contain a unique name. While you can provide attribute definition values for ID, Class, and Custom, none of these values are required, and you can define any combination of these different attribute values. The Bluemix Attribute Definitions implimentation is based on the Kramdown / Maraku Attribute Definiton extension: (http://kramdown.gettalong.org/syntax.html#attribute-list-definitions).
+#### How attributes are defined in Markdown
+Attributes are defined at the top of your Markdown file. Each Attribute definition must be enclosed in curly brackets { }, and must contain a unique name. You can provide attribute definition values for `ID`, `Class`, and `Custom`, but none of these values are required. You can define any combination of these different attribute values. The Bluemix attribute definition implimentation is based on the Kramdown / Maraku Attribute Definiton extension: (http://kramdown.gettalong.org/syntax.html#attribute-list-definitions) as shown in the following example:
 
-For Example:
 ```
 <!-- Attribute definition -->
 {:Name: #ID .Class Custom='custom attribute'}
@@ -268,13 +252,15 @@ For Example:
 
 ```
 
-* **:Name:** is the name of the attribute. This value does not get passed through to the output, it is an internal Markdown name that is used to map the attribute definition at the top of the page to one or more uses throughout the Markdown file. This value must be surrounded by colons (: :).
-* **#ID** sets a value associated with the `id` attribute. This value is optional. If I define an ID of `#java` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 id="java"></h1>`. This value must begin with a pound sign (#).
-* **.Class** sets a value associated with the Class attribute. This value is optional. If I define a Class of `.ph` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 Class="ph"></h1>`. This value must begin with a pound period (.).
-* **.Custom** sets a custom attribute value. This value is optional. If I define a Custom value of `data-hd-programlang='java'` in my attribute, and I set this attribute on a Header, the HTML5 output will produce `<h1 data-hd-programlang='java'></h1>`.
+In this example, the following attributes are used:
 
-####How attributes are applied in Markdown
-After you define your attribute at the top of your Markdown file, you can apply the attribute by adding a call to the name of your attribute to the end of the Markdown tag you want to bind your attribute to. The implimentation of Bluemix attribute usage is based on the Kramdown / Maraku Block/Span Inline Attribute Lists: http://kramdown.gettalong.org/syntax.html#inline-attribute-lists
+* **:Name:** is the name of the attribute. This value does not get passed through to the output; it is an internal Markdown name that is used to map the attribute definition at the top of the page to one or more uses throughout the Markdown file. This value must be surrounded by colons (: :).
+* **#ID** sets a value associated with the `ID` attribute. This value is optional. If I define an ID of `#java` in my attribute, and I set this attribute on a heading, the HTML5 output will produce `<h1 id="java"></h1>`. This value must begin with a pound sign (#).
+* **.Class** sets a value associated with the `Class` attribute. This value is optional. If I define a Class of `.ph` in my attribute, and I set this attribute on a heading, the HTML5 output will produce `<h1 Class="ph"></h1>`. This value must begin with a pound period (.).
+* **.Custom** sets a custom attribute value. This value is optional. If I define a `Custom` value of `data-hd-programlang='java'` in my attribute, and I set this attribute on a heading, the HTML5 output will produce `<h1 data-hd-programlang='java'></h1>`.
+
+#### How attributes are applied in Markdown
+After you define your attribute at the top of your Markdown file, you can apply the attribute by adding a call to the name of your attribute at the end of the Markdown tag you want to bind your attribute to. The implimentation of Bluemix attribute usage is based on the Kramdown / Maraku Block/Span Inline Attribute Lists: http://kramdown.gettalong.org/syntax.html#inline-attribute-lists
 
 To apply a defined attribute, call the name of the attribute surrounded by curly brackets, and pre-pended by a colon and a space: `{: Name}`
 
@@ -295,26 +281,26 @@ The Markdown parser will output HTML5 that looks like this:
 ```
 
 ### Headers and footers
-Bluemix needed to add copyright and metadata to the header of the HTML 5 output. We have standard header and footer files that are called during transformation.
+Bluemix adds copyright and metadata to the header of the HTML 5 output. We have standard header and footer files that are called during transformation.
 
-####Anchor IDs Generated for all Headers
-When the Bluemix Markdown parser transforms Markdown to HTML5, it automatically binds an anchor ID to all Header elements. Any time the parser transforms a Markdown file that contains a header, the HTML5 output of that header tag will produce an `id` attribute, with a value that is unique. Unique anchor IDs on headers provide writers with the ability to link directly to a sub-topic that begins with a Header.
+#### Anchor IDs generated for all headings
+When the Bluemix Markdown parser transforms Markdown to HTML5, it automatically binds an anchor ID to all Heading elements. Any time the parser transforms a Markdown file that contains a heading, the HTML5 output of that heading tag will produce an `id` attribute, with a value that is unique. Unique anchor IDs on heading provide writers with the ability to link directly to a sub-topic that begins with a Heading.
 
-For example, here is a level 4 Header in Markdown:
+For example, here is a level 4 Heading in Markdown:
 ```
 ####Content references in DITA vs Markdown
 ```
-When the above Markdown is transformed into HTML5, the parser produces a unique id with a value that is equal to the name of the header:
+When the above Markdown is transformed into HTML5, the parser produces a unique id with a value that is equal to the name of the heading:
 ```
 <h4 id="content-references-in-dita-vs-markdown">Content references in DITA vs Markdown</h4>
 ```
-**Note**: Header anchor IDs are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run.
+**Note**: Heading anchor IDs are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run.
 
-####Changing an anchor ID on a Header
+#### Changing an anchor ID on a heading
 
-The Anchor ID is bound to a header by default, and it always uses the text of the header as its name, so you can always just link to that. However, any time you want to override the anchor tag of a header, you can use an attribute. See the Attribute section above for more details on using attributes.
+The Anchor ID is bound to a heading by default, and it always uses the text of the heading as its name, so you can always just link to that. However, any time you want to override the anchor tag of a heading, you can use an attribute. See the Attribute section above for more details on using attributes.
 
-Example of default anchor bound to a header:
+Example of default anchor bound to a heading:
 
 Mardown source:
 `##Visualizing your data sample`
@@ -341,38 +327,38 @@ HTML5 output:
   {: myanchor}
 ```
 
-####Linking to an anchor ID for a header
+#### Linking to an anchor ID for a heading
 
-You can link directly to a header within a file using the header anchor ID. You can link to sub-headings; it does not need to be the top-level header. Use the automatically generated header value based on the text that is defined in the header (see Anchor IDs Generated for all Headers), or add your own anchor ID to use for linking (see Changing an anchor ID on a header). The following example for linking uses user-defined ID anchors for each header, and the goal is to provide a link to content that is further down in the same file.
+You can link directly to a heading within a file using the heading anchor ID. You can link to sub-headings; it does not need to be the top-level heading. Use the automatically generated heading value based on the text that is defined in the heading (see Anchor IDs Generated for all Headeing), or add your own anchor ID to use for linking (see Changing an anchor ID on a heading). The following example for linking uses user-defined ID anchors for each heading, and the goal is to provide a link to content that is further down in the same file.
 
 ```
-Headings and user-defined header anchors for my file:
+Headings and user-defined heading anchors for my file:
 
-#Bluemix
+# Bluemix
 {: #bluemix}
 
-My short description links to the [Applications heading](filename.html#header_id).
+My short description links to the [Applications heading](filename.html#heading_id).
 
-##Services
+## Services
 {: #services}
 
-##Applications
+## Applications
 {: #applications}
 
 I want to create a link within my short description that links to the second sub-heading, Applications.
-To do this, I would use the following format: [Link text for header](filename.html#header_id).
+To do this, I would use the following format: [Link text for heading](filename.html#heading_id).
 For this example, I would use [Applications](readme.html#applications).
 ```
 
-### Content References
+### Content references
 The Bluemix conref extension is invoked by the parser by using the conrefFile flag: `--conrefFile=cloudoeconrefs.yml`.
 
- >node mdProcessor.js --sourceDir=C:\pilot\sourceMD --destDir=C:\pilot\outputMD --headerFile=header.txt --footerFile=footer.txt
+ >node mdProcessor.js --sourceDir=C:\pilot\sourceMD --destDir=C:\pilot\outputMD --headingFile=heading.txt --footerFile=footer.txt
  >**--conrefFile=cloudoeconrefs.yml** -overwrite
 
 Conrefs are stored in `cloudoeconrefs.yml`. `cloudoeconrefs.yml` is a YAML file, and can be placed in any directory as specified in the `--conrefFile` parameter. Typically, `cloudoeconrefs.yml` can be found in `C:\Users\IBM_ADMIN\Documents\GitHub\markdownProcessor`.
 
-Conref definitions in YAML are structured in nested keys, each key that contains a value or a subkey must be followed by a colon (:), and the next line must be indented 2 space. For example:
+Conref definitions in YAML are structured in nested keys, each key that contains a value or a subkey must be followed by a colon (:), and the next line must be indented 2 spaces, as shown in the following example:
 ```
  key:
   subkey1:
@@ -384,81 +370,9 @@ Conref definitions in YAML are structured in nested keys, each key that contains
 Conrefs in Markdown are called by using the following syntax: `{{site.data.key1.key2...keyN}}`
 **Note:** While you can Nest keys as deep as you like in YAML, and call deeper sets of keys from markdown, Bluemix conrefs use only 2 keys. For example: `{{site.data.keyword.bluemix}}`  
 
-####Content references in DITA vs Markdown
-In DITA, a content reference, or conref, is a way of reusing or pulling content from one file into another file; effectively making a copy during the transform.
-
-Example of conrefs sourced in DITA (stored in cloudoeconrefs.dita):
-```
-	<!--//Do not translate - Begin-->
-	<p><keyword id="bluemix"><tm tmtype="reg" trademark="IBM">IBM</tm> <tm tmtype="tm" trademark="Bluemix">Bluemix</tm></keyword></p>
-	<p><keyword id="bluemix_short"><tm tmtype="tm" trademark="Bluemix">Bluemix</tm></keyword></p>
-
-```
-Example of a conref being called from a DITA file (called from rails.dita):
-
-```
-	<p>This Ruby starter application is a boilerplate for <keyword conref="cloudoeconrefs.dita#cloudoeconrefs/bluemix_short">BlueMix</keyword> Ruby web application development.</p>
-
-```
-
-In the Bluemix Markdown extension, we create a similar mechanism for reusing or pulling content from one file into another file. The extension uses YAML as a source for the conrefs.  
-
-Example of conrefs sourced in YAML (stored in cloudoeconrefs.yml):
-
-```
-	#Bluemix conref equivalent file to cloudoeconrefs.dita
-
-	#//Do not translate - Begin
-	keyword:
-	  bluemix:
-	    IBM&reg; Bluemix&trade;
-	  bluemix_short:
-	    Bluemix&trade;
-	  IBM:
-	    IBM&reg;
-	  cloudoe:
-	    Cloud Operating Environment
-	  domainname:
-	    DomainName
-	  Appdomainname:
-	    AppDomainName
-	#Service names
-	  activedeployshort:
-	    Active Deploy
-	  amashort:
-	    Advanced Mobile Access
-	  activedeployshort:
-	    Active Deploy
-	  amashort:
-	    Advanced Mobile Access
-
-```
-
-Example of conrefs called from Markdown (called from test.md):
-
-```
-	This is a new paragraph all about using conrefs. This word here: {{site.data.keyword.bluemix}} is actually a conref! I can use {{site.data.keyword.bluemix}} multiple times in a paragraph.
-	* I can use the full product name: {{site.data.keyword.bluemix}}
-	* Or I can use the shortened product name: {{site.data.keyword.bluemix_short}}
-	* {{site.data.keyword.activedeployshort}} is a Service.
-	* So is {{site.data.keyword.amashort}}
-
-```
-
-Results:
-
-```
-	 This is a new paragraph all about using conrefs. This word here: IBM® Bluemix™ is actually a conref! I can use IBM® Bluemix™ multiple times in a paragraph.
-
-		I can use the full product name: IBM® Bluemix™
-		Or I can use the shortened product name: Bluemix™
-		Active Deploy is a Service.
-		So is Advanced Mobile Access
-
-```
 
 ### TOC File
-In addition to the standard HTML5 output that the Bluemix Markdown parser produces from each Markdown file, the parser also produces a Table of Contents file in different formats. Each TOC file produced from a markdown topic contains a nested set of structured headers or topicrefs that match the structure of headers in the original markdown source. Each TOC header or topicref also contains a link to a corresponding header anchor ID in the HTML5 output file that was generated from the Markdown source.
+In addition to the standard HTML5 output that the Bluemix Markdown parser produces from each Markdown file, the parser also produces a Table of Contents file in different formats. Each TOC file produced from a markdown topic contains a nested set of structured headings or topicrefs that match the structure of headings in the original markdown source. Each TOC heading or topicref also contains a link to a corresponding heading anchor ID in the HTML5 output file that was generated from the Markdown source.
 
 By default, for each Markdown file processed by the Bluemix parser, the following files are output:
 
@@ -493,3 +407,19 @@ Additional accessibility *might* be needed as content is migrated to Markdown. A
 
 1. Using HTML within your Markdown topics is allowed, and in some cases encouraged (the only way to output a definition list is by using HTML). However, if you chose to use HTML, **always ensure your HTML is well-formed**. Any tag that does not have a closing tag associated with it will break the parser, and your build will fail. For example, the only way that you can create a line break inside a table cell in Markdown is to use a break tag, however, using `<br>` will actually break the build. You must close the break tag like so: `<br/>`. If you use HTML, carefully validate that your tags are matching and that you close all open tags.
 2. Avoid using `<` and `>`. For all special characters, it is recommended that you use the `&` value. For example, for `>` use `&gt;`.  All of the following special characters are also supported: (http://www.w3.org/MarkUp/HTMLPlus/htmlplus_13.html)
+
+
+## How to suggest changes or updates to Bluemix documentation
+
+All you need is a GitHub ID, and you can suggest edits and changes to Bluemix docs. A Bluemix team member will review any pull requests, and merge all or parts of your suggested changes as quickly as possible.
+To make your changes:
+
+1. Fork the project or create a branch right from the repository.
+2. Edit files.
+3. When your changes are complete, send a pull request from your branch with your changes.
+4. Wait for a Bluemix team member to review your changes and merge all or parts of your suggested changes
+5. After you are notified of your changes, tidy up your branches using the delete button in the pull request or on the branches page.
+
+For more detailed information on how to contribute content to Bluemix documentation, see https://developer.ibm.com/bluemix/2016/01/13/bluemix-docs-now-open-source-on-github/. Also see the following help from GitHub:
+https://help.github.com/articles/github-flow-in-the-browser/
+
