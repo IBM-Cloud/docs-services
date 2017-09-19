@@ -114,7 +114,6 @@ Notice that the `(URL)` values in the toc file are exernal links. You can add as
 After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
 
-
 ## Creating additional topics (optional)
 If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template. Example topics could be "Configuring x", "Administering y", "Creating z".  Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages. The following example outline shows possible additional topics that you might want to add:
 
@@ -160,7 +159,7 @@ If you do not have your service fully documented outside of the Bluemix doc app,
       {: .navgroup-end}
   ```
 
-### Excluding unwanted heading
+### Excluding unwanted headings
 
 You might not want every single heading in your markdown topic or topics to be rendered as part of your TOC. To exclude a heading, simply add the notoc attribute to the heading to exclude in your md file, as shown in the following example:
 
@@ -226,8 +225,6 @@ If you choose not to edit your content in the browswer UI, there are many free M
  * Additonal attributes
  * Addition of headers and footers to the HTML output
  * Anchor IDs generated for all Headers
- * Content references
- * TOC file
  * Output is fully accessible
  * Additional functionality
 
@@ -280,10 +277,10 @@ The Markdown parser will output HTML5 that looks like this:
 
 ```
 
-### Headers and footers
+### Addition of headers and footers
 Bluemix adds copyright and metadata to the header of the HTML 5 output. We have standard header and footer files that are called during transformation.
 
-#### Anchor IDs generated for all headings
+### Anchor IDs generated for all headings
 When the Bluemix Markdown parser transforms Markdown to HTML5, it automatically binds an anchor ID to all Heading elements. Any time the parser transforms a Markdown file that contains a heading, the HTML5 output of that heading tag will produce an `id` attribute, with a value that is unique. Unique anchor IDs on heading provide writers with the ability to link directly to a sub-topic that begins with a Heading.
 
 For example, here is a level 4 Heading in Markdown:
@@ -349,44 +346,6 @@ I want to create a link within my short description that links to the second sub
 To do this, I would use the following format: [Link text for heading](filename.html#heading_id).
 For this example, I would use [Applications](readme.html#applications).
 ```
-
-### Content references
-The Bluemix conref extension is invoked by the parser by using the conrefFile flag: `--conrefFile=cloudoeconrefs.yml`.
-
- >node mdProcessor.js --sourceDir=C:\pilot\sourceMD --destDir=C:\pilot\outputMD --headingFile=heading.txt --footerFile=footer.txt
- >**--conrefFile=cloudoeconrefs.yml** -overwrite
-
-Conrefs are stored in `cloudoeconrefs.yml`. `cloudoeconrefs.yml` is a YAML file, and can be placed in any directory as specified in the `--conrefFile` parameter. Typically, `cloudoeconrefs.yml` can be found in `C:\Users\IBM_ADMIN\Documents\GitHub\markdownProcessor`.
-
-Conref definitions in YAML are structured in nested keys, each key that contains a value or a subkey must be followed by a colon (:), and the next line must be indented 2 spaces, as shown in the following example:
-```
- key:
-  subkey1:
-    conref value 1
-  subkey2:
-    conref value 2
-
-```
-Conrefs in Markdown are called by using the following syntax: `{{site.data.key1.key2...keyN}}`
-**Note:** While you can Nest keys as deep as you like in YAML, and call deeper sets of keys from markdown, Bluemix conrefs use only 2 keys. For example: `{{site.data.keyword.bluemix}}`  
-
-
-### TOC File
-In addition to the standard HTML5 output that the Bluemix Markdown parser produces from each Markdown file, the parser also produces a Table of Contents file in different formats. Each TOC file produced from a markdown topic contains a nested set of structured headings or topicrefs that match the structure of headings in the original markdown source. Each TOC heading or topicref also contains a link to a corresponding heading anchor ID in the HTML5 output file that was generated from the Markdown source.
-
-By default, for each Markdown file processed by the Bluemix parser, the following files are output:
-
-**Source:** `index.md`
-
-**Output:**
-* `index.HTML`: standard HTML5 output
-* `indexTOC.md`: Markdown file with nested Headers matching each Header in index.md. Each Header contains a link to  a corresponding header anchor ID in index.HTML
-* `indexTOC.HTML`: HTML file with nested Headers matching each Header in index.md. Each Header contains a link to  a corresponding header anchor ID in index.HTML
-* `index.ditamap`: DITA map file with nested topicrefs matching each Header in index.md. Each topicref contains a link to  a corresponding header anchor ID in index.HTML
-
-**Note:** Each TOC format is produced and structured following the conventions of that format. Because DITA map files enforce a strict rule where headers must be incremented by only a single level, any Headers in your markdown that skip a level, (for example, H1 to H3, skipping H2), will not produce a valid *.ditamap TOC. Header values can decrease by skipping a level, (for example, H3 to H1, skipping H2), but they cannot increase.
-
-**Note**: TOC files are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run. To disable TOC files, add the following parameter: `-disableToc`
 
 ### Accessible output
 We have worked to output all Markdown markup to standard and valid HTML5 tags:
