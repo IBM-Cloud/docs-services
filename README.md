@@ -19,7 +19,7 @@ Before getting started on your content, you will need to get a GitHub ID (https:
 The getting started template (and using the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The product documentation provided for a service should enable your potential users to quickly determine that they want your service and then quickly get up and running with it. Any supplemental information you choose to add should be task-based and it should support the productive use of the service.
 
 ### Using the Copyright and Last Updated header (Required)
-Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format shown in the following example:
+Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format as it is in the getting started template, as shown in the following example:
 
 ```
 ---
@@ -56,27 +56,29 @@ The getting started steps should include a brief introduction, which could be ju
 
 `Use the following steps to install and set up the application:`
 
-The getting started steps should follow and provide information about how to integrate the service into the app or use the service outside of Bluemix. They don't include steps to add the service from the catalog; we should assume the user is starting at the service dashboard.
- * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
- * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples…if they start to become more common, move them into the docs flow as child task flows)
- * Include code snippets in all programming languages that can be copied, as well as VCAP service info.
+The getting started steps should follow and provide information about how to integrate the service into the app or use the service outside of Bluemix. Don't include steps to add the service from the catalog; always assume that your user is starting at the service dashboard.
 
-For additional tasks to use the service (after the getting started topic), you can create additional task topics (files). See Creating additional topics for more information.
+**Tips**
+ * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
+ * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples. If they become more common, consider moving them into the docs flow as child task flows.)
+ * Include code snippets in all programming languages that can be copied. (The getting started template provides the quick and easy coding to make code snippets easily copied.)
+
+If you have additional tasks to use your service (after the getting started topic), you can create additional task topics (files). See **Creating additional topics** for more information.
 
 ## Creating a table of contents (TOC) for your service catalog entry (Required)
 
 To begin, you need to create a TOC map file in GitHub. This file must be in the root directory of your service. See the sample TOC in this (docs-services) folder.  You can copy it into the root directory of your service and edit it from there.
 
-**Important note**:  The `toc` file has no extension.  It is just named `toc`.
+**Important note**:  The `toc` file has no extension; it is just named `toc`. When you create it in the root directory, do not add a file type.
 
-The following toc file would create the structure for the previous Example Outline:
+The following toc file template is provided in the [base docs-services folder](https://github.com/IBM-Bluemix/docs-services/blob/staging/toc):
 
 ```
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
-Name of service
+{: .toc subcollection="<FolderName>" audience="service" href="/docs/services/<FolderName>/index.html"}
+<Name of service>
 
     {: .navgroup id="learn"}
     index.md
@@ -93,26 +95,22 @@ Name of service
     {: .navgroup-end}
 ```
 
-**Note**: Nesting files is as simple as indenting 4 spaces. You can nest multiple levels of files, as shown in the previous example.
+After you copy the entire toc file contents:
+1. Do not alter the top two (navgroup and topicgroup) lines in the toc template.
+2. Replace both of the `<FolderName>` placeholders with your folder name, in both locations.  
+3. Replace `<Name of service>` with your service name.
+4. And add any related links in the `[Link text](URL)` fields.  The `[Link text]` you provide is what is displayed in the left navigation panel and the `(URL)` is the external (`http` or `https`) link to your content when your user clicks the link text.  
+5. If you only provide a single link, to your base documentation, for example, remove the second line of link text.  
+6. Add your API documentation URL. You can change the link title `[API Documentation]` if you wish.
+7. We recommend that you provide sample apps for your customers to use. Include links under the Reference section of your toc file that point to these sample apps. At a minimum, provide your sample apps in Node and Java.
+8. If you want to add more files to your content, nesting additional files after the `index.md` file is as simple as indenting 4 spaces on the line beneath `index.md` and listiing the additional `<file>.md` files that you add to your folder. You can nest multiple levels of files.
 
-After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
-
-
-### Adding external links to your TOC file
-Notice that in the example above there is an html value, rather than a markdown value, for the first instance of the Getting Started topic. In most cases you can just add duplicate index.md entries, but because this Getting Started example has several subheaders that we want to generate TOC values for, creating a pre-defined custom html url was a way to create the top-level container without displaying all the nested sub-headers beneath it:
-
-```
-[Getting Started with <Name_of_Service>](docs/<folder_name>/index.html)
-```
-
-You can use this same standard markdown code used to specify a URL at any time in your toc map file to create an internal or external link. For example if I wanted to add a TOC entry for an API in API explorer, I could add: [REST API](https://sample-console.{DomainName}/apidocs) to my toc map file in the appropriate place.
+Notice that the `(URL)` values in the toc file are exernal links. You can add as many external links as you want. For example if I wanted to add a TOC entry for an API in API explorer, I could add: `[REST API](https://sample-console.{DomainName}/apidocs)` to my toc map file under the Reference section of the toc.
 
 **Tip**: Keep in mind that the search results are generated from your TOC. (A search is generated from the TOC JSON file.) One of the ways you can improve SEO is to ensure that your TOC contains the critical topics you want your customers to find.
 
-### Adding Sample applications (recommended)
-We recommend that all 3rd party services provide sample apps for customers to use. Include links in your documentation that point to these sample apps.
+After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
-**Note**: At a minimum, please provide your sample apps in Node and Java.
 
 ## Creating additional topics (optional)
 If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template.  Example containers would be "Configuring x", "Administering y", "Creating z".  Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages.  The following example outline shows possible additional topics that you might want to add:
