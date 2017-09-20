@@ -10,6 +10,7 @@ Twilio Programmable Video
     {: .topicgroup}
     Related links
         [Twilio Programmable Video](https://www.twilio.com/video)
+        [Twilio Video SDK Quick Start for JavaScript and Bluemix](https://github.com/TwilioDevEd/video-quickstart-js/tree/bluemix-quickstart)
         [Twilio Quickstarts and Sample Applications](https://www.twilio.com/docs/api/video/quickstart-sample-apps)
         [Twilio Console](https://www.twilio.com/console)
         [Twilio Sign Up](https://www.twilio.com/try-twilio)

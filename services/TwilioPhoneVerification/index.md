@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-27"
+lastupdated: "2017-09-20"
 
 ---
 
@@ -35,7 +35,7 @@ presented to the App to continue. This quickstart is based on
 
 ## Let's build it now!
 1. (Optional) On your phone, using your platform’s Application Store download
-   the Authy Two-Factor application.
+   the Authy application.
    * Exact steps are platform dependent, but you should link your phone number
    to the Authy app.  Our web app will eventually use this to authenticate.
 
@@ -63,17 +63,17 @@ presented to the App to continue. This quickstart is based on
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
-   Twilio Console. In the Twilio Console, your credentials can be found here:
+   [Twilio Console](https://www.twilio.com/console).
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
-1. In the Twilio Console’s Authy Dashboard, click the ‘+ New Application’ Button:
-   ![Authy Dashboard](images/authy-dashboard.png)
+1. In the Twilio Console’s Account Security Dashboard, click the ‘+ New Application’ Button:
+   ![Account Security Dashboard](images/authy-dashboard.png)
 
 1. Click through to the ‘Settings’ page in the left sidebar, and click on “Eye”
    logo to reveal your App API Key:  
 
-   ![Authy Settings](images/authy-settings.png)
+   ![Account Security Settings](images/authy-settings.png)
 
    Add the App API Key to the service, then 'Create' it!
 
@@ -95,13 +95,16 @@ presented to the App to continue. This quickstart is based on
    click on your  Twilio Phone Verification Service under ‘Services’, then click the
    ‘Create connection +’ button.  Connect it to your Twilio Two-Factor App.
 
-1. Back in the Bluemix Dashboard, navigate to your Authy Two Factor App. In
+1. Back in the Bluemix Dashboard, navigate to your Two-Factor Authentication App. In
    ‘Runtime’ on the left side, add one environment variable (and one optional one),
    pasting in a Twilio Phone number and optionally an App Secret:
      ```bash
      TWILIO_PHONE_NUMBER
      ```
+     {: screen}
+
      And optionally (do this for sure in production):
+
      ```bash
      APP_SECRET
      ```

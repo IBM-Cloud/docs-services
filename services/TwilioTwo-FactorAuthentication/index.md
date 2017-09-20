@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-07-27"
+lastupdated: "2017-09-20"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-07-27"
 # Getting started with Twilio Two-Factor Authentication and Bluemix
 {: #gettingstarted_TwilioTwo-FactorAuthentication}
 
-[Twilio’s Two Factor Authentication](https://www.twilio.com/two-factor-authentication){: new_window}
+[Twilio’s Two-Factor Authentication](https://www.twilio.com/two-factor-authentication){: new_window}
 lets you easily build an additional measure of security into your login or
 verification process.  Using Twilio’s Authy Authenticator App on your mobile
 device, you can increase your confidence in the user logging in and help your
@@ -26,10 +26,10 @@ users protect their accounts with easy-to-implement Two Factor Authentication.
 
 ## About
 
-Today we’re going to build a sample Two Factor Authentication app... the
+Today we’re going to build a sample Two-Factor Authentication app... the
 serverless way... with IBM’s Bluemix, and IBM’s Compose for MongoDB on the
 backend. This example is based on our
-[Authy Two-Factor Quickstart application](https://github.com/TwilioDevEd/authy2fa-node){: new_window}.
+[Twilio Two-Factor Authentication Quickstart](https://github.com/TwilioDevEd/account-security-2fa-node){: new_window}.
 
 ## Setting the project
 
@@ -68,10 +68,10 @@ Bluemix:
    Connect it to the Authy Two-Factor App.
 
 8. In the Twilio Console’s
-   [Authy Applications Dashboard](https://www.twilio.com/console/authy/applications){: new_window},
+   [Account Security Applications Dashboard](https://www.twilio.com/console/authy/applications){: new_window},
    click the '+ New Application' Button:
 
-   ![Twilio Add Authy Application](images/02-twilio-add-authy-application.png)
+   ![Twilio Add Application](images/02-twilio-add-authy-application.png)
 
    Name it something like “Bluemix Two Factor”
 
@@ -84,7 +84,7 @@ Bluemix:
     - Enter 'Twilio Two-Factor' and you should see the integration.
     - Click it to start entering values
 
-  ![Bluemix Put Authy API Key](images/04-add-two-factor.png)
+  ![Bluemix Put API Key](images/04-add-two-factor.png)
 
 11. Enter five environment variables:
   ```
@@ -94,16 +94,17 @@ Bluemix:
   Application API Key
   Application Secret
   ```
+  {: screen}
 
     - Your Account SID and Token are found in the [Twilio Console](https://www.twilio.com/console/){: new_window}
-    - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming) inventory
-    - Paste in the Authy API Key from the above steps
+    - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming){: new_window} inventory
+    - Paste in the Application API Key from the above steps
     - Enter any secret key to hash user cookies
 
 12. Clone our branch of the Two Factor Quickstart repository for Node:
 
     ```
-    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/authy2fa-node.git
+    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/account-security-2fa-node.git
     ```
     {: pre}
 
@@ -112,7 +113,7 @@ Bluemix:
 14. Push the application to Bluemix:
 
     ```
-    Bluemix app push <Your Twilio Authy App Name>
+    Bluemix app push <Your Twilio App Name>
     ```
     {: pre}
 
@@ -124,14 +125,14 @@ Bluemix:
     to the Authy app).  Log out as soon as you’ve registered.
 
 15. Before you log back in, copy the URL to the App (the same as the 'Visit'
-    link, e.g. `https://twilio-quickstart-authy-2fa.mybluemix.net` or similar.)
+    link, e.g. `https://twilio-quickstart-2fa.mybluemix.net` or similar.)
 
-16. In the back in the Twilio Console on your Authy Application Dashboard,
+16. In the back in the Twilio Console on your Account Security Application Dashboard,
     navigate to 'Settings' and paste the URL with `/authy/callback` appended
     into the Webhook field.  Save it now.  The ‘Webhooks’ field will look
     something like this:
 
-    ![Twilio Authy Webhook](images/06-twilio-auhty-webhook.png)
+    ![Twilio Webhook](images/06-twilio-authy-webhook.png)
 
 17. Drumroll please - back on the site, "Login" to the account you made 3 steps
     above. Depending on your phone setup, you'll now receive a SMS or a Onetouch
