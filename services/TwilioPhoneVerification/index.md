@@ -63,7 +63,7 @@ presented to the App to continue. This quickstart is based on
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
-   Twilio Console. In the Twilio Console, your credentials can be found here:
+   [Twilio Console](https://www.twilio.com/console).
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
@@ -101,7 +101,10 @@ presented to the App to continue. This quickstart is based on
      ```bash
      TWILIO_PHONE_NUMBER
      ```
+     {: screen}
+
      And optionally (do this for sure in production):
+
      ```bash
      APP_SECRET
      ```

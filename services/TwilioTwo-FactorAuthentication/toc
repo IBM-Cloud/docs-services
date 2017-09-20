@@ -12,7 +12,7 @@ Twilio Programmable SMS
         [Twilio Sign Up](https://www.twilio.com/try-twilio)
         [Twilio Console](https://www.twilio.com/console)
         [Twilio’s Two Factor Authentication](https://www.twilio.com/two-factor-authentication)
-        [Authy Two-Factor Quickstart application](https://github.com/TwilioDevEd/authy2fa-node)
+        [Authy Two-Factor Quickstart application](https://github.com/TwilioDevEd/account-security-2fa-node)
         [Authy Applications Dashboard](https://www.twilio.com/console/authy/applications)
         [Twilio Documentation site](https://www.twilio.com/docs/)
         [Node.js application tutorials](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node)

@@ -17,12 +17,13 @@ lastupdated: "2017-07-26"
 # Getting started with Twilio Programmable Voice
 {: #gettingstarted_TwilioProgrammableVoice}
 
-Twilio’s [Programmable Voice](https://www.twilio.com/voice) makes it incredibly
-easy to add Voice capabilities to your mobile or web application.  Add easy
-ingoing and outgoing calling with monitoring and logging capabilities in no time
-flat with the power of Twilio’s Cloud Voice capabilities.  It’s only a few
-steps from our communications APIs to a contact center, unique support
-capabilities, browser dialing, or any other application you can dream.
+Twilio’s [Programmable Voice](https://www.twilio.com/voice){: new_window}
+makes it incredibly easy to add Voice capabilities to your mobile or web
+application. Add easy ingoing and outgoing calling with monitoring and logging
+capabilities in no time flat with the power of Twilio’s Cloud Voice
+capabilities. It’s only a few steps from our communications APIs to a contact
+center, unique support capabilities, browser dialing, or any other application
+you can dream.
 {: shortdesc}
 
 ## About
@@ -38,7 +39,8 @@ number, and you will need access to a WebRTC capable web browser.
    or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
    Account
 
-1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+1. If necessary, download and install the [Bluemix Command Line
+   Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
    - Change the API Endpoint and Login:
 
      ```
@@ -55,17 +57,20 @@ number, and you will need access to a WebRTC capable web browser.
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
-   Twilio Console. In the Twilio Console, your credentials can be found here:
+   [Twilio Console](https://www.twilio.com/console){: new_window}.
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
    Copy them to the integration.
-1. Navigate to the [TwiML App section](https://www.twilio.com/console/voice/dev-tools/twiml-apps)
+1. Navigate to the [TwiML App section](https://www.twilio.com/console/voice/dev-tools/twiml-apps){: new_window}
    of the Twilio Console and *Create* a new TwiML App.  Name it ‘Bluemix_App’
    or similar.  Copy and paste the App SID into the service.
 
-1. In the Phone Numbers section of the Twilio Console, either purchase or
-   choose an existing voice capable Phone number.  Copy and paste the phone number in [E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers) format into the service.
+1. In the [Phone Numbers](https://www.twilio.com/console/phone-numbers/incoming){: new_window}
+   section of the Twilio Console, either purchase or choose an existing voice
+   capable Phone number. Copy and paste the phone number in
+   [E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers){: new_window}
+   format into the service.
 
    Once complete (and correct), 'Create' the Service.
 
@@ -75,7 +80,8 @@ number, and you will need access to a WebRTC capable web browser.
 1. With the URL of the newly created App, copy and paste the URL with `/voice` 
    appended into the 'Voice Request URL' back in the TwiML app you made above.
 
-   If you closed it, you can get back to the [TwiML App here](https://www.twilio.com/console/voice/dev-tools/twiml-apps)
+   If you closed it, you can get back to the
+   [TwiML App here](https://www.twilio.com/console/voice/dev-tools/twiml-apps){: new_window}
 
    ![Configure TwiML App](images/06-create-twiml-app-in-twilio-console.png)
 
@@ -106,7 +112,8 @@ of your browser, all in under ten minutes! You’ve now got the infrastructure
 you need to build a support application or your own custom browser dialing logic.
 
 Want to go even further with Twilio? You can find all of our [Node.js
-communications application tutorials](https://www.twilio.com/docs/tutorials?filter-language=node&order_by=-popularity_rank) on our [Documentation site](https://www.twilio.com/docs/).
+communications application tutorials](https://www.twilio.com/docs/tutorials?filter-language=node&order_by=-popularity_rank)
+on our [Documentation site](https://www.twilio.com/docs/).
 
 
 We can’t wait to see - and hear - what you build!

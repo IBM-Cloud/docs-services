@@ -94,16 +94,17 @@ Bluemix:
   Application API Key
   Application Secret
   ```
+  {: screen}
 
     - Your Account SID and Token are found in the [Twilio Console](https://www.twilio.com/console/){: new_window}
-    - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming) inventory
+    - Grab a SMS capable phone number from your [Phone Number](https://www.twilio.com/console/phone-numbers/incoming){: new_window} inventory
     - Paste in the Authy API Key from the above steps
     - Enter any secret key to hash user cookies
 
 12. Clone our branch of the Two Factor Quickstart repository for Node:
 
     ```
-    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/authy2fa-node.git
+    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/account-security-2fa-node.git
     ```
     {: pre}
 

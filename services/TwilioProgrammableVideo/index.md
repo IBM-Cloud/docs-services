@@ -47,8 +47,9 @@ camera and microphone.
      ```
      {: codeblock}
 
-1. Navigate to the API Key Creation Screen in the Twilio Console. Create a new
-   API Key, saving both the `Key` and the `Secret` - you won’t be able to get them back again!
+1. Navigate to the [API Key Creation Screen](https://www.twilio.com/console/video/runtime/api-keys)
+   in the Twilio Console. Create a new API Key, saving both the `Key` and the
+   `Secret` - you won’t be able to get them back again!
 
 1. Log into Bluemix Console and create a Twilio App
 
@@ -74,10 +75,10 @@ camera and microphone.
 
 1. Locally, clone our sample application:
 
-    ```bash
-    git clone -b bluemix-quickstart https://github.com/TwilioDevEd/video-quickstart-js
-    ```
-    {: pre}
+   ```bash
+   git clone -b bluemix-quickstart https://github.com/TwilioDevEd/video-quickstart-js
+   ```
+   {: pre}
 
 1. Run `npm install` in the root directory of the cloned application.
 
@@ -86,13 +87,15 @@ camera and microphone.
    ```bash
    bluemix app push <Your App Name>
    ```
+   {: pre}
 
-1. In a browser which supports WebRTC, visit `<your Bluemix URL>`.  Preview
-   your camera and join a room (may we suggest ‘twilio-bluemix’ ?)
+1. In a browser which supports WebRTC, visit `<your Bluemix URL>`. Preview
+   your camera and join a room.
 
-1. Open a second browser with WebRTC support on a different machine*. Join the
-   same room and verify the app works! Or use a second tab in the same browser
-   - but this is more fun.
+1. Open a second tab in the same browser and join the same room to verify the
+   app works!
+   - Or open a second browser (with WebRTC support) on a different machine for
+     more fun!.
 
 And with that you’ve built a serverless video chat room!  Feel free to share
 that link around to show off the video room you built in under ten minutes(!).
