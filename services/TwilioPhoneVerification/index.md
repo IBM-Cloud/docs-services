@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -14,26 +14,27 @@ lastupdated: "2017-09-20"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Twilio Account Verifiction
+# Getting started with Twilio Account Verification
 {: #gettingstarted_TwilioAccountVerification}
 
 
-When a customer registers for your App it’s always a good idea that you’re
+When a customer registers for your App it’s always a good idea to check that you’re
 dealing with… that customer. With
-[Twilio Verification](https://www.twilio.com/verification){: new_window}, it’s very easy to
+[Twilio Phone Verification](https://www.twilio.com/verification){: new_window}, it’s simple to
 verify that your newest registree has a device in their possession as they hit
-the button.
+the 'Register' button.
 {: shortdesc}
 
 ## About
 
 In this sample, you’ll build out a serverless App on IBM Bluemix that will
-verify your customer has the phone they are registering. When he or she hits
-the register button, they will be texted a code which will need to be
+verify your customers have the phones they register. When they hit
+that 'Register' button, they will be texted a code which will need to be
 presented to the App to continue. This quickstart is based on
 [our Phone Verification with Node.js tutorial](https://www.twilio.com/docs/tutorials/account-verification-node-express){: new_window}.
 
-## Let's build it now!
+## Let's Build The App
+
 1. (Optional) On your phone, using your platform’s Application Store download
    the Authy application.
    * Exact steps are platform dependent, but you should link your phone number
@@ -46,13 +47,17 @@ presented to the App to continue. This quickstart is based on
    Account
 
 1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
-
-     ```
+   - Change the API Endpoint
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 1. Log into Bluemix Console and create a Twilio Phone Verification App
       <ol type="a">
