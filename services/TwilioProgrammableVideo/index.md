@@ -28,8 +28,8 @@ entertained and supported while constantly coming back.
 Today we’re going to go sans-servers and build out a sample Video application
 on top of IBM’s awesome Bluemix. We’ll use an adaptation of our
 [Node.js Quickstart Video Application](https://www.twilio.com/docs/api/video/quickstart-sample-apps){: new_window},
-with our JavaScript Client library for the browser.  You’ll also need to verify
-your browser has WebRTC support before continuing, and allow access to your
+with our JavaScript Client library for the browser. You’ll need to verify
+your browser has WebRTC support before continuing and allow access to your
 camera and microphone.
 
 ## Let's get started!

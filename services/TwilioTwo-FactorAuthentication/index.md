@@ -19,19 +19,19 @@ lastupdated: "2017-09-21"
 
 [Twilio’s Two-Factor Authentication](https://www.twilio.com/two-factor-authentication){: new_window}
 lets you easily build an additional measure of security into your login or
-verification process.  Using Twilio’s Authy Authenticator App on your mobile
+verification process. Using Twilio’s Authy Authenticator App on your mobile
 device, you can increase your confidence in the user logging in and help your
-users protect their accounts with easy-to-implement Two Factor Authentication.
+users protect their accounts with easy-to-implement Two-Factor Authentication.
 {: shortdesc}
 
 ## About
 
-Today we’re going to build a sample Two-Factor Authentication app... the
-serverless way... with IBM’s Bluemix, and IBM’s Compose for MongoDB on the
+Today we’re going to build a sample Two-Factor Authentication App the
+serverless way... with IBM’s Bluemix and the Compose for MongoDB integration on the
 backend. This example is based on our
 [Twilio Two-Factor Authentication Quickstart](https://github.com/TwilioDevEd/account-security-2fa-node){: new_window}.
 
-## Setting the project
+## Building the Project
 
 Follow these simple steps to get started with Twilio Two-Factor Authentication on
 Bluemix:
