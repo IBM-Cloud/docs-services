@@ -2,22 +2,17 @@
 
 Welcome to the [docs-services repository](https://github.com/IBM-Bluemix/docs-services/tree/staging) where you will create documentation for your service to be added to the Bluemix doc app.  
 
-You will have your own folder in the docs-services repository in which to develop your doc app content. Your IBM Liaison will notify you when your folder has been created and send you a link to access it.
-
-## Prerequisites
-Before getting started on your content, you will need to get a GitHub ID (https://github.com) and provide it to your IBM liaison who will enable write access to your GitHub folder.  You will also provide the IBM liaison with your official service name and the Bluemix catalog category it belongs in.
-
 # Required elements
 
-Your folder must contain two files:
-* A [Getting Started template](https://github.com/IBM-Bluemix/docs-services/blob/staging/getting_started_template/index.md) that is always named [index.md]
-* A [toc file](https://github.com/IBM-Bluemix/docs-services/blob/staging/toc) that has no file extension, which creates some of the page structure
+Your folder must contain at least the following two files:
+* A [Getting Started tutorial](https://github.com/IBM-Bluemix/docs-services/blob/staging/getting_started_template/index.md) that is always named [index.md]
+* A [toc file](https://github.com/IBM-Bluemix/docs-services/blob/staging/toc) for your navigation [toc]
 
-**Important:** These files are required. You can link to any of your existing documentation using the related links in the toc file and you can add additional files, as needed.
+**Important:** These files are required. You can link to any of your existing documentation by using the related links in the toc file and you can add additional files, as needed.
 
 These files are sourced in Markdown, a lightweight markup language, and managed in GitHub.  
 
-The Bluemix doc app builds all 3rd party service Markdown files from this GitHub location for all regions.
+The Bluemix build creates HTML 5 output from this GitHub location for all 3rd party services.
 
 ## Using the getting started template (Required)
 The getting started template (and using the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The product documentation provided for a service should enable your potential users to quickly determine that they want your service and then quickly get up and running with it. Any supplemental information you choose to add should be task-based and it should support the productive use of the service.
