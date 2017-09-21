@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -45,13 +45,17 @@ Bluemix:
 
 3. If necessary, download and install the
    [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
-
-     ```
+   - Change the API Endpoint
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 4. Create a new Bluemix App, naming it 'Twilio-Two-Factor' or similar (this
    name will be taken, so choose something memorable)
@@ -103,7 +107,7 @@ Bluemix:
 
 12. Clone our branch of the Two Factor Quickstart repository for Node:
 
-    ```
+    ```bash
     git clone -b bluemix-quickstart https://github.com/TwilioDevEd/account-security-2fa-node.git
     ```
     {: pre}
@@ -112,7 +116,7 @@ Bluemix:
 
 14. Push the application to Bluemix:
 
-    ```
+    ```bash
     Bluemix app push <Your Twilio App Name>
     ```
     {: pre}

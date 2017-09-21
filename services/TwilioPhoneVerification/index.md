@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2017-09-20"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with Twilio Account Verifiction
+# Getting started with Twilio Account Verification
 {: #gettingstarted_TwilioAccountVerification}
 
 
@@ -46,13 +46,17 @@ presented to the App to continue. This quickstart is based on
    Account
 
 1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
-
-     ```
+   - Change the API Endpoint
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 1. Log into Bluemix Console and create a Twilio Phone Verification App
       <ol type="a">

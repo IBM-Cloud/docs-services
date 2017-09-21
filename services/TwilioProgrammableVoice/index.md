@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -41,13 +41,17 @@ number, and you will need access to a WebRTC capable web browser.
 
 1. If necessary, download and install the [Bluemix Command Line
    Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
-
-     ```
+   - Change the API Endpoint
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 1. Log into Bluemix Console and create a Twilio Programmable Voice Service
 
@@ -94,12 +98,14 @@ number, and you will need access to a WebRTC capable web browser.
     ```bash
     git clone -b bluemix-quickstart https://github.com/TwilioDevEd/browser-dialer-react
     ```
+    {: pre}
 
 1. Deploy the application using the command line tools:
 
    ```bash
    bluemix app push <Your App Name>
    ```
+   {: pre}
 
 1. In a browser which supports WebRTC, visit `<your Bluemix URL>`.  Enter your
    cell phone number (or any voice capable phone or phone number) in the

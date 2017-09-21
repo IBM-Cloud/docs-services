@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -40,13 +40,18 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
    Account
 
 2. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
+   - Change the API Endpoint
 
-     ```
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 3. Log into Bluemix Console and create a Twilio App
 
@@ -55,8 +60,8 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
    ![Twilio app from Bluemix catalog](images/01-bluemix-catalog-twilio.png)
 
-4. In the ensuing screen, enter your `Account SID` and `Auth Token` from the
-   Twilio Console. In the Twilio Console, your credentials can be found here:
+4. In the following screen, enter your `Account SID` and `Auth Token` from the
+   [Twilio Console](https://www.twilio.com/console).
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
@@ -83,14 +88,14 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
 8. Locally, clone our sample application:
 
-   ```
+   ```bash
    git clone https://github.com/TwilioDevEd/twilio-bluemix-sms-quickstart.git
    ```
    {: pre}
 
 9. Deploy the application using the command line tools:
 
-   ```
+   ```bash
    bluemix app push <Your App Name>
    ```
    {: pre}

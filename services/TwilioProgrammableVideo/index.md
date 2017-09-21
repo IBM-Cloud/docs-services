@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-09-20"
+lastupdated: "2017-09-21"
 
 ---
 
@@ -39,13 +39,17 @@ camera and microphone.
    Account
 
 1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
-   - Change the API Endpoint and Login:
-
-     ```
+   - Change the API Endpoint
+     ```bash
      bluemix api https://api.ng.bluemix.net
+     ```
+     {: pre}
+
+   - And login
+     ```bash
      bluemix login
      ```
-     {: codeblock}
+     {: pre}
 
 1. Navigate to the [API Key Creation Screen](https://www.twilio.com/console/video/runtime/api-keys)
    in the Twilio Console. Create a new API Key, saving both the `Key` and the
@@ -60,7 +64,7 @@ camera and microphone.
    ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
-   Twilio Console. In the Twilio Console, your credentials can be found here:
+   [Twilio Console](https://www.twilio.com/console).
 
    ![Configure your Twilio Credentials](images/02-twilio-credentials.png)
 
