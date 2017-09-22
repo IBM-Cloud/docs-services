@@ -18,7 +18,7 @@ The Bluemix build creates HTML 5 output from this GitHub location for all 3rd pa
 The getting started template (and the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The documentation provided for a service should enable your potential users to quickly determine that they want your service and then to quickly get up and running with it. It also serves as a learning tool for users to understand concepts about the service and the platform, including using the CLI and setting up an environment. Guide your users in answering the "I created my offering instance, now what?" question.
 
 ### Using the Copyright and Last Updated header (Required)
-Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format as it is in the getting started template, as shown in the following example:
+Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must appear in your file in exactly the format as it is in the getting started template, as shown in the following example:
 
 ```
 ---
@@ -39,7 +39,7 @@ The copyright and lastupdated information must occur at the top of the MD file, 
   * Ensure that each time you update your Markdown topic, you also update the `lastupdated` date.
   
 ### Adding a unique ID (Required)
-After the H1 (`# Getting started with`) heading, there is a `{: #gettingstarted}` ID tag that you need to edit to make it unique to your service.  If you are onboardind a service named, "All but the kitchen sink" for example, then your unique ID could be:
+After the H1 (`# Getting started with`) heading, there is a `{: #gettingstarted}` ID tag that you need to edit to make it unique to your service.  If you are onboarding a service named, "All but the kitchen sink" for example, then your unique ID could be:
 
 `{: #gettingstarted_allbutkitchensink}`
 
@@ -103,9 +103,9 @@ After you copy the entire toc file contents:
 5. If you only provide a single link, to your base documentation, for example, remove the second line of link text.  
 6. Add your API documentation URL. You can change the link title `[API Documentation]` if you wish.
 7. We recommend that you provide sample apps for your customers to use. Include links under the Reference section of your toc file that point to these sample apps. At a minimum, provide your sample apps in Node and Java.
-8. If you want to add more files to your content, nesting additional files after the `index.md` file is as simple as indenting 4 spaces on the line beneath `index.md` and listiing the additional `<file>.md` files that you add to your folder. You can nest multiple levels of files.
+8. If you want to add more files to your content, nesting additional files after the `index.md` file is as simple as indenting 4 spaces on the line beneath `index.md` and listing the additional `<file>.md` files that you add to your folder. You can nest multiple levels of files.
 
-Notice that the `(URL)` values in the toc file are exernal links. You can add as many external links as you want. For example if I wanted to add a TOC entry for an API in API explorer, I could add: `[REST API](https://sample-console.{DomainName}/apidocs)` to my toc map file under the Reference section of the toc.
+Notice that the `(URL)` values in the toc file are external links. You can add as many external links as you want. For example if I wanted to add a TOC entry for an API in API explorer, I could add: `[REST API](https://sample-console.{DomainName}/apidocs)` to my toc map file under the Reference section of the toc.
 
 **Tip**: Keep in mind that the search results are generated from your TOC. (A search is generated from the TOC JSON file.) One of the ways you can improve SEO is to ensure that your TOC contains the critical topics you want your customers to find.
 
@@ -218,11 +218,11 @@ The Markdown used for Bluemix is based on GitHub-flavored Markdown. The followin
 Bluemix has designed a parser that transforms Markdown into HTML5. Because the syntax available in standard Markdown is limited, the Bluemix team has developed Extensions to provide an enhanced authoring experience. These extensions provide key features available in DITA today, adding, for example, the ability to use metadata attributes and content references in Markdown. This document provides instructions for using these extensions.
 
 ## Markdown editors
-If you choose not to edit your content in the browswer UI, there are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. You can use [Atom](https://atom.io) or [Orion](https://orionhub.org/).  Notepad ++ is compatible, and also supports YAML, which is used to define content reference keywords.
+If you choose not to edit your content in the browser UI, there are many free Markdown editors available, however, not all editors will honor the syntax used by Bluemix extensions. You can use [Atom](https://atom.io) or [Orion](https://orionhub.org/).  Notepad ++ is compatible, and also supports YAML, which is used to define content reference keywords.
 
-## Mappings between MarkDown and HTML 5
+## Mappings between Markdown and HTML 5
 
-|     Element     |   MarkDown (Git flavored)  |   HTML 5      |
+|     Element     |   Markdown (Git flavored)  |   HTML 5      |
 |-----------------|--------------------------|---------------|
 | **container**    | No equivalent.      | `<article>`   |
 | **title**       | `# ## ### ####`          | `<h1>...<h6> `|
@@ -241,7 +241,7 @@ If you choose not to edit your content in the browswer UI, there are many free M
 | **bold** | `**bold**` | `<strong>` |
 | **strikethrough** | `~~strikethrough~~` | `<del>` |
 | **monospace** | ``monospace`` | `<code>` | 	
-| **links** | You can create an inline link by wrapping link text in square brackets `( [ ] )`, and then wrapping the link in parenthesis `( ( ) )` immediately following the square brackets. <br><br> GFM will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL. <br><br>**Note**: to create an external link that opens in a new window, place the following attribute defintion at the top of your file: `{:new_window: target="_blank"}` and then use the following attribute after your link `[link](url){: new_window}` | `<a href="https://www.link.com">Link Text</a>` |
+| **links** | You can create an inline link by wrapping link text in square brackets `( [ ] )`, and then wrapping the link in parenthesis `( ( ) )` immediately following the square brackets. <br><br> GFM will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL. <br><br>**Note**: to create an external link that opens in a new window, place the following attribute definition at the top of your file: `{:new_window: target="_blank"}` and then use the following attribute after your link `[link](url){: new_window}` | `<a href="https://www.link.com">Link Text</a>` |
 | **blockquote** |  `In the words of Abraham Lincoln:`<br>`> Pardon my French` | `<blockquote>`<br>`<p>text</p>`<br>`</blockquote>` |
 | **image** |  `![alt text for my graphic](images/image_name.jpg)` | `<p><img src="images/1.png" alt="alt text"></p>` |
 | **video** |  `<video width="400px" controls>`<br>`<source src="mov_bbb.mp4" type="video/mp4">`<br>`<source src="mov_bbb.ogg" type="video/ogg">`<br>`Your browser does not support HTML5 video.`<br>`</video>` | `<video width="400px" controls>`<br>`<source src="video/BlueMix Mobile Data iOS Demo v2.mp4" type="video/mp4">`<br>`Your browser does not support HTML5 video.`<br>`</video>` |
@@ -253,14 +253,14 @@ If you choose not to edit your content in the browswer UI, there are many free M
 
 ## Bluemix extensions to Markdown
  The following Bluemix extensions to Markdown are supported:
- * Output all MarkDown markup to standard, valid HTML5 tags
- * Additonal attributes
+ * Output all Markdown markup to standard, valid HTML5 tags
+ * Additional attributes
  * Addition of headers and footers to the HTML output
  * Anchor IDs generated for all Headers
  * Output is fully accessible
  * Additional functionality
 
-### Additonal attributes
+### Additional attributes
 The Bluemix Markdown parser allows you to define additional attributes in Markdown. After your attributes are defined, you can apply these values to any markdown element, like headers, paragraphs, and codeblocks.
 
 You can use the Bluemix attributes extension to map the following attributes to an element:
@@ -271,7 +271,7 @@ You can use the Bluemix attributes extension to map the following attributes to 
 **Note**: Attributes, when defined and applied within a Markdown file, are output by the Bluemix Markdown parser by default. No additional parameters or flags need to be passed to the parser when the command is run.
 
 #### How attributes are defined in Markdown
-Attributes are defined at the top of your Markdown file. Each Attribute definition must be enclosed in curly brackets { }, and must contain a unique name. You can provide attribute definition values for `ID`, `Class`, and `Custom`, but none of these values are required. You can define any combination of these different attribute values. The Bluemix attribute definition implimentation is based on the Kramdown / Maraku Attribute Definiton extension: (http://kramdown.gettalong.org/syntax.html#attribute-list-definitions) as shown in the following example:
+Attributes are defined at the top of your Markdown file. Each Attribute definition must be enclosed in curly brackets { }, and must contain a unique name. You can provide attribute definition values for `ID`, `Class`, and `Custom`, but none of these values are required. You can define any combination of these different attribute values. The Bluemix attribute definition implementation is based on the Kramdown / Maraku Attribute Definition extension: (http://kramdown.gettalong.org/syntax.html#attribute-list-definitions) as shown in the following example:
 
 ```
 <!-- Attribute definition -->
@@ -289,7 +289,7 @@ In this example, the following attributes are used:
 * **.Custom** sets a custom attribute value. This value is optional. If I define a `Custom` value of `data-hd-programlang='java'` in my attribute, and I set this attribute on a heading, the HTML5 output will produce `<h1 data-hd-programlang='java'></h1>`.
 
 #### How attributes are applied in Markdown
-After you define your attribute at the top of your Markdown file, you can apply the attribute by adding a call to the name of your attribute at the end of the Markdown tag you want to bind your attribute to. The implimentation of Bluemix attribute usage is based on the Kramdown / Maraku Block/Span Inline Attribute Lists: http://kramdown.gettalong.org/syntax.html#inline-attribute-lists
+After you define your attribute at the top of your Markdown file, you can apply the attribute by adding a call to the name of your attribute at the end of the Markdown tag you want to bind your attribute to. The implementation of Bluemix attribute usage is based on the Kramdown / Maraku Block/Span Inline Attribute Lists: http://kramdown.gettalong.org/syntax.html#inline-attribute-lists
 
 To apply a defined attribute, call the name of the attribute surrounded by curly brackets, and pre-pended by a colon and a space: `{: Name}`
 
@@ -358,7 +358,7 @@ HTML5 output:
 
 #### Linking to an anchor ID for a heading
 
-You can link directly to a heading within a file using the heading anchor ID. You can link to sub-headings; it does not need to be the top-level heading. Use the automatically generated heading value based on the text that is defined in the heading (see Anchor IDs Generated for all Headeing), or add your own anchor ID to use for linking (see Changing an anchor ID on a heading). The following example for linking uses user-defined ID anchors for each heading, and the goal is to provide a link to content that is further down in the same file.
+You can link directly to a heading within a file using the heading anchor ID. You can link to sub-headings; it does not need to be the top-level heading. Use the automatically generated heading value based on the text that is defined in the heading, or add your own anchor ID to use for linking. The following example for linking uses user-defined ID anchors for each heading, and the goal is to provide a link to content that is further down in the same file.
 
 ```
 Headings and user-defined heading anchors for my file:
