@@ -15,7 +15,7 @@ These files are sourced in Markdown, a lightweight markup language, and managed 
 The Bluemix build creates HTML 5 output from this GitHub location for all 3rd party services.
 
 ## Using the getting started template (Required)
-The getting started template (and using the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The product documentation provided for a service should enable your potential users to quickly determine that they want your service and then quickly get up and running with it. Any supplemental information you choose to add should be task-based and it should support the productive use of the service.
+The getting started template (and the guideline comments it contains) provide a consistent look and feel to the documentation for all of the service across the Bluemix platform. The documentation provided for a service should enable your potential users to quickly determine that they want your service and then to quickly get up and running with it. It also serves as a learning tool for users to understand concepts about the service and the platform, including using the CLI and setting up an environment. Guide your users in answering the "I created my offering instance, now what?" question.
 
 ### Using the Copyright and Last Updated header (Required)
 Both the span of years your content has been published across, and the last date that you updated your content is included at the top of the getting started template.  It must apper in your file in exactly the format as it is in the getting started template, as shown in the following example:
@@ -44,9 +44,9 @@ After the H1 (`# Getting started with`) heading, there is a `{: #gettingstarted}
 `{: #gettingstarted_allbutkitchensink}`
 
 ### Adding a short description (Required)
-The short description should be 1-3 sentences that provide a very high level summary of your service. The purpose of the short description is to help your users determine, at a glance, that your service is the one they want to use.
+The short description should be 1-3 sentences that provide a very high level summary of your service. Clearly state the user's learning goal in the short description. Let the user know what he or she will get out of the tutorial. 
 
-On the line immediately following your 1-3 sentence description, ensure that you have preserved the following code in the getting started template so that the description displays properly:
+On the line immediately following your short description, ensure that you have preserved the following code in the getting started template so that the description displays properly:
 
 `{:shortdesc}`
 
@@ -59,8 +59,9 @@ The getting started steps should follow and provide information about how to int
 
 **Tips**
  * With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
- * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples. If they become more common, consider moving them into the docs flow as child task flows.)
- * Include code snippets in all programming languages that can be copied. (The getting started template provides the quick and easy coding to make code snippets easily copied.)
+ * Include the basic, most-common-use scenario steps to use the service or integrate it into the app. (Document edge cases in blogs as examples. If they become more common, consider moving them into the doc flow as child task flows.)
+ * Include task-oriented and descriptive steps with code examples that can be copied. (The getting started template provides the quick and easy coding to make code snippets easily copied.)
+ * For next steps, focus on the single thing the user needs to do next. Think "guided journey." 
 
 If you have additional tasks to use your service (after the getting started topic), you can create additional task topics (files). See **Creating additional topics** for more information.
 
@@ -111,52 +112,84 @@ Notice that the `(URL)` values in the toc file are exernal links. You can add as
 After you have your toc file created in GitHub, the Bluemix doc build picks this file up and generates your table of contents.
 
 # Optional elements
-In addition to the required elements, there are additional elements you can add, like other files with more information.
+In addition to the required elements, there are additional elements you can add, like other files with more information. Any supplemental information you choose to add should be task-based and it should support the productive use of the service. 
 
 ## Creating additional topics (optional)
-If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template. Example topics could be "Configuring x", "Administering y", "Creating z".  Troubleshooting information would then be the last section in the flow, including specific troubleshooting topics and error messages. The following example outline shows possible additional topics that you might want to add:
+If you do not have your service fully documented outside of the Bluemix doc app, you might choose to add topics (files) in addition to the getting started template. Organize your files under the respective nav groups in your toc file: **Learn**, **How To**, **Reference**, and **Help**. You define each of the nav groups based on the assigned ID, and you must use the assigned IDs. The doc app framework applies the appropriate nav group label at runtime. 
 
-**Example Outline:**
+Organize your files under the respective nav groups: **Learn**, **How To**, **Reference**, and **Help**. You define each of the nav groups based on the assigned ID, and you must use the assigned IDs. The doc app framework applies the appropriate nav group label at runtime. 
 
- * Getting started (index.md)
-   * About (about.md)
-   * Configuring x (configuring.md)
-      * child topics
-   * Administering y (administering.md)
-      * child topics
-   * Creating z (creating.md)
-      * child topics
-   * Troubleshooting (troubleshooting.md)
-      * child topics
-
-  The following toc file would create the structure for the previous example outline:
+Example `toc` source:
 
   ```
-  {:navgroup: .navgroup}
-  {:topicgroup: .topicgroup}
-
-  {: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
-  Name of service
-
-      {: .navgroup id="learn"}
-      index.md
-          about.md
-          configuring.md
-          administering.md
-          creating.md
-          troubleshooting.md
-
-      {: .topicgroup}
-      Related links
-          [Link text](URL)
-          [Link text](URL)
-      {: .navgroup-end}
-
-      {: .navgroup id="reference"}
-      Reference
-      [API Documentation](URL)
-      {: .navgroup-end}
+  {: .navgroup id="learn"}
+  index.md
+  account_type.md
+  {: .navgroup-end}
+    
+  {: .navgroup id="howto"}
+  {: .topicgroup}
+  Pricing
+      free.md
+      billable.md
+      how_charged.md
+      estimating_costs.md
+            
+  changing_plan.md
+    
+  {: .topicgroup}
+  Usage
+      viewing_usage.md
+      manage_usage.md
+        
+  linking_accounts.md
+  accessing_infrastructure.md
+  {: .navgroup-end}
+    
+  {: .navgroup id="help"}
+  account_faq.md
+  {: .navgroup-end}
   ```
+  {: codeblock}
+
+Example nav output:
+
+
+  ```
+Learn
+  Account types
+
+How to
+  Pricing
+    Creating free plans
+    Creating billable plans
+    Determining how charges are applied
+    Estimating costs
+  
+  Changing your plan
+  
+  Usage
+    Viewing your usage
+    Managing your usage
+    
+Help
+  Standard account FAQ
+
+  ```
+
+Use topic groups to group chunks of topics, if needed. You define the label displayed in the left nav for topic groups. Use gerunds for these labels. For example:
+
+  ```
+  {: .topicgroup}
+  Tutorials
+      tutorials/create_service.md
+      tutorials/create_database.md
+      tutorials/create_bmxapp.md
+  ```
+  {: codeblock}
+
+Make sure the `&` symbol isn't included in links in your `toc` file. In most cases, you can shorten the path of links by deleting the `&` symbol and everything that comes after the symbol. 
+
 
 ### Excluding unwanted headings
 
