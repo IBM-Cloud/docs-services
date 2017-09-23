@@ -2,8 +2,8 @@
 {: navgroup: .navgroup}
 {: topicgroup: .topicgroup}
 
-{: .toc subcollection="cognitiveengage" audience="service" href="/docs/services/cognitiveengage/index.html"}
-Cognitive Engage
+{: .toc subcollection="app-launch" audience="service" href="/docs/services/app-launch/index.html"}
+App Launch
 
     {: .navgroup id="learn"}
     index.md
@@ -11,7 +11,7 @@ Cognitive Engage
 
     {: .topicgroup}
     Basic steps
-		app_decide_eng.md
+	app_decide_eng.md
         app_feature.md
         app_audience_1.md     
     {: .navgroup-end}
