@@ -11,9 +11,10 @@ App Launch
 
     {: .topicgroup}
     Basic steps
-	app_decide_eng.md
-        app_feature.md
-        app_audience_1.md     
+		app_prerequisites.md
+		app_decide_eng.md
+        app_feature_toggle.md
+        app_feature_toggle.md    
     {: .navgroup-end}
     
     
