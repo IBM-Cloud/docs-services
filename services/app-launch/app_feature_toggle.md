@@ -39,5 +39,6 @@ Complete the following steps to create an engagement using the Feature Toggle:
 8. The new engagement now appears in the Engagement Details window.
 	![Selecting an audience](images/engagement_completed.gif)
 
+You can now measure the [performance]( of your engagement.
 
 
