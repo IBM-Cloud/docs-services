@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Yantra Financial Services" audience="service" href="/docs/services/Yantra Financial Services/index.html"}
+{: .toc subcollection="Ylabs" audience="service" href="/docs/services/Ylabs/index.html"}
 Ylabs
 
     {: .navgroup id="learn"}
