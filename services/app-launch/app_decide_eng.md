@@ -18,7 +18,7 @@ Last updated: 23 September 2017
 
 Once you have created an App Launch service, you can create an engagement. The following engagement types are supported:
 
-- [Messaging](feature_message.html)
-- [Feature Toggle](feature_toggle.html)
+- [Messaging](app_feature_message.html)
+- [Feature Toggle](app_feature_toggle.html)
 
 
