@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 23 September 2017
+Last updated: 24 September 2017
 {: .last-updated}
 
 
@@ -50,7 +50,6 @@ This is a mandatory prerequisite for creating a Feature Toggle or an engagement.
 7. The feature is now ready to be used.
 ![Feature ready to be used](images/feature_multiple_1.gif)
 
-You can now create an engagement using the [Feature Toggle](app_feature_message.html) option.
 
 ## Creating an audience
 {: #prerequisites_2}
@@ -89,4 +88,4 @@ This is a mandatory prerequisite for creating an engagement. Complete the follow
 
 	e. Click **Save**.
 
-You can now create an engagement using the [Messaging](app_feature_message.hmtl) option.
+You can now create an engagement using the [Feature Toggle](app_feature_message.html) option.
