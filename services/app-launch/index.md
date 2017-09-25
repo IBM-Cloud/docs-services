@@ -14,7 +14,7 @@ years: 2017
 
 # Getting started tutorial
 {: #gettingstartedtemplate}
-Last updated: 23 September 2017
+Last updated: 24 September 2017
 {: .last-updated}
 
 {:shortdesc}
@@ -24,7 +24,7 @@ The App Launch service is an IBM Bluemix experimental offering that empowers you
 The basic steps that will get you started:
 
 1. [Complete the prerequisites](/docs/services/app-launch/app_prerequisites.html)
-1. [Create an engagement](/docs/services/app-launch/app_decide_eng.html)
+1. [Create an engagement](/docs/services/app-launch/app_feature_toggle.html)
 2. [Measure the performance]()
 
 
