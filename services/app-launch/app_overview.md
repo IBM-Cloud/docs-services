@@ -13,7 +13,7 @@ copyright:
 {:tip: .tip}
 
 # About App Launch
-{: #engage_overview}
+{: #app_overview}
 Last updated: 23 September 2017
 {: .last-updated}
 
