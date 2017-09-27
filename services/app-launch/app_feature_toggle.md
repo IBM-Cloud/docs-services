@@ -10,26 +10,34 @@ copyright:
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-# Creating an engagement using Feature Toggle
-{: #feature_toggle}
-Last updated: 24 September 2017
+# Creating an engagement using Feature Control
+{: #feature_control}
+Last updated: 27 September 2017
 {: .last-updated}
 
-You can create an engagement using Feature Toggle. 
+You can create an engagement using Feature Control. 
 
 Ensure that you have gone through and have the necessary [prerequisites](app_prerequisites.html) in place.
 
-Complete the following steps to create an engagement using the Feature Toggle:
+Complete the following steps to create an engagement using the Feature Control:
 
 1. You can create an engagement using either of the following methods:
 	- Click **Engagements** in the navigation pane. 
 	- Select **Create Engagements** on the new Feature that you have created.
 	![Feature ready to be used](images/feature_creating.gif)
-2. The New Engagement window appears. 
-3. Select the custom feature that you have created. You can choose to set the default value of the feature to **On**. 
-	![Feature ready to be used](images/engagement_feature_1.gif)
+2. The New Engagement window appears.
+ 
+	![New engagement](images/engagement_feature_1.gif)
+3. Provide a name and description to your new engagement. Ensure that you give a unique engagement name, and not one that is already listed in Engagements.
+	
+	To do a controlled experiment with multiple variants of the feature, select **A/B testing** on the Experimentation Mode.
 
-4. Select an audience. 
+4. Click **Next**.
+5. Choose the Feature that you have created. You can also choose to add and define the variants that you might want to experiment with.
+	![Adding a feature and variants](images/engagement_feature_5.gif)
+
+5. Click **Next**.
+6. Select an audience. 
 	![Selecting an audience](images/engagement_feature_2.gif)
 
 5. Click **Next**.
@@ -39,6 +47,6 @@ Complete the following steps to create an engagement using the Feature Toggle:
 8. The new engagement now appears in the Engagement Details window.
 	![Selecting an audience](images/engagement_completed.gif)
 
-You can now measure the [performance]( of your engagement.
+You can now measure the [performance](app_measure_performance.html) of your engagement.
 
 

@@ -14,20 +14,21 @@ copyright:
 
 # About App Launch
 {: #app_overview}
-Last updated: 23 September 2017
+Last updated: 27 September 2017
 {: .last-updated}
 
-The App Launch is a service with which you can use to send targeted or customized notifications to specific audience groups.
+The App Launch is a service with which you can measure audience experiences and create customized customer engagements across various categories of your app users. 
 
 The salient features of the App Launch services are:
 
-* Context-sensitive push-notifications
-	
-	The App Launch service enables you to deliver specific and personalized messages based on the business context. 
 	
 * Customer insights based on app usage
 
 	The service gives you various perspectives on the collected app user data. 
+
+* Create variants of an engagement
+
+	You can design an engagement and experiment it across various audience segments using variants of the engagement. This helps you in understanding the reach and acceptance of an engagement.
 
 * Creating targeted audience groups
 

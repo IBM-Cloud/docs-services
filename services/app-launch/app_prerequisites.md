@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 24 September 2017
+Last updated: 27 September 2017
 {: .last-updated}
 
 
@@ -27,11 +27,22 @@ Last updated: 24 September 2017
 
 You can choose to create either a bound service or an unbound service. Bound services are connected to other Bluemix apps, while unbound apps are standalone and not connected to other apps. App Launch service apps are unbound by default.
 
+## Initializing your app
+{: #prerequisites_app}
+
+1. Click **Settings**.
+1. Download either of the SDK's, based on your platform type. You can alternatively download the SDK's at: 
+	- [iOS](https://github.ibm.com/Engage/bms-clientsdk-ios-swift-engage)
+	- [Android](https://github.ibm.com/Engage/bms-clientsdk-android-engage)
+
+2. Copy the configuration keys to initialize your App. Use the App Secret, App GUID, and Client Secret to configure your app and create engagements.
+
+![SDK and Keys](images/engagement_settings.gif)
 
 ## Creating a feature
 {: #prerequisites_2}
 
-This is a mandatory prerequisite for creating a Feature Toggle or an engagement. Complete the following steps:
+To create a feature, complete the following steps:
 
 1. Click **Features and Metrics** > **Create Feature**.
 
@@ -54,7 +65,7 @@ This is a mandatory prerequisite for creating a Feature Toggle or an engagement.
 ## Creating an audience
 {: #prerequisites_2}
 
-This is a mandatory prerequisite for creating an engagement. Complete the following steps:
+To create an audience, complete the following steps:
 
 1. Create an audience attribute. 
 
@@ -88,4 +99,4 @@ This is a mandatory prerequisite for creating an engagement. Complete the follow
 
 	e. Click **Save**.
 
-You can now create an engagement using the [Feature Toggle](app_feature_message.html) option.
+You can now create an engagement using the [Feature Control](app_feature_message.html) option.
