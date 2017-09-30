@@ -1,19 +1,20 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Ylabs" audience="service" href="/docs/services/Ylabs/index.html"}
-Ylabs
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+Product name
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Getting Started with Ylabs](https://www.ylabs.io/)
-        
+        [Link text](URL)
+        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Ylabs Developer Portal](https://ylabs.gelato.io/developers/new?protected=1)
+    [API Documentation](URL)
     {: .navgroup-end}
+    
