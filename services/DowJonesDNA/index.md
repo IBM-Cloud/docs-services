@@ -26,7 +26,7 @@ The Dow Jones DNA Platform APIs, available in the IBM Bluemix catalog, allow use
 
 For full access, follow the these quick steps: 
 
-1. [Register for a developer account](go.dowjones.com/ibm-bluemix)  
+1. [Register for a developer account](http://go.dowjones.com/ibm-bluemix)  
 2. Check your inbox for an email from one of our Solutions Engineers
   
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
