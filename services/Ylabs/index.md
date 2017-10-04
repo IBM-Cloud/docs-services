@@ -30,28 +30,13 @@ The Ylabs Marketplace is complete banking stack, with APIs for compliant account
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
-<!-- Task section: REQUIRED
-The task section includes steps to integrate the service into the app.  
-- With task-based, technical information, reduce the conversational style in favor of succinct and direct instructions.
-- DO include the basic, most-common-use scenario steps to use the service or integrate it into the app. 
-- DO NOT include steps to add the service from the Bluemix catalog; we assume that the user already took steps in the UI to add the service. 
-- DO include code snippets in all languages that can be copied, as well as VCAP service info.  
-- For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
+Before an application developer can access the Ylabs APIs, they need to submit a product request. A product is an assembly of features, wrapped under the security and compliance layer.
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
-
-1. Before an application developer can access the Ylabs APIs, they need to submit a product request. A product is an assembly of features, wrapped under the security and compliance layer.
-2. Once the product request is submitted, the product needs to be approved at the backend. It is typically done within a few minutes, after which the developer receives an email notification on the email address registered during product request. The email gives instructions on how to log in to the developer portal and also the unique token that the developer will need to use to run the API via the sandbox explorer.
-3. In order to access the APIs externally (outside the developer portal) and to integrate them with their front end, the developer will have to supply one or more static IP addresses for white-listing.
-4. Ylabs provides free 1000 trial credits. If the developer would like to continue their subscription, they will need to upgrade to a paid account. Account upgrade information is provided in the instruction email.
-5. The headers to be used, while sending API requests, are also provided in the instructions.
-6. Once the developer logs into the developer portal, there are different resources such as 'Docs', 'Guides' and 'Explorer'. The 'Docs' section contains API documentation, 'Guides' contains a reference product implementation, beginner's guide and version management, and 'Explorer' is the place where a developer can send sample API requests to the sandbox and receive responses, while logged into the developer portal.
-<!-- Use ordered list markup for the step section. For code examples: 
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
+1. After the product request is submitted, the product needs to be approved at the backend. It is typically done within a few minutes, after which the developer receives an email notification on the email address registered during product request. The email gives instructions on how to log in to the developer portal and also the unique token that the developer will need to use to run the API via the sandbox explorer.
+2. In order to access the APIs externally (outside the developer portal) and to integrate them with their front end, the developer will have to supply one or more static IP addresses for white-listing.
+3. Ylabs provides free 1000 trial credits. If the developer would like to continue their subscription, they will need to upgrade to a paid account. Account upgrade information is provided in the instruction email.
+4. The headers to be used, while sending API requests, are also provided in the instructions.
+5. Once the developer logs into the developer portal, there are different resources such as 'Docs', 'Guides' and 'Explorer'. The 'Docs' section contains API documentation, 'Guides' contains a reference product implementation, beginner's guide and version management, and 'Explorer' is the place where a developer can send sample API requests to the sandbox and receive responses, while logged into the developer portal.
 
 
 ## About
