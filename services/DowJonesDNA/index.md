@@ -19,9 +19,11 @@ lastupdated: "2017-09-29"
 #Dow Jones DNA Platform
 {: #gettingstarted_DowJonesDNAAPI}
 
-The Dow Jones DNA Platform APIs, available in the IBM Bluemix catalog, allow users to extract historical knowledge from Dow Jones and licensed third-party premium news sources, to be used for text mining, identifying market trends and driving machine learning initiatives. {:shortdesc}
+The Dow Jones DNA Platform APIs, available in the IBM Bluemix catalog, allow users to extract historical knowledge from Dow Jones and licensed third-party premium news sources, to be used for text mining, identifying market trends and driving machine learning initiatives.
 
-Click here to test a subset of DNA Platform’s content today](https://bigquery.cloud.google.com/dataset/dowjones-com:sample)
+{:shortdesc}
+
+[Click here to test a subset of DNA Platform’s content today](https://bigquery.cloud.google.com/dataset/dowjones-com:sample)
 
 For full access, follow the these quick steps: 
 
