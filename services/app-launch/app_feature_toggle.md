@@ -12,12 +12,15 @@ copyright:
 
 # Creating an engagement using Feature Control
 {: #feature_control}
-Last updated: 27 September 2017
+Last updated: 05 October 2017
 {: .last-updated}
 
 You can create an engagement using Feature Control. 
 
 Ensure that you have gone through and have the necessary [prerequisites](app_prerequisites.html) in place.
+
+The following image gives you an overview of the steps that needs to be completed for creating a feature.
+	![Feature ready to be used](images/feature_animated.gif)
 
 Complete the following steps to create an engagement using the Feature Control:
 
