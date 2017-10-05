@@ -1,0 +1,21 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Ylabs" audience="service" href="/docs/services/Ylabs/index.html"}
+Ylabs
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [YLabs - Beginner's Guide](https://ylabs.gelato.io/guides/ylabs-marketplace-beginner-s-guide)
+        [How to Use your Token](https://ylabs.gelato.io/guides/how-to-use-your-api-token)
+        [Reference Implementation](https://ylabs.gelato.io/guides/reference-product-implementation-consumer)
+        
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Ylabs Developer Portal](https://ylabs.gelato.io/developers/new?protected=1)
+    {: .navgroup-end}

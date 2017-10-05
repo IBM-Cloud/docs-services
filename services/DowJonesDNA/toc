@@ -1,19 +1,19 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DowJonesDNA" audience="service" href="/docs/services/DowJonesDNA/index.html"}
-Dow Jones DNA
+{: .toc subcollection="DNA" audience="service" href="/docs/services/DNA/index.html"}
+Dow Jones DNA API
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [Dow Jones DNA resources](https://developer.dowjones.com/site/global/develop/introduction/index.gsp)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+    [Overview of the DNA Snapshots API](https://developer.dowjones.com/site/global/develop/analytics_and_services/snapshots/index.gsp)
+    [Detailed description of DNA Snapshpots API Endpoints](https://developer.dowjones.com/site/global/develop/analytics_and_services/snapshots/api_reference/)
     {: .navgroup-end}
