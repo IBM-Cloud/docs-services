@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 27 September 2017
+Last updated: 06 October 2017
 {: .last-updated}
 
 
@@ -41,6 +41,13 @@ You can choose to create either a bound service or an unbound service. Bound ser
 
 ## Creating a feature
 {: #prerequisites_2}
+
+The {{site.data.keyword.engageshort}} service allows you to create and test responses to features. 
+
+Consider the following new feature being rolled out for a Pizza outlet - **Touch ID Checkout**. Note that this appears only to a select customer base, and would be in addition to the existing checkout button.
+
+![SDK and Keys](images/feature_touchid_checkout.gif)
+
 
 To create a feature, complete the following steps:
 
@@ -99,4 +106,4 @@ To create an audience, complete the following steps:
 
 	e. Click **Save**.
 
-You can now create an engagement using the [Feature Control](app_feature_message.html) option.
+You can now create an engagement using the [Feature Control](app_feature_toggle.html) option.
