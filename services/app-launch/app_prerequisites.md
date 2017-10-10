@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 06 October 2017
+Last updated: 10 October 2017
 {: .last-updated}
 
 
@@ -42,7 +42,7 @@ You can choose to create either a bound service or an unbound service. Bound ser
 ## Creating a feature
 {: #prerequisites_2}
 
-The {{site.data.keyword.engageshort}} service allows you to create and test responses to features. 
+The {{site.data.keyword.engage_short}} service allows you to create and test responses to features. 
 
 Consider the following new feature being rolled out for a Pizza outlet - **Touch ID Checkout**. Note that this appears only to a select customer base, and would be in addition to the existing checkout button.
 
