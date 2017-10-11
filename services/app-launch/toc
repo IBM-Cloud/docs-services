@@ -15,6 +15,13 @@ App Launch
 		app_feature_toggle.md
 		app_measure_performance.md    
     {: .navgroup-end}
+	
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    SDK
+        [Android SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-android-applaunch)
+        [iOS SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch)	
+    {: .navgroup-end}
     
     
 
