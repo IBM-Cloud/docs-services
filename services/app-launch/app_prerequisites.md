@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 10 October 2017
+Last updated: 11 October 2017
 {: .last-updated}
 
 
@@ -31,7 +31,7 @@ You can choose to create either a bound service or an unbound service. Bound ser
 {: #prerequisites_app}
 
 1. Click **Settings**.
-1. Download either of the SDK's, based on your platform type. You can alternatively download the SDK's at: 
+1. Download either of the SDK's, based on your platform type:
 	- [iOS](https://github.ibm.com/Engage/bms-clientsdk-ios-swift-engage)
 	- [Android](https://github.ibm.com/Engage/bms-clientsdk-android-engage)
 
