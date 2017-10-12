@@ -13,7 +13,7 @@ copyright:
 
 # Analyzing the feature response
 {: #applaunch_type}
-Last updated: 11 October 2017
+Last updated: 12 October 2017
 {: .last-updated}
 
 App Launch empowers you to create and collect Feature Metrics for the various engagements that you have created.
@@ -31,9 +31,9 @@ Complete the following steps to collect metrics for the engagements that you hav
 	![Information on the engagement](images/engagement_performance.gif)
 
 
-The graph gives you real-time insights on how the feature was received by the target audience. You can use the information to understand the highlights or pain points and hence make further customization to the feature before the roll out.
+The graph gives you real-time insights on how the feature was received by the target audience. You can use the information to understand the highlights or pain points and hence make further customization to the feature before rolling out the feature to broader audience.
 	
-	![Information on the engagement](images/engagement_graph.gif)
+![Information on the engagement](images/engagement_graph.gif)
  
 
 

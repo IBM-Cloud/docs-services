@@ -12,7 +12,7 @@ copyright:
 
 # Creating an engagement using Feature Control
 {: #feature_control}
-Last updated: 05 October 2017
+Last updated: 12 October 2017
 {: .last-updated}
 
 You can create an engagement using Feature Control. 
@@ -27,6 +27,7 @@ Complete the following steps to create an engagement using the Feature Control:
 1. You can create an engagement using either of the following methods:
 	- Click **Engagements** in the navigation pane. 
 	- Select **Create Engagements** on the new Feature that you have created.
+	- In the navigation pane, click **Overview** > **Create New Engagement** .
 	![Feature ready to be used](images/feature_creating.gif)
 2. The New Engagement window appears.
  

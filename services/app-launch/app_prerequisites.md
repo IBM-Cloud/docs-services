@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 11 October 2017
+Last updated: 12 October 2017
 {: .last-updated}
 
 
@@ -25,7 +25,7 @@ Last updated: 11 October 2017
 4. Click **Create**.
 
 
-You can choose to create either a bound service or an unbound service. Bound services are connected to other Bluemix apps, while unbound apps are standalone and not connected to other apps. App Launch service apps are unbound by default.
+You can choose to create either a bound service or an unbound service. Bound services are connected to other Bluemix apps, while unbound services are standalone and not connected to other apps. App Launch service apps are unbound by default.
 
 ## Initializing your app
 {: #prerequisites_app}
@@ -44,14 +44,14 @@ You can choose to create either a bound service or an unbound service. Bound ser
 
 The {{site.data.keyword.engage_short}} service allows you to create and test responses to features. 
 
-Consider the following new feature being rolled out for a Pizza outlet - **Touch ID Checkout**. Note that this appears only to a select customer base, and would be in addition to the existing checkout button.
+Consider a case where a Pizza ordering app would want to offer a subset of iOS customers a seamless checkout process using TouchID. This new feature will display a new button, titled **Touch ID Checkout** in addition to the regular checkout button.
 
 ![SDK and Keys](images/feature_touchid_checkout.gif)
 
 
 To create a feature, complete the following steps:
 
-1. Click **Features and Metrics** > **Create Feature**.
+1. Click **Features & Metrics** > **Create Feature**.
 
 2. Update the Create New Feature and Metrics form with an appropriate feature name and description. You can also define the feature properties and add metrics to measure the impact of your engagement.
 
@@ -65,7 +65,9 @@ To create a feature, complete the following steps:
 
 6. Click **Update Status**.
 
-7. The feature is now ready to be used.
+7. Update your app to include the newly created attributes and feature codes in your iOS or Android App. 
+
+8. The feature is now ready to be used.
 ![Feature ready to be used](images/feature_multiple_1.gif)
 
 
