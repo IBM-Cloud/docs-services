@@ -12,7 +12,7 @@ copyright:
 
 # Prerequisites
 {: #prerequisites}
-Last updated: 12 October 2017
+Last updated: 13 October 2017
 {: .last-updated}
 
 
@@ -43,11 +43,6 @@ You can choose to create either a bound service or an unbound service. Bound ser
 {: #prerequisites_2}
 
 The {{site.data.keyword.engage_short}} service allows you to create and test responses to features. 
-
-Consider a case where a Pizza ordering app would want to offer a subset of iOS customers a seamless checkout process using TouchID. This new feature will display a new button, titled **Touch ID Checkout** in addition to the regular checkout button.
-
-![SDK and Keys](images/feature_touchid_checkout.gif)
-
 
 To create a feature, complete the following steps:
 

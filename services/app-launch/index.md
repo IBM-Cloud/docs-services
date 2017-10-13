@@ -14,12 +14,14 @@ years: 2017
 
 # Getting started tutorial
 {: #gettingstartedtemplate}
-Last updated: 10 October 2017
+Last updated: 13 October 2017
 {: .last-updated}
 
 {:shortdesc}
 
-The {{site.data.keyword.engage_full}} is an experimental offering that empowers you to measure customer experiences by providing a platform to create targeted engagements across various cross-sections of your audience. The {{site.data.keyword.engage_short}} service provides insights into customer preferences and pain points as an outcome of the engagements, and helps you personalize the app for better customer experience.
+
+The {{site.data.keyword.engage_full}} enables app owners to launch features to mobile apps at speed and measure their impact by controlling the targeted audience. The app owner can work with app developers to define key performance indicators for the features, collect responses and decide on feature roll-outs or roll-backs. The service also provides ability to test multiple variants of application features, user interface and messages and empower you to make decisions based on the feedback.
+
 
 The basic steps that will get you started:
 
