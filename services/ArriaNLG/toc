@@ -9,11 +9,12 @@ Natural Language Generation APIs
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [Getting Your Credentials](https://nlgapi.arria.com/documentation/credentials.html)
+        [Using the Predictive Market Stress Testing Narrative API](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+    [Example Input Data](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)
+    [Example Output Data](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing_output.json)
 {: .navgroup-end}
