@@ -28,7 +28,7 @@ With Arria’s Natural Language Generation APIs, you can quickly and easily inte
 To use Arria’s APIs, it is important that you understand the basics of RESTful web services and JSON representations.
 Through Bluemix, you bind Arria’s Natural Language Generation APIs service to your application in the same way that you would add any service available on Bluemix. 
 
-You need cURL, or another data transfer tool, installed before you can use the service. To get the sample JSON files available for use with Arria’s NLG APIs, see the [Natural Language Generation APIs Service Sample Data Set](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)[link](url){: new_window}.
+You need cURL, or another data transfer tool, installed before you can use the service. To get the sample JSON files available for use with Arria’s NLG APIs, see the [Natural Language Generation APIs Service Sample Data Set](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)(url){: new_window}.
 
 Use the following steps to access Arria’s Natural Language Generation APIs service, one of Arria’s sample NLG APIs:
 1.	Get your credentials.
@@ -36,33 +36,33 @@ Use the following steps to access Arria’s Natural Language Generation APIs ser
 3.	Connect the Natural Language Generation APIs service to your application.
 4.	Call the Natural Language Generation APIs service.
 
-More detailed information for each of the main steps is provided in the following sections.
+More detailed information for each of the main steps is provided in the sections that follow.
 
 ## Getting your credentials
 
 You can obtain the credentials you need to access the Natural Language Generation APIs service by signing up with Arria NLG for a trial account. Follow the instructions [here]
-(https://nlgapi.arria.com/documentation/credentials.html)[link](url){: new_window}.
+(https://nlgapi.arria.com/documentation/credentials.html)(url){: new_window}.
 
 
 ## Trying out creating a narrative
 
-The Predictive Market Stress Testing Narrative API preview dialog is the place to test out the Natural Language Generation APIs service. Maybe you already tried it out when you were getting your credentials? If not, follow the instructions here  to try out creating a narrative. You can use this [sample JSON file](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)[link](url){: new_window}.
+The Predictive Market Stress Testing Narrative API preview dialog is the place to test out the Natural Language Generation APIs service. Maybe you already tried it out when you were getting your credentials? If not, follow the instructions [here](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html)(url){: new_window} to try out creating a narrative. You can use this [sample JSON file](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)(url){: new_window}.
 ![Predictive Market Stress Testing Narrative API preview dialog](images/PMST Narrative API.jpg)
 
 ## Connecting the service to your application
 
-In the Bluemix console, once you have added your credentials in the Add Service form for the Natural Language Generation APIs service, you click the Create button [need button name to be confirmed]. After that, you should see the service in your Dashboard.
+In the Bluemix console, once you have added your credentials in the Add Service form for the Natural Language Generation APIs service, you click the **Create** button. After that, you should see the service in your Dashboard.
 
 Now you connect the Natural Language Generation APIs service to your application, then restage your application.
 1.	Click the service name in your Services list.
-2.	In the information page for the service, navigate to Connections and click the Create Connection button.
-3.	In the row for your application, click the Connect button.
-4.	In the Restage App dialog, click Restage to restage your application with the new service connection. 
+2.	In the information page for the service, navigate to Connections and click the **Create Connection** button.
+3.	In the row for your application, click the **Connect** button.
+4.	In the Restage App dialog, click **Restage** to restage your application with the new service connection. 
 
 
 ## Calling the Natural Language Generation APIs service
 
-Once you have gotten a preview of the narrative output from your JSON file, you can decide what you want to do with NLG in your application. Follow the instructions [here](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html)[link](url){: new_window} to see an example API call and to apply the API key in your requests.
+Once you have gotten a preview of the narrative output from your JSON file, you can decide what you want to do with NLG in your application. Follow the instructions [here](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html)(url){: new_window} to see an example API call and to apply the API key in your requests.
 
 
 ## About Arria NLG
@@ -73,5 +73,4 @@ In the Predictive Market Stress Testing starter kit, for example, one of Arria�
 
 Arria NLG technology captures industry expertise and the interpretation strategy of the expert. Other NLG systems simply automate the generation of predictive text. 
 Arria NLG technology is based on over 30 years of data science and computational linguistic expertise. Other NLG systems are fairly new and may bump into Arria’s patents as they progress.
-For additional information, visit www.arria.com. Follow Arria NLG on Twitter, LinkedIn, Google+ and YouTube.
-
+For additional information, visit [www.arria.com](https://www.arria.com/)(url){: new_window}. Follow Arria NLG on [Twitter](https://twitter.com/ArriaNLG)(url){: new_window}, [LinkedIn](https://www.linkedin.com/company/arria-nlg/)(url){: new_window}, [Google+](https://plus.google.com/101196721072588368920)(url){: new_window} and [YouTube](https://www.youtube.com/user/ARRIAnlg){: new_window}.
