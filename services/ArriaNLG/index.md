@@ -46,7 +46,7 @@ You can obtain the credentials you need to access the Natural Language Generatio
 
 ## Trying out creating a narrative
 
-The Predictive Market Stress Testing Narrative API preview dialog is the place to test out the Natural Language Generation APIs service. Maybe you already tried it out when you were getting your credentials? If not, follow the instructions [here](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html)(url){: new_window} to try out creating a narrative. You can use this [sample JSON file](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json){: new_window}.
+The Predictive Market Stress Testing Narrative API preview dialog is the place to test out the Natural Language Generation APIs service. Maybe you already tried it out when you were getting your credentials? If not, follow the instructions [here](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html){: new_window} to try out creating a narrative. You can use this [sample JSON file](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json){: new_window}.
 ![Predictive Market Stress Testing Narrative API preview dialog](images/PMST Narrative API.jpg)
 
 ## Connecting the service to your application
