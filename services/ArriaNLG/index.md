@@ -40,8 +40,7 @@ More detailed information for each of the main steps is provided in the sections
 
 ## Getting your credentials
 
-You can obtain the credentials you need to access the Natural Language Generation APIs service by signing up with Arria NLG for a trial account. Follow the instructions [here]
-(https://nlgapi.arria.com/documentation/credentials.html){: new_window}.
+You can obtain the credentials you need to access the Natural Language Generation APIs service by signing up with Arria NLG for a trial account. Follow the instructions [here](https://nlgapi.arria.com/documentation/credentials.html){: new_window}.
 
 
 ## Trying out creating a narrative
