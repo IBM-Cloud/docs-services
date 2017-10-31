@@ -52,15 +52,15 @@ Now you connect the Natural Language Generation APIs service to your application
 
 ## Calling the Natural Language Generation APIs service
 
-Once you have gotten a preview of the narrative output from the JSON file, you can decide what you want to do with NLG in your application. Follow the [instructions](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html){: new_window} to see an example API call and to apply the API key in your requests.
+Once you have gotten a preview of the narrative output from the JSON file, you can decide what you want to do with NLG in your application. Follow the instructions [to generate a narrative](https://nlgapi.arria.com/documentation/predictive_market_stress_testing_doc.html){: new_window} to see an example API call and to apply the API key in your requests.
 
 
 ## About Arria NLG
 
-Arria’s Natural Language Generation (NLG) solutions enjoy a substantial competitive edge in the market place for a few important reasons. Arria NLG technology extracts key insights directly from underlying data to create unique data-driven narratives every time. Other NLG systems are also data-driven but limited by predetermined “ﬁll in the blanks” templated narratives. 
+Arria’s Natural Language Generation (NLG) solutions enjoy a substantial competitive edge in the marketplace for a few important reasons. Arria NLG technology extracts key insights directly from underlying data to create unique data-driven narratives every time. Other NLG systems are also data-driven but limited by predetermined “ﬁll in the blanks” templated narratives. 
 
 In the Predictive Market Stress Testing starter kit, for example, one of Arria’s Natural Language Generation APIs teams up with three other Bluemix services to generate a correlated market stress test and analysis that lets investors see what different market conditions would do to an investment portfolio. One service loads the end user’s investment portfolio. Another service creates scenarios to run for predicting outcomes of market changes. The third runs an analysis and displays a table with current values as well as stressed values (those resulting from the chosen scenario). Arria’s Natural Language Generation API provides supplemental narrative analysis that appears as if human-written, calling out and describing the most important facts and ideas—from the perspective of a wealth manager or research analyst—that can be derived from the data displayed.
 
 Arria NLG technology captures industry expertise and the interpretation strategy of the expert. Other NLG systems simply automate the generation of predictive text. 
-Arria NLG technology is based on over 30 years of data science and computational linguistic expertise. Other NLG systems are fairly new and may bump into Arria’s patents as they progress.
+Arria NLG technology is based on over 30 years of data science and computational linguistics expertise. Other NLG systems are fairly new and may bump into Arria’s patents as they progress.
 For additional information, visit [www.arria.com](https://www.arria.com/){: new_window}. Follow Arria NLG on [Twitter](https://twitter.com/ArriaNLG){: new_window}, [LinkedIn](https://www.linkedin.com/company/arria-nlg/){: new_window}, [Google+](https://plus.google.com/101196721072588368920){: new_window} and [YouTube](https://www.youtube.com/user/ARRIAnlg){: new_window}.
