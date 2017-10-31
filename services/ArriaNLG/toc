@@ -16,5 +16,7 @@ Natural Language Generation APIs
     {: .navgroup id="reference"}
     Reference
     [Example Input Data](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing.json)
+    [Java to JSON Input Mapping](https://nlgapi.arria.com/assets/data/samples/PMST_Java_to_JSON_input_mapping.zip)
     [Example Output Data](https://nlgapi.arria.com/assets/data/samples/predictive_market_stress_testing_output.json)
+    
     {: .navgroup-end}
