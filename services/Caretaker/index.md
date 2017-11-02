@@ -43,15 +43,16 @@ The task section includes steps to integrate the service into the app.
 - DO include code snippets in all languages that can be copied, as well as VCAP service info.  
 - For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
+<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: 
+Before an application developer can ....  -->
 
-Before an application developer can embed single sign-on capability into an app, the administrator must create unbound service instances by using the Bluemix user interface.
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
 To integrate your app with the service, complete these steps: -OR-
 To get up and running quickly with this service, follow these steps: -OR-
-Complete these steps to get started with the BigInsights service:
+Complete these steps to get started with the service:
+
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
