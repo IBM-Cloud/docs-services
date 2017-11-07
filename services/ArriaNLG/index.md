@@ -65,4 +65,4 @@ In the Predictive Market Stress Testing starter kit, for example, one of Arriaâ€
 
 Arria NLG technology captures industry expertise and the interpretation strategy of the expert. Other NLG systems simply automate the generation of predictive text. 
 Arria NLG technology is based on over 30 years of data science and computational linguistics expertise. Other NLG systems are fairly new and may bump into Arriaâ€™s patents as they progress.
-For additional information, visit [www.arria.com](https://www.arria.com/){: new_window}. Follow Arria NLG on [Twitter](https://twitter.com/ArriaNLG){: new_window}, [LinkedIn](https://www.linkedin.com/company/arria-nlg/){: new_window}, [Google+](https://plus.google.com/101196721072588368920){: new_window} and [YouTube](https://www.youtube.com/user/ARRIAnlg){: new_window}.
+For additional information, visit [www.arria.com](https://www.arria.com/){: new_window}. Follow Arria NLG on [Twitter](https://twitter.com/ArriaNLG){: new_window}, [LinkedIn](https://www.linkedin.com/company/arria-nlg/){: new_window}, and [YouTube](https://www.youtube.com/user/ARRIAnlg){: new_window}.
