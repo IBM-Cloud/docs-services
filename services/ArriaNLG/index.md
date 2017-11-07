@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-10-31"
+lastupdated: "2017-11-07"
 
 ---
 
@@ -26,9 +26,11 @@ With Arria’s Natural Language Generation APIs, you can quickly and easily inte
 ## Before you begin
 
 To use Arria’s APIs, it is important that you understand the basics of RESTful web services and JSON representations.
-Through Bluemix, you bind Arria’s Natural Language Generation APIs service to your application in the same way that you would add any service available on Bluemix. 
+Through IBM Cloud, you bind Arria’s Natural Language Generation APIs service to your application in the same way that you would add any service available on IBM Cloud. 
 
 You need cURL, or another data transfer tool, installed before you can use the service.
+
+**Note:** Arria's NLG APIs are best viewed using the latest version of your web browser. Please use the most up-to-date version of Google Chrome, Internet Explorer, Firefox, or Safari.
 
 ## Getting your credentials
 
@@ -41,7 +43,7 @@ The Predictive Market Stress Testing Narrative API preview dialog is the place t
 
 ## Connecting the service to your application
 
-In the Bluemix console, once you have added your credentials in the Add Service form for the Natural Language Generation APIs service, you click the **Create** button. After that, you should see the service in your Dashboard.
+In the IBM Cloud console, once you have added your credentials in the Add Service form for the Natural Language Generation APIs service, you click the **Create** button. After that, you should see the service in your Dashboard.
 
 Now you connect the Natural Language Generation APIs service to your application, then restage your application.
 1.	Click the service name in your Services list.
@@ -59,7 +61,7 @@ Once you have gotten a preview of the narrative output from the JSON file, you c
 
 Arria’s Natural Language Generation (NLG) solutions enjoy a substantial competitive edge in the marketplace for a few important reasons. Arria NLG technology extracts key insights directly from underlying data to create unique data-driven narratives every time. Other NLG systems are also data-driven but limited by predetermined “ﬁll in the blanks” templated narratives. 
 
-In the Predictive Market Stress Testing starter kit, for example, one of Arria’s Natural Language Generation APIs teams up with three other Bluemix services to generate a correlated market stress test and analysis that lets investors see what different market conditions would do to an investment portfolio. One service loads the end user’s investment portfolio. Another service creates scenarios to run for predicting outcomes of market changes. The third runs an analysis and displays a table with current values as well as stressed values (those resulting from the chosen scenario). Arria’s Natural Language Generation API provides supplemental narrative analysis that appears as if human-written, calling out and describing the most important facts and ideas—from the perspective of a wealth manager or research analyst—that can be derived from the data displayed.
+In the Predictive Market Stress Testing starter kit, for example, one of Arria’s Natural Language Generation APIs teams up with three other IBM Cloud services to generate a correlated market stress test and analysis that lets investors see what different market conditions would do to an investment portfolio. One service loads the end user’s investment portfolio. Another service creates scenarios to run for predicting outcomes of market changes. The third runs an analysis and displays a table with current values as well as stressed values (those resulting from the chosen scenario). Arria’s Natural Language Generation API provides supplemental narrative analysis that appears as if human-written, calling out and describing the most important facts and ideas—from the perspective of a wealth manager or research analyst—that can be derived from the data displayed.
 
 Arria NLG technology captures industry expertise and the interpretation strategy of the expert. Other NLG systems simply automate the generation of predictive text. 
 Arria NLG technology is based on over 30 years of data science and computational linguistics expertise. Other NLG systems are fairly new and may bump into Arria’s patents as they progress.
