@@ -1,0 +1,19 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+Zayo Object-Based Storage
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Zayo Tranzact](https://tranzact.zayo.com/#!/)
+        [Zayo Group](https://www.zayo.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Zayo COS Reference (Based on IBM COS)
+    [S3 and API Documentation](https://console.bluemix.net/docs/services/cloud-object-storage/api-reference/about-compatibility-api.html#about-the-cos-api)
+    {: .navgroup-end}
