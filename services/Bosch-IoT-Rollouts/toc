@@ -1,0 +1,20 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Bosch-IoT-Rollouts" audience="service" href="/docs/services/Bosch-IoT-Rollouts/index.html"}
+Bosch IoT Rollouts
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Introduction Slides](https://docs.bosch-iot-rollouts.com/slides/introduction.html)
+        [General Documentation](https://docs.bosch-iot-rollouts.com/documentation/index.html)
+        [Features](https://docs.bosch-iot-rollouts.com/documentation/introduction/spfeatures.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](https://docs.bosch-iot-rollouts.com/documentation/developerguide/apispecifications.html)
+    {: .navgroup-end}
