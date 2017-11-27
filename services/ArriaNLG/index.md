@@ -20,8 +20,11 @@ lastupdated: "2017-11-07"
 # Getting started with Natural Language Generation APIs
 {: #gettingstarted_nlgapi}
 
-With Arria’s Natural Language Generation APIs, you can quickly and easily integrate NLG into your application to add context-aware, instantly updatable, domain-relevant narrative explanation of any data. Arria NLG’s patented AI technologies provide real-time advanced data analysis and commentary. Any application that presents information to be analyzed—whether presented in the form of a visualization, a table, or another format—can be enhanced with the addition of a description explaining the key insights.
+With Arria’s Natural Language Generation APIs, you can quickly and easily integrate NLG into your application to add context-aware, instantly updatable, domain-relevant narrative explanation of any data. Arria NLG’s patented AI technologies provide real-time advanced data analysis and commentary. Any application that presents information to be analyzed—whether presented in the form of a visualization, a table, or another format—can be enhanced with the addition of a description explaining the key insights. [link] To learn more, visit the [Arria NLG Store](https://nlgapi.arria.com){: new_window}.
+
 {:shortdesc}
+
+
 
 ## Before you begin
 
