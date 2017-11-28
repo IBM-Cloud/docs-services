@@ -14,6 +14,16 @@ lastupdated: "2017-10-30"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
+# About <service_short_name>
+{: #aboutzayocloudobjectstorage}
+
+Information stored with <service_name> is encrypted and dispersed across multiple geographic locations, and accessed through an implementation of the S3 API. This service makes use of the distributed storage technologies provided by IBM’s Cloud Object Storage System (formerly Cleversafe).
+
+Zayo OBS is available in a Cross Region configuration. Cross Region service provides higher durability and availability than using a single region at the cost of slightly higher latency, and is available today in the US. If a given region is unavailable, the object store continues to function without impediment, and any missed changes are applied when the data center comes back online.
+
+Developers use Zayo OBS’s implementation of the S3 API to interact with their storage accounts. This documentation provides support to get started with provisioning accounts, to create buckets, to upload objects, and to use a reference of common API interactions. 
+
+This documentation is for anyone interested in learning about how to use Zayo OBS to manage unstructured data IO in their cloud applications, to store large files for machine learning and data analysis, or simply as a tool for backup and other IT services.
 
 # Getting started with <service_short_name>
 {: #gettingstarted}
