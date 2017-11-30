@@ -20,9 +20,10 @@ lastupdated: "2017-11-21"
 # Getting Started with Coalesce.Info for Risk Analysis
 {: #gettingstarted_coalesce}
 
-Investment managers, Risk and Compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.{:shortdesc}
+Investment managers and risk and compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.
 
-To learn more about Coalesce.Info, visit our [website](http://coalesce.info/) {:new_window}.
+
+To learn more about Coalesce.Info, visit our [website](http://coalesce.info/){:new_window}.
 
 To start using Coalesce.Info, please first sign up for an account. Click [here](https://v2-0.coalesce.info/html/index.html#/signup){:new_window} to get started!
 
