@@ -15,8 +15,6 @@ lastupdated: "2017-11-21"
 {:pre: .pre}
 
 
-# Coalesce.Info for BlueMix
-
 # Getting Started with Coalesce.Info for Risk Analysis
 {: #gettingstarted_coalesce}
 
@@ -31,7 +29,7 @@ Once you've signed up to use Coalesce.Info, there are a few easy steps to go liv
 
 1.  [Log-in](https://v2-0.coalesce.info/html/index.html#/login){:new_window} into the Coalesce.Info with the credentials used for signup to view news alerts for the sample Fortune 500 companies.
   
-2.	Copy your Coalesce username / password credentials into the Bluemix developer portal (Note: Never share your credentials outside of the Bluemix developer portal!)
+2.	Copy your Coalesce username / password credentials into the IBM Cloud developer portal (Note: Never share your credentials outside of the IBM cloud developer portal!)
 
 3.	Use the Coalesce.Info API for real-time access (requires subscription) 
 
