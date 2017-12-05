@@ -15,14 +15,13 @@ lastupdated: "2017-11-21"
 {:pre: .pre}
 
 
-# Coalesce.Info for BlueMix
-
 # Getting Started with Coalesce.Info for Risk Analysis
 {: #gettingstarted_coalesce}
 
-Investment managers, Risk and Compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.{:shortdesc}
+Investment managers and risk and compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.
 
-To learn more about Coalesce.Info, visit our [website](http://coalesce.info/) {:new_window}.
+
+To learn more about Coalesce.Info, visit our [website](http://coalesce.info/){:new_window}.
 
 To start using Coalesce.Info, please first sign up for an account. Click [here](https://v2-0.coalesce.info/html/index.html#/signup){:new_window} to get started!
 
@@ -30,7 +29,7 @@ Once you've signed up to use Coalesce.Info, there are a few easy steps to go liv
 
 1.  [Log-in](https://v2-0.coalesce.info/html/index.html#/login){:new_window} into the Coalesce.Info with the credentials used for signup to view news alerts for the sample Fortune 500 companies.
   
-2.	Copy your Coalesce username / password credentials into the Bluemix developer portal (Note: Never share your credentials outside of the Bluemix developer portal!)
+2.	Copy your Coalesce username / password credentials into the IBM Cloud developer portal (Note: Never share your credentials outside of the IBM cloud developer portal!)
 
 3.	Use the Coalesce.Info API for real-time access (requires subscription) 
 
