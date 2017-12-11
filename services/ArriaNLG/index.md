@@ -30,31 +30,34 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
+
 With Arria’s Natural Language Generation APIs, you can quickly and easily integrate NLG into your application to add context-aware, instantly updatable, domain-relevant narrative explanation of any data. Arria NLG’s patented AI technologies provide real-time advanced data analysis and commentary.
 
-To learn more, visit the [Arria NLG Store](https://nlgapi.arria.com/)(url){: new_window}.
-
-## Narrative APIs
-**_Embed ready-made cutting-edge NLG content._**
-
-With Arria’s narrative services, you get a pre-written report for a particular domain. The narrative service takes in data, works out what matters and returns a narrative that is ready to go – onto your website, into your dashboard, wherever. For example, use our profit-and-loss service, and it will work out which aspects of your business are doing well and which areas are experiencing losses. A market stress-testing narrative service can tell you how news of world events could impact your stock portfolio. Narrative services give you an instantly updateable report, in seconds.
-
-[**Learn more**](https://nlgapi.arria.com/)(url){: new_window}
-
-## Microservices
-**_Add the most frequently used small-scale linguistic features to your existing systems._**
-
-Microservices are NLG functions that you can use to make the reports you generate sound like they were written by human experts. Microservices handle the low-level detail of English so you don’t have to. For example, use the aOrAn microservice to make your system choose the correct article – either “a” or “an” based on what the following word sounds like. Use the pluralNoun microservice, to turn “profit” to “profits” or “child” to “children”. Microservices make writing NLG systems easy.
-
-[**Learn more**](https://nlgapi.arria.com/)(url){: new_window}
-
+To learn more, visit the [Arria NLG Store](https://nlgapi.arria.com/){: new_window}.
 
 {:shortdesc}
 
+## Narrative APIs
+**_Embed ready-made cutting-edge NLG content_**
+
+With Arria’s narrative services, you get a pre-written report for a particular domain. The narrative service takes in data, works out what matters and returns a narrative that is ready to go – onto your website, into your dashboard, wherever. For example, use our profit-and-loss service, and it will work out which aspects of your business are doing well and which areas are experiencing losses. A market stress-testing narrative service can tell you how news of world events could impact your stock portfolio. Narrative services give you an instantly updateable report, in seconds.
+
+[**Learn more**](https://nlgapi.arria.com/){: new_window}
+
+## Microservices
+**_Add the most frequently used small-scale linguistic features to your existing systems_**
+
+Microservices are NLG functions that you can use to make the reports you generate sound like they were written by human experts. Microservices handle the low-level detail of English so you don’t have to. For example, use the aOrAn microservice to make your system choose the correct article – either “a” or “an” based on what the following word sounds like. Use the pluralNoun microservice, to turn “profit” to “profits” or “child” to “children”. Microservices make writing NLG systems easy.
+
+[**Learn more**](https://nlgapi.arria.com/){: new_window}
+
+
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
+
 ## Before you begin
 To use Arria’s APIs, it is important that you understand the basics of RESTful web services and JSON representations. Through IBM Cloud, you bind Arria’s Natural Language Generation APIs service to your application in the same way that you would add any service available on IBM Cloud.
 You need cURL, or another data transfer tool, installed before you can use the service.
+
 **Note:** Arria's NLG APIs are best viewed using the latest version of your web browser. Please use the most up-to-date version of Google Chrome, Internet Explorer, Firefox, or Safari.
 
 <!-- Task section: REQUIRED
