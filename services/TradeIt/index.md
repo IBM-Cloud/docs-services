@@ -15,11 +15,12 @@ lastupdated: "2017-12-04"
 {:pre: .pre}
 
 # Getting started with TradeIt
-{: #gettingstarted}
+{: #gettingstarted_TradeIt}
 
 TradeIt is a financial ecosystem that enables our partners – developers, publishers, social networks – to easily add portfolio tracking and trading of equities, ETFs, options, FX and digital currencies with most online US brokers in minutes. Let your users link their brokerage accounts easily and securely on a web or mobile platform.
+{:shortdesc} 
 
-{:shortdesc} We provide a [mobile guide](https://www.trade.it/quickstart#ios-guide#example-app){:new_window} and [web guide](https://www.trade.it/quickstart#web-guide#gettingStarted){:new_window} to help you get up-and-running as easily as possible.
+We provide a [mobile guide](https://www.trade.it/quickstart#ios-guide#example-app){:new_window} and [web guide](https://www.trade.it/quickstart#web-guide#gettingStarted){:new_window} to help you get up-and-running as easily as possible.
 
 Check out our [API documentation](https://www.trade.it/api){:new_window}.
 
