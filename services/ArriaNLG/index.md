@@ -40,7 +40,7 @@ To learn more, visit the [Arria NLG Store](https://nlgapi.arria.com/){: new_wind
 ## Narrative APIs
 **_Embed ready-made cutting-edge NLG content_**
 
-With Arria’s narrative services, you get a pre-written report for a particular domain. The narrative service takes in data, works out what matters and returns a narrative that is ready to go – onto your website, into your dashboard, wherever. For example, use our profit-and-loss service, and it will work out which aspects of your business are doing well and which areas are experiencing losses. A market stress-testing narrative service can tell you how news of world events could impact your stock portfolio. Narrative services give you an instantly updateable report, in seconds.
+With Arria’s narrative services, you get a pre-written report for a particular domain. The narrative service takes in data, works out what matters and returns a narrative that is ready to go – onto your website, into your dashboard, wherever. For example, use our profit and loss service [coming soon], and it will work out which aspects of your business are doing well and which areas are experiencing losses. A market stress-testing narrative service can tell you how news of world events could impact your stock portfolio. Narrative services give you an instantly updateable report, in seconds.
 
 [**Learn more**](https://nlgapi.arria.com/){: new_window}
 
