@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-12-11"
+lastupdated: "2017-12-12"
 
 ---
 
@@ -47,7 +47,7 @@ With Arria’s narrative services, you get a pre-written report for a particular
 ## Microservices
 **_Add the most frequently used small-scale linguistic features to your existing systems_**
 
-Microservices are NLG functions that you can use to make the reports you generate sound like they were written by human experts. Microservices handle the low-level detail of English so you don’t have to. For example, use the aOrAn microservice to make your system choose the correct article – either “a” or “an” based on what the following word sounds like. Use the pluralNoun microservice, to turn “profit” to “profits” or “child” to “children”. Microservices make writing NLG systems easy.
+Microservices are NLG functions that you can use to make the reports you generate sound like they were written by human experts. Microservices handle the low-level detail of English so you don’t have to. For example, use the aOrAn microservice to make your system choose the correct article – either “a” or “an” based on what the following word sounds like. Or, use the pluralNoun microservice to turn “profit” to “profits” or “child” to “children”. Microservices make writing NLG systems easy.
 
 [**Learn more**](https://nlgapi.arria.com/){: new_window}
 
@@ -71,7 +71,7 @@ The task section includes steps to integrate the service into the app.
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
 ## About Arria NLG
-Arria’s Natural Language Generation (NLG) solutions enjoy a substantial competitive edge in the market place for a few important reasons. Arria NLG technology extracts key insights directly from underlying data to create unique data-driven narratives every time. Other NLG systems are also data-driven but limited by predetermined “ﬁll in the blanks” templated narratives. 
+Arria’s Natural Language Generation (NLG) solutions enjoy a substantial competitive edge in the marketplace for a few important reasons. Arria NLG technology extracts key insights directly from underlying data to create unique data-driven narratives every time. Other NLG systems are also data-driven but limited by predetermined “ﬁll in the blanks” templated narratives. 
 Arria NLG technology captures industry expertise and the interpretation strategy of the expert. Other NLG systems simply automate the generation of predictive text. 
 Arria NLG technology is based on over 30 years of data science and computational linguistic expertise. Other NLG systems are fairly new and may bump into Arria’s patents as they progress.
 
