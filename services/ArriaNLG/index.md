@@ -44,7 +44,7 @@ With Arria’s narrative services, you get a pre-written report for a particular
 
 [**Learn more**](https://nlgapi.arria.com/){: new_window}
 
-## Microservices [_coming soon_]
+## Microservices
 **_Add the most frequently used small-scale linguistic features to your existing systems_**
 
 Microservices are NLG functions that you can use to make the reports you generate sound like they were written by human experts. Microservices handle the low-level detail of English so you don’t have to. For example, use the aOrAn microservice to make your system choose the correct article – either “a” or “an” based on what the following word sounds like. Or, use the pluralNoun microservice to turn “profit” to “profits” or “child” to “children”. Microservices make writing NLG systems easy.
