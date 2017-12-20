@@ -22,7 +22,7 @@ Quovo is a data platform providing insights and connectivity for millions of con
 
 To learn more about Quovo and our suite of fintech APIs, visit our [website](https://www.quovo.com).
 
-If you're ready to start using Quovo, first sign up for an account by [clicking here](http://info.quovo.com/bluemix). 
+If you're ready to start using Quovo, first sign up for an account by [clicking here](https://www.quovo.com/signup/). 
 
 Once you've submitted our sign up form, you can:
 
