@@ -4,7 +4,7 @@ copyright:
 
   years:  2017
 
-lastupdated: "2017-03-01"
+lastupdated: "2018-01-22"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-03-01"
 
 Passport is a modern take on identity access management. Passport delivers authentication, authorization, SSO and security to your Bluemix application with modern REST APIs. Focus on your core business, let Passport handle your users.
 
-The Passport APIs can be integrated into any platform. Our REST APIs are well documented and we have also provided native bindings in C#, Java, Node, PHP and Python. If we're missing an SDK for the library you'll be integrating Passport with let us know and we'll build it for you.
+The Passport APIs can be integrated into any platform. Our REST APIs are well documented and we have also provided native bindings in C#, Java, Node, Ruby, JavaScript, PHP and Python. If we're missing an SDK for the library you'll be integrating Passport with let us know and we'll build it for you.
 {:shortdesc}
 
 ## On your mark, get set, go!
@@ -31,7 +31,6 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 4. Complete the Passport Credentials section on the Passport service page. These values will be available to your application at runtime in order to connect and authenticate to the Paspport API.
   * API Key
   * Passport Backend URL
-  * Passport Frontend URL
 
 5. Complete the configuration by Connecting the Passport service to your application. On the left side of the page you'll see a 'Connect to:' selector, select the desired application, and then click on 'Create'. 
 
@@ -55,7 +54,6 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 	 
 	let apiKey = passport.credentials.api_key;
 	let backendURL = passport.credentials.passport_backend_url;
-	let frontendURL = passport.credentials.passport_frontend_url;
 	
 	// User defined Environment Variable : passport_application_id
 	let applicationid = process.env.passport_application_id;
@@ -99,10 +97,6 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 {: #sdk}
 
 * [Passport Client Libraries](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/){:new_window}
-* [Java](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/java){:new_window}
-* [C#](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/csharp){:new_window}
-* [Node.js](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/node){:new_window}
-* [PHP](https://www.inversoft.com/docs/passport/1.x/tech/client-libraries/php){:new_window}
 
 ## API Reference
 {: #api}
@@ -115,4 +109,3 @@ This guide will have you up and running in 20 minutes or less. Before you can st
 * [Plans and Pricing](https://www.inversoft.com/try-passport){:new_window}
 * [Technical Documentation](https://www.inversoft.com/docs/passport/1.x/tech/){:new_window}
 -->
-
