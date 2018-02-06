@@ -108,7 +108,7 @@ presented to the App to continue. This quickstart is based on
      ```
      {: screen}
 
-   ![Environment Variables](images/bluemix-dash-env-vars.png)
+   ![Environment Variables](images/ibm-cloud-dash-env-vars.png)
 
 1. Locally, clone our sample application:
 
