@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2017
+  years:  2017-2018
 
-lastupdated: "2017-09-21"
+lastupdated: "2018-02-06"
 
 ---
 
@@ -39,7 +39,7 @@ number, and you will need access to a WebRTC capable web browser.
    or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
    Account
 
-1. If necessary, download and install the [Bluemix Command Line
+1. If necessary, download and install the [IBM Cloud Command Line
    Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
    - Change the API Endpoint
      ```bash
@@ -53,12 +53,12 @@ number, and you will need access to a WebRTC capable web browser.
      ```
      {: pre}
 
-1. Log into Bluemix Console and create a Twilio Programmable Voice Service
+1. Log into IBM Cloud Console and create a Twilio Programmable Voice Service
 
    - Click 'Catalog' at the top of the screen
    - Enter 'twilio programmable voice'
 
-   ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
+   ![Twilio app from IBM Cloud catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
    [Twilio Console](https://www.twilio.com/console){: new_window}.
@@ -67,7 +67,7 @@ number, and you will need access to a WebRTC capable web browser.
 
    Copy them to the integration.
 1. Navigate to the [TwiML App section](https://www.twilio.com/console/voice/dev-tools/twiml-apps){: new_window}
-   of the Twilio Console and *Create* a new TwiML App.  Name it ‘Bluemix_App’
+   of the Twilio Console and *Create* a new TwiML App.  Name it ‘Cloud_App’
    or similar.  Copy and paste the App SID into the service.
 
 1. In the [Phone Numbers](https://www.twilio.com/console/phone-numbers/incoming){: new_window}
@@ -78,7 +78,7 @@ number, and you will need access to a WebRTC capable web browser.
 
    Once complete (and correct), 'Create' the Service.
 
-1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
+1. In the Cloud Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name your App something memorable.
 
 1. With the URL of the newly created App, copy and paste the URL with `/voice` 
@@ -89,7 +89,7 @@ number, and you will need access to a WebRTC capable web browser.
 
    ![Configure TwiML App](images/06-create-twiml-app-in-twilio-console.png)
 
-1. In the Bluemix Dashboard, click on your Twilio Programmable Voice Service under 'Services',
+1. In the IBM Cloud Dashboard, click on your Twilio Programmable Voice Service under 'Services',
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
 
@@ -107,7 +107,7 @@ number, and you will need access to a WebRTC capable web browser.
    ```
    {: pre}
 
-1. In a browser which supports WebRTC, visit `<your Bluemix URL>`.  Enter your
+1. In a browser which supports WebRTC, visit `<your Cloud URL>`.  Enter your
    cell phone number (or any voice capable phone or phone number) in the
    ensuing dialog box and dial...
 

@@ -16,7 +16,7 @@ Twilio Authy
         [Twilio Authy Dashboard](https://www.twilio.com/console/authy/applications)
         [Twilio Documentation site](https://www.twilio.com/docs/)
         [Node.js application tutorials](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node)
-        [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
+        [IBM Cloud Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
 
     {: .navgroup id="reference"}
     Reference
