@@ -89,7 +89,7 @@ Follow this steps to get started with Twilio Programmable SMS on Cloud:
 8. Locally, clone our sample application:
 
    ```bash
-   git clone https://github.com/TwilioDevEd/twilio-bluemix-sms-quickstart.git
+   git clone https://github.com/TwilioDevEd/twilio-ibm-cloud-sms-quickstart.git
    ```
    {: pre}
 
