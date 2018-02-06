@@ -19,5 +19,6 @@ TradeIt
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    Reference
     [API Documentation](https://www.trade.it/api)
     {: .navgroup-end}
