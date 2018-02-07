@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2017
+  years:  2017-2018
 
-lastupdated: "2017-09-21"
+lastupdated: "2018-02-06"
 
 ---
 
@@ -19,27 +19,27 @@ lastupdated: "2017-09-21"
 
 Twilio’s [Programmable SMS](https://www.twilio.com/sms) makes it simple to add
 SMS and MMS applications to your web application. With Twilio’s cloud
-communications power plus the serverless capabilities of IBM’s Bluemix, you’ve
+communications power plus the serverless capabilities of IBM Cloud, you’ve
 got an unbeatable team.
 {: shortdesc}
 
 ## About
 
 We’re going to build a serverless application using Cloud Foundry Apps and the
-Twilio Service on Bluemix to both send outgoing text messages and to respond
+Twilio Service on IBM Cloud to both send outgoing text messages and to respond
 to incoming text messages. We’re going to be basing it heavily on our own
 [Node.js SMS Quickstart](https://www.twilio.com/docs/quickstart/node/programmable-sms){: new_window},
 with some adaptations for the IBM cloud. 
 
 ## Setting the project
 
-Follow this steps to get started with Twilio Programmable SMS on Bluemix:
+Follow this steps to get started with Twilio Programmable SMS on Cloud:
 
 1. Sign into the [Twilio Console](https://www.twilio.com/console){: new_window}
    or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
    Account
 
-2. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+2. If necessary, download and install the [IBM Cloud Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
    - Change the API Endpoint
 
      ```bash
@@ -53,12 +53,12 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
      ```
      {: pre}
 
-3. Log into Bluemix Console and create a Twilio App
+3. Log into IBM Cloud Console and create a Twilio App
 
    - Click 'Catalog' at the top of the screen
    - Enter 'twilio programmable sms'
 
-   ![Twilio app from Bluemix catalog](images/01-bluemix-catalog-twilio.png)
+   ![Twilio app from IBM Cloud catalog](images/01-ibm-cloud-catalog-twilio.png)
 
 4. In the following screen, enter your `Account SID` and `Auth Token` from the
    [Twilio Console](https://www.twilio.com/console).
@@ -70,10 +70,10 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
    Once complete (and correct), 'Create' the App.
 
-5. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
+5. In the IBM Cloud Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name it something memorable.
 
-6. In the Bluemix Dashboard, click on your Twilio Programmable SMS Service under 'Services',
+6. In the Cloud Dashboard, click on your Twilio Programmable SMS Service under 'Services',
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
 
@@ -89,7 +89,7 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 8. Locally, clone our sample application:
 
    ```bash
-   git clone https://github.com/TwilioDevEd/twilio-bluemix-sms-quickstart.git
+   git clone https://github.com/TwilioDevEd/twilio-ibm-cloud-sms-quickstart.git
    ```
    {: pre}
 
@@ -105,11 +105,11 @@ Follow this steps to get started with Twilio Programmable SMS on Bluemix:
 
     ![Twilio webhooks](images/03-twilio-webhooks.png)
 
-    It can be found here in the Bluemix console.
+    It can be found here in the IBM Cloud console.
 
-    ![Bluemix routes](images/04-bluemix-routes.png)
+    ![IBM Cloud routes](images/04-ibm-cloud-routes.png)
 
-11. In the browser, visit `<your Bluemix URL>/send-sms`. You’ll get a
+11. In the browser, visit `<your Cloud URL>/send-sms`. You’ll get a
     controversial statement in response. Make sure you reply with your best
     argument.
 
