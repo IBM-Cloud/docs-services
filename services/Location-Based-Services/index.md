@@ -17,24 +17,24 @@ lastupdated: "2018-01-24"
 <!-- The name of this file should remain index.md.
 Please delete out content examples and coding that you are not using for your service. -->
 
-# Getting started with Phunware SDKs for Marketing Automation and Mapping
+# Getting started with Phunware SDKs for Location Based Services and Mapping
 {: #gettingstarted}
 <!-- Provide an appropriate ID above -->
 
 <!-- Short description: REQUIRED -->
 
-With Phunware's Location Based Services SDK you can send marketing campaigns that are displayed as notifications to the mobile devices of your app users. User tap on the notification to open the app or deep link to a promotion or other app page. Phunware's SDK powers global and targeted broadcast campaigns, as well as entry and exit campaigns triggered by location geofences or beacons (BLE or vBLE).
+With Phunware's Location Based Services SDK you can bring your venue to life and change how users experience your brand with navigation within your physical locations. Phunware offers a comprehensive solution for iOS and Android devices that delights mobile app users with powerful facility-wide navigation. Phunware's Location Based Services (LBS) module is driven by the Mapping and Location SDKs, providing application developers with a set of tools to enable the display of indoor venue maps, points of interest, and wayfinding throughout these venues.
 
 With Phunware's Mapping SDK you can host maps of your campuses and buildings and populate the maps with points of interest to power static wayfinding. In addition Phunware supports hardware agnostic Location Provider integrations using hyperlocation (wifi), BLE, or vBLE signals to offer dynamic (blue dot) wayfinding in your apps.
 
 As a Phunware SDK user, you will be provided with access to the MaaS portal, Phunware's web-based configuration portal where you will configure Attributes-Profiles, Geofences, and Beacons for Location Based Services and manage the campaigns that keep users engaged in your app. For wayfinding you will use the MaaS portal to configure maps, including POIs and routes and to integrate location providers for dynamic blue dot wayfinding experiences in your app.
 
 {:shortdesc} 
-To get up and running quickly with Phunware Location Based Services and Mapping SDKs contact support@phunware.com to obtain a MaaS login and links to Phunware's git repos where you can download the SDKs, code snippets, and sample app. 
+To get up and running quickly with Phunware Location Based Services and Mapping SDKs contact Phunware through (http://www2.phunware.com/l/36092/2017-10-02/vp7w2l) to obtain a MaaS login and links to Phunware's git repos where you can download the SDKs, code snippets, and sample app. 
 
-1. Step 1: Contact Phunware support to request access to MaaS portal and links to Phunware's repos.
+1. Step 1: Complete a Phunware contact form at (http://www2.phunware.com/l/36092/2017-10-02/vp7w2l) to request access to MaaS portal and links to Phunware's repos.
 2. Step 2: Go to the Location Based Services or Mapping repo and download the SDK 
-3. Step 3: Go to the Phunware SDK On-boarding page in Phunware's documentation portal (developer.phunware.com) for complete instructions on how to integrate your app with Phunware's SDKs and for Use Cases and code snippets to make your integration seamless.
+3. Step 3: Go to the Phunware SDK On-boarding page in Phunware's documentation portal (https://developer.phunware.com/display/DD/Phunware+SDK+On-boarding) for complete instructions on how to integrate your app with Phunware's SDKs and for Use Cases and code snippets to make your integration seamless.
 4. Step 4: Create you apps in MaaS portal to obtain integration keys.
 5. Step 5: Complete integration steps
 6. Step 6: Apply desired use cases to your code base and configure
