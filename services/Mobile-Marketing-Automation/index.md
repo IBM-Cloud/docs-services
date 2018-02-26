@@ -30,13 +30,13 @@ As a Phunware SDK user, you will be provided with access to the MaaS portal, Phu
 {:shortdesc} 
 To get up and running quickly with Phunware Marketing Automation, complete the contact form to obtain a MaaS login and links to Phunware's git repos where you can download the SDKs, code snippets, and sample app. 
 
-1. Step 1: Complete the contact form to request trial access to MaaS portal and links to Phunware's repos. See: https://go.phunware.com/ibm-bluemix-marketing-automation
-2. Step 2: Go to the Marketing Automation repo and download the SDK 
-3. Step 3: Go to the Phunware SDK On-boarding page in Phunware's documentation portal (https://developer.phunware.com/display/DD/Phunware+SDK+On-boarding) for complete instructions on how to integrate your app with Phunware's SDKs and for Use Cases and code snippets to make your integration seamless.
-4. Step 4: Create your app in MaaS portal to obtain integration keys.
-5. Step 5: Complete integration steps
-6. Step 6: Apply desired use cases to your code base and configure
-7. Step 7: Complete the configuration of these app features in MaaS portal (Configuration guides and training videos for MaaS portal are available at developer.phunware.com.)
+1. Complete the contact form to request trial access to MaaS portal and links to Phunware's repos. See: https://go.phunware.com/ibm-bluemix-marketing-automation
+2. Go to the Marketing Automation repo and download the SDK 
+3. Go to the Phunware SDK On-boarding page in Phunware's documentation portal (https://developer.phunware.com/display/DD/Phunware+SDK+On-boarding) for complete instructions on how to integrate your app with Phunware's SDKs and for Use Cases and code snippets to make your integration seamless.
+4. Create your app in MaaS portal to obtain integration keys.
+5. Complete integration steps
+6. Apply desired use cases to your code base and configure
+7. Complete the configuration of these app features in MaaS portal (Configuration guides and training videos for MaaS portal are available at developer.phunware.com.)
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
