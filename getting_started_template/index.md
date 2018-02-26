@@ -60,8 +60,8 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. Step 1 to integrate app with the service.
-2. Step 2 to integrate app with the service.
+1. List step 1 to integrate app with the service.
+2. List step 2 to integrate app with the service.
 
 	```
 	Copyable example for this step. 
@@ -74,14 +74,14 @@ Complete these steps to get started with the BigInsights service:
 	```
 	{: codeblock}
 
-3. Step 3. In this step, <introduce the example that follows>.
+3. List step 3 In this step, <introduce the example that follows>.
 
 	```
 	my command -and -options
 	```
 	{: pre}
 
-4. Step 4
+4. List step 4
 	```
 	This is a bunch of output from
 		a command or program I ran
