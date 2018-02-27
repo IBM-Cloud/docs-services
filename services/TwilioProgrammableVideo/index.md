@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2017
+  years:  2017-2018
 
-lastupdated: "2017-09-21"
+lastupdated: "2018-02-06"
 
 ---
 
@@ -26,7 +26,7 @@ entertained and supported while constantly coming back.
 ## About
 
 Today we’re going to go sans-servers and build out a sample Video application
-on top of IBM’s awesome Bluemix. We’ll use an adaptation of our
+on top of IBM Cloud. We’ll use an adaptation of our
 [Node.js Quickstart Video Application](https://www.twilio.com/docs/api/video/quickstart-sample-apps){: new_window},
 with our JavaScript Client library for the browser. You’ll need to verify
 your browser has WebRTC support before continuing and allow access to your
@@ -38,7 +38,7 @@ camera and microphone.
    or [Register](https://www.twilio.com/try-twilio){: new_window} for a Free
    Account
 
-1. If necessary, download and install the [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
+1. If necessary, download and install the [IBM Cloud Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html){: new_window}
    - Change the API Endpoint
      ```bash
      bluemix api https://api.ng.bluemix.net
@@ -55,13 +55,13 @@ camera and microphone.
    in the Twilio Console. Create a new API Key, saving both the `Key` and the
    `Secret` - you won’t be able to get them back again!
 
-1. Log into Bluemix Console and create a Twilio App
+1. Log into IBM Cloud Console and create a Twilio App
 
    - Click 'Catalog' at the top of the screen
    - Enter 'twilio programmable video'
    - Select it to create an integration
 
-   ![Twilio app from Bluemix catalog](images/03-create-twilio-app.png)
+   ![Twilio app from IBM Cloud catalog](images/03-create-twilio-app.png)
 
 1. In the following screen, enter your `Account SID` and `Auth Token` from the
    [Twilio Console](https://www.twilio.com/console).
@@ -70,17 +70,17 @@ camera and microphone.
 
    Also enter the `API Key` and `Secret` you just created in the above step.
 
-1. In the Bluemix Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
+1. In the Cloud Console, select 'Catalog' -> 'Apps' -> 'Cloud Foundry Apps'
    then select the `SDK for Node.js`. Name it something memorable.
 
-1. In the Bluemix Dashboard, click on your Twilio Service under 'Services',
+1. In the IBM Cloud Dashboard, click on your Twilio Service under 'Services',
    then click the 'Create connection +' button. Connect it to your new Node.js
    App.
 
 1. Locally, clone our sample application:
 
    ```bash
-   git clone -b bluemix-quickstart https://github.com/TwilioDevEd/video-quickstart-js
+   git clone -b ibm-cloud-quickstart https://github.com/TwilioDevEd/video-quickstart-js
    ```
    {: pre}
 
@@ -93,7 +93,7 @@ camera and microphone.
    ```
    {: pre}
 
-1. In a browser which supports WebRTC, visit `<your Bluemix URL>`. Preview
+1. In a browser which supports WebRTC, visit `<your Cloud URL>`. Preview
    your camera and join a room.
 
 1. Open a second tab in the same browser and join the same room to verify the

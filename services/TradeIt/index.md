@@ -24,7 +24,7 @@ We provide a [mobile guide](https://www.trade.it/quickstart#ios-guide#example-ap
 
 Check out our [API documentation](https://www.trade.it/api){:new_window}.
 
-To get started with TradeIt, you must first request a TradeIt API Key [here](https://www.trade.it/contact?get-started=yes){:new_window}!
+To get started with TradeIt, you must first request a TradeIt API Key [here](https://developers.trade.it/register/register){:new_window}!
 
 Once you've obtained a TradeIt key, follow the steps below to go live.
 

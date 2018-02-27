@@ -14,7 +14,7 @@ Twilio Programmable Video
         [Twilio Quickstarts and Sample Applications](https://www.twilio.com/docs/api/video/quickstart-sample-apps)
         [Twilio Console](https://www.twilio.com/console)
         [Twilio Sign Up](https://www.twilio.com/try-twilio)
-        [Bluemix Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
+        [IBM Cloud Command Line Interface](https://console.bluemix.net/docs/starters/install_cli.html)
 
     {: .navgroup id="reference"}
     Reference
