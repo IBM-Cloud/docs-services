@@ -1,32 +1,52 @@
----
+IBM Cloud Docs / Accrete.AI Topic Deltas API
+-----------------------------------------
 
-copyright:
+### Getting started with Topic Deltas
+Last Updated: 2018-02-27 
 
-Accrete LLC 
+The primary value proposition of Accrete's Topic Deltas product is to improve the efficiency of investment processes by monitoring subtle shifts in topical sentiment across a vast number of earnings calls that would be physcially impossible for even an army of human analysts to achieve with any accuracy. Accrete's Topic Delta product ingests earnings transcripts and maps linguistic nuances to key topics, scores the sentiment of the language associated with these key topics and measures the delta between topics spoken about accross quarterly earnings calls. For example, if a public company executive mentioned in the previous quarterly earnings call that "Customer pipeline looks great" but in the current quarterly earnings call mentions that "Customer pipeline looks good", the subtle shift in language from very positive to moderately positive may not be accounted for in the actual reported numbers but could have material impact on the psychology influencing the company's stock price. 
+
+Through our Topic Deltas API, users can access 5 years of historical Topic Deltas on quarterly earnings call transcripts for each stock in the S&P 500. Additionally, via the API the user also gets access to upcoming topical sentiment scores, deltas and language snippets for easy self-validation for each stock in the S&P 500 within 8 hours post transcript release. Finally, as we continue to extract and model insights buried in the nuances of earnings call language, our preliminary research has been showing that significant shifts in aggregate topic deltas forecast >=25% price movements in the direction of the delta with ~71% accuracy, both in and out of sample. We believe that we are just scratching the surface with these cognitive insights and that there are many hidden features in the data that have yet to be discovered. API customers get access to our full historical data set, research results and methodology. 
+
+### API Access Token
+
+You need an API access token to receive data from Accrete's Topic Deltas API. To request an API access token, please follow the steps below: 
+
+  - Visit [accrete.ai](http://accrete.ai).
+  - Click 'Sign Up/Login' on the top right corner of the page.
+  - Select 'Sign Up'.
+  - Complete the form. 
+  - Select 'API' as delivery method. 
+  - Select 'Submit'.
   
-years:  2017
+Once you've submitted your registration, an Accrete representative will reach out to you and provide the appropriate API credentials by email.
 
-lastupdated: "2018-2-20"
 
----
+Authentication
+--------------
 
-Function Name: 
-      
-            listCompanies
+To authenticate, please follow the instructions provided in the email containing your API credentials. 
 
-Description: 
 
-API call to get a list of companies for which we have earnings calls loaded in the DB. The return value is a JSON list of company tickers. These company tickers are to be used for CompanyName in all the other API calls 
+Methods 
+---------------
 
-Input Parameters: 
+__Function Name__: 
+  listCompanies
+  
+__Description__: 
+
+API call to get a list of companies for which we have earnings calls loaded in the database. The return value is a JSON list of company tickers. These company tickers are to be used for CompanyName in all the other API calls. 
+
+__Input Parameters__: 
 
 URL:  http://169.60.176.152:8088/listCompanies
 
- Method: GET 
+__Method: GET__
 
 eg:  :  http://169.60.176.152:8088/listCompanies    
 
-Output Format:  
+__Output Format__:  
 [   
 "PCAR",
 "GSK",    
@@ -55,27 +75,24 @@ Output Format:
 "IFF" 
 ]  
 
-_______________________________________________________________________________________________________________________________________________________________
-Function Name: 
- 
-              callsForCompany 
+__Function Name__: 
+  CallsForCompany
+  
+__Description__: 
 
-Description: 
+API call to get all the dates for which we have earnings calls for a company. The Company Name to be used here is the "ticker" that is returned by the list Companies call.
 
-API call to get all the dates for which we have earnings calls for a company. The Company Name to be used here is the “ticker” that is returned by the list Companies call. 
-
-Input Parameters: 
+__Input Parameters__: 
 
 URL: http://169.60.176.152:8088/callsForCompany/<companyName> 
 
-Method: GET 
+__Method: GET__ 
 
 eg:  http://169.60.176.152:8088/callsForCompany/MO 
 
-Output Format: 
-_______________________________________________________________________________________________________________________________________________________________
+__Output Format__: 
 
- [  
+[  
       {    
            "company_code": "MO",      
            "date_curr": "2017-10-26",      
@@ -121,22 +138,19 @@ ________________________________________________________________________________
      }
 ]   
 
-_______________________________________________________________________________________________________________________________________________________________
+__Function Name__: 
 
+  getDelta
+  
+__Description__:
 
-Function Name: 
+API call to get delta between two earings calls for a company. The output is a JSON which has a list of concepts, each having aggregate sentiment scores for previous and current quarter, along with the sentences that mention the concept in previous and current earnings calls. 
 
-          getDelta 
-
-Description: 
-
-API call to get delta between two earnings calls for a company. The output is a JSON which has a list of concepts, each having aggregate sentiment scores for previous and current quarter, along with the sentences that mention the concept in previous and current calls 
-
-Input Parameters: 
+__Input Parameters__: 
 
 URL:  http://169.60.176.152:8088/getDelta/<companyCode>/<date_prev>/<date_curr>  
 
-Method: GET 
+__Method: GET__
 
 Eg. http://169.60.176.152:8088/getDelta/MO/2016-07-27/2016-04-29 
 
