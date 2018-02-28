@@ -1,5 +1,18 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
-
-{: .toc subcollection="Topic-Deltas" audience="service" href="/docs/services/Topic-Deltas/index.html"}
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
 Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](URL)
+    {: .navgroup-end}
