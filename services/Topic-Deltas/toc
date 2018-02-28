@@ -16,3 +16,9 @@ Product name
     Reference
     [API Documentation](URL)
     {: .navgroup-end}
+
+# <span style="color:gray">Table of Contents</span>
+1. [Overview](#introduction)
+2. [Getting Started](#getting started)
+3. [Authentication](#authentication)
+4. [Methods](#methods)
