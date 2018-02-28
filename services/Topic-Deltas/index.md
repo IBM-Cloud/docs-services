@@ -1,10 +1,26 @@
+---
+
+copyright:
+
+    years: 2017
+
+lastupdated: "2018-02-28"
+
+---
+
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
 <span style="color:blue">IBM Cloud Docs / Accrete.AI Topic Deltas API</span>
 
-<span style="color:gray">Topic Deltas API Overview</span> <a name = "introduction"></a>
+# <span style="color:gray">Topic Deltas API Overview </span> <a name = "introduction"></a>
 ---------------------------------------------------------
-Last Updated: 2018-02-27 | [Edit in GitHub](http://github.com/accreteai)
+Last Updated: 2018-02-28 | [Edit in GitHub](http://github.com/accreteai/topicdeltas)
 
-The primary value proposition of Accrete's Topic Deltas product is to improve the efficiency of investment processes by monitoring subtle shifts in topical sentiment across a vast number of earnings calls that would be physcially impossible for even an army of human analysts to achieve with any accuracy. Accrete's Topic Delta product ingests earnings transcripts and maps linguistic nuances to key topics, scores the sentiment of the language associated with these key topics and measures the delta between topics spoken about accross quarterly earnings calls. For example, if a public company executive mentioned in the previous quarterly earnings call that "Customer pipeline looks great" but in the current quarterly earnings call mentions that "Customer pipeline looks good", the subtle shift in language from very positive to moderately positive may not be accounted for in the actual reported numbers but could have material impact on the psychology influencing the company's stock price. 
+The primary value proposition of Accrete's Topic Deltas product is to improve the efficiency of investment processes by monitoring subtle shifts in topical sentiment across a vast number of earnings calls that would be physically impossible for even an army of human analysts to achieve with any accuracy. Accrete's Topic Delta product ingests earnings transcripts and maps linguistic nuances to key topics, scores the sentiment of the language associated with these key topics and measures the delta between topics spoken about accross quarterly earnings calls. For example, if a public company executive mentioned in the previous quarterly earnings call that "Customer pipeline looks great" but in the current quarterly earnings call mentions that "Customer pipeline looks good", the subtle shift in language from very positive to moderately positive may not be accounted for in the actual reported numbers but could have material impact on the psychology influencing the company's stock price. 
 
 Through our Topic Deltas API, users can access 5 years of historical Topic Deltas on quarterly earnings call transcripts for each stock in the S&P 500. Additionally, via the API the user also gets access to upcoming topical sentiment scores, deltas and language snippets for easy self-validation for each stock in the S&P 500 within 8 hours post transcript release. Finally, as we continue to extract and model insights buried in the nuances of earnings call language, our preliminary research has been showing that significant shifts in aggregate topic deltas forecast >=25% price movements in the direction of the delta with ~71% accuracy, both in and out of sample. We believe that we are just scratching the surface with these cognitive insights and that there are many hidden features in the data that have yet to be discovered. API customers get access to our full historical data set, research results and methodology. 
 

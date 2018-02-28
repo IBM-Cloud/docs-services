@@ -1,24 +1,24 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
-{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
-Product name
+
+{: .toc subcollection="topicdeltas" audience="" href="/docs/services/topicdeltas/index.html"}
+Topic Deltas 
+[Overview](#introduction)
+[Getting Started](#getting started)
+[Authentication](#authentication)
+[Methods](#methods)
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [Topic Deltas Product Details](http://accrete.ai/topicDeltaProduct/)
+        [Accrete.AI](http://accrete.ai)
+        [Other Accrete.AI Products](http://accrete.ai/productLandingPage/#)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+    [Topic Deltas API](http://github.com/accreteai)
     {: .navgroup-end}
-
-# <span style="color:gray">Table of Contents</span>
-1. [Overview](#introduction)
-2. [Getting Started](#getting started)
-3. [Authentication](#authentication)
-4. [Methods](#methods)
