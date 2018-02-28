@@ -1,20 +1,4 @@
-<div class = "pull-right">
-<h3></h3>
-<form><input type="text" name="search" value="" id="id_search" placeholder="Search Document" autofocus />
-</form></div>
-<script type = "text/javascript" src="http://perso.crans.org/besson/_static/jquery.js"></script>
-<script type="text/javascript" src="http://perso.crans.org/besson/_static/jquery.quicksearch.min.js"></script>
-<script type="text/javascript" defer async>$('input#id_search').quicksearch('table tbody tr');</script>
-
-
 <span style="color:blue">IBM Cloud Docs / Accrete.AI Topic Deltas API</span>
-
-# <span style="color:gray">Table of Contents</span>
-1. [Overview](#introduction)
-2. [Getting Started](#getting started)
-3. [Authentication](#authentication)
-4. [Methods](#methods)
-
 
 <span style="color:gray">Topic Deltas API Overview</span> <a name = "introduction"></a>
 ---------------------------------------------------------
