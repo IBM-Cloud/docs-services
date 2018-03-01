@@ -1,24 +1,21 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="topicdeltas" audience="" href="/docs/services/topicdeltas/index.html"}
-Topic Deltas 
-[Overview](#introduction)
-[Getting Started](#getting started)
-[Authentication](#authentication)
-[Methods](#methods)
+{: .toc subcollection="Accrete TD API Doc" audience="service" href="/docs/services/Accrete TD API Doc/index.html"}
+Topic Deltas API
 
     {: .navgroup id="learn"}
     index.md
-
+   
     {: .topicgroup}
     Related links
-        [Topic Deltas Product Details](http://accrete.ai/topicDeltaProduct/)
-        [Accrete.AI](http://accrete.ai)
-        [Other Accrete.AI Products](http://accrete.ai/productLandingPage/#)
+        [Accrete.AI](http://accrete.ai/)
+        [About](http://accrete.ai/uiHomepage/#about-accrete)
+        [Products](http://accrete.ai/productLandingPage/#)
+        [Team](http://accrete.ai/productLandingPage/team_page.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [Topic Deltas API](http://github.com/accreteai)
+    [API Documentation](http://github.com/accreteai)
     {: .navgroup-end}
