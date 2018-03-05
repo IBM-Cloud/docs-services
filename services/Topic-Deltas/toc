@@ -6,16 +6,20 @@ Topic Deltas API
 
     {: .navgroup id="learn"}
     index.md
-   
+
     {: .topicgroup}
-    Related links
+    Related Links
         [Accrete.AI](http://accrete.ai/)
         [About](http://accrete.ai/uiHomepage/#about-accrete)
         [Products](http://accrete.ai/productLandingPage/#)
-        [Team](http://accrete.ai/productLandingPage/team_page.html)
+        [Team](http://accrete.ai/productLandingPage/team_page.html
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
+{: .navgroup id="reference"}
     Reference
-    [API Documentation](http://github.com/accreteai)
-    {: .navgroup-end}
+        [API Documentation](http://github.com/accreteai)
+        [Accrete.AI](http://accrete.ai/)
+        [About](http://accrete.ai/uiHomepage/#about-accrete)
+        [Products](http://accrete.ai/productLandingPage/#)
+        [Team](http://accrete.ai/productLandingPage/team_page.html
+{: .navgroup-end}
