@@ -5,29 +5,12 @@ copyright:
 lastupdated: "2018-03-08"
 
 ---
-<!--
----
-copyright: Accrete LLC
-years: 2018
-lastupdated: "2018-02-28"
-output: 
-  html_document:
 
-    keep_md: yes
-    toc: yes
-    toc_float:
-      collapsed: no
-      smooth_scroll: no
----
-
-<span style="color:blue">IBM Cloud Docs / Accrete.AI Topic Deltas API</span>
--->
 
 # Overview
 {: #introduction}
 <!--
 <span style="color:gray">Overview</span> <a name = "introduction"></a> 
----------------------------------------------------------
 Last Updated: 2018-02-27 | [Edit in GitHub](http://github.com/accreteai)
 -->
 
@@ -39,7 +22,7 @@ Through our Topic Deltas API, users can access 5 years of historical Topic Delta
 {: #getting_started}
 <!--
 <span style="color:gray">Getting Started</span><a name = "getting started"></a>
--------------------------------------------------------- -->
+ -->
 
 You need an API access token to receive data from Accrete's Topic Deltas API. To request an API access token, please follow the steps below: 
 
@@ -56,7 +39,6 @@ Once you've submitted your registration, an Accrete representative will reach ou
 {: #authentication}
 <!--
 <span style="color:gray">Authentication</span><a name = "authentication"></a>
---------------------------------------------------------
 -->
 
 To authenticate, please follow the instructions provided in the email containing your API credentials. 
@@ -65,7 +47,6 @@ To authenticate, please follow the instructions provided in the email containing
 {: #method}
 <!--
 <span style="color:gray">Methods</span>  <a name = "method"></a>
--------------------------------------------------
 -->
 
 __Function Name__:
@@ -114,7 +95,7 @@ __Output Format__:
 ]
 ```
 
---------------------------------
+
 
 
 __Function Name__: 
@@ -182,7 +163,7 @@ __Output Format__:
 ]   
 ```
 
---------------------------------
+
 
 __Function Name__: 
   __getDelta__
