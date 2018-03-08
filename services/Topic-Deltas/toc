@@ -15,13 +15,13 @@ Topic Deltas API
         [Team](http://accrete.ai/productLandingPage/team_page.html)
     {: .navgroup-end}
 
-{: .navgroup id="reference"}
+    {: .navgroup id="reference"}
     
-{: .topicgroup}
-Reference
+    {: .topicgroup}
+    Reference
         [API Documentation](http://github.com/accreteai)
         [Accrete.AI](http://accrete.ai/)
         [About](http://accrete.ai/uiHomepage/#about-accrete)
         [Products](http://accrete.ai/productLandingPage/#)
         [Team](http://accrete.ai/productLandingPage/team_page.html)
-{: .navgroup-end}
+    {: .navgroup-end}
