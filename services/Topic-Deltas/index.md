@@ -1,4 +1,12 @@
 ---
+
+copyright:
+  years: 2018
+lastupdated: "2018-03-08"
+
+---
+<!--
+---
 copyright: Accrete LLC
 years: 2018
 lastupdated: "2018-02-28"
@@ -11,7 +19,7 @@ output:
       collapsed: no
       smooth_scroll: no
 ---
-
+-->
 <span style="color:blue">IBM Cloud Docs / Accrete.AI Topic Deltas API</span>
 
 <span style="color:gray">Overview</span> <a name = "introduction"></a>
