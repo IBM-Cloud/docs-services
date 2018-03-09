@@ -2,12 +2,9 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" audience="service" href="/docs/services/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies/index.html"}
-Pre-CAT Notification Dialogs
+SPLICE Pre-Cat Insurance Notifications
 
-    {: .navgroup id="learn"}
-    index.md
-    [Getting Started with SPLICIE](docs/services/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies/index.html)
-    {: .topicgroup}
-    Related links
-        [API Documentation](developers.splicesoftware.com){: new_window}
-    {: .navgroup-end}
+   {: .navgroup id="reference"}
+   Reference
+   [API Documentation](developers.splicesoftware.com){: new_window}
+   {: .navgroup-end}
