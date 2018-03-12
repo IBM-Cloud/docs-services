@@ -5,6 +5,6 @@
 SPLICE Pre-Cat Insurance Notifications
 
    {: .navgroup id="reference"}
-   Reference
+   index.md
    [API Documentation](developers.splicesoftware.com){: new_window}
    {: .navgroup-end}
