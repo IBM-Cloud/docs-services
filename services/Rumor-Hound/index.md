@@ -17,12 +17,6 @@ Analysts, portfolio managers and traders struggle to keep ahead of market moving
 
 Through our Rumor Hound API, customers can access historical Rumor Hound data on hundreds of stocks. The Rumor Hound API covers m&a rumors for several thousand stocks. We continue to model Rumor Hound insights and as we identify predictive patterns, we will be happy to share reproducible research and data with API customers.
 
-## Getting Started
-{: #getting_started}
-<!--
-<span style="color:gray">Getting Started</span><a name = "getting started"></a>
- -->
-
 You need an API access token to receive data from Accrete's Rumor Hound API. To request an API access token, please follow the steps below: 
 
   - Visit [accrete.ai](http://accrete.ai).
