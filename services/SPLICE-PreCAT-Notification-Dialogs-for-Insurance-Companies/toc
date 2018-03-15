@@ -4,7 +4,7 @@
 {: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" audience="service" href="/docs/services/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies/index.html"}
 SPLICE Pre-Cat Insurance Notifications
 
-   {: .navgroup id="reference"}
-   index.md
-   [API Documentation](developers.splicesoftware.com){: new_window}
-   {: .navgroup-end}
+  {: .navgroup id="reference"}
+    index.md
+    [API Documentation](developers.splicesoftware.com)
+    {: .navgroup-end}
