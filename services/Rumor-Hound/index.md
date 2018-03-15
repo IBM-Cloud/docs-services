@@ -1,18 +1,17 @@
-# Rumor Hound 
 ---
-
 copyright:
-  years: 2018
-lastupdated: "2018-03-15"
-
+  years:  2018
+lastupdated: "2017-03-15"
 ---
 
-# Overview
-{: #introduction}
-<!--
-<span style="color:gray">Overview</span> <a name = "introduction"></a> 
-Last Updated: 2018-02-27 | [Edit in GitHub](http://github.com/accreteai/rumorhound)
--->
+{:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:screen:.screen}
+{:codeblock:.codeblock}
+{:pre: .pre}
+
+# Rumor Hound 
+{: #gettingstarted}
 
 Analysts, portfolio managers and traders struggle to keep ahead of market moving merger and acquisition rumors because actionable m&a rumors can emanate from any one of countless digital data sources. Rumor Hound solves this problem by continuously scouring tens of thousands of public, digital data sources in real time to find actionable m&a rumors that haven't yet been priced into the stock. Rumor Hound understands what an actionable m&a rumor looks like in all its linguistic nuance. When Rumor Hound finds a rumor, the rumor is pushed to users via API, dashboard, customizable filters and notifications along with a score that measures the credibility of the source based on site demographics, social media influence, Alexa rankings, etc. Transcending the black box, Rumor Hound provides users with not just the credibility score but also the source URL where the rumor was found as well as the rumor snippet itself so that users can validate for themselves the action-ability of the rumor. We are observing that m&a rumors that emanate from low credibility sources that gain momentum and are picked up by higher credibility sources tend to move prices. 
 
