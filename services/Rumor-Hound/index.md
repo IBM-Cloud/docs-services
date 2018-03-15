@@ -1,9 +1,9 @@
-# Rumor Hound Markdown 
+# Rumor Hound 
 ---
 
 copyright:
   years: 2018
-lastupdated: "2018-03-08"
+lastupdated: "2018-03-15"
 
 ---
 
