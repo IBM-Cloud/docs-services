@@ -14,7 +14,6 @@ Product name
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    Reference
     [API Documentation](URL)
     {: .navgroup-end}
     
