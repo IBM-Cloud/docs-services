@@ -1,0 +1,23 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Morningstar-16" audience="service" href="/docs/services/Morningstar-16/index.html"}
+Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [Overview](URL)
+    [Getting Started](URL)
+    [Accessing the Data](URL)
+    [Additional Details](URL)
+    [About Morningstar](URL)
+    {: .navgroup-end}
