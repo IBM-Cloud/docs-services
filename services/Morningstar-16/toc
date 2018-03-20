@@ -1,13 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
-
+ 
 {: .toc subcollection="Morningstar-16" audience="service" href="/docs/services/Morningstar-16/index.html"}
 Morningstar
-
+ 
     {: .navgroup id="learn"}
     index.md
     {: .navgroup-end}
-
+ 
     {: .navgroup id="reference"}
     [API documentation](https://developer.morningstar.com/apis/portfolio-statistics)
     {: .navgroup-end}
