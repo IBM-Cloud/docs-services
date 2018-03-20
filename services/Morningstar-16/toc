@@ -6,17 +6,8 @@ Product name
 
     {: .navgroup id="learn"}
     index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Overview](URL)
-    [Getting Started](URL)
-    [Accessing the Data](URL)
-    [Additional Details](URL)
-    [About Morningstar](URL)
+    [API documentation](https://developer.morningstar.com/apis/portfolio-statistics)
     {: .navgroup-end}
