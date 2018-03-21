@@ -1,0 +1,13 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="GeoLocation-API" audience="service" href="/docs/services/GeoLocation-API/index.html"}
+GeoLocation
+
+    {: .navgroup id="learn"}
+    index.md  
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](https://comtech.developerprogram.org/site/docs/geoservice/?oem=ibm)
+    {: .navgroup-end}
