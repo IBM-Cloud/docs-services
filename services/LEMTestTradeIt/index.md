@@ -65,7 +65,7 @@ Once you've obtained a TradeIt key, follow the steps below to go live.
 4. Start using LEMTradeIt!
 
 # Support
-In case you are unable to access the API or are having issues in general while integrating, kindly contact us [here.](https://support.trade.it/hc/en-us/requests/new
+In case you are unable to access the API or are having issues in general while integrating, kindly contact us [here.](https://support.trade.it/hc/en-us/requests/new)
 
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->
