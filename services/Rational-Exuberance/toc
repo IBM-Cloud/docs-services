@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="Rational-Exuberance" audience="service" href="/docs/services/Rational-Exuberance/index.html"}
-Rational Exuberance API
+Rational Exuberance
 
     {: .navgroup id="learn"}
     index.md
@@ -16,11 +16,5 @@ Rational Exuberance API
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    {: .topicgroup}
-    
-        [API Documentation](http://github.com/accreteai)
-        [Accrete.AI](http://accrete.ai/)
-        [About](http://accrete.ai/uiHomepage/#about-accrete)
-        [Products](http://accrete.ai/productLandingPage/#)
-        [Team](http://accrete.ai/productLandingPage/team_page.html)
+        [API Documentation](https://bitbucket.org/accreteteam/accretedocumentation/src)
     {: .navgroup-end}
