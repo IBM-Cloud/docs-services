@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Difitek" audience="service" href="/docs/services/Difitek/index.html"}
+Difitek API
+
+    {: .navgroup id="community"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [POST /users](https://www.difitek.com/api#POSTusers)
+        [POST /organizations/{id}/offerings](https://www.difitek.com/api#POSTorganizationsorganization_idofferings)
+    {: .navgroup-end}
+
+   {: .navgroup id="Transactions"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+
+        [POST /offerings/{id}/investments](https://www.difitek.com/api#POSTofferingsoffering_idinvestments)
+        [POST /organizations/{id}/capitalizations](https://www.difitek.com/api#POSTorganizationsorganization_idcapitalizations)
+        [POST /offerings/{id}/dealRooms](https://www.difitek.com/api#POSTofferingsoffering_iddealrooms)
+
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](www.difitek.com/api)
+    {: .navgroup-end}
