@@ -1,4 +1,4 @@
-# Topic Deltas Markdown 
+# Rational Exuberance
 ---
 
 copyright:
