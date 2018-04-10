@@ -21,9 +21,11 @@ lastupdated: "2018-01-12"
 
 Difitek is a powerful cloud-based, API-first platform for online finance applications. Customers can access end to end financial services functions through a single API and use them together with our Intelligent Connectivity Layer to create smart automated workflows.
 
+The core benefits of the platform are OPEX and CAPEX cost transformation and support for cutting edge, green field finance applications.
+
 {:shortdesc}
 
-If you wish to integrate your app with our service, merely go to the following URL and follow the steps there: https://www.difitek.com/signup. From there, you will receive an email with a temporary API Key and Secret, which is required for any function to reach our API. Once an API Key and Secret have been made available, you merely have to plug in the calls according to the documentation found at www.difitek.com/api.
+If you wish to integrate your app with our service, merely go to the following URL and follow the steps there: https://www.difitek.com/signup. From there, you will receive an email with a temporary API Key and Secret, which is required for any function to reach our API. Once an API Key and Secret have been made available, you simply have to plug in the calls according to the documentation found at www.difitek.com/api.
 
 Examples of calls are as follows:
 
