@@ -1,0 +1,18 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Envestnet-Yodlee" audience="service" href="/docs/services/Envestnet-Yodlee/index.html"}
+Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Yodlee Developer Portal](https://developer.yodlee.com)
+        [Documentation](https://developer.yodlee.com/Yodlee_API/docs)
+        [Developer Dashboard](https://developer.yodlee.com/api-dashboard)
+        [Company](https://www.yodlee.com)
+        [Security](https://www.yodlee.com/security/)
+
+    {: .navgroup-end}
