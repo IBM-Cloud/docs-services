@@ -4,7 +4,7 @@
 {: .toc subcollection="Difitek" audience="service" href="/docs/services/Difitek/index.html"}
 Difitek API
 
-   {: .navgroup id="Transactions"}
+   {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
@@ -14,9 +14,10 @@ Difitek API
         [POST /offerings/{id}/investments](https://www.difitek.com/api#POSTofferingsoffering_idinvestments)
         [POST /organizations/{id}/capitalizations](https://www.difitek.com/api#POSTorganizationsorganization_idcapitalizations)
         [POST /offerings/{id}/dealRooms](https://www.difitek.com/api#POSTofferingsoffering_iddealrooms)
+
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](www.difitek.com/api)
+    [API Documentation](https://www.difitek.com/api)
     {: .navgroup-end}
