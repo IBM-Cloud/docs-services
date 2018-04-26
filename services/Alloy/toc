@@ -1,0 +1,17 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Alloy" audience="service" href="/docs/services/Alloy/index.html"}
+Getting started with Alloy
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Our Website](https://alloy.co)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](https://docs.alloy.co)
+    {: .navgroup-end}
