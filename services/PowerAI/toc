@@ -6,14 +6,11 @@ PowerAI
 
     {: .navgroup id="learn"}
     index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     Reference
-    [API Documentation](URL)
+    [PowerAI Product Page](https://developer.ibm.com/linuxonpower/deep-learning-powerai/)
+    [PowerAI Redbook](http://www.redbooks.ibm.com/abstracts/sg248409.html?Open)
+    [PowerAI DDL](https://developer.ibm.com/linuxonpower/2018/05/01/improved-ease-use-ddl-powerai/)
     {: .navgroup-end}

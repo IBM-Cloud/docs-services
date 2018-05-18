@@ -80,12 +80,3 @@ Once connected to your instance, documentation for PowerAI is available in the d
 ```
 
 for the overall PowerAI software package, as well as in README files in individual framework subdirectories (/opt/DL/tensorflow/doc/README.md, /opt/DL/tensorflow/doc/README.md, etc)
-
-Please see the below links for reference documentation, tutorials, and other information published on how to use the frameworks and software included in PowerAI:
-
-[PowerAI Product Page](https://developer.ibm.com/linuxonpower/deep-learning-powerai/)
-[PowerAI Redbook](http://www.redbooks.ibm.com/abstracts/sg248409.html?Open)
-[PowerAI DDL](https://developer.ibm.com/linuxonpower/2018/05/01/improved-ease-use-ddl-powerai/)
-
-<!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
--->
