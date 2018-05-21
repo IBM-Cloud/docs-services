@@ -34,7 +34,7 @@ The PowerAI service presents users with several options when provisioning instan
 ### Pricing Plans
 {: #pricingplans}
 
-The pricing plan selected for this service will determine the hardware available for your PowerAI instance. For example, a "Small" plan may only provide a single GPU, while a "Large" plan may provide four GPUs.
+The pricing plan selected for this service will determine the hardware available for your PowerAI instance. For example, a "Small" plan may only provide a single GPU, while a "Large" plan may provide four GPUs. Plans are not updateabe - once provisioned, a service instance's plan cannot be changed.
 
 ### Number of machine nodes
 {: #numnodes}
