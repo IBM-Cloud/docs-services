@@ -80,3 +80,10 @@ Once connected to your instance, documentation for PowerAI is available in the d
 ```
 
 for the overall PowerAI software package, as well as in README files in individual framework subdirectories (/opt/DL/tensorflow/doc/README.md, /opt/DL/tensorflow/doc/README.md, etc)
+
+## Support
+{: #support}
+
+For IBM Cloud provisioning, billing, or account issues please submit a ticket via the [IBM Cloud Support Center](https://console.stage1.bluemix.net/unifiedsupport/supportcenter).
+For application environment, runtime, or connectivity issues please submit a ticket to [Nimbix](https://nimbix.zendesk.com/hc/en-us/requests/new) or email [Nimbix Support](mailto:support@nimbix.net)
+PowerAI software usage questions can be submitted on the [PowerAI Developerworks Forum](https://developer.ibm.com/answers/smart-spaces/361/powerai.html).
