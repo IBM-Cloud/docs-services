@@ -14,11 +14,10 @@ lastupdated: "2018-05-17"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with PowerAI in IBM Cloud
+# Getting started with the PowerAI IBM Cloud service
 {: #gettingstarted}
 
 The PowerAI service on IBM Cloud provides users with access to IBM POWER servers running the PowerAI software. This service is operated in partnership with Nimbix.
-
 {:shortdesc}
 
 ## About
