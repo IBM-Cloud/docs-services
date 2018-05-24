@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2018
+ years: 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -15,33 +15,44 @@ lastupdated: "2018-05-22"
 {:pre: .pre}
 
 # Best practices for using the PowerAI IBM Cloud service
-{: #gettingstarted}
+{: #getting-started}
 
-One of the popular use cases for the PowerAI service is training a deep learning neural network model.
+This guide provides best practices for one of the popular use cases for the PowerAI service - training a deep learning neural network model.
 {:shortdesc}
 
-This document assumes that the user already has the training dataset in a bucket in IBM Cloud Object Storage (IBM COS).  There are two options to use this training dataset for a training job:
+## Using a training dataset
+{: #using-training-dataset}
 
-- Download the training dataset from IBM COS into `/scratch` space of the node provisioned by the user to run the training job. The training job can then be run after the training data set has been downloaded into `/scratch`.
-- Provide the Cloud Object Storage parameters when the user provisions the node to run the training job. This will automatically make the training data set visible in `/data` after the node is provisioned.  The training job can then be started immediately with the training data visible in `/data`.  Once the training job starts, it will read the training data from IBM COS over the Direct Link via s3fs (which provides a file interface to the training dataset in IBM COS). In this case, there is no need to download the training data from IBM COS to the `/scratch` space before the training job is started.
+The best practices outlined here rely on a training dataset existing in an IBM Cloud Object Storage (IBM COS) bucket. To learn how to create and upload data to a bucket, see [https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html](https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html).
 
-Which option should be used depends on several considerations.  Using `/scratch` space to hold training data provides the best performance for all training epochs.  Using the Cloud Object Storage option results in slower performance during the first epoch (from 30% to 80% in our testing), but excellent performance for subsequent epochs.
+There are two preferred options for accessing this training dataset for a training job:
 
-The Cloud Object Storage Object (COS) option can be used in the following use cases:
+- Download the training dataset from IBM COS into the `/scratch` space of the node, then run the training job.
+- Provide the Cloud Object Storage parameters when the user provisions the node. This will automatically make the training dataset visible in the `/data` space after the node is provisioned. The training job can then be started immediately. Once it starts, it will read the training data from IBM COS over the Direct Link via s3fs (which provides a file interface to the training dataset in IBM COS).
 
-- If the working set of the training dataset is less than 112GB.  The working set is the amount of data that is actually accessed and used during training sessions.
+Which option should be used depends on several considerations. Using the `/scratch` space to hold training data provides the best performance for all training epochs. Using the Cloud Object Storage option results in slower performance during the first epoch (from 30% to 80%), but excellent performance for subsequent epochs.
+
+The `/scratch` (SSD-backed) storage in a node should be used to hold training data if one of the following is true:
+
+- If the working set of the training dataset is larger than 112GB.  The working set is the amount of data that is actually accessed and used by the training job.
+- If the time to download the training dataset is small compared to the length of the training job, which could take days or even weeks.
+- If the instance does not go away any time soon.  In this case, it would be more efficient to download the training dataset from IBM COS to `/scratch` once, and then all training jobs can be executed very quickly using that data.
+
+The Cloud Object Storage Object (COS) option works best for the following use cases:
+
+- If the working set of the training dataset is less than 112GB. The working set is the amount of data that is actually accessed and used during training sessions.
 - If the instance will be deleted frequently.
-- If the training jobs are relatively short, which is typical for users experimenting with different neural network models before full training runs.  In this case, the training data would be made visible to `/data` and the training jobs could start immediately after the node is provisioned.  The first epoch would be slow as the training data is actually retrieved from the IBM COS over the Direct Link as the training session commences.  In our testing, the first epoch could be 30% to 80% slower than using `/scratch` for training data.  However, the second and subsequent epochs would be as fast as using `/scratch` because the training data was already cached locally in `/data` during the first epoch.
+- If the training jobs are relatively short, which is typical for users experimenting with different neural network models before full training runs. In this case, the training data can be made visible to `/data` and the training jobs can start immediately after the node is provisioned. The first epoch would be slower than usual as the training data is retrieved from IBM COS over the Direct Link.
 
 ## Using awscli to Transfer Data From IBM Cloud Object Storage (IBM COS)
+{: #using-awscli}
 
-As mentioned in the previous section, the fastest way to download the training dataset from IBM COS into the `/scratch` space of a node is to use awscli.  In our testing, the training dataset could be downloaded from IBM COS over Direct Link into the `/scratch` space of a node at up to 750 Mbps (many users downloading or retrieving data from IBM COS at the same time would affect this data transfer rate).
+The fastest way to download the training dataset from IBM COS into the `/scratch` space of a node is to use awscli. Based on performance tests, the training dataset can be downloaded from IBM COS over Direct Link into the `/scratch` space of a node at up to 750 Mbps. This transfer rate may vary based on current service utilization.
 
 Here are the steps on how to install, configure, and use awscli:
 
-- If the service credentials for the COS have not already been created, create them as documented here: [https://dataplatform.ibm.com/docs/content/analyze-data/ml_dlaas_object_store.html#createcredentials](https://dataplatform.ibm.com/docs/content/analyze-data/ml_dlaas_object_store.html#createcredentials)
-- Run `aws configure` and give the access key id and secret access key to the COS as created in the previous step.
-- When using the `aws` command, the endpoint URL is the Nimbix proxy endpoint: [https://us-south-objectstorage.jarvice.io](https://us-south-objectstorage.jarvice.io)
-- Run `aws --endpoint-url="https://us-south-objectstorage.jarvice.io" s3 cp s3://<bucket name>/ /scratch --recursive`
+- If the service credentials for COS do not exist yet, create them as documented here: [https://dataplatform.ibm.com/docs/content/analyze-data/ml_dlaas_object_store.html#createcredentials](https://dataplatform.ibm.com/docs/content/analyze-data/ml_dlaas_object_store.html#createcredentials)
+- Run `aws configure` and use the access key id and secret access key to the COS provided in the previous step.
+- Run `aws --endpoint-url="https://us-south-objectstorage.jarvice.io" s3 cp s3://<bucket name>/ /scratch --recursive`.
 
 The additional flags `--exclude` and `--include` can be used to specify particular files from the COS bucket, resulting in reduced overall transfer time.
