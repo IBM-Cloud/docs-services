@@ -6,6 +6,7 @@ PowerAI
 
     {: .navgroup id="learn"}
     index.md
+    bestpractices.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

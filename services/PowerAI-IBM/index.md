@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-05-21"
+lastupdated: "2018-05-17"
 
 ---
 
@@ -14,11 +14,10 @@ lastupdated: "2018-05-21"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with PowerAI in IBM Cloud
-{: #gettingstarted}
+# Getting started with the PowerAI IBM Cloud service
+{: #getting-started}
 
 The PowerAI service on IBM Cloud provides users with access to IBM POWER servers running the PowerAI software. This service is operated in partnership with Nimbix.
-
 {:shortdesc}
 
 ## About
@@ -32,12 +31,12 @@ PowerAI makes deep learning, machine learning, and AI more accessible and more p
 The PowerAI service presents users with several options when provisioning instances. These options include:
 
 ### Pricing Plans
-{: #pricingplans}
+{: #pricing-plans}
 
 The pricing plan selected for this service will determine the hardware available for your PowerAI instance. For example, a "Small" plan may only provide a single GPU, while a "Large" plan may provide four GPUs. Plans are not updateabe - once provisioned, a service instance's plan cannot be changed.
 
 ### Number of machine nodes
-{: #numnodes}
+{: #num-nodes}
 
 This option, only available when the "Large" pricing plan size is selected, allows a user to create a multi-node cluster. It is specified as the `num_nodes` parameter.
 
@@ -46,10 +45,9 @@ This option, only available when the "Large" pricing plan size is selected, allo
     "num_nodes": 2
 }
 ```
-{: codeblock}
 
 ### Import from Cloud Object Storage
-{: #importcos}
+{: #import-cos}
 
 This optional feature enables users to provide details for an [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage) bucket to be connected to the PowerAI instance when the instance is provisioned. Required parameters are as follows:
 
@@ -72,7 +70,7 @@ Cloud Object Storage secret key: The IBM Cloud Object Storage secret key provide
 After a service instance is provisioned, the service will generate credentials that can be used to connect with the machine via SSH or VNC. These credentials are visible through the service instance dashboard. They can also be obtained via the CLI by creating a service key. Other applications and services can use the service key credentials to connect with the instance.
 
 ## PowerAI Usage Documentation
-{: #poweraiusage}
+{: #powerai-usage}
 
 Once connected to your instance, documentation for PowerAI is available in the directory
 
