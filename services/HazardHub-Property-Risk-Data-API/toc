@@ -1,0 +1,18 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="HazardHub" audience="service" href="/docs/services/HazardHub/index.html"}
+Hazard Hub Risk Report Service
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Hazard Hub](http://hazardhub.com)
+        [Hazard Hub API](https://api.hazardhub.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](https://api.hazardhub.com/docs)
+    {: .navgroup-end}
