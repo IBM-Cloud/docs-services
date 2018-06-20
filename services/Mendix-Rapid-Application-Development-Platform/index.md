@@ -42,15 +42,14 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before you get started developing your first application using the Mendix Platform, there are a few steps you'll need to follow in order to deploy your app to IBM Bluemix.
-
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-Mendix runs on Cloud Foundry in the IBM Bluemix PaaS so you're going to need the following information to configure your Bluemix account.
+To start developing a new application with the Mendix Platform, you can go to the Starter kids located in the hamburger menu of IBM cloud. There are starter kids available for both Mobile, Watson and Web Apps. 
 
-- API End Point
-- IBM Bluemix Username and Password
+By selecting a Mendix Low-code starter kit you will be guided to initiated your account on Mendix platform, start your project and setup your  environment in either Cloud Foundry or your Kubernetes cluster. 
+
+During this setup you will be requested to select a Mendix Platform Service. A Lite plan is available for evaluation.
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -59,35 +58,25 @@ Mendix runs on Cloud Foundry in the IBM Bluemix PaaS so you're going to need the
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-## 1. Step 1 Start the Mendix Boilerplate 
-To quickly setup your application enviroment within IBM Bluemix, you can use the Mendix Rapid Apps [Boilerplate](https://console.bluemix.net/catalog/starters/mendix-rapid-apps?env_id=ibm%3Ayp%3Aeu-gb&taxonomyNavigation=apps)
+## 1. Select a starter kit 
+
+You can select a Mendix Low-code starter kit from either the [Mobile](https://console.bluemix.net/developer/mobile/starter-kits/mobile-for-mendix), Watson or [Web](https://console.bluemix.net/developer/appservice/starter-kits/basic-web-for-mendix) category
 
 
-## 2. Step 2 Signup for free
 
-First you'll need a Free Mendix account. It takes less than a minute, and the only data we'll need to get you started is your name and email address. https://www.mendix.com/try-now
+## 2. Give you application a name
 
-## 3. Step 3 Follow the guided tutorial
+A default name is provided. 
 
-Mendix will guide you through the development of your first rapid app. Just follow the instructions in the platform and modeler, and you'll have your first fully responsive app up and running in no time.
+## 3. Authorize IBM to create your project on Mendix Platoform
 
-## 4. Step 4 Deploying to IBM Bluemix
+In case this is your first project you will be guided to the Mendix Platform to sign up and authorize IBM Cloud to create a new project on Mendix Platform on your behave. This project will be linked to IBM Cloud, so deployments will be automatically directed to IBM Cloud
 
-At several points during the guidance you'll be asked to Run in Sandbox. Sandboxes are free Mendix Cloud slots.
+## 4. Select your container type to run your application
 
-## 5. Step 5 Setup IBM Bluemix deployment
+To run your application, you can select between Cloud Foundry or one of your Kubernetes clusters running on IBM Cloud. 
 
-Mendix runs on top of Cloud Foundry in the IBM Bluemix PaaS. First of all you need to configure your Cloud Foundry settings.
-
-Mendix will automatically test the connection to make sure we've made contact with your account.
-
-### a. Select the boilerplate
-Choose 'Select existing app' and select the app you created using the 'Mendix Rapid Apps' Boilerplate
-
-## 5. Step 5 Deploy
-Now you're connected you can run your app on IBM Bluemix by clicking on 'Run on Cloud Foundry'
-
-Remember, you'll need to 'Run on Cloud Foundry' to test your application.
+After this selection a Toolchain will be created which integrates your Mendix Project within the Mendix Platform with your IBM Cloud environment. When using the Mendix modeler you now can use the 1 click deployment feature, to trigger a new version for the Toolchain to deploy. 
 
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->
