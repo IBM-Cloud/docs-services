@@ -16,7 +16,7 @@ lastupdated: "2016-03-07"
 
 # Getting started with XpertRule Decision Automation for node-RED
 {: #gettingstarted} 
-*Last updated: 28 Feb 2017*
+
 
 XpertRule is a global leader in next generation Decision Automation services for IoT products and solutions. Their service, Decision Automation for node-RED, enables complex decision logic to be maintained externally to node-RED, enabling more effective governance and configuration of the overall solution. Decision Automation nodes can be built, visualized, tested and modified quickly and easily, before being deployed into a node-RED node in a matter of seconds.
 
