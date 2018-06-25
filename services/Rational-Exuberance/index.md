@@ -1,4 +1,3 @@
-# Rational Exuberance
 ---
 
 copyright:
