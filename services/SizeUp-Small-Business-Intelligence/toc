@@ -1,0 +1,19 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="SizeUp-Small-Business-Intelligence" audience="service" href="/docs/services/SizeUp-Small-Business-Intelligence/index.html"}
+Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Link text](URL)
+        [Link text](URL)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](URL)
+    {: .navgroup-end}
+    
