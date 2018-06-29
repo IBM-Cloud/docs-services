@@ -10,7 +10,6 @@
 Please delete out content examples and coding that you are not using for your service. -->
 
 # Getting started with RelSci API
-Last Updated: 2018-06-28
 {: #gettingstarted}
 <!-- Provide an appropriate ID above -->
 
