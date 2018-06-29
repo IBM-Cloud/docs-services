@@ -1,0 +1,15 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Relationship-Science" audience="service" href="/docs/services/Relationship-Science/index.html"}
+RelSci
+
+    {: .navgroup id="learn"}
+    index.md
+    [Learn More about the RelSci API](https://relationshipscience.com/relsci-api)
+    [ Request a License](https://relationshipscience.com/relsci-api/signup)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](https://developer.relsci.com)
+    {: .navgroup-end}
