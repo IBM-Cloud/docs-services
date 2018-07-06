@@ -2,32 +2,20 @@
 
 copyright:
 
-  years:  2017
+  years:  2017, 2018
 
-lastupdated: "2017-10-18"
+lastupdated: "2018-07-05"
 
 ---
 
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:screen:.screen}
-{:codeblock:.codeblock}
-{:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
+# Getting started with SizeUp (LBI) Local Business Intelligence
 
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
-# Getting started with <service_short_name>
-{: #gettingstarted}
-<!-- Provide an appropriate ID above -->
-
-<!-- Short description: REQUIRED
-
-See usage examples below, or read the full docs at [Sizeup developer docs]().
+SizeUp (LBI) Location Business Intelligence allows you to explore/find market data to better understand site-specific market information enabling more optimal decision making.
 
 This service can be accessed via javascript in the browser or in node.
+
+ {: shortdesc}
 
 ## Example: SizeUp from browser code
 
@@ -157,27 +145,6 @@ Read more at [Sizeup developer docs].
 
 [Sizeup developer docs]: https://www.sizeup.com/developers/documentation
 
-
-
-
-
-
-
-
-
-
-
-
-
-The short description section should include one to two sentences describing why a developer would want to use your service in an app. This should be conversational style. For search engine optimization, include the service long name and "Bluemix". Keep the {: shortdesc} after the first paragraph so that the framework renders it properly.
-
-Examples: -->
-
-<service_name> is a... -OR-
-With <service_name>, you can...  -OR-
-Use <service_name> to...
-{:shortdesc}
-
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
 <!-- Task section: REQUIRED
@@ -190,8 +157,7 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before an application developer can... the administrator must ...
-
+Before developers can access the SizeUp API, you must have 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
 To integrate your app with the service, complete these steps: -OR-
@@ -205,11 +171,10 @@ Complete these steps to get started with the BigInsights service:
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-1. List step 1 to integrate app with the service.
-2. List step 2 to integrate app with the service.
+1. In Order to Receive your API Key, please contact Sales@SizeUp.com
+2. For the BB&T Hackathon, please contact lemacomb@us.ibm.com 
 
 	```
-	Copyable example for this step. 
 	This example might be multiline code
 	to copy into a file. 
 	When displayed in the doc framework, 
@@ -217,26 +182,3 @@ Complete these steps to get started with the BigInsights service:
 	The user can click to copy the example 
 	so they can paste it into their code editor.
 	```
-	{: codeblock}
-
-3. List step 3 In this step, <introduce the example that follows>.
-
-	```
-	my command -and -options
-	```
-	{: pre}
-
-4. List step 4
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as 
-			output with no copy button.
-	```
-	{: screen}
-
-
-
-<!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
--->
