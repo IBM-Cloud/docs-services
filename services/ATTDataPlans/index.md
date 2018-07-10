@@ -14,7 +14,7 @@ lastupdated: "2017-04-04"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# Getting started with AT&T IoT Data Plans on Bluemix
+# Getting started with AT&T IoT Data Plans
 {: #gettingstarted}
 
 Launch your product fast with AT&T IoT Data Plans. Get enterprise-grade SIMs, sharing a pool of prepaid data at low rates.
