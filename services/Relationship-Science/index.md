@@ -1,3 +1,13 @@
+---
+
+copyright:
+
+  years: 2018
+
+lastupdated: "2018-07-17"
+
+---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
