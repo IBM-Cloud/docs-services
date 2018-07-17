@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="SizeUp-Small-Business-Intelligence" audience="service" href="/docs/services/SizeUp-Small-Business-Intelligence/index.html"}
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
 Product name
 
     {: .navgroup id="learn"}
@@ -9,11 +9,10 @@ Product name
 
     {: .topicgroup}
     Related links
-        [Link text](URL)
-        [Link text](URL)
+        [SizeUp Home Page](https://www.SizeUp.com)
+        [SizeUp FAQ](https://corporate.sizeup.com/products-main/faqs/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API Documentation](URL)
+    [API Documentation](https://application.sizeup.com/developers/documentation/)
     {: .navgroup-end}
-    
