@@ -2,11 +2,12 @@
 
 copyright:
 
-years:  Invalid Date:
+  years: 2018
 
-lastupdated: "Invalid Date"
+lastupdated: "8/2/2018"
 
 ---
+
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -14,7 +15,7 @@ lastupdated: "Invalid Date"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutQueryDocsNew
+# About QueryDocs
 {: #gettingstarted}
 
 QueryDocs can be used to create 100% customizable reports and dashboards.
@@ -70,4 +71,3 @@ The reponse of this call should contain a link to the QueryDoc:
 ```
 
 The URL can be opened in your browser to view the document.
-
