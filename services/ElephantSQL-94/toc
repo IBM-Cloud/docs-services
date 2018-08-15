@@ -4,21 +4,21 @@
 {: .toc subcollection="ElephantSQL" audience="service" href="/docs/services/elephantsql.html"}
 ElephantSQL
 
-{: .navgroup id="learn"}
-index.md
+    {: .navgroup id="learn"}
+    index.md
 
-{: .topicgroup}
-Related links
-[API Documentation](https://www.elephantsql.com/docs/api.html)
-{: .navgroup-end}
+    {: .topicgroup}
+    Related links
+      [API Documentation](https://www.elephantsql.com/docs/api.html)
+    {: .navgroup-end}
 
-{: .navgroup id="reference"}
-Reference
-[Company homepage](http://www.84codes.com)
-{: .navgroup-end}
+    {: .navgroup id="reference"}
+    Reference
+      [Company homepage](http://www.84codes.com)
+    {: .navgroup-end}
 
-{: .navgroup id="help"}
-Help
-[Support](https://www.elephantsql.com/support.html)
-{: .navgroup-end}
+    {: .navgroup id="help"}
+    Help
+      [Support](https://www.elephantsql.com/support.html)
+    {: .navgroup-end}
 
