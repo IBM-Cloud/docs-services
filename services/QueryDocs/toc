@@ -4,21 +4,21 @@
 {: .toc subcollection="QueryDocs" audience="service" href="/docs/services/querydocs.html"}
 QueryDocs
 
-{: .navgroup id="learn"}
-index.md
+    {: .navgroup id="learn"}
+    index.md
 
-{: .topicgroup}
-Related links
-[API Documentation](http://docs.tinyqueries.com)
-{: .navgroup-end}
+    {: .topicgroup}
+    Related links
+        [API Documentation](http://docs.tinyqueries.com)
+    {: .navgroup-end}
 
-{: .navgroup id="reference"}
-Reference
-[Company homepage](http://www.tinyqueries.com)
-{: .navgroup-end}
+    {: .navgroup id="reference"}
+    Reference
+        [Company homepage](http://www.tinyqueries.com)
+    {: .navgroup-end}
 
-{: .navgroup id="help"}
-Help
-[Support](https://www.tinyqueries.com/contact)
-{: .navgroup-end}
+    {: .navgroup id="help"}
+    Help
+        [Support](https://www.tinyqueries.com/contact)
+    {: .navgroup-end}
 
