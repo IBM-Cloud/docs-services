@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-08-06"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-08-06"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutTrueRisk Lab's Deep Learning Analytics for Financial Services Firms
+# AboutTrueRisk Labs - Equity Predictions Using Advanced AI
 {: #gettingstarted}
 
 TrueRisk Labs is delivering the next evolution in the investment decision making processes. Our metrics are the culmination of human and artificial intelligence, combining industry best
