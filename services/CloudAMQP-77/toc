@@ -4,21 +4,25 @@
 {: .toc subcollection="CloudAMQP" audience="service" href="/docs/services/cloudamqp.html"}
 CloudAMQP
 
-{: .navgroup id="learn"}
-index.md
+    {: .navgroup id="learn"}
+    index.md
 
-{: .topicgroup}
-Related links
-    [API Documentation](https://www.cloudamqp.com/docs/api.html)
-{: .navgroup-end}
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.cloudamqp.com/docs/api.html)
+    {: .navgroup-end}
 
-{: .navgroup id="reference"}
-Reference
-    [Company homepage](http://www.84codes.com)
-{: .navgroup-end}
+    {: .navgroup id="reference"}
+    
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://www.84codes.com)
+    {: .navgroup-end}
 
-{: .navgroup id="help"}
-Help
-    [Support](https://www.cloudamqp.com/support.html)
-{: .navgroup-end}
+    {: .navgroup id="help"}
+    
+    {: .topicgroup}
+    Help
+        [Support](https://www.cloudamqp.com/support.html)
+    {: .navgroup-end}
 
