@@ -1,15 +1,15 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TrueRisk Lab's Deep Learning Analytics for Financial Services Firms" audience="service" href="/docs/services/truerisk-lab's-deep-learning-analytics-for-financial-services-firms.html"}
-TrueRisk Lab's Deep Learning Analytics for Financial Services Firms
+{: .toc subcollection="TrueRisk Labs - Equity Predictions Using Advanced AI" audience="service" href="/docs/services/truerisk-labs---equity-predictions-using-advanced-ai.html"}
+TrueRisk Labs - Equity Predictions Using Advanced AI
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [API Documentation](http://www.truerisklabs.com/API_Documentation)
+        [API Documentation](https://www.truerisklabs.com/API_Documentation.pdf)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
