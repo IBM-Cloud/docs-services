@@ -1,0 +1,29 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Searchly" audience="service" href="/docs/services/searchly.html"}
+Searchly
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](http://www.searchly.com/docs)
+        [Tutorial](http://www.searchly.com/ibm)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://www.searchly.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](http://support.searchly.com)
+    {: .navgroup-end}
+
