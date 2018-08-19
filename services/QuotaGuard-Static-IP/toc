@@ -1,0 +1,29 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="QuotaGuard Static IP" audience="service" href="/docs/services/quotaguard-static-ip.html"}
+QuotaGuard Static IP
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Quick Start Guide](https://www.quotaguard.com/support/quick-start?provider=ibm_cloud)
+        [Online Support](https://www.quotaguard.com/support?provider=ibm_cloud)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [QuotaGuard Homepage](https://www.quotaguard.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Online Support](https://www.quotaguard.com/support?provider=ibm_cloud)
+        [Email Support](mailto:support@quotaguard.com)
+    {: .navgroup-end}
