@@ -40,7 +40,7 @@ On your laptop create a folder in which you create the following two files:
 
 
 * hello-world.yml
-```yaml
+  ```yaml
   # This document displays Hello World
   doc hello-world:
     type: sheet
