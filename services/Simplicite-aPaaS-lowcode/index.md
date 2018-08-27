@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-08-20"
+lastupdated: "2018-08-27"
 
 ---
 
@@ -18,19 +18,19 @@ lastupdated: "2018-08-20"
 # AboutSimplicite aPaaS low-code
 {: #gettingstarted}
 
-The Simplicité® patform offers you a wide range of generic mechanisms to dynamically run your business models. The configuration is data centric meaning that any business application configuration starts with the configuration of a logical data model.Then, on top of this data model, custom behaviors can be added:
+The Simplicité® platform offers you a wide range of generic mechanisms to dynamically run your business models. The configuration is data centric meaning that any business application configuration starts with the configuration of a logical data model. Then, on top of this data model, custom behaviors can be added:
 
-* ° Rights enforcements
-* ° Contextual constraints
-* ° State model workflows
-* ° Activity workflows
-* ° and more...
+* Rights enforcements
+* Contextual constraints
+* State model workflows
+* Activity workflows
+* and more...
 
 {:shortdesc}
 
 ## Getting started
 
-The Simplicité® platform is composed of several components (see this document for details on the platform’s technical architecture).
+The Simplicité® platform is composed of several components (see [this document for details](https://www.simplicite.io/resources/documentation/architecture.md) on the platform’s technical architecture).
 
 The core component is the business engine which is responsible for running the configured business models.
 
@@ -40,7 +40,7 @@ Through [this online guide](https://training.simplicite.io/) you can discover al
  
 You can also [find many resources available](https://www.simplicite.io/resources/). Through examples and concrete cases you can create your applications step by step.
 
-[After reading and understanding the ins and outs](https://training.simplicite.io/training/getting-started/) of the platform, you can start your journey with the creation of our first objects. [By following this link](https://training.simplicite.io/training/business-objects-configuration/)
+[After reading and understanding the ins and outs](https://training.simplicite.io/training/getting-started/) of the platform, you can start your journey with the creation of our first objects. [By following this link](https://training.simplicite.io/training/business-objects-configuration/).
 
 By following [this part of the training](https://training.simplicite.io/training/business-workflows-configuration/) you will see the principal of the platform. See how you can create your business process.
 
