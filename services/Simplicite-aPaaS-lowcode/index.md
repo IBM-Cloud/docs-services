@@ -15,7 +15,7 @@ lastupdated: "2018-08-27"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutSimplicite aPaaS low-code
+# About Simplicite aPaaS low-code
 {: #gettingstarted}
 
 The Simplicité® platform offers you a wide range of generic mechanisms to dynamically run your business models. The configuration is data centric meaning that any business application configuration starts with the configuration of a logical data model. Then, on top of this data model, custom behaviors can be added:
@@ -45,4 +45,3 @@ You can also [find many resources available](https://www.simplicite.io/resources
 By following [this part of the training](https://training.simplicite.io/training/business-workflows-configuration/) you will see the principal of the platform. See how you can create your business process.
 
 [By following this link](https://training.simplicite.io/training/interface-configuration-items/) you find all the elements allowing you to personalize your experience with the Simplicité Software platform.
-
