@@ -15,7 +15,7 @@ lastupdated: "2018-08-17"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutSearchly
+# About Searchly
 {: #gettingstarted}
 
 Don’t bother with the administrative operations or reliability issues of a search platform. Searchly is a hosted, managed and scalable search as a service powered by Elasticsearch, the final frontier of search engines.
@@ -36,5 +36,4 @@ You can manage your service from the service dashboard. You can;
 
 You can connect to your service by using the credentials that are created along with the service, or with the connection strings and command line that are provided in the Overview tab of your service dashboard.
 
-Follow the [tutorial](http://www.searchly.com/docs/ibm) to understand how to integrate your application with Searchly .
-
+Follow the [tutorial](http://www.searchly.com/ibm) to understand how to integrate your application with Searchly .
