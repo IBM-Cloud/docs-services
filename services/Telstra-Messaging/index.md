@@ -15,7 +15,7 @@ lastupdated: "2018-08-24"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutTelstra Messaging
+# About Telstra Messaging
 {: #gettingstarted}
 
 Send and receive SMS and MMS messages globally using Telstra's enterprise grade Messaging API. It also allows your application to track the delivery status of both sent and received messages. Get your dedicated Australian number, and start sending and receiving messages today.
