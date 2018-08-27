@@ -1,0 +1,28 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Simplicite aPaaS low-code" audience="service" href="/docs/services/simplicite-apaas-low-code.html"}
+Simplicite aPaaS low-code
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.simplicite.io/resources/documentation/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.simplicitesoftware.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](http://community.simplicite.io/c/support)
+    {: .navgroup-end}
+
