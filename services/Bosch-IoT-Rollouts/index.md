@@ -1,6 +1,6 @@
 ---
 
-copyright: "Bosch Software Innovations GmbH, Germany"
+copyright:
 
   years:  2017
 
