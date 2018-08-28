@@ -1,0 +1,24 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Health Score" audience="service" href="/docs/services/health-score.html"}
+Health Score
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+      [API Documentation](https://models.dacadoo.com/doc/health/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+      [Company homepage](https://www.dacadoo.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    Help
+      [Support](https://info.dacadoo.com/support/contact-us/)
+    {: .navgroup-end}
+

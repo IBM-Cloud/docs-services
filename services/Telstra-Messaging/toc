@@ -1,0 +1,29 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Telstra Messaging" audience="service" href="/docs/services/telstra-messaging.html"}
+Telstra Messaging
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://dev.telstra.com/content/messaging-api)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://dev.telstra.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](https://dev.telstra.com/support)
+        [FAQ](https://dev.telstra.com/content/messaging-api#section/Frequently-Asked-Questions)
+    {: .navgroup-end}
+
