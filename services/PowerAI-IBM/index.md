@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-05-17"
+lastupdated: "2018-08-31"
 
 ---
 
@@ -43,6 +43,17 @@ This option, only available when the "Large" pricing plan size is selected, allo
 ```
 {
     "num_nodes": 2
+}
+```
+
+### Python version
+{: #python-version}
+
+This option allows a user to create an instance with python version 3 instead of the default version 2. It is specified as the `python_version` parameter.
+
+```
+{
+    "python_version": "python3"
 }
 ```
 
