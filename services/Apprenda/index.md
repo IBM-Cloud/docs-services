@@ -19,8 +19,6 @@ lastupdated: "2017-03-16"
 {: #gettingstarted_Apprenda}
 
 The Apprenda Cloud Platform (ACP) for Bluemix provides a comprehensive, policy driven, cloud application platform for development teams to develop, deploy, and scale cloud native and traditional application .NET workloads.  Visual Studio integration is available, including support for Bluemix services like Watson.
-
-For more detailed information about the platform, including [tutorials](http://docs.apprenda.com/current/tutorials) and developer tools, visit our [Documentation site](http://docs.apprenda.com/current/developers).
 {:shortdesc}
 
 
