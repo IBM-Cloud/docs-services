@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2017
+  years: 2018
 
-lastupdated: "2017-10-18"
+lastupdated: "2018-07-17"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-10-18"
 <!-- The name of this file should remain index.md.
 Please delete out content examples and coding that you are not using for your service. -->
 
-# Getting started with Mendix Platform on IBM Cloud 
+# Getting started with RelSci API
 {: #gettingstarted}
 <!-- Provide an appropriate ID above -->
 
@@ -28,7 +28,8 @@ The short description section should include one to two sentences describing why
 
 Examples: -->
 
-Mendix Platform is a Low-code development platform which allows you deliver Multi device applications faster with less resources runnon on IBM Cloud platform. 
+RelSci offers deep profiles of over 8 million decision makers, revealing who they are, what they've been up to lately, and how they connect. Use our flexible JSON API to build customized relationship management solutions that integrate premium RelSci content into your proprietary tools and workflows.
+{:shortdesc}
 
 <!-- If overview content is required, do not include it here. Put it in a separate "## About" section below the task section. -->
 
@@ -40,16 +41,10 @@ The task section includes steps to integrate the service into the app.
 - DO include code snippets in all languages that can be copied, as well as VCAP service info.  
 - For additional tasks like configuring, managing, etc., add a task section (## Gerund_task_title) below the task section or "About" section if used. Use a task title such as "Configuring x", "Administering y", "Managing z". -->
 
-<!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
-
 
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
-To start developing a new application with the Mendix Platform, you can go to the Starter kids located in the hamburger menu of IBM cloud. There are starter kids available for both Mobile, Watson and Web Apps. 
-
-By selecting a Mendix Low-code starter kit you will be guided to initiated your account on Mendix platform, start your project and setup your  environment in either Cloud Foundry or your Kubernetes cluster. 
-
-During this setup you will be requested to select a Mendix Platform Service. A Lite plan is available for evaluation.
+To get started with the RelSci API:
 
 <!-- Use ordered list markup for the step section. For code examples: 
 - use three backticks ahead of and after the example (```)
@@ -58,25 +53,13 @@ During this setup you will be requested to select a Mendix Platform Service. A L
 - For non-copyable output snippet, include {: screen} following the last set of backticks.
  -->
 
-## 1. Select a starter kit 
+1. If you don't already have a RelSci API account, [contact us](https://relationshipscience.com/relsci-api/signup) to set up a license. Note: If you are already a RelSci customer, please reach out to your account manager.
+2. Fill out your RelSci account username and password on the IBM Cloud. We recommend working in the default sandbox environment until you are ready to go live.
+3. Get started building your application! You can view the documentation [here](https://www.relsci.com/Developer) using your credentials. We recommend starting in the [authentication section](https://www.relsci.com/Developer/Authentication).
 
-You can select a Mendix Low-code starter kit from either the [Mobile](https://console.bluemix.net/developer/mobile/starter-kits/mobile-for-mendix), Watson or [Web](https://console.bluemix.net/developer/appservice/starter-kits/basic-web-for-mendix) category
 
+If you have any other questions, please contact us at [clientsupport@relsci.com](mailto:clientsupport@relsci.com).
 
-
-## 2. Give you application a name
-
-A default name is provided. 
-
-## 3. Authorize IBM to create your project on Mendix Platoform
-
-In case this is your first project you will be guided to the Mendix Platform to sign up and authorize IBM Cloud to create a new project on Mendix Platform on your behave. This project will be linked to IBM Cloud, so deployments will be automatically directed to IBM Cloud
-
-## 4. Select your container type to run your application
-
-To run your application, you can select between Cloud Foundry or one of your Kubernetes clusters running on IBM Cloud. 
-
-After this selection a Toolchain will be created which integrates your Mendix Project within the Mendix Platform with your IBM Cloud environment. When using the Mendix modeler you now can use the 1 click deployment feature, to trigger a new version for the Toolchain to deploy. 
 
 <!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
 -->

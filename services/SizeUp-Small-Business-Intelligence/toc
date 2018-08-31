@@ -1,0 +1,18 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [SizeUp Home Page](https://www.SizeUp.com)
+        [SizeUp FAQ](https://corporate.sizeup.com/products-main/faqs/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API Documentation](https://application.sizeup.com/developers/documentation/)
+    {: .navgroup-end}

@@ -1,0 +1,28 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="TrueRisk Labs - Equity Predictions Using Advanced AI" audience="service" href="/docs/services/truerisk-labs---equity-predictions-using-advanced-ai.html"}
+TrueRisk Labs - Equity Predictions Using Advanced AI
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.truerisklabs.com/API_Documentation.pdf)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://www.truerisklabs.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](http://www.truerisklabs.com/contact.php)
+    {: .navgroup-end}
+
