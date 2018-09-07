@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="HPCaaS from Rescale" audience="service" href="/docs/services/hpcaas-from-rescale.html"}
+HPCaaS from Rescale
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://resources.rescale.com/articles/rest-api/)
+        [Quick start](https://platform.rescale.com/introduction/)
+        [Resources](https://resources.rescale.com/resource-center/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.rescale.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](https://resources.rescale.com/articles/general-faqs/)
+    {: .navgroup-end}
+
