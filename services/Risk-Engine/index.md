@@ -4,9 +4,10 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-08-15"
+lastupdated: "2018-09-07"
 
 ---
+
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -14,7 +15,7 @@ lastupdated: "2018-08-15"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutRisk Engine
+# About Risk Engine
 {: #gettingstarted}
 
 The dacadoo Risk Engine calculates health-related mortalilty and disease risks such as all-cause mortality and Diabetes type II. The calculation is based on numerous biometric inputs, such as height, weight, blood pressure, heart rate, blood values, and questionnaire responses. Only sex, age, height and weight are required. Other missing values can be imputed by the engine. In addition to the resulting risks, the engine returns the fully imputed input data set.
@@ -50,7 +51,7 @@ Content-Type: application/json; charset=UTF-8
 
 You need to replace `<API key>` with your actual API key, omitting the angular brackets.
 
-Please refer to the [API Documentation](https://models.dacadoo.com/risk/) to learn about the complete set of biometric inputs you can pass in the request. The above example represents a small subset of the input domain.
+Please refer to the [API Documentation](https://models.dacadoo.com/doc/risk/) to learn about the complete set of biometric inputs you can pass in the request. The above example represents a small subset of the input domain.
 
 The API will respond as follows:
 
@@ -81,5 +82,5 @@ X-dacadoo-Quota: interval=minute; count=1; limit=50; next=1530008580, interval=d
 }
 ```
 
-Again, please refer to the [API Documentation](https://models.dacadoo.com/risk/) to learn about the complete set of health risks and imputed values returned by the risk engine. The above example represents a small subset of the output domain.
+Again, please refer to the [API Documentation](https://models.dacadoo.com/doc/risk/) to learn about the complete set of health risks and imputed values returned by the risk engine. The above example represents a small subset of the output domain.
 
