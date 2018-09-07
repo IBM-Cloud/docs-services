@@ -4,9 +4,10 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-15-08"
+lastupdated: "2018-09-07"
 
 ---
+
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -14,7 +15,7 @@ lastupdated: "2018-15-08"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutHealth Score
+# About Health Score
 {: #gettingstarted}
 
 The Health Score is a number between 0 and 1,000 representing the overall health of a person. The score is based on numerous biometric, lifestyle and psychometric inputs supporting a 360° view of human health. The score is normalized by age and sex to support comparison and benchmarking.
@@ -61,7 +62,7 @@ Content-Type: application/json; charset=UTF-8
 
 You need to replace `<API key>` with your actual API key, omitting the angular brackets.
 
-Please refer to the [API Documentation](https://models.dacadoo.com/health/) to learn about the complete set of biometric, lifestyle, and psychometric inputs you can pass in the request. The above example represents a small subset of the input domain.
+Please refer to the [API Documentation](https://models.dacadoo.com/doc/score/) to learn about the complete set of biometric, lifestyle, and psychometric inputs you can pass in the request. The above example represents a small subset of the input domain.
 
 The API will respond as follows:
 
@@ -93,5 +94,5 @@ X-dacadoo-Quota: interval=minute; count=1; limit=50; next=1530008580, interval=d
 }
 ```
 
-Again, please refer to the [API Documentation](https://models.dacadoo.com/health/) to learn about the meaning of the returned values.
+Again, please refer to the [API Documentation](https://models.dacadoo.com/doc/score/) to learn about the meaning of the returned values.
 

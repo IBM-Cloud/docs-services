@@ -1,28 +1,28 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Risk Engine" audience="service" href="/docs/services/risk-engine.html"}
-Risk Engine
+{: .toc subcollection="Leanides" audience="service" href="/docs/services/leanides.html"}
+Leanides
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [API Documentation](https://models.dacadoo.com/doc/risk/)
+        [API Documentation](https://www.leanides.com/australia/software/Leanides%20Install%20Guide.pdf)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
 
     {: .topicgroup}
     Reference
-        [Company homepage](https://www.dacadoo.com/)
+        [Company homepage](https://www.leanides.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
 
     {: .topicgroup}
     Help
-        [Support](https://info.dacadoo.com/support/contact-us/)
+        [Support](https://www.leanides.com/australia/support)
     {: .navgroup-end}
 

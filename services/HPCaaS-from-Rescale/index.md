@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-21"
 
 ---
 
@@ -15,10 +15,10 @@ lastupdated: "2018-08-16"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutHPCaaS from Rescale
+# About HPCaaS from Rescale
 {: #gettingstarted}
 
-HPCaaS from Rescale provides a very quick and easy way for customers to run HPC workloads on IBM Cloud. The offering enables users to deploy their HPC jobs on IBM Cloud very quickly with specific choice of execution environment configuration. The service allows users to pick the desired software package, specify compute, storage, network configuration for the execution environment for the job. Once the job is submitted, provides a live tailing feature and gives an easy access to execution environment for debugging. On  completion users can download the results or any output files for further analyses.
+HPCaaS from Rescale provides a quick and easy way for customers to run HPC workloads on IBM Cloud. The offering enables users to rapidly deploy HPC jobs on IBM Cloud -- using the optimal architecture. The service allows users to pick the desired software package, specify compute, storage, network configuration for the execution environment for the job. Once the job is submitted, Rescale provides a live tailing feature and gives an easy access to execution environment for debugging. On completion, users can download the results or any output files for further analyses.
 
 {:shortdesc}
 
