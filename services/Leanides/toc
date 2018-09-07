@@ -1,0 +1,28 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Leanides" audience="service" href="/docs/services/leanides.html"}
+Leanides
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.leanides.com/australia/software/Leanides%20Install%20Guide.pdf)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.leanides.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](https://www.leanides.com/australia/support)
+    {: .navgroup-end}
+
