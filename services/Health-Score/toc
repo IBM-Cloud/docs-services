@@ -9,16 +9,20 @@ Health Score
 
     {: .topicgroup}
     Related links
-      [API Documentation](https://models.dacadoo.com/doc/health/)
+        [API Documentation](https://models.dacadoo.com/doc/score/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+
+    {: .topicgroup}
     Reference
-      [Company homepage](https://www.dacadoo.com/)
+        [Company homepage](https://www.dacadoo.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+
+    {: .topicgroup}
     Help
-      [Support](https://info.dacadoo.com/support/contact-us/)
+        [Support](https://info.dacadoo.com/support/contact-us/)
     {: .navgroup-end}
 
