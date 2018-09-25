@@ -19,6 +19,7 @@ lastupdated: "2018-08-21"
 {: #gettingstarted}
 
 HPCaaS from Rescale provides a quick and easy way for customers to run HPC workloads on IBM Cloud. The offering enables users to rapidly deploy HPC jobs on IBM Cloud -- using the optimal architecture. The service allows users to pick the desired software package, specify compute, storage, network configuration for the execution environment for the job. Once the job is submitted, Rescale provides a live tailing feature and gives an easy access to execution environment for debugging. On completion, users can download the results or any output files for further analyses.
+HPCaaS from Rescale is a fully integrated offering on IBM Cloud catalog, besides the catalog integration for provisioning of the service instance, seemless identity propogation to Rescale, customers would get billed and invoiced by IBM. 
 
 {:shortdesc}
 
