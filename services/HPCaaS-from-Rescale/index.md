@@ -26,13 +26,14 @@ HPCaaS from Rescale is a third party service that is fully integrated into the I
 
 ## Getting started
 
-Get started by following these steps below:
+#### Step One:
+On the IBM Cloud Catalog, navigate to the Compute category or leverage the search capability by entering "HPCaaS from Rescale" to locate the service tile.
 
-Step One - On the IBM Cloud Catalog, navigate to the Compute category or leverage the search capability by entering "HPCaaS from Rescale" to locate the service tile.
+#### Step Two:
+Review the "Standard" pricing plan and click on the "Create" button to instantiate a service instance.
 
-Step Two - Review the "Standard" pricing plan and click on the "Create" button to instantiate a service instance.
-
-Step Three - Click on the "Launch" button to launch the Rescale control plane and start defining and managing your HPC jobs.
+#### Step Three:
+Click on the "Launch" button to launch the Rescale control plane and start defining and managing your HPC jobs.
 
 More details about HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation){:new_window}.
 
