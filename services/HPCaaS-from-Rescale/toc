@@ -21,8 +21,7 @@ HPCaaS from Rescale
 
     {: .navgroup id="help"}
 
-    {: .topicgroup}
-    Help
-        [Support](https://console.bluemix.net/unifiedsupport/supportcenter)
+    {: .navgroup id="help"}
+    support.md
     {: .navgroup-end}
 
