@@ -30,11 +30,11 @@ If you need help with our HPCaaS from Rescale, we are here to assist you using a
 
 4.	On the Add Ticket page, please complete the following:
 
-   1. **Select a ticket type** - choose Technical
+   1. **Select a ticket type** - choose **Technical**
 
-   2. **What is the ticket related to** - choose Infrastructure
+   2. **What is the ticket related to** - choose **Infrastructure**
 
-   3. **Technical area of support** - select HPCaaS from Rescale
+   3. **Technical area of support** - select **HPCaaS from Rescale**
 
    4. **Assign to** - you may leave the default option, or change this selection if appropriate
 
