@@ -13,15 +13,10 @@ HPCaaS from Rescale
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-
-    {: .topicgroup}
-    Reference
-        [Company homepage](https://www.rescale.com/)
+    [Company homepage](https://www.rescale.com/)
     {: .navgroup-end}
 
-    {: .navgroup id="help"}
 
-    {: .navgroup id="help"}
+    {: .navgroup id="Help"}
     support.md
     {: .navgroup-end}
-
