@@ -20,7 +20,7 @@ If you need help with our HPCaaS from Rescale, we are here to assist you using a
 
 ## Option One - Opening a Ticket with IBM Cloud Support
 
-1.	Please navigate [here (click link)][17cc6a22]
+1.	Please navigate [here][17cc6a22]
 
   [17cc6a22]: https://console.bluemix.net/catalog/services/hpcaas-from-rescale "HPCaaS from Rescale Service Page"
 
@@ -60,6 +60,6 @@ Support can also be reached by chat via the Support chat option in the Customer 
 Support can also be reached by chat via the Support chat option in the customer portal under the contact drop down.
 
 ## For more information on IBM Cloud Support
-If you have other questions or want to learn more about IBM Cloud Support, you can find additional helpful resources [here (click link)][14c73b53].
+If you have other questions or want to learn more about IBM Cloud Support, you can find additional helpful resources [here][14c73b53].
 
   [14c73b53]: https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support "Customer Information for IBM Cloud Support"
