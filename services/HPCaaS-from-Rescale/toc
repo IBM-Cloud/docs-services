@@ -23,8 +23,7 @@ HPCaaS from Rescale
 
     {: .navgroup id="help"}
 
-    {: .topicgroup}
-    Help
-        [Support](https://resources.rescale.com/articles/general-faqs/)
+    {: .navgroup id="help"}
+    support.md
     {: .navgroup-end}
 
