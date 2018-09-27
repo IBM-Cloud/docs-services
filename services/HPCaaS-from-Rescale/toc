@@ -5,7 +5,7 @@
 HPCaaS from Rescale
 
     {: .navgroup id="learn"}
-        index.md
+    index.md
 
     {: .topicgroup}
     Related links
@@ -14,14 +14,11 @@ HPCaaS from Rescale
         [Resources](https://resources.rescale.com/resource-center/)
     {: .navgroup-end}
 
-    {: .topicgroup}
-    Reference
-        [Company homepage](https://www.rescale.com/)
+    {: .navgroup id="reference"}
+    [Company homepage](https://www.rescale.com/)
     {: .navgroup-end}
 
 
     {: .navgroup id="Help"}
-        support.md
-    
-    
-{: .navgroup-end}
+    support.md
+    {: .navgroup-end}
