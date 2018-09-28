@@ -37,6 +37,7 @@ Click on the "Launch" button to launch the Rescale control plane and start defin
 
 More details about HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation){:new_window}.
 
+{:shortdesc}
 
 ## Pricing Plans and Billing
  
