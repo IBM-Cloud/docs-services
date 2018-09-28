@@ -20,9 +20,7 @@ If you need help with our HPCaaS from Rescale, we are here to assist you using a
 
 ## Option One - Opening a Ticket with IBM Cloud Support
 
-1.	Please navigate [here][17cc6a22]
-
-  [17cc6a22]: https://console.bluemix.net/catalog/services/hpcaas-from-rescale "HPCaaS from Rescale Service Page"
+1.	Navigate to the [HPCaaS from Rescale catalog page](https://console.bluemix.net/catalog/services/hpcaas-from-rescale).
 
 2.	Log in with your IBMid account
 
