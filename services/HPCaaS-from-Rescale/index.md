@@ -22,7 +22,6 @@ HPCaaS from Rescale enables you to rapidly deploy your HPC jobs on the IBM Cloud
 
 HPCaaS from Rescale is a third party service that is fully integrated into the IBM Cloud catalog. All consumption associated with this service will be included on your monthly IBM Cloud invoice. You will benefit from a joint support model between IBM Cloud and Rescale.
 
-
 ## Getting started
 
 ### Step One:
@@ -36,10 +35,8 @@ Click on the "Launch" button to launch the Rescale control plane and start defin
 
 More details about HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation){:new_window}.
 
-
 ## Pricing Plans and Billing
  
 HPCaaS from Rescale provides a “Standard” plan. This plan follows a consumption-based pricing model for all utilized resources, including compute, desktop, application software packages, storage and data transfer and license servers for application software packages. You will not be charged until you start using the service instance you've defined to  execute your HPC workloads. Once your HPC job completes, the Rescale platform will record the consumed resources and the associated costs will be calculated and displayed on the **Rescale -> Account -> Charges** usage page.
  
 At the end of the month all the usage charges will be processed by IBM Cloud for billing. The total charges associated for each of the resources listed above will be displayed on IBM Cloud usage dashboard by the 3rd business day of the month following the month to which the charges apply. IBM cloud will generate a monthly invoice that will include all charges for the HPCaaS from Rescale service instances.
-
