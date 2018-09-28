@@ -37,6 +37,7 @@ Click on the "Launch" button to launch the Rescale control plane and start defin
 
 More details about HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation){:new_window}.
 
+
 ## Pricing Plans and Billing
  
 HPCaaS from Rescale provides a “Standard” plan. This plan follows a consumption-based pricing model for all utilized resources, including compute, desktop, application software packages, storage and data transfer and license servers for application software packages. You will not be charged until you start using the service instance you've defined to  execute your HPC workloads. Once your HPC job completes, the Rescale platform will record the consumed resources and the associated costs will be calculated and displayed on the **Rescale -> Account -> Charges** usage page.
