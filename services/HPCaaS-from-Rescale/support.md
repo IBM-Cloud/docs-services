@@ -52,7 +52,7 @@ If you need help with our HPCaaS from Rescale, we are here to assist you using a
 
 
 ## Option Two - Calling IBM Cloud Support
-Support can also be reached by chat via the Support chat option in the Customer Portal under the contact drop down.
+Customers can contact Support by phone at 866-403-7638.
 
 ## Option Three - Chatting with IBM Cloud Support
 Support can also be reached by chat via the Support chat option in the customer portal under the contact drop down.
