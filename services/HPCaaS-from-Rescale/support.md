@@ -16,7 +16,7 @@ lastupdated: "2018-08-21"
 
 # Contacting IBM Support
 
-If you need help with our HPCaaS from Rescale, we are here to assist you using any of the three options below.
+If you need help with HPCaaS from Rescale, we are here to assist you using any of the three options below.
 
 ## Option One - Opening a Ticket with IBM Cloud Support
 
