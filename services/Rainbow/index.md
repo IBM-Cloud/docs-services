@@ -44,8 +44,6 @@ The task section includes steps to integrate the service into the app.
 
 <!-- You can include an optional prerequisites paragraph for any prerequisites to be met before integrating the service. For example: -->
 
-Before an application developer can... the administrator must ...
-
 <!-- Include a sentence to briefly introduce the steps. Examples: -->
 
 To integrate your app with the service, complete these steps:
