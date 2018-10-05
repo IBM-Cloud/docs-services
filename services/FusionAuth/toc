@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="FusionAuth" audience="service" href="/docs/services/FusionAuth/index.html"}
-Passport
+FusionAuth
 
     {: .navgroup id="learn"}
     index.md
