@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-10-19"
 
 ---
 
@@ -18,13 +18,15 @@ lastupdated: "2018-09-20"
 # About Dwolla
 {: #gettingstarted}
 
+Dwolla now facilitates the movement of millions of dollars every day with low transaction costs, easy automation and near-perfect reliability. The goal is to make an incredibly complex process feel simple, easy and seamless to the people who use it—our customers and their end users.
+
 Applications should be built and tested in the Dwolla Sandbox environment before being used in production.
 
 {:shortdesc}
 
 ## Getting started
 
-To begin your integration with the Dwolla API, you must first sign up for a Sandbox account. Click here to get started.
+To begin your integration with the Dwolla API, you must first sign up for a Sandbox account. [Click here](https://developers.dwolla.com/){:new_window} to get started.
 
 Once you've signed up for a Sandbox account, there are a few considerations before going live:
 
