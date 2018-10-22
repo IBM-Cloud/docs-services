@@ -45,27 +45,6 @@ Support Forums
 index.md
 
 {: .topicgroup}
-Related links
-    [API Documentation](https://developers.dwolla.com)
-    [Quickstart Guides](https://developers.dwolla.com/guides/)
-    [Resources](https://developers.dwolla.com/resources/)
-    [Platform Overview](https://www.dwolla.com/platform)
-    [Pricing](https://www.dwolla.com/pricing)
-{: .navgroup-end}
-
-{: .navgroup id="reference"}
-
-{: .topicgroup}
-Reference
-    [Company homepage](https://www.dwolla.com)
-{: .navgroup-end}
-
-{: .navgroup id="help"}
-
-{: .topicgroup}
-Help
-    [Support](https://discuss.dwolla.com/c/api-support)
-{: .navgroup-end}
 
 https://developers.dwolla.com/resources/
 
