@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Mendix  Platform" audience="service" href="/docs/services/mendix-platform.html"}
+Mendix  Platform
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://docs.mendix.com/developerportal/deploy/ibm-cloud)
+        [Mendix Starter App Tutorial](https://docs.mendix.com/howto/tutorials/starter-apps)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.mendix.com/)
+        [Mendix Documentation](https://docs.mendix.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](https://support.mendix.com)
+        [Service Level Agreement](https://www.mendix.com/sla)
+    {: .navgroup-end}
+
