@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FundingShield tools for mortgage wire-fraud, compliance, & cyber security risk mgmt" audience="service" href="/docs/services/fundingshield-tools-for-mortgage-wire-fraud,-compliance,-&-cyber-security-risk-mgmt.html"}
+{: .toc subcollection="FundingShield API" audience="service" href="/docs/services/fundingshield-tools-for-mortgage-wire-fraud,-compliance,-&-cyber-security-risk-mgmt.html"}
 FundingShield tools for mortgage wire-fraud, compliance, & cyber security risk mgmt
 
     {: .navgroup id="learn"}
@@ -19,10 +19,7 @@ FundingShield tools for mortgage wire-fraud, compliance, & cyber security risk m
         [Company homepage](https://www.fundingshield.com/)
     {: .navgroup-end}
 
-    {: .navgroup id="help"}
-
     {: .topicgroup}
     Help
-        [Support](https://www.fundingshield.com/#Contact)
+        [Support](https://www.fundingshield.com/support/)
     {: .navgroup-end}
-
