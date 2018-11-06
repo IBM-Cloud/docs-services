@@ -12,17 +12,14 @@ FundingShield API
         [API Documentation](https://api-portal.fundingshield.com/docs/services/5ab88535022a4f131cd25750/operations/createwavs?)
     {: .navgroup-end}
 
-    {: .navgroup id="reference"}
-
+{: .navgroup id="reference"}
     {: .topicgroup}
     Reference
         [Company homepage](https://www.fundingshield.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-
     {: .topicgroup}
     Help
         [Support](https://www.fundingshield.com/support/)
     {: .navgroup-end}
-
