@@ -1,3 +1,14 @@
+---
+
+copyright:
+
+  years:  2018
+
+lastupdated: "2018-11-01"
+
+---
+
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
@@ -13,7 +24,13 @@ FundingShield is the market leading fintech firm offering plug’n play, scalab
 
 ## Getting started
 
-Contact sales@fundingshield.com and obtain credentials for the WAVS API Documentation and Subscription Key.
+Contact Sales and obtain a username and password for the WAVS API Documentation.
+
+Contact help@fundingshield.com and requests a WAVS  API subscription key.
+
+Detailed instructions and code samples are available on the Fundingshield API Portal https://api-portal.fundingshield.com/docs/services/5ab88535022a4f131cd25750/operations/createwavs?
+
+Below is a multi-platform snippet that can be run from any Command Line Interface that has curl.  More information on curl can be found here: https://curl.haxx.se/
 
 @ECHO OFF
 
