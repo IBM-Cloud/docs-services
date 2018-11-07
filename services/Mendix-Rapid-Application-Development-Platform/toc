@@ -14,7 +14,6 @@ Mendix  Platform
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-
     {: .topicgroup}
     Reference
         [Company homepage](https://www.mendix.com/)
@@ -22,10 +21,8 @@ Mendix  Platform
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-
     {: .topicgroup}
     Help
         [Support](https://support.mendix.com)
         [Service Level Agreement](https://www.mendix.com/sla)
     {: .navgroup-end}
-
