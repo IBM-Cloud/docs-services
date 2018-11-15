@@ -4,7 +4,7 @@ copyright:
 
   years:  2018
 
-lastupdated: "2018-10-19"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -30,16 +30,11 @@ To begin your integration with the Dwolla API, you must first sign up for a Sand
 
 Once you've signed up for a Sandbox account, there are a few considerations before going live:
 
-Review our developer documentation which includes quickstart guides and resources to ease the integration process
-Work closely with a Business Development Representative to assist with creating a solution to fit your business' needs
-Completion of payment integration requirements which includes items like: Terms of Service and Privacy Policy updates, Information Security questionnaire, and customer email notifications
-Launch your application
+      1. Review our developer documentation, which includes quick start guides and resources to ease the integration process
+      2. Work closely with a Business Development Representative to assist with creating a solution to fit your business' needs
+      3. Completion of payment integration requirements, which includes items like Terms of Service updates, Privacy Policy updates, Information Security questionnaire, and customer email notifications
 
-Helpful Links
-Documentation
-API Reference
-SDKS
-Support Forums
+Once you have completed the previous steps, you are ready to launch your application.
 
 {: .navgroup id="learn"}
 index.md
