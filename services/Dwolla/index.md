@@ -36,10 +36,4 @@ Once you've signed up for a Sandbox account, there are a few considerations befo
 
 Once you have completed the previous steps, you are ready to launch your application.
 
-{: .navgroup id="learn"}
-index.md
-
-{: .topicgroup}
-
-https://developers.dwolla.com/resources/
 
