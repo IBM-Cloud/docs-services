@@ -32,4 +32,18 @@ Clients of AccountScore can use consents.online on a back-to-back basis so do no
 
 ## Getting started
 
-A full [integration guide](https://www.accountscore.com/api){:new_window} is available on the Accountscore website.
+There are two aspects to an AccountScore integration.  Data collection via our application form and data ingestion via either our APIs or our dashboards.
+
+In its default mode, AccountScore will use the Yodlee account aggregation API to extract transaction data from a customer's online bank account. To do this, we use a secure iFrame to collect internet banking credentials from the customer which are then passed to Yodlee who extract the transaction data and return it to AccountScore for analysis.  In the UK we are a registered AISP and can access bank transaction data directly from the Open Banking APIs.
+
+Our Enrich API allows you to upload transactions directly to our platform and Enrich will return richly categorized data as well as numerous actionable insights via API.
+
+Our Forecasting API provides both quarterly and monthly views of the data collected from commercial bank accounts. Data is separated into credits and debits, with each sector then sub-divided into recurring, repeating, significant or other classes.
+
+## Obtaining Credentials
+
+Before you will be able to use the AccountScore platform you will need to contact a member of our sales team (enquiries@accountscore.com) to discuss your individual requirements.  You will be provided with a set of credentials for our sandbox environment along with an API key.
+
+## AccountScore API
+
+A full [integration guide](https://www.accountscore.com/api){:new_window} detailing the functionality of our RESTful API is available on the Accountscore website.
