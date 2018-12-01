@@ -1,10 +1,8 @@
 ---
 
-copyright: "Bosch Software Innovations GmbH, Germany"
-
-  years:  2017
-
-lastupdated: "2017-10-18"
+copyright:
+  years: 2017
+lastupdated: "2017-10-80"
 
 ---
 
