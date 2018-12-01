@@ -14,5 +14,4 @@ Pitney Bowes APIs
     [Locate API Specification](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Product%20Overview/apis.html)
     [Identify API QuickStart](https://identify.pitneybowes.com/docs/identify/v1/en/rest/index.html#CustomerInformationManagementAPI/source/CIM_API_Intro.html)
     [Identify API Specification](https://identify.pitneybowes.com/docs/identify/v1/en/rest/index.html#CustomerInformationManagementAPI/source/API/IdentifyAddress/ValidateMailingAddress.html)
-  
     {: .navgroup-end}
