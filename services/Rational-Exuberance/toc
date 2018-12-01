@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Rational-Exuberance" audience="service" href="/docs/services/Rational-Exuberance/index.html"}
+{: .toc subcollection="Rational-Exuberance" audience="service" href="/docs/services/Rational-Exuberance/index.html" path="services/Rational-Exuberance"}
 Rational Exuberance
 
     {: .navgroup id="learn"}
