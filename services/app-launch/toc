@@ -2,7 +2,7 @@
 {: navgroup: .navgroup}
 {: topicgroup: .topicgroup}
 
-{: .toc subcollection="app-launch" audience="service" href="/docs/services/app-launch/index.html"}
+{: .toc subcollection="app-launch" audience="service" href="/docs/services/app-launch/index.html" path="services/app-launch"}
 App Launch
 
     {: .navgroup id="learn"}
