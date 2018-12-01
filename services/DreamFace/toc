@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DreamFace" audience="service" href="/docs/services/DreamFace/index.html"}
+{: .toc subcollection="DreamFace" audience="service" href="/docs/services/DreamFace/index.html" path="services/DreamFace"}
 DreamFace
 
     {: .navgroup id="learn"}
