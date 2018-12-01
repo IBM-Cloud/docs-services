@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Dwolla" audience="service" href="/docs/services/dwolla.html"}
+{: .toc subcollection="Dwolla" audience="service" href="/docs/services/Dwolla/dwolla.html" path="services/Dwolla"}
 Dwolla
 
     {: .navgroup id="learn"}
