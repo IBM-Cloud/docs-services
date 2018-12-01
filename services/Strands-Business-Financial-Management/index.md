@@ -33,7 +33,7 @@ Before an application developer can start using the BFM API, they need to reques
     - Access to the online documentation, with all the available API's listed, which can be run directly from the documentation providing all the different responses
     - Access to a sample UI implementation using the available API's
 
-# Overview
+## Overview
 {: #overview}
 
 Once the onboarding process is completed, you can start consuming the different APIs.
