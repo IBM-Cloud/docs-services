@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ContrastSecurity" audience="service" href="/docs/services/ContrastSecurity/index.html"}
+{: .toc subcollection="ContrastSecurity" audience="service" href="/docs/services/ContrastSecurity/index.html" path="services/ContrastSecurity"}
 Contrast Security
 
     {: .navgroup id="learn"}
