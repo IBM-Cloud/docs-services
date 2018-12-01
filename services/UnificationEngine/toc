@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="UnificationEngine" audience="service" href="/docs/services/UnificationEngine/index.html"}
+{: .toc subcollection="UnificationEngine" audience="service" href="/docs/services/UnificationEngine/index.html" path="services/UnificationEngine"}
 UnificationEngine
 
     {: .navgroup id="learn"}
