@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hiptest" audience="service" href="/docs/services/hiptest/index.html"}
+{: .toc subcollection="hiptest" audience="service" href="/docs/services/hiptest/index.html" path="services/hiptest"}
 Hiptest
 
     {: .navgroup id="learn"}
