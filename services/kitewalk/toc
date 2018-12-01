@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="kitewalk" audience="service" href="/docs/services/kitewalk/index.html"}
+{: .toc subcollection="kitewalk" audience="service" href="/docs/services/kitewalk/index.html" path="services/kitewalk"}
 Kitewalk GEO Web Services
 
     {: .navgroup id="learn"}
