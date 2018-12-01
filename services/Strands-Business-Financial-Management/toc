@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Strands-Business-Financial-Management" audience="service" href="/docs/services/Strands-Business-Financial-Management/index.html"}
+{: .toc subcollection="Strands-Business-Financial-Management" audience="service" href="/docs/services/Strands-Business-Financial-Management/index.html" path="services/Strands-Business-Financial-Management"}
 Product name
 
     {: .navgroup id="learn"}
