@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Topic-Deltas" audience="service" href="/docs/services/Topic-Deltas/index.html"}
+{: .toc subcollection="Topic-Deltas" audience="service" href="/docs/services/Topic-Deltas/index.html" path="services/Topic-Deltas"}
 Topic Deltas API
 
     {: .navgroup id="learn"}
