@@ -1,0 +1,28 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Powerlytics" audience="service" href="/docs/services/powerlytics.html"}
+Powerlytics
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://s3.amazonaws.com/pwl-apidocs/IBM-Summary-Income-and-W2-API.pdf)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://www.powerlytics.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+
+    {: .topicgroup}
+    Help
+        [Support](http://support.powerlytics.com)
+    {: .navgroup-end}
+
