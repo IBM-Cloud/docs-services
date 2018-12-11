@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics" audience="service" href="/docs/services/powerlytics.html"}
+{: .toc subcollection="Powerlytics" audience="service" href="/docs/services/powerlytics.html" path="services/Powerlytics"}
 Powerlytics
 
     {: .navgroup id="learn"}
@@ -13,14 +13,12 @@ Powerlytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-
     {: .topicgroup}
     Reference
         [Company homepage](http://www.powerlytics.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-
     {: .topicgroup}
     Help
         [Support](http://support.powerlytics.com)
