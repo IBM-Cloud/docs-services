@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics" audience="service" href="/docs/services/powerlytics.html" path="services/Powerlytics"}
-Powerlytics
+{: .toc subcollection="Powerlytics Consumer Income API" audience="service" href="/docs/services/powerlytics-consumer-income-api.html"}
+Powerlytics Consumer Income API
 
     {: .navgroup id="learn"}
     index.md
@@ -13,12 +13,14 @@ Powerlytics
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+
     {: .topicgroup}
     Reference
         [Company homepage](http://www.powerlytics.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+
     {: .topicgroup}
     Help
         [Support](http://support.powerlytics.com)

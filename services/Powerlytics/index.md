@@ -15,7 +15,7 @@ lastupdated: "2018-12-05"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# About Powerlytics
+# About Powerlytics Consumer Income API
 {: #gettingstarted}
 
 The Powerlytics Consumer Income API can be leveraged to understand the complete income profile of consumers at the 9-digit Zip code level.  Our Consumer Income variables provide a complete picture of household income (Maximum, Minimum, Median, Standard Deviation, etc.) as well as summaries of the components of household income (Wealth Income, Business Income, Retirement Income, Disposable Income, W2, etc.).  These consumer income variables can be leveraged in a wide variety of applications, such as Income Verification & Estimation (Ability to pay), Direct Mail & Pre-screening, Know-Your-Customer, etc.
