@@ -1,0 +1,26 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Powerlytics Behavior/Propensity Model API" audience="service" href="/docs/services/powerlytics-behavior/propensity-model-api.html" path="services/Powerlytics-BehaviorPropensit- Model-Development-API}
+Powerlytics Behavior/Propensity Model API
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://s3.amazonaws.com/pwl-apidocs/IBM-Behavior-Propensity-Model-API.pdf)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://www.powerlytics.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](http://support.powerlytics.com)
+    {: .navgroup-end}
+
