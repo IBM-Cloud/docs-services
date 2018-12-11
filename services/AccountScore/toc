@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="AccountScore" audience="service" href="/docs/services/accountscore.html"}
+{: .toc subcollection="AccountScore" audience="service" href="/docs/services/accountscore.html" path="services/AccountScore"}
 AccountScore
 
     {: .navgroup id="learn"}
@@ -13,14 +13,12 @@ AccountScore
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-
     {: .topicgroup}
     Reference
         [Company homepage](https://www.accountscore.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-
     {: .topicgroup}
     Help
         [Support](https://www.accountscore.com/#contact)
