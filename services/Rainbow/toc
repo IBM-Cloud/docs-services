@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow/index.html"}
-Product name
+Rainbow
 
     {: .navgroup id="learn"}
     index.md
@@ -13,6 +13,15 @@ Product name
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    {: .topicgroup}
     Reference
-    [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
+        [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
     {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://hub.openrainbow.com/#/support)
+    {: .navgroup-end}
+
+
