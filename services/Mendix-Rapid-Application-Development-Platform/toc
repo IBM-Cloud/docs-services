@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Mendix  Platform" audience="service" href="/docs/services/mendix-platform.html"}
-Mendix  Platform
+{: .toc subcollection="MendixPlatform" audience="service" href="/docs/services/Mendix-Rapid-Application-Development-Platform/index.html" path="services/Mendix-Rapid-Application-Development-Platform"}
+Mendix Platform
 
     {: .navgroup id="learn"}
     index.md

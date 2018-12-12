@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vantrix" audience="service" href="/docs/services/vantrix/index.html"}
+{: .toc subcollection="vantrix" audience="service" href="/docs/services/vantrix/index.html" path="services/vantrix"}
 Vantrix Transcoder
 
     {: .navgroup id="learn"}

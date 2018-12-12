@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TwilioVerify" audience="service" href="/docs/services/TwilioVerify/index.html"}
+{: .toc subcollection="TwilioVerify" audience="service" href="/docs/services/TwilioVerify/index.html" path="services/TwilioVerify"}
 Twilio Verify
 
     {: .navgroup id="learn"}

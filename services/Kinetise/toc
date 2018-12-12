@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Kinetise" audience="service" href="/docs/services/Kinetise/index.html"}
+{: .toc subcollection="Kinetise" audience="service" href="/docs/services/Kinetise/index.html" path="services/Kinetise"}
 Kinetise
 
     {: .navgroup id="learn"}

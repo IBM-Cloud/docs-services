@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Simplicite aPaaS low-code" audience="service" href="/docs/services/simplicite-apaas-low-code.html"}
+{: .toc subcollection="Simplicite aPaaS low-code" audience="service" href="/docs/services/simplicite-apaas-low-code.html" path="services/simplicite-apaas-low-code"}
 Simplicite aPaaS low-code
 
     {: .navgroup id="learn"}

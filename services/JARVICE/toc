@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="JARVICE" audience="service" href="/docs/services/JARVICE/index.html"}
+{: .toc subcollection="JARVICE" audience="service" href="/docs/services/JARVICE/index.html" path="services/JARVICE"}
 ML/DL or HPC Workflow
 
     {: .navgroup id="learn"}
