@@ -1,12 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Hydrogen" audience="service" href="/docs/services/Hydrogen/index.html"}
+{: .toc subcollection="Hydrogen" audience="service" href="/docs/services/Hydrogen.html" path="services/Hydrogen"}
 Hydrogen
 
     {: .navgroup id="learn"}
     index.md
-
     {: .topicgroup}
     Related links
         [API Documentation](https://www.hydrogenplatform.com/docs/nucleus/v1/)
@@ -14,14 +13,13 @@ Hydrogen
 
     {: .navgroup id="reference"}
     {: .topicgroup}
+    Reference
         [Company homepage](https://www.hydrogenplatform.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
+    Help
         [Support](https://www.hydrogenplatform.com/support)
     {: .navgroup-end}
-
-
-
 
