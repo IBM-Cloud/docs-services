@@ -1,23 +1,26 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Totum Risk" audience="service" href="/docs/services/Totum-Risk.html" path="services/Totum-Risk"}
+{: .toc subcollection="Totum Risk" audience="service" href="/docs/services/Totum-Risk/index.html" path="services/Totum-Risk"}
 Totum Risk
 
     {: .navgroup id="learn"}
     index.md
+    
     {: .topicgroup}
     Related links
         [API Documentation](https://dev.platform.totumrisk.com/swagger/index.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    
     {: .topicgroup}
     Reference
         [Company homepage](https://www.totumrisk.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    
     {: .topicgroup}
     Help
         [Support](https://www.totumrisk.com/contact-us/)
