@@ -52,19 +52,17 @@ To integrate your app with the service, complete these steps:
 
 1. From the developer hub dashboard, you are able to select the **applications** entry in the left panel
 
-   ![Developer Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/02-dashboard-developer_9e971b00-5b5e-4294-9ad6-b522838c453d.png)
+   ![Developer Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/02-dashboard-developer_a0d007db-b5db-49c2-8133-5bb1f316fb25.png)
 
 1. Click on **Create Application** button and enter the new application information
 
-   ![Application button](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/04-create-a-new-application_e55ded49-1787-41f6-85ca-1b9d37e4ade2.png)
-
 1. Once created, your new application appears into your applications dashboard. Click on **Keys** button in order to retrieve your *Application ID* and the associated *Secret Key*, both information are necessary for registering your bot.
    
-   ![Key details](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/06-key-details_f552fa56-90e8-41b0-9028-d81bac653b53.png)
+   ![Key details](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/06-key-details_7433a9cc-a484-45a1-95f1-0e0ca1465b6b.png)
 
 1. You need also to deploy your application using the **Deploy** button (for *Production* deployment, in Pay as You go context, if not yet done, add a payment method )
 
-   ![Deploy Application](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/08-deploy-application_0625b266-23e5-4b7f-bab4-b51be32b0dd2.png)
+   ![Deploy Application](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/08-deploy-application_6f6af37c-94c7-4aba-93be-7c730089c80a.png)
 
 1. Create an additional Rainbow user account in order to converse with the Watson Assistant, this will become your bot endpoint for other users.
 
@@ -89,7 +87,7 @@ To integrate your app with the service, complete these steps:
    - Click 'Catalog' at the top of the screen
    - Enter 'Rainbow'
 
-    ![Rainbow app from IBM Cloud catalog](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/07-catalog-search-rainbow_4188d622-af68-4b37-9663-cec989929a04.png)
+    ![Rainbow app from IBM Cloud catalog](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/07-catalog-search-rainbow_a54e10c9-dd7a-4584-b838-537b8b7b9dd1.png)
 
 1. After application creation, give a service name, and enter your **Login Email**, **Password**, **Application ID** and **Secret Key**, if you want to target our Sandbox platform instead of the production platform, simply enter *"sandbox"* into **Target Platform**, please consult the [Development on Sanbox](https://hub.openrainbow.com/#/documentation/doc/hub/developer-sandboxed-platform){: new_window} and [Managing tests accounts](https://hub.openrainbow.com/#/documentation/doc/sdk/cli/tutorials/Managing_tests_accounts){: new_window} guides to use this platform.
 
@@ -107,7 +105,11 @@ To integrate your app with the service, complete these steps:
    ```
    {: pre}
 
-1. In the IBM Cloud Dashboard, you are able to see <Your App Name>, click on your Rainbow Service under 'Cloud Foundry Services', then click the 'Create connection +' button. Connect it to your new <Your App Name> application. Do the same with your Watson Assistant service.
+1. In the IBM Cloud Dashboard, you are able to see <Your App Name>, click on your Rainbow Service under 'Cloud Foundry Services', then click the 'Create connection +' button. Connect it to your new <Your App Name> application. Do the same with your Watson Assistant service. Please retrieve also your assistant ID.
+
+1. Once your application is running, go to the **Runtime** tab of your service and select the **Environment variables** button. Add a new entry into the **User defined** section with *name* **WATSON_ASSISTANT_ID** and as *Value* your assistant ID.
+
+![Add WATSON_ASSISTANT_ID value](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/09-environment-variables_6d162162-cee1-4282-9ffd-3d80995c17ab.png)
 
 	{: screen}
 
