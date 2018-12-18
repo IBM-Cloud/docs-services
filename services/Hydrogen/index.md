@@ -20,11 +20,6 @@ lastupdated: "2018-12-13"
 
 Hydrogen's APIs combine all of the core infrastructure and connectors needed to build leading fintech architecture, with all of the financial engineering needed to build products and tools to set your brand apart.
 
-[Hydrogen Developer Page](https://www.hydrogenplatform.com/developers){:new_window}
-[Documentation for Nucleus API](https://www.hydrogenplatform.com/docs/nucleus/v1/){:new_window}
-[Documentation for Proton API](https://www.hydrogenplatform.com/docs/proton/v1/){:new_window}
-[Documentation for Electron API](https://www.hydrogenplatform.com/docs/electron/v1/){:new_window}
-
 {:shortdesc}
 
 ## Getting started
