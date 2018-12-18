@@ -9,7 +9,10 @@ Hydrogen
 
     {: .topicgroup}
     Related links
-        [API Documentation](https://www.hydrogenplatform.com/docs/nucleus/v1/)
+       [Hydrogen Developer Page](https://www.hydrogenplatform.com/developers)
+       [Nucleus API Docs](https://www.hydrogenplatform.com/docs/nucleus/v1/)
+       [Proton API Docs](https://www.hydrogenplatform.com/docs/proton/v1/)
+       [Electron API Docs](https://www.hydrogenplatform.com/docs/electron/v1/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
