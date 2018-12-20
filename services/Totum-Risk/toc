@@ -6,20 +6,23 @@ Totum Risk
 
     {: .navgroup id="learn"}
     index.md
+
     {: .topicgroup}
     Related links
-        [API Documentation](https://dev.platform.totumrisk.com/swagger/index.html)
+        [API Documentation](https://www.totumrisk.com)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    
     {: .topicgroup}
     Reference
-        [Company homepage](https://www.totumrisk.com)
+        [Company homepage](https://www.hydrogenplatform.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    
     {: .topicgroup}
     Help
         [Support](https://www.totumrisk.com/contact-us/)
     {: .navgroup-end}
-
+    
