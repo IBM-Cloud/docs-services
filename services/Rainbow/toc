@@ -1,3 +1,4 @@
+
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
@@ -10,16 +11,14 @@ Rainbow
     {: .topicgroup}
     Related links
         [Rainbow SDK for NODE.JS](https://hub.openrainbow.com/#/node)
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    {: .topicgroup}
         [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
     {: .navgroup-end}
 
-    {: .navgroup id="help"}
-    {: .topicgroup}
-        [Support](https://hub.openrainbow.com/#/support)
+    {: .navgroup id="reference"}
+    [Company Page](https://hub.openrainbow.com/#/)
     {: .navgroup-end}
 
+    {: .navgroup id="help"}
+    [Support](https://hub.openrainbow.com/#/support)
+    {: .navgroup-end}
 
