@@ -6,20 +6,18 @@ Pitney Bowes Location Intelligence APIs
 
     {: .navgroup id="learn"}
     index.md
+
     {: .topicgroup}
     Related links
         [API Documentation](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    {: .topicgroup}
-    Reference
-        [Company homepage](https://www.pitneybowes.com/us/developer/geocoding-apis.html)
+    [Company homepage](https://www.pitneybowes.com/us/developer/geocoding-apis.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    {: .topicgroup}
-    Help
-        [Support](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html)
+    [Support](https://locate.pitneybowes.com/docs/location-intelligence/v1/en/index.html#Getting%20Started/getting_started.html)
     {: .navgroup-end}
+
 
