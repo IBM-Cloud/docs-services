@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Bitbar Testing Cloud" audience="service" href="/docs/services/Bitbar-Testing-Cloud.html" path="services/Bitbar-Testing-Cloud"}
+{: .toc subcollection="Bitbar" audience="service" href="/docs/services/Bitbar-Testing-Cloud.html" path="services/Bitbar-Testing-Cloud"}
 Bitbar Testing Cloud
 
     {: .navgroup id="learn"}
@@ -22,4 +22,3 @@ Bitbar Testing Cloud
     Help
         [Support](http://docs.bitbar.com/)
     {: .navgroup-end}
-
