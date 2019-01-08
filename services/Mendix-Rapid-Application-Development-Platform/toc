@@ -9,8 +9,10 @@ Mendix Platform
 
     {: .topicgroup}
     Related links
-        [API Documentation](https://docs.mendix.com/developerportal/deploy/ibm-cloud)
-        [Mendix Starter App Tutorial](https://docs.mendix.com/howto/tutorials/starter-apps)
+        [Creating Apps with Mendix](https://console.bluemix.net/docs/apps/tutorials/tutorial_mendix_getting_started.html#getting-started)
+        [Deploying your Mendix app on the IBM Cloud Kubernetes Service](https://console.bluemix.net/docs/apps/tutorials/tutorial_mendix_kubernetes.html#getting-started)
+        [Managing IBM Cloud Deployment](https://docs.mendix.com/developerportal/deploy/ibm-cloud)
+        [Mendix Starter App Tutorial](https://gettingstarted.mendixcloud.com/link/path/14)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
