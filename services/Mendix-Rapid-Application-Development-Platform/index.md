@@ -22,7 +22,7 @@ Mendix is a high productivity app platform that enables you to build and continu
 
 The **Mendix Platform Service** allows you to license your Mendix app on the IBM Cloud Portal. This means that:
 
-* Your app will run continuously and provide the service described in the Mendix Platform Service plan you have selected. (Apps not connected to the Mendix Platform Service, or connected to the Lite plan, run for around two hours before shutting down and are limited to six named users)
+* Your app will run continuously and provide the service described in the Mendix Platform Service plan you have selected. (Apps not connected to the Mendix Platform Service, or connected to the Lite plan, run for around two hours before shutting down and are limited to ten named users)
 
 * You will get support for your app according to the [Mendix Service Level Agreement](https://www.mendix.com/sla). 
 
@@ -32,9 +32,13 @@ Mendix offers integration with IBM Cloud so that you can run your app on IBM Clo
 
 ## Getting started
 
-To link the Mendix Platform Service to a Mendix app you need the following available from in your IBM Cloud Portal:
+To link the Mendix Platform Service to a Mendix app you need the following available in your IBM Cloud Portal:
 * A Mendix app which has been deployed to the IBM Cloud Portal
 * A Mendix Platform Service which you have created from the IBM Cloud Portal Catalog
+
+There are two ways of binding an application to a service: from the service, or from the application.
+
+### Binding an Application to a Service
 
 1. Open the IBM Cloud Portal dashboard.
     ![IBM Cloud Portal Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/ibm-cloud-portal-dashboard_0d2fbb2c-6531-4ae7-b58d-a9671f1ea5f5.png)
@@ -55,6 +59,8 @@ To link the Mendix Platform Service to a Mendix app you need the following avail
     ![Connect and Restage](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/service-connect-and-restage_c91abd57-a9f1-49ec-901b-406b946f9dff.png)
 
 Your app is now connected to a Mendix Platform Service and is licensed.
+
+### Binding a Service to an Application
 
 1. Open the IBM Cloud Portal dashboard.
     ![IBM Cloud Portal Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/ibm-cloud-portal-dashboard_0d2fbb2c-6531-4ae7-b58d-a9671f1ea5f5.png)
