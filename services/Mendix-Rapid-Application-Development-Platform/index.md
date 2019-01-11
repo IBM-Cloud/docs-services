@@ -28,6 +28,8 @@ The **Mendix Platform Service** allows you to license your Mendix app on the IBM
 
 Mendix offers integration with IBM Cloud so that you can run your app on IBM Cloud and integrate your app more easily with other IBM services.
 
+To create a Mendix app on IBM Cloud quickly, follow this guide: [Creating apps with Mendix](https://console.bluemix.net/docs/apps/tutorials/tutorial_mendix_getting_started.html#getting-started).
+
 {:shortdesc}
 
 ## Getting started
