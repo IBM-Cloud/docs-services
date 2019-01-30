@@ -1,9 +1,8 @@
-
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow/index.html"}
-Rainbow
+Product name
 
     {: .navgroup id="learn"}
     index.md
@@ -11,14 +10,9 @@ Rainbow
     {: .topicgroup}
     Related links
         [Rainbow SDK for NODE.JS](https://hub.openrainbow.com/#/node)
-        [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Company Page](https://hub.openrainbow.com/#/)
+    Reference
+    [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
     {: .navgroup-end}
-
-    {: .navgroup id="help"}
-    [Support](https://hub.openrainbow.com/#/support)
-    {: .navgroup-end}
-
