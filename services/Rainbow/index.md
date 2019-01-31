@@ -52,17 +52,17 @@ To integrate your app with the service, complete these steps:
 
 1. From the developer hub dashboard, you are able to select the **applications** entry in the left panel
 
-   ![Developer Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/02-dashboard-developer_a0d007db-b5db-49c2-8133-5bb1f316fb25.png)
+   ![Developer Dashboard](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/02-dashboard-developer_2032e158-9dba-4411-a9ba-c6c033e6846d.png)
 
 1. Click on **Create Application** button and enter the new application information
 
 1. Once created, your new application appears into your applications dashboard. Click on **Keys** button in order to retrieve your *Application ID* and the associated *Secret Key*, both information are necessary for registering your bot.
    
-   ![Key details](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/06-key-details_7433a9cc-a484-45a1-95f1-0e0ca1465b6b.png)
+   ![Key details](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/06-key-details_e06fd323-d46c-4341-8919-99da66a52f4b.png)
 
-1. You need also to deploy your application using the **Deploy** button (for *Production* deployment, in Pay as You go context, if not yet done, add a payment method )
+1. You need also to deploy your application using the **DEPLOY TO RAINBOW PRODUCTION PLATFORM** button (for *Production* deployment, in Pay as You go context, if not yet done, add a payment method )
 
-   ![Deploy Application](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/08-deploy-application_6f6af37c-94c7-4aba-93be-7c730089c80a.png)
+   ![Deploy Application](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/08-deploy-application_c0654720-8d7e-4582-8fec-908d813def09.png)
 
 1. Create an additional Rainbow user account in order to converse with the Watson Assistant, this will become your bot endpoint for other users.
 
@@ -112,8 +112,3 @@ To integrate your app with the service, complete these steps:
 ![Add WATSON_ASSISTANT_ID value](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/product_documentation_image_/09-environment-variables_6d162162-cee1-4282-9ffd-3d80995c17ab.png)
 
 	{: screen}
-
-
-
-<!-- Related links section: still REQUIRED but moved to toc file (in your same folder).  Edit there.
--->
