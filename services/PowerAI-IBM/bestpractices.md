@@ -23,7 +23,7 @@ This guide provides best practices for one of the popular use cases for the Powe
 ## Using a training dataset
 {: #using-training-dataset}
 
-The best practices outlined here rely on a training dataset existing in an IBM Cloud Object Storage (IBM COS) bucket. To learn how to create and upload data to a bucket, see [https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html](https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html).
+The best practices outlined here rely on a training dataset existing in an IBM Cloud Object Storage (IBM COS) bucket. To learn how to create and upload data to a bucket, see [https://cloud.ibm.com/docs/services/cloud-object-storage/getting-started.html](https://cloud.ibm.com/docs/services/cloud-object-storage/getting-started.html).
 
 There are two preferred options for accessing this training dataset for a training job:
 
