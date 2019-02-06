@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2018
+  years:  2019
 
-lastupdated: "2018-08-31"
+lastupdated: "2019-02-06"
 
 ---
 
@@ -45,6 +45,7 @@ This option, only available when the "Large" pricing plan size is selected, allo
     "num_nodes": 2
 }
 ```
+{: codeblock}
 
 ### Python version
 {: #python-version}
@@ -56,15 +57,16 @@ This option allows a user to create an instance with python version 3 instead of
     "python_version": "python3"
 }
 ```
+{: codeblock}
 
 ### Import from Cloud Object Storage
 {: #import-cos}
 
-This optional feature enables users to provide details for an [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage) bucket to be connected to the PowerAI instance when the instance is provisioned. Required parameters are as follows:
+This optional feature enables users to provide details for an [IBM Cloud Object Storage](https://www.ibm.com/cloud/object-storage) bucket in the `us-south` region to be connected to the PowerAI instance when the instance is provisioned. Required parameters are as follows:
 
-Cloud Object Storage bucket name: The name of the single IBM Cloud Object Storage bucket to be connected.
-Cloud Object Storage access key: The IBM Cloud Object Storage access key provided in the [IBM Cloud Object Storage HMAC credentials](https://console.bluemix.net/docs/services/cloud-object-storage/iam/service-credentials.html).
-Cloud Object Storage secret key: The IBM Cloud Object Storage secret key provided in the [IBM Cloud Object Storage HMAC credentials](https://console.bluemix.net/docs/services/cloud-object-storage/iam/service-credentials.html).
+- Cloud Object Storage bucket name: The name of the single IBM Cloud Object Storage bucket to be connected.
+- Cloud Object Storage access key: The IBM Cloud Object Storage access key provided in the [IBM Cloud Object Storage HMAC credentials](https://cloud.ibm.com/docs/services/cloud-object-storage/iam/service-credentials.html).
+- Cloud Object Storage secret key: The IBM Cloud Object Storage secret key provided in the [IBM Cloud Object Storage HMAC credentials](https://cloud.ibm.com/docs/services/cloud-object-storage/iam/service-credentials.html).
 
 ```
 {
@@ -78,22 +80,16 @@ Cloud Object Storage secret key: The IBM Cloud Object Storage secret key provide
 ## Connect to your instance
 {: #connect}
 
-After a service instance is provisioned, the service will generate credentials that can be used to connect with the machine via SSH or VNC. These credentials are visible through the service instance dashboard. They can also be obtained via the CLI by creating a service key. Other applications and services can use the service key credentials to connect with the instance.
+After a service instance is provisioned, the service will generate credentials that can be used to connect with the machine via SSH or browser-based VNC. These credentials are visible through the service instance dashboard. They can also be obtained via the CLI by creating a service key. Other applications and services can use the service key credentials to connect with the instance.
 
 ## PowerAI Usage Documentation
 {: #powerai-usage}
 
-Once connected to your instance, documentation for PowerAI is available in the directory
-
-```
-/opt/dl/README.md
-```
-
-for the overall PowerAI software package, as well as in README files in individual framework subdirectories (/opt/DL/tensorflow/doc/README.md, /opt/DL/tensorflow/doc/README.md, etc)
+Once connected to your instance, documentation for PowerAI is available in the directory `/opt/dl/README.md` for the overall PowerAI software package, as well as in README files in individual framework subdirectories (`/opt/DL/tensorflow/doc/README.md`, `/opt/DL/tensorflow/doc/README.md`, etc).
 
 ## Support
 {: #support}
 
-For IBM Cloud provisioning, billing, or account issues please submit a ticket via the [IBM Cloud Support Center](https://console.stage1.bluemix.net/unifiedsupport/supportcenter).
-For application environment, runtime, or connectivity issues please submit a ticket to [Nimbix](https://nimbix.zendesk.com/hc/en-us/requests/new) or email [Nimbix Support](mailto:support@nimbix.net)
+For IBM Cloud provisioning, billing, or account issues please submit a ticket via the [IBM Cloud Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter).
+For application environment, runtime, or connectivity issues please submit a ticket to [Nimbix](https://nimbix.zendesk.com/hc/en-us/requests/new) or email [Nimbix Support](mailto:support@nimbix.net).
 PowerAI software usage questions can be submitted on the [PowerAI Developerworks Forum](https://developer.ibm.com/answers/smart-spaces/361/powerai.html).
