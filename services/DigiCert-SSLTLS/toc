@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="DigiCert SSL/TLS" audience="service" href="/docs/services/DigiCert-SSL/TLS/index.html" path="services/DigiCert-SSL/TLS"}
+DigiCert SSL/TLS
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.digicert.com/services/v2/documentation/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.digicert.com/certcentral-support/digicert-certcentral-getting-started-guide-v9.2_2018-12-13_opt.pdf)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://www.digicert.com/support/)
+    {: .navgroup-end}
+
