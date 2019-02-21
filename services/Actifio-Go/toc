@@ -1,0 +1,13 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="ActifioGo" audience="service" href="/docs/services/Actifio-Go/index.html" path="services/Actifio-Go"}
+PowerAI
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [Actifio Go portal](https://portal.dev.actifiogo.com)
+    {: .navgroup-end}
