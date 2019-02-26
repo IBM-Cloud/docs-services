@@ -1,0 +1,18 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow/index.html"}
+Product name
+
+    {: .navgroup id="learn"}
+    index.md
+
+    {: .topicgroup}
+    Related links
+        [Rainbow SDK for NODE.JS](https://hub.openrainbow.com/#/node)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    Reference
+    [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
+    {: .navgroup-end}
