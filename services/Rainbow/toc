@@ -1,18 +1,23 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow/index.html"}
-Product name
+{: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow.html" path="services/Totum-Risk"}
+Rainbow
 
     {: .navgroup id="learn"}
     index.md
 
     {: .topicgroup}
     Related links
-        [Rainbow SDK for NODE.JS](https://hub.openrainbow.com/#/node)
+        [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    Reference
-    [API Documentation](https://hub.openrainbow.com/#/documentation/doc/node/tutorials/Getting_Started)
+    [Company homepage](https://hub.openrainbow.com/#/)
     {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [Support](https://hub.openrainbow.com/#/support)
+    {: .navgroup-end}
+
+
