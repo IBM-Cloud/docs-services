@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow.html" path="services/Totum-Risk"}
+{: .toc subcollection="Rainbow" audience="service" href="/docs/services/Rainbow.html" path="services/Rainbow"}
 Rainbow
 
     {: .navgroup id="learn"}
