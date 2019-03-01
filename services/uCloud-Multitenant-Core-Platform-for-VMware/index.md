@@ -29,4 +29,3 @@ With only two steps you can take advantage of uCloud services
 Step 1: Register with the link below http://ustore.com.br/landing/
 
 Step 2: Our team will register your interest and get in touch through the email registered with your user and password
-
