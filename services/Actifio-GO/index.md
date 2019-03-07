@@ -1,10 +1,8 @@
 ---
 
 copyright:
-
-  years:  Invalid Date
-
-lastupdated: "Invalid Date"
+years: 2014, 2018
+lastupdated: "2018-04-27"
 
 ---
 
