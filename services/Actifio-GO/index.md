@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  Invalid Date
+  years:  2019
 
-lastupdated: "Invalid Date"
+lastupdated: "2019-03-12”
 
 ---
 
@@ -18,27 +18,34 @@ lastupdated: "Invalid Date"
 # About Actifio GO!
 {: #gettingstarted}
 
-Actifio Go on IBM Cloud allows customers to backup VMware virtual machines directly to IBM Cloud Object Store. Simply search for Actifio Go on the IBM Cloud catalog, pick a price plan and create an instance. Then log in to the service portal to use the installer wizard that hand holds you to configure the service. Start backing up your virtual machines in less than an hour.
+Actifio Go on IBM Cloud is the next generation multi-cloud Copy Data Management SaaS solution that delivers the cloud experience: a complete self-service model where users can learn, evaluate, procure, expand and get support at the lowest cost in the industry. Actifio Go on IBM Cloud Catalog enables customers to backup VMware virtual machines directly to IBM Cloud Object Storage while being able to instantly access the backup images within their data center. Actifio Go leverages the patented OnVault technology to incrementally backup VMware data to IBM COS while still maintaining instant access.
 
 {:shortdesc}
 
 ## Getting started
 
-Actifio Go makes backing up VMware virtual machines trivially simple.
-<li> Go live in 1 hour with No Ops: Simple and easy 4 step process provision-setup-backup-recover
-<li> Reduce TCO by up to 40%: No on premises storage required with direct to cloud backup
-<li> Instant recovery from the cloud: Unique capability to recover VMs instantly from cloud object storage
-      with patented "OnVault" technology
-<li> Simple per VM pricing regardless of the size of the VM
+Get started easily by searching for Actifio Go in the IBM cloud catalog. Click on the Actifio Go tile to begin provisioning an instance of Actifio Go.
 
-Simple easy to understand pricing plan. Pricing is on a per month basis. Users will be charged based on the 
-maximum number of VM's protected during the given month.
+Actifio Go on IBM Cloud can be purchased through a single, simple pricing plan. Pricing is determined by the number of virtual machines protected at a simple price per VM per month.
 
-Actifio Go on IBM cloud service presents users with simple options when provisioning instances. These options include:
+Upon purchasing the Actifio Go on IBM cloud catalog, an account is automatically created for the provisioning user. The Actifio Go service dashboard on the IBM Cloud Catalog will present the user with temporary credentials to access the service. The temporary credentials can be accessed at any time from the service dashboard of the IBM cloud resource listing page.
 
-The service installer provides a intuitive wizard to provision the on prem data mover, cloud based management plane and integrates with your IBM Cloud Object Store bucket for storing backups.
+Use the temporary credentials generated as part of the provisioning process to log into the service. Users can click on the Launch button in the service dashboard or browse to https://www.actifiogo.com to log into the service. Setting up the service involves following through the steps outlined below:
 
-After a service instance is provisioned, the service will generate credentials that can be used to connect to the service from a browser. These credentials are visible through the service instance dashboard.
+1. Log into the service using the temporary credentials
+2. Navigate to the quickstart page
+3. Click on the Get Ahead tile to be presented with a page to download an installer
+4. The installer guides the user through the provisioning steps
+
+The provisioning involves the following steps:
+
+1. Choose the region where the management plane will be provisioned in the Actifio Cloud
+2. Provide vCenter credentials to deploy the Actifio data mover (Sky appliance) ova
+3. Provide network information 
+4. Provide IBM COS credentials
+
+The installer will provision the environment and place the user into the VMware onboarding wizard. Simply choose the virtual machines you would like to protect and off you go.
+
+Actifio Go will periodically report usage information to IBM Cloud. At any point, you can view your usage by going to the IBM Cloud dashboard and clicking on the Usage tile. Optionally, you can also click on the Manage > Billing and Usage menu link to view your usage and bill. Billing will be done through the billing information entered in your IBM Cloud account.
 
 Once connected to your instance, documentation for Actifio Go is available by clicking on the Learn link on the dashboard.
-
