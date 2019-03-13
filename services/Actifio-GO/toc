@@ -6,6 +6,7 @@ Actifio GO!
 
     {: .navgroup id="learn"}
     index.md
+
     {: .topicgroup}
     Related links
         [API Documentation](https://www.actifio.com/#sthash.UsBMotCh.dpbs)
@@ -14,11 +15,11 @@ Actifio GO!
     {: .navgroup id="reference"}
     {: .topicgroup}
     Reference
-        [Company homepage](https://www.actifiogo.com/)
+        [Company homepage](https://portal.dev.actifiogo.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
     Help
-        [Support](https://www.actifiogo.com/)
+        [Support](https://portal.dev.actifiogo.com/)
     {: .navgroup-end}
