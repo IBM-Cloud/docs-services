@@ -1,10 +1,8 @@
 ---
 
 copyright:
-
-  years:  2019
-
-lastupdated: "2019-03-12”
+years: 2019
+lastupdated: "2018-03-13"
 
 ---
 
@@ -15,6 +13,7 @@ lastupdated: "2019-03-12”
 {:codeblock:.codeblock}
 {:pre: .pre}
 
+# About Actifio GO!
 # About Actifio GO!
 {: #gettingstarted}
 
