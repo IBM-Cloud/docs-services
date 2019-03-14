@@ -14,7 +14,6 @@ lastupdated: "2018-03-13"
 {:pre: .pre}
 
 # About Actifio GO!
-# About Actifio GO!
 {: #gettingstarted}
 
 Actifio Go on IBM Cloud is the next generation multi-cloud Copy Data Management SaaS solution that delivers the cloud experience: a complete self-service model where users can learn, evaluate, procure, expand and get support at the lowest cost in the industry. Actifio Go on IBM Cloud Catalog enables customers to backup VMware virtual machines directly to IBM Cloud Object Storage while being able to instantly access the backup images within their data center. Actifio Go leverages the patented OnVault technology to incrementally backup VMware data to IBM COS while still maintaining instant access.
