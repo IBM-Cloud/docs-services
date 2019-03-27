@@ -19,7 +19,7 @@ lastupdated: "2018-08-15"
 
 CloudAMQP automates every part of set up, running and scaling of RabbitMQ clusters. Let your team focus on what they do best - building your product. Leave server management and monitoring to the experts.
 
-![Documentation image](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/camqp_3fd350bd-8e7d-4181-87c6-c4adb23bea0a.png)
+![Documentation image](https://mp.s81c.com/pwb-production/markdownBuilder_image_/camqp_3fd350bd-8e7d-4181-87c6-c4adb23bea0a.png)
 
 
 
@@ -27,11 +27,11 @@ CloudAMQP automates every part of set up, running and scaling of RabbitMQ cluste
 
 ## Getting started
 
-CloudAMQP is hosting managed RabbitMQ servers in the cloud. Message queues that let you pass messages between processes and other systems. 
+CloudAMQP is hosting managed RabbitMQ servers in the cloud. Message queues that let you pass messages between processes and other systems.
 
-Messages are published to a queue by a producer, the consumers can then get the messages from the queue when the consumer wants to handle the messages. In-between, it can route, buffer, and persist the messages according to rules you give it. 
+Messages are published to a queue by a producer, the consumers can then get the messages from the queue when the consumer wants to handle the messages. In-between, it can route, buffer, and persist the messages according to rules you give it.
 
-Messages can be sent cross languages, platforms and OS, this way of handling messages decouple your processes and creates a highly scalable system. 
+Messages can be sent cross languages, platforms and OS, this way of handling messages decouple your processes and creates a highly scalable system.
 
 A complete beginner guide can be found [here](https://www.cloudamqp.com/blog/2015-05-18-part1-rabbitmq-for-beginners-what-is-rabbitmq.html){:new_window}.
 
@@ -43,9 +43,9 @@ Fill information about your cluster and press "create". 2 minutes later you will
 
 When your instance is created, press on details for your instance to find your username, password and connection URL for your hosted RabbitMQ instance.
 
-![Documentation image](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/new-instance-details-mini_5467dd57-0a48-4138-9c89-431736f42a1a.jpg)
+![Documentation image](https://mp.s81c.com/pwb-production/markdownBuilder_image_/new-instance-details-mini_5467dd57-0a48-4138-9c89-431736f42a1a.jpg)
 
-Start by downloading the client-library for your selected programming language. Developers usually have a number of options for AMQP client libraries, ask us if you need help or look into our documentation [here](https://www.cloudamqp.com/docs/index.html){:new_window}. 
+Start by downloading the client-library for your selected programming language. Developers usually have a number of options for AMQP client libraries, ask us if you need help or look into our documentation [here](https://www.cloudamqp.com/docs/index.html){:new_window}.
 
 The following example will use the synchronous client Bunny and publish a message and then consume it.
 ~~~~
@@ -69,9 +69,9 @@ puts "This is the message: " + msg + "\n\n"
 b.stop # close the connection
 ~~~~
 
-RabbitMQ provides a web UI for management and monitoring of your RabbitMQ server. The RabbitMQ management interface is enabled by default in CloudAMQP and a link can be found on the details page for your CloudAMQP instance. 
+RabbitMQ provides a web UI for management and monitoring of your RabbitMQ server. The RabbitMQ management interface is enabled by default in CloudAMQP and a link can be found on the details page for your CloudAMQP instance.
 
 From the management interface, it is possible to handle, create, delete and list queues. It is possible to monitor queue length, check message rate, change and add users permissions much more.
 
-![Documentation image](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/new-rabbitmq-manager-mini_17c9ba7f-a4f1-4687-bb81-a6a68e3fba2f.jpg)
+![Documentation image](https://mp.s81c.com/pwb-production/markdownBuilder_image_/new-rabbitmq-manager-mini_17c9ba7f-a4f1-4687-bb81-a6a68e3fba2f.jpg)
 
