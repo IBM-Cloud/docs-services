@@ -28,7 +28,7 @@ To start using Hydrogen, you must first sign up for an account. [Click here](htt
 
 We provide a free sandbox environment to test our APIs before going into production.
 
-![Documentation image](https://mp.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/markdownBuilder_image_/step1-final_6e57b80a-2c93-49c5-9cdd-1dba4a628150.png)
+![Documentation image](https://mp.s81c.com/pwb-production/markdownBuilder_image_/step1-final_6e57b80a-2c93-49c5-9cdd-1dba4a628150.png)
 
 Login to the developer portal and request access to Atom.
 
@@ -111,4 +111,3 @@ curl -X POST -H "Authorization: Bearer e7cf805b-4307-41e9-8b58-90b6359fa900" \
             ]
         }' "https://api.hydrogenplatform.com/nucleus/v1/client"
 ```
-
