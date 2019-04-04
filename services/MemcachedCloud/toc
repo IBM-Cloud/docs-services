@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="MemcachedCloud" audience="service" href="/docs/services/MemcachedCloud/index.html"}
+{: .toc subcollection="MemcachedCloud" audience="service" href="/docs/services/MemcachedCloud/index.html" path="services/MemcachedCloud"}
 Memcached Cloud
 
     {: .navgroup id="learn"}
