@@ -50,11 +50,11 @@ This option, only available when the "Large" pricing plan size is selected, allo
 ### Python version
 {: #python-version}
 
-This option allows a user to create an instance with python version 3 instead of the default version 2. It is specified as the `python_version` parameter.
+This option allows a user to create an instance with python version 2 instead of the default version 3. It is specified as the `python_version` parameter.
 
 ```
 {
-    "python_version": "python3"
+    "python_version": "python2"
 }
 ```
 {: codeblock}
