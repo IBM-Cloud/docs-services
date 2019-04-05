@@ -15,7 +15,7 @@ lastupdated: 19 Aug 2018
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutQuotaGuard Static IP
+# About QuotaGuard Static IP
 {: #gettingstarted}
 
 QuotaGuard Static allows you to route inbound & outbound traffic through a static IP address. You can provide this IP address to an API partner or external servicefor IP based whitelisting and open your own firewall to access internal resources.
