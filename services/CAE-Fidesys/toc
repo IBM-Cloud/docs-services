@@ -1,19 +1,25 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Ylabs" audience="service" href="/docs/services/Ylabs/index.html"}
-Ylabs
+{: .toc subcollection="CAE Fidesys" audience="service" href="/docs/services/CAE-Fidesys/index.html" path="services/CAE-Fidesys"}
+CAE Fidesys
 
     {: .navgroup id="learn"}
     index.md
-
     {: .topicgroup}
     Related links
-        [Getting Started with Ylabs](https://www.ylabs.io/)
-        
+        [API Documentation](https://cae-fidesys.com/documentation/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    {: .topicgroup}
     Reference
-    [Ylabs Developer Portal](https://ylabs.gelato.io/developers/new?protected=1)
+        [Company homepage](https://cae-fidesys.com)
     {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://cae-fidesys.com/feedback/)
+    {: .navgroup-end}
+
