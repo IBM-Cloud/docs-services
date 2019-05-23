@@ -9,6 +9,7 @@ CAE Fidesys
     {: .topicgroup}
     Related links
         [API Documentation](https://cae-fidesys.com/documentation/)
+        [Sim4Design tutorial](https://www.sim4design.com/en/getstarted/tutorial)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -21,5 +22,11 @@ CAE Fidesys
     {: .topicgroup}
     Help
         [Support](https://cae-fidesys.com/feedback/)
+    {: .navgroup-end}
+
+    {: .navgroup id="newNavGroup3"}
+    {: .topicgroup}
+    Examples
+        [Sim4Design examples](https://www.sim4design.com/en/getstarted/examples)
     {: .navgroup-end}
 
