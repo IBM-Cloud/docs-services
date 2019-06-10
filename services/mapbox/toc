@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="mapbox" audience="service" href="/docs/services/mapbox/index.html" path="services/mapbox"}
+{: .toc subcollection="mapbox" audience="service" category="web-mobile" href="/docs/services/mapbox/index.html" path="services/mapbox"}
 Mapbox maps
 
     {: .navgroup id="learn"}
