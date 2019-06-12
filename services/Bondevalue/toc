@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Bondevalue" audience="service" href="/docs/services/Bondevalue/index.html" path="services/Bondevalue"}
+{: .toc subcollection="Bondevalue" audience="service" category="web-application" href="/docs/services/Bondevalue/index.html" path="services/Bondevalue"}
 Bondevalue
 
     {: .navgroup id="learn"}
