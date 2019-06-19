@@ -8,7 +8,8 @@ Cypherium Enterprise Blockchain
     index.md
     {: .topicgroup}
     Related links
-        [API Documentation](https://app.swaggerhub.com/apis/Cypherium5/)
+        [API Documentation](https://api.cypherium.io)
+        [Smart Contract Tutorial](https://github.com/cypherium/ContractExample/blob/master/README.md)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
