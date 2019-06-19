@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Coalesce-for-Risk-and-Compliance-Monitoring" audience="service" category="web-application" href="/docs/services/Coalesce-for-Risk-and-Compliance-Monitoring/index.html" path="services/Coalesce-for-Risk-and-Compliance-Monitoring"}
+{: .toc subcollection="Coalesce-for-Risk-and-Compliance-Monitoring" category="app_services" audience="service" href="/docs/services/Coalesce-for-Risk-and-Compliance-Monitoring/index.html" path="services/Coalesce-for-Risk-and-Compliance-Monitoring"}
 Coalesce API
 
     {: .navgroup id="learn"}
