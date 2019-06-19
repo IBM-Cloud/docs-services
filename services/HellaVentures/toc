@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="HellaVentures" audience="service" href="/docs/services/HellaVentures/index.html" path="services/HellaVentures"}
+{: .toc subcollection="HellaVentures" category="iot" audience="service" href="/docs/services/HellaVentures/index.html" path="services/HellaVentures"}
 Car Diagnostic API
 
     {: .navgroup id="learn"}
