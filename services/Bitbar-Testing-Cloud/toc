@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics Behavior/Propensity Model API" audience="service" href="/docs/services/Bitbar-Testing-Cloud.html" path="services/Bitbar-Testing-Cloud"}
+{: .toc subcollection="Powerlytics Behavior/Propensity Model API" category="mobile" audience="service" href="/docs/services/Bitbar-Testing-Cloud.html" path="services/Bitbar-Testing-Cloud"}
 Bitbar Testing Cloud
 
     {: .navgroup id="learn"}
