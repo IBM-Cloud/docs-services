@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FusionAuth" audience="service" href="/docs/services/FusionAuth/index.html" path="services/FusionAuth"}
+{: .toc subcollection="FusionAuth" category="security" audience="service" href="/docs/services/FusionAuth/index.html" path="services/FusionAuth"}
 FusionAuth
 
     {: .navgroup id="learn"}
