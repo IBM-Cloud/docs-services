@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ElephantSQL" audience="service" href="/docs/services/ElephantSQL-94/elephantsql.html" path="services/ElephantSQL-94"}
+{: .toc subcollection="ElephantSQL" category="app_services" audience="service" href="/docs/services/ElephantSQL-94/elephantsql.html" path="services/ElephantSQL-94"}
 ElephantSQL
 
     {: .navgroup id="learn"}
