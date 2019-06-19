@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Zuznow" category="app_services" href="/docs/services/Zuznow/index.html" path="services/Zuznow"}
+{: .toc subcollection="Zuznow" category="mobile" href="/docs/services/Zuznow/index.html" path="services/Zuznow"}
 Zuznow
 
     {: .navgroup id="learn"}
