@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Ylabs" audience="service" href="/docs/services/Ylabs/index.html" path="services/Ylabs"}
+{: .toc subcollection="Ylabs" category="app_services" audience="service" href="/docs/services/Ylabs/index.html" path="services/Ylabs"}
 Ylabs
 
     {: .navgroup id="learn"}
