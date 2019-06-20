@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="InfluxData" audience="service" href="/docs/services/InfluxData/index.html" path="services/InfluxData"}
+{: .toc subcollection="InfluxData" category="databases" audience="service" href="/docs/services/InfluxData/index.html" path="services/InfluxData"}
 InfluxCloud
 
     {: .navgroup id="learn"}
