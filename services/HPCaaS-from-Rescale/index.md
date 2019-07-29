@@ -33,7 +33,9 @@ Review the "Standard" pricing plan and click on the "Create" button to instantia
 ### Step Three:
 Click on the "Launch" button to launch the Rescale control plane and start defining and managing your HPC jobs.
 
-More details about HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation){:new_window}.
+More details on HPCaaS from Rescale can be found [here](https://resources.rescale.com/documentation).
+
+A demo collection of HPCaaS from Rescale can be found [here](https://www.ibm.com/demos/collection/HPCaaS-From-Rescale/){:new_window}.
 
 ## Pricing Plans and Billing
  
