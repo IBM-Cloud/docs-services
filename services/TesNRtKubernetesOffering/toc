@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="TesNRtKubernetesOffering" audience="service" href="/docs/services/TesNRtKubernetesOffering/index.html" path="services/TesNRtKubernetesOffering"}
+TesNRtKubernetesOffering
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation]()
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage]()
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support]()
+    {: .navgroup-end}
+
