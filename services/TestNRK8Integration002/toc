@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="TestNRK8Integration002" audience="service" href="/docs/services/TestNRK8Integration002/index.html" path="services/TestNRK8Integration002"}
+TestNRK8Integration002
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://developer.newrelic.com)
+        [Introduction to the Kubernetes integration](https://docs.newrelic.com/docs/integrations/kubernetes-integration/get-started/introduction-kubernetes-integration)
+        [installation and configuration](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-installation-configuration)
+        [Install New Relic Kubernetes integration with Helm](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/install-kubernetes-integration-using-helm#install-k8-helm)
+        [IBM Cloud New Relic Kubernetes Helm Chart](https://cloud.ibm.com/kubernetes/helm/kubernetes/newrelic-infrastructure)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.newrelic.com)
+        [IBM Cloud New Relic Kubernetes Helm Chart](https://cloud.ibm.com/kubernetes/helm/kubernetes/newrelic-infrastructure)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.newrelic.com)
+    {: .navgroup-end}
+
