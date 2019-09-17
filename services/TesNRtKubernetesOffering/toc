@@ -8,18 +8,21 @@ TesNRtKubernetesOffering
     index.md
     {: .topicgroup}
     Related links
-        [API Documentation]()
+        [API Documentation](https://developer.newrleic.com)
+        [Installation and Configuration](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-installation-configuration)
+        [Install the Kubernetes integration using Helm](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/install-kubernetes-integration-using-helm)
+        [IBM Kubernetes New Relic Helm Chart](https://cloud.ibm.com/kubernetes/helm/kubernetes/newrelic-infrastructure)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     {: .topicgroup}
     Reference
-        [Company homepage]()
+        [Company homepage](https://www.newrelic.com)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
     Help
-        [Support]()
+        [Support](https://support.newrelic.com)
     {: .navgroup-end}
 
