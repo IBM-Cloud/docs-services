@@ -1,23 +1,24 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Actifio-GO" audience="service" href="/docs/services/Actifio-GO/index.html" path="services/Actifio-GO"}
+{: .toc subcollection="Actifio GO!" audience="service" href="/docs/services/Actifio-GO!/index.html" path="services/Actifio-GO!"}
 Actifio GO!
 
     {: .navgroup id="learn"}
     index.md
-
     {: .topicgroup}
     Related links
         [API Documentation](https://www.actifio.com/#sthash.UsBMotCh.dpbs)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [Company homepage](https://www.actifiogo.com/)
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.actifiogo.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Support](https://portal.dev.actifiogo.com/)
+    {: .topicgroup}
+    Help
+        [Support](https://www.actifio.com/customer-support/#sthash.LW1WWkKr.dpbs)
     {: .navgroup-end}
-    
-    
