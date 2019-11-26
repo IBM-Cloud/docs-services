@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Skytap on IBM Cloud" audience="service" href="/docs/services/Skytap-on-IBM-Cloud/index.html" path="services/Skytap-on-IBM-Cloud"}
+Skytap on IBM Cloud
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://help.skytap.com/api.html)
+        [Administrator Guide](https://help.skytap.com/Administrator_Basics.html)
+        [User Guide](https://help.skytap.com/User_Guide.html)
+        [Migration Guide](https://www.skytap.com/research-center/white-papers-analysis/how-to-guide-for-migrating-to-skytap-cloud/?utm_campaign=website_resources_how_to_guide&utm_medium=owned_website&utm_source=website&utm_content=whitepaper)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.skytap.com)
+        [Skytap on IBM Cloud](https://www.ibm.com/cloud/skytap)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://www.skytap.com/customer-success/support/)
+        [Documentation](https://help.skytap.com)
+    {: .navgroup-end}
+
