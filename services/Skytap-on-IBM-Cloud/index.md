@@ -4,7 +4,7 @@ copyright:
 
   years:  2019
 
-lastupdated: "2019-11-25"
+lastupdated: "2019-12-03"
 
 ---
 
@@ -18,25 +18,36 @@ lastupdated: "2019-11-25"
 # About Skytap on IBM Cloud
 {: #gettingstarted}
 
-Skytap is a cloud service purpose-built to natively run traditional systems in the cloud. We are the only cloud service to support AIX, IBM i, and Linux on IBM POWER together with x86 workloads, enabling businesses to accelerate their journey to the cloud and increase innovation
+Skytap cloud is purpose-built to enable you to natively run your traditional applications in the cloud. Skytap is the only cloud that supports virtual machines running AIX, IBM i, and Linux on IBM Power, as well as x86 workloads.
+
+Your environments can be as simple as a single virtual machine or as complex as an entire virtual data center with dozens of virtual machines, multiple networks, and applications. Skytap can be used for multiple purposes, including development, testing, modernization, demos, and production.
 
 {:shortdesc}
 
 ## Getting started
 
-Skytap is a cloud service for creating, managing, and sharing virtual machine environments.
+You create instances of Skytap on IBM Cloud through the IBM Catalog and then manage your Skytap instances in a dedicated web portal or via API. This tutorial walks you through the process of provisioning your Skytap account in the IBM Catalog. Content specific to using Skytap cloud is available on the service landing page once you've created your environments as well as in the dedicated Skytap portal.
 
-Each environment consists of one or more virtual machines and one or more networks. Environments can be as simple as a single VM, or as complex as an entire virtual data center, with dozens of VMs, multiple networks, and applications.
+Select a pricing plan. Skytap currently supports only Pay as You Go.
 
-These environments can be used for pretty much anything (development, testing, demos, production) and accessed from pretty much anywhere
+Once your plan is selected, fill in the following:
 
-Through the IBM Cloud catalog select Skytap
+* Set the **Service name**.
+* Select a **Resource Group**.
+* Define any **Tags** you want to use to organize your service.
 
-Setup Skytap Networks, connections to other resources
+Once you've filled in the requested information, click **Configure**.
 
-add a new user
+Fill in the additional, required information in order to create your Skytap account.
+* Select the **Regions** that you will be using.
+* Set the **Primary Administrator** for your account. By default this will be the user creating the account, you can change the user here.
+* Set the **Billing Contact** for your account. By default this will be the user creating the account, you can change the user here.
+* Set a **Account Subdomain** name for your account. This is included in the fully qualified domain name when you use dynamic public IPs.
 
-jklkl
+Click **Create this account** to continue.
 
-create, copy, clone & save
+Once your account has been created, you will be taken to a launch page that allows you to do the following:
+* View learning content for Skytap cloud.
+* View the Skytap cloud help.
+* Launch the Skytap portal.
 
