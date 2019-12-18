@@ -4,7 +4,7 @@ copyright:
 
   years:  2019
 
-lastupdated: "2019-12-03"
+lastupdated: "2019-12-13"
 
 ---
 
@@ -39,7 +39,7 @@ Once your plan is selected, fill in the following:
 Once you've filled in the requested information, click **Configure**.
 
 Fill in the additional, required information in order to create your Skytap account.
-* Select the **Regions** that you will be using.
+* Select the **Regions** that you will be using. x86 VMs are included in all regions, Power VMs are included in only EMEA and US-Central.
 * Set the **Primary Administrator** for your account. By default this will be the user creating the account, you can change the user here.
 * Set the **Billing Contact** for your account. By default this will be the user creating the account, you can change the user here.
 * Set a **Account Subdomain** name for your account. This is included in the fully qualified domain name when you use dynamic public IPs.
