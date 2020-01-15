@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Delphix Dynamic Data Platform" audience="service" href="/docs/services/Delphix-Dynamic-Data-Platform/index.html" path="services/Delphix-Dynamic-Data-Platform"}
+Delphix Dynamic Data Platform
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://docs.delphix.com/display/DOCS537/Reference)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.delphix.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.delphix.com)
+    {: .navgroup-end}
+
