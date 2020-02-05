@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Densify SaaS" audience="service" href="/docs/services/Densify-SaaS/index.html" path="services/Densify-SaaS"}
+Densify SaaS
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://www.densify.com/docs/Content/Densify_GETTING.htm)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.densify.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://www.densify.com/support)
+    {: .navgroup-end}
+
