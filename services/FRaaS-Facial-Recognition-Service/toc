@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="FRaaS Facial Recognition Service" audience="service" href="/docs/services/FRaaS-Facial-Recognition-Service/index.html" path="services/FRaaS-Facial-Recognition-Service"}
+FRaaS Facial Recognition Service
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://algo.aihtech.com/api-doc/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://aihtech.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://aihtech.com/landing.html)
+    {: .navgroup-end}
+
