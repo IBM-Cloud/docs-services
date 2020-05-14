@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="xpertrule" audience="service" href="/docs/services/xpertrule/index.html"}
+{: .toc subcollection="xpertrule" audience="service" href="/docs/xpertrule?topic=xpertrule-gettingstarted" path="xpertrule"}
 XpertRule Decision Automation for node-RED
 
     {: .navgroup id="learn"}

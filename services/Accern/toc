@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Accern" audience="service" href="/docs/services/Accern/index.html"}
+{: .toc subcollection="Accern" audience="service" href="/docs/Accern?topic=Accern-gettingstarted" path="Accern"}
 Accern API
 
     {: .navgroup id="learn"}

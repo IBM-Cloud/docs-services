@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NamaraIO" audience="service" href="/docs/services/NamaraIO/index.html"}
+{: .toc subcollection="NamaraIO" audience="service" href="/docs/NamaraIO?topic=NamaraIO-gettingstarted" path="NamaraIO"}
 Namara.io
 
     {: .navgroup id="learn"}

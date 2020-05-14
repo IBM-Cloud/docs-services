@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="CAE Fidesys" audience="service" href="/docs/services/CAE-Fidesys/index.html" path="services/CAE-Fidesys"}
+{: .toc subcollection="CAE-Fidesys" audience="service" href="/docs/CAE-Fidesys?topic=CAE-Fidesys-gettingstarted" path="CAE-Fidesys"}
 CAE Fidesys
 
     {: .navgroup id="learn"}

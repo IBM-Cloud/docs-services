@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+{: .toc subcollection="FolderName" audience="service" href="/docs/FolderName?topic=FolderName-gettingstarted" path="FolderName"}
 Product name
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="AccountScore" audience="service" href="/docs/services/accountscore.html"}
+{: .toc subcollection="AccountScore" audience="service" href="/docs/AccountScore?topic=AccountScore-gettingstarted" path="AccountScore"}
 AccountScore
 
     {: .navgroup id="learn"}

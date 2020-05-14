@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Leanides" audience="service" href="/docs/services/leanides.html"}
+{: .toc subcollection="Leanides" audience="service" href="/docs/Leanides?topic=Leanides-gettingstarted" path="Leanides"}
 Leanides
 
     {: .navgroup id="learn"}

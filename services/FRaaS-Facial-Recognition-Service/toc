@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FRaaS Facial Recognition Service" audience="service" href="/docs/services/FRaaS-Facial-Recognition-Service/index.html" path="services/FRaaS-Facial-Recognition-Service"}
+{: .toc subcollection="FRaaS-Facial-Recognition-Service" audience="service" href="/docs/Ylabs?topic=FRaaS-Facial-Recognition-Service-gettingstarted" path="FRaaS-Facial-Recognition-Service"}
 FRaaS Facial Recognition Service
 
     {: .navgroup id="learn"}

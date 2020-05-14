@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TinyQueries" audience="service" href="/docs/services/TinyQueries/index.html"}
+{: .toc subcollection="TinyQueries" audience="service" href="/docs/TinyQueries?topic=TinyQueries-gettingstarted" path="TinyQueries"}
 TinyQueries
 
     {: .navgroup id="learn"}

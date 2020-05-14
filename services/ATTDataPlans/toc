@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ATTDataPlans" audience="service" href="/docs/services/ATTDataPlans/index.html"}
+{: .toc subcollection="ATTDataPlans" audience="service" href="/docs/ATTDataPlans?topic=ATTDataPlans-gettingstarted" path="ATTDataPlans"}
 AT&amp;T IoT Data Plans
 
     {: .navgroup id="learn"}

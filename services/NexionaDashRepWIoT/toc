@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NexionaDashRepWIoT" audience="service" href="/docs/services/NexionaDashRepWIoT/index.html"}
+{: .toc subcollection="NexionaDashRepWIoT" audience="service" href="/docs/NexionaDashRepWIoT?topic=NexionaDashRepWIoT-gettingstarted" path="NexionaDashRepWIoT"}
 Dashboards and Reports for Watson IoT
 
     {: .navgroup id="learn"}

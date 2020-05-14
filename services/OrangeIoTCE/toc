@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="OrangeIoTCE" audience="service" href="/docs/services/OrangeIoTCE/index.html"}
+{: .toc subcollection="OrangeIoTCE" audience="service" href="/docs/OrangeIoTCE?topic=OrangeIoTCE-gettingstarted" path="OrangeIoTCE"}
 Orange IoT Connect Express
 
     {: .navgroup id="learn"}

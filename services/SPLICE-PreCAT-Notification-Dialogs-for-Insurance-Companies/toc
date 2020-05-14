@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" audience="service" category="integration" href="/docs/services/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies/index.html"}
+{: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" audience="service" category="integration" href="/docs/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies?topic=SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies-gettingstarted" path="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies"}
 SPLICE Pre-Cat Insurance Notifications
 
   {: .navgroup id="reference"}

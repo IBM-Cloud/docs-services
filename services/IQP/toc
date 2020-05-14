@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="IQP" audience="service" href="/docs/services/IQP/index.html"}
+{: .toc subcollection="IQP" audience="service" href="/docs/IQP?topic=IQP-gettingstarted" path="IQP"}
 IQP
 
     {: .navgroup id="learn"}

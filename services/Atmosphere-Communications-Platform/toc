@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Atmosphere® Communications Platform" audience="service" href="/docs/services/Atmosphere®-Communications-Platform/index.html" path="services/Atmosphere®-Communications-Platform"}
+{: .toc subcollection="Atmosphere-Communications-Platform" audience="service" href="/docs/Atmosphere-Communications-Platform?topic=Atmosphere-Communications-Platform-gettingstarted" path="Atmosphere-Communications-Platform"}
 Atmosphere® Communications Platform
 
     {: .navgroup id="learn"}

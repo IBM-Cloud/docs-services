@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Apprenda" audience="service" href="/docs/services/Apprenda/index.html"}
+{: .toc subcollection="Apprenda" audience="service" href="/docs/Apprenda?topic=Apprenda-gettingstarted_Apprenda" path="Apprenda"}
 Apprenda Cloud Platform
 
     {: .navgroup id="learn"}

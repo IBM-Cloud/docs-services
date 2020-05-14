@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="<TagniFi>" audience="service" href="/docs/services/TagniFi/index.html"}
+{: .toc subcollection="TagniFi" audience="service" href="/docs/TagniFi?topic=TagniFi-gettingstarted" path="TagniFi"}
 TagniFi
 
     {: .navgroup id="learn"}

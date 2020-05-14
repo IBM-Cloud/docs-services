@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Densify SaaS" audience="service" href="/docs/services/Densify-SaaS/index.html" path="services/Densify-SaaS"}
+{: .toc subcollection="Densify-SaaS" audience="service" href="/docs/Densify-SaaS?topic=Densify-SaaS-gettingstarted" path="Densify-SaaS"}
 Densify SaaS
 
     {: .navgroup id="learn"}

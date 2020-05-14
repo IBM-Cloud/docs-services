@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Pitney Bowes Location Intelligence APIs" audience="service" href="/docs/services/Pitney-Bowes-Location-Intelligence-APIs.html" path="services/Pitney-Bowes-Location-Intelligence-APIs"}
+{: .toc subcollection="Pitney-Bowes-Location-Intelligence-APIs" audience="service" href="/docs/Pitney-Bowes-Location-Intelligence-APIs?topic=Pitney-Bowes-Location-Intelligence-APIs-gettingstarted" path="Pitney-Bowes-Location-Intelligence-APIs"}
 Pitney Bowes Location Intelligence APIs
 
     {: .navgroup id="learn"}

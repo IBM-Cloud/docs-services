@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Delphix Dynamic Data Platform" audience="service" href="/docs/services/Delphix-Dynamic-Data-Platform/index.html" path="services/Delphix-Dynamic-Data-Platform"}
+{: .toc subcollection="Delphix-Dynamic-Data-Platform" audience="service" href="/docs/Delphix-Dynamic-Data-Platform?topic=Delphix-Dynamic-Data-Platform-gettingstarted" path="Delphix-Dynamic-Data-Platform"}
 Delphix Dynamic Data Platform
 
     {: .navgroup id="learn"}

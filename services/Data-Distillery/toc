@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Data-Distillery" audience="service" href="/docs/services/Data-Distillery/index.html"}
+{: .toc subcollection="Data-Distillery" audience="service" href="/docs/Data-Distillery?topic=Data-Distillery-gettingstarted" path="Data-Distillery"}
 Data Distillery 
 
     {: .navgroup id="learn"}

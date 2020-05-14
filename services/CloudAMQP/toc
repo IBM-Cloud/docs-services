@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloudamqp" audience="service" href="/docs/services/CloudAMQP/index.html"}
+{: .toc subcollection="CloudAMQP" audience="service" href="/docs/CloudAMQP?topic=CloudAMQP-gettingstarted" path="CloudAMQP"}
 CloudAMQP
 
     {: .navgroup id="learn"}

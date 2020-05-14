@@ -2,7 +2,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="simplicite" audience="service" href="/docs/services/simplicite/index.html"}
+{: .toc subcollection="simplicite" audience="service" href="/docs/simplicite?topic=simplicite-gettingstarted" path="simplicite"}
 Simplicit&eacute;
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="XpertruleDecisionAuthor" audience="service" href="/docs/services/XpertruleDecisionAuthor/index.html"}
+{: .toc subcollection="XpertruleDecisionAuthor" audience="service" href="/docs/XpertruleDecisionAuthor?topic=XpertruleDecisionAuthor-gettingstarted" path="XpertruleDecisionAuthor"}
 XpertRule Decision and Rules Automation
 
     {: .navgroup id="learn"}

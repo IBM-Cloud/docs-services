@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="LEMTestTradeIt" audience="service" href="/docs/services/LEMTestTradeIt/index.html"}
+{: .toc subcollection="LEMTestTradeIt" audience="service" href="/docs/LEMTestTradeIt?topic=LEMTestTradeIt-gettingstarted" path="LEMTestTradeIt"}
 LEMTradeIt
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="MoniAi" audience="service" href="/docs/services/MoniAi/index.html"}
+{: .toc subcollection="MoniAi" audience="service" href="/docs/MoniAi?topic=MoniAi-gettingstarted" path="MoniAi"}
 Moni.ai
 
     {: .navgroup id="learn"}

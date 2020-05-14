@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TestNRK8Integration002" audience="service" href="/docs/services/TestNRK8Integration002/index.html" path="services/TestNRK8Integration002"}
+{: .toc subcollection="TestNRK8Integration002" audience="service" href="/docs/TestNRK8Integration002?topic=TestNRK8Integration002-gettingstarted" path="TestNRK8Integration002"}
 TestNRK8Integration002
 
     {: .navgroup id="learn"}

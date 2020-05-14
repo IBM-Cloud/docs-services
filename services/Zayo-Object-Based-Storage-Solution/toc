@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FolderName" audience="service" href="/docs/services/FolderName/index.html"}
+{: .toc subcollection="Zayo-Object-Based-Storage-Solution" audience="service" href="/docs/Zayo-Object-Based-Storage-Solution?topic=Zayo-Object-Based-Storage-Solution-gettingstarted" path="Zayo-Object-Based-Storage-Solution"}
 Zayo Object-Based Storage
 
     {: .navgroup id="learn"}

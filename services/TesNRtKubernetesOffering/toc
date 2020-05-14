@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TesNRtKubernetesOffering" audience="service" href="/docs/services/TesNRtKubernetesOffering/index.html" path="services/TesNRtKubernetesOffering"}
+{: .toc subcollection="TesNRtKubernetesOffering" audience="service" href="/docs/TesNRtKubernetesOffering?topic=TesNRtKubernetesOffering-gettingstarted" path="TesNRtKubernetesOffering"}
 TesNRtKubernetesOffering
 
     {: .navgroup id="learn"}

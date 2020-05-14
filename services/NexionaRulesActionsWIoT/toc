@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NexionaRulesActionsWIoT" audience="service" href="/docs/services/NexionaRulesActionsWIoT/index.html"}
+{: .toc subcollection="NexionaRulesActionsWIoT" audience="service" href="/docs/NexionaRulesActionsWIoT?topic=NexionaRulesActionsWIoT-gettingstarted" path="NexionaRulesActionsWIoT"}
 Rules and Actions for Watson IoT
 
     {: .navgroup id="learn"}

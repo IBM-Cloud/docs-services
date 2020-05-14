@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Zuznow-21" audience="service" href="/docs/services/Zuznow-21/index.html"}
+{: .toc subcollection="Zuznow-21" audience="service" href="/docs/Zuznow-21?topic=Zuznow-21-gettingstarted" path="Zuznow-21"}
 Conversation.one
 
     {: .navgroup id="learn"}

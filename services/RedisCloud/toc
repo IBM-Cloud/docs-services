@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="RedisCloud" audience="service" href="/docs/services/RedisCloud/index.html"}
+{: .toc subcollection="RedisCloud" audience="service" href="/docs/RedisCloud?topic=RedisCloud-gettingstarted" path="RedisCloud"}
 Redis Cloud
 
     {: .navgroup id="learn"}

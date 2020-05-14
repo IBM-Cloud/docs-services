@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DigiCert SSL/TLS" audience="service" href="/docs/services/DigiCert-SSL/TLS/index.html" path="services/DigiCert-SSL/TLS"}
+{: .toc subcollection="DigiCert-SSLTLS" audience="service" href="/docs/DigiCert-SSLTLS?topic=DigiCert-SSLTLS-gettingstarted" path="DigiCert-SSLTLS"}
 DigiCert SSL/TLS
 
     {: .navgroup id="learn"}

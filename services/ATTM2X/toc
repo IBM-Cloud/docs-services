@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ATTM2X" audience="service" href="/docs/services/ATTM2X/index.html"}
+{: .toc subcollection="ATTM2X" audience="service" href="/docs/ATTM2X?topic=ATTM2X-gettingstarted" path="ATTM2X"}
 AT&amp;T M2X
 
     {: .navgroup id="learn"}

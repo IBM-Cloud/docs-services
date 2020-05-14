@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Instaclustr" audience="service" href="/docs/services/Instaclustr/index.html"}
+{: .toc subcollection="Instaclustr" audience="service" href="/docs/Instaclustr?topic=Instaclustr-gettingstarted" path="Instaclustr"}
 Instaclustr Cassandra
 
     {: .navgroup id="learn"}

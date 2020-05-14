@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Actifio GO!" audience="service" href="/docs/services/Actifio-GO!/index.html" path="services/Actifio-GO!"}
+{: .toc subcollection="Actifio-GO" audience="service" href="/docs/Actifio-GO?topic=Actifio-GO-gettingstarted" path="Actifio-GO"}
 Actifio GO!
 
     {: .navgroup id="learn"}

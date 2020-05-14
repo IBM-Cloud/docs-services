@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Raxak Protect V2" audience="service" href="/docs/services/Raxak-Protect-V2/index.html" path="services/Raxak-Protect-V2"}
+{: .toc subcollection="Raxak-Protect-V2" audience="service" href="/docs/Raxak-Protect-V2?topic=Raxak-Protect-V2-gettingstarted" path="Raxak-Protect-V2"}
 Raxak Protect V2
 
     {: .navgroup id="learn"}

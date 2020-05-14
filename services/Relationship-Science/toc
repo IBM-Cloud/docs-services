@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Relationship-Science" audience="service" href="/docs/services/Relationship-Science/index.html"}
+{: .toc subcollection="Relationship-Science" audience="service" href="/docs/Relationship-Science?topic=Relationship-Science-gettingstarted" path="Relationship-Science"}
 RelSci
 
     {: .navgroup id="learn"}

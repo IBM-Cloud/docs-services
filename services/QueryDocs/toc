@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="QueryDocs" audience="service" href="/docs/services/querydocs.html"}
+{: .toc subcollection="QueryDocs" audience="service" href="/docs/QueryDocs?topic=QueryDocs-gettingstarted" path="QueryDocs"}
 QueryDocs
 
     {: .navgroup id="learn"}
