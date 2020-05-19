@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Enigma Confidential Computing Platform" audience="service" href="/docs/services/Enigma-Confidential-Computing-Platform/index.html" path="services/Enigma-Confidential-Computing-Platform"}
+Enigma Confidential Computing Platform
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://github.com/enigmampc/SafeTrace/api-server/README.md)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://enigma.co/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://forum.enigma.co/)
+    {: .navgroup-end}
+
