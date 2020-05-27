@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ArriaNLG" audience="service" href="/docs/services/ArriaNLG/index.html" path="services/ArriaNLG"}
+{: .toc subcollection="ArriaNLG" audience="service" href="/docs/ArriaNLG?topic=ArriaNLG-gettingstarted_nlgapi" path="ArriaNLG"}
 Natural Language Generation APIs
 
     {: .navgroup id="learn"}

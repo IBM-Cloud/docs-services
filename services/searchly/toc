@@ -1,18 +1,9 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="searchly" audience="service" href="/docs/services/searchly/index.html" path="services/searchly"}
+{: .toc subcollection="searchly" audience="service" href="/docs/searchly" path="searchly"}
 Searchly
 
     {: .navgroup id="learn"}
     index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](link URL)
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    Reference
-    [API link text](link URL)
     {: .navgroup-end}

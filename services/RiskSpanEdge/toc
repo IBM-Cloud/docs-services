@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="RiskSpanEdge" category="app_services" audience="service" href="/docs/services/RiskSpanEdge/index.html" path="services/RiskSpanEdge"}
+{: .toc subcollection="RiskSpanEdge" category="app_services" audience="service" href="/docs/RiskSpanEdge?topic=RiskSpanEdge-gettingstarted_RiskSpanEdge" path="RiskSpanEdge"}
 RiskSpanEdge
 
     {: .navgroup id="learn"}

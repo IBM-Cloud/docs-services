@@ -1,16 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Caretaker" audience="service" href="/docs/services/Caretaker/index.html" path="services/Caretaker"}
+{: .toc subcollection="Caretaker" audience="service" href="/docs/Caretaker" path="Caretaker"}
 Caretaker Power Management
 
     {: .navgroup id="learn"}
     index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-        [Link text](URL)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="PowerAI" category="ai" audience="service" href="/docs/services/PowerAI-IBM/index.html" path="services/PowerAI-IBM"}
+{: .toc subcollection="PowerAI" category="ai" audience="service" href="/docs/PowerAI-IBM?topic=PowerAI-getting-started" path="PowerAI-IBM"}
 PowerAI
 
     {: .navgroup id="learn"}

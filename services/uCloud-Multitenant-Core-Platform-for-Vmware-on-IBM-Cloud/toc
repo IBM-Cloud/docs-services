@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-Vmware" category="app_services" audience="service" href="/docs/services/uCloud-Multitenant-Core-Platform-for-Vmware/index.html" path="services/uCloud-Multitenant-Core-Platform-for-Vmware"}
+{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-Vmware-on-IBM-Cloud" category="app_services" audience="service" href="/docs/uCloud-Multitenant-Core-Platform-for-Vmware-on-IBM-Cloud" path="uCloud-Multitenant-Core-Platform-for-Vmware-on-IBM-Cloud"}
 uCloud-Multitenant-Core-Platform-for-Vmware
 
     {: .navgroup id="learn"}

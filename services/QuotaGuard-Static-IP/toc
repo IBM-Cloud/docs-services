@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="QuotaGuard Static IP" audience="service" href="/docs/services/QuotaGuard-Static-IP/quotaguard-static-ip.html" path="services/QuotaGuard-Static-IP"}
+{: .toc subcollection="QuotaGuard-Static-IP" audience="service" href="/docs/QuotaGuard-Static-IP?topic=QuotaGuard-Static-IP-gettingstarted" path="QuotaGuard-Static-IP"}
 QuotaGuard Static IP
 
     {: .navgroup id="learn"}

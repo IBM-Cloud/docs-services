@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Inversoft" audience="service" href="/docs/services/Inversoft/index.html" path="services/Inversoft"}
+{: .toc subcollection="Inversoft" audience="service" href="/docs/Inversoft?topic=Inversoft-gettingstarted" path="Inversoft"}
 Passport
 
     {: .navgroup id="learn"}

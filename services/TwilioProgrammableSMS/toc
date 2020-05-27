@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TwilioProgrammableSMS" category="mobile" audience="service" href="/docs/services/TwilioProgrammableSMS/index.html" path="services/TwilioProgrammableSMS"}
+{: .toc subcollection="TwilioProgrammableSMS" category="mobile" audience="service" href="/docs/TwilioProgrammableSMS?topic=TwilioProgrammableSMS-gettingstarted_TwilioProgrammableSMS" path="TwilioProgrammableSMS"}
 Twilio Programmable SMS
 
     {: .navgroup id="learn"}

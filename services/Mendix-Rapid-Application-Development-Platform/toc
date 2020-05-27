@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="MendixPlatform" audience="service" category="devops,mobile,security" href="/docs/services/Mendix-Rapid-Application-Development-Platform/index.html" path="services/Mendix-Rapid-Application-Development-Platform"}
+{: .toc subcollection="Mendix-Rapid-Application-Development-Platform" audience="service" category="devops,mobile,security" href="/docs/Mendix-Rapid-Application-Development-Platform" path="Mendix-Rapid-Application-Development-Platform"}
 Mendix Platform
 
     {: .navgroup id="learn"}

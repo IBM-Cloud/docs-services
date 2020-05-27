@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TwilioProgrammableVideo" category="mobile" audience="service" href="/docs/services/TwilioProgrammableVideo/index.html" path="services/TwilioProgrammableVideo"}
+{: .toc subcollection="TwilioProgrammableVideo" category="mobile" audience="service" href="/docs/TwilioProgrammableVideo?topic=TwilioProgrammableVideo-gettingstarted_TwilioProgrammableVideo" path="TwilioProgrammableVideo"}
 Twilio Programmable Video
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="flowthings" audience="service" href="/docs/services/flowthings/index.html" path="services/flowthings"}
+{: .toc subcollection="flowthings" audience="service" href="/docs/flowthings?topic=flowthings-getting-started-with-the-flowthings-io-service-for-bluemix" path="flowthings"}
 flowthings.io 
 
     {: .navgroup id="learn"}

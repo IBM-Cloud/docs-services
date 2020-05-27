@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TrueRisk Labs - Equity Predictions Using Advanced AI" category="app_services" audience="service" href="/docs/services/TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms.html" path="services/TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms"}
+{: .toc subcollection="TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms" category="app_services" audience="service" href="/docs/TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms?topic=TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms-gettingstarted" path="TrueRisk-Labs-Deep-Learning-Analytics-for-Financial-Services-Firms"}
 TrueRisk Labs - Equity Predictions Using Advanced AI
 
     {: .navgroup id="learn"}

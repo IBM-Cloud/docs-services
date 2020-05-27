@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DowJonesDNA" audience="service" href="/docs/services/DowJonesDNA/index.html" path="services/DowJonesDNA"}
+{: .toc subcollection="DowJonesDNA" audience="service" href="/docs/DowJonesDNA?topic=DowJonesDNA-gettingstarted_DowJonesDNAAPI" path="DowJonesDNA"}
 Dow Jones DNA API
 
     {: .navgroup id="learn"}

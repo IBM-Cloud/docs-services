@@ -1,19 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="JARVICE" audience="service" href="/docs/services/JARVICE/index.html" path="services/JARVICE"}
+{: .toc subcollection="JARVICE" audience="service" href="/docs/JARVICE" path="JARVICE"}
 ML/DL or HPC Workflow
 
     {: .navgroup id="learn"}
     index.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](URL)
-        [Link text](URL)
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    Reference
-    [API Documentation](URL)
-    {: .navgroup-end}

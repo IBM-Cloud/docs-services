@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Topic-Deltas" audience="service" category="app_services"  href="/docs/services/Rumor-Hound/index.html" path="services/Rumor-Hound"}
+{: .toc subcollection="Rumor-Hound" audience="service" category="app_services"  href="/docs/Rumor-Hound?topic=Rumor-Hound-gettingstarted" path="Rumor-Hound"}
 Rumor Hound API
 
     {: .navgroup id="learn"}

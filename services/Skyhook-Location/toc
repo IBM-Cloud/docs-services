@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Skyhook-Location" category="iot" audience="service" href="/docs/services/Skyhook-Location/index.html" path="services/Skyhook-Location"}
+{: .toc subcollection="Skyhook-Location" category="iot" audience="service" href="/docs/Skyhook-Location?topic=Skyhook-Location-gettingstarted_SkyhookLocation" path="Skyhook-Location"}
 Skyhook Precision Location
 
     {: .navgroup id="learn"}

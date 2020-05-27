@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ATTFlow" category="iot" audience="service" href="/docs/services/ATTFlow/index.html" path="services/ATTFlow"}
-AT&amp;T Flow Designer
+{: .toc subcollection="ATTFlow" category="iot" audience="service" href="/docs/ATTFlow?topic=ATTFlow-gettingstarted" path="ATTFlow"}
+AT&T Flow Designer
 
     {: .navgroup id="learn"}
     index.md

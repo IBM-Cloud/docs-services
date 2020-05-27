@@ -15,7 +15,7 @@ lastupdated: "2019-02-06"
 {:pre: .pre}
 
 # Best practices for using the PowerAI IBM Cloud service
-{: #getting-started}
+{: #best-practices}
 
 This guide provides best practices for one of the popular use cases for the PowerAI service - training a deep learning neural network model.
 {:shortdesc}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics Consumer Income API" audience="service" href="/docs/services/powerlytics-consumer-income-api.html"}
+{: .toc subcollection="Powerlytics" audience="service" href="/docs/Powerlytics" path="Powerlytics"}
 Powerlytics Consumer Income API
 
     {: .navgroup id="learn"}

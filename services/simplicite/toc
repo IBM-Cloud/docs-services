@@ -2,8 +2,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="simplicite" audience="service" href="/docs/services/simplicite/index.html" path="services/simplicite"}
-Simplicit&eacute;
+{: .toc subcollection="simplicite" audience="service" href="/docs/simplicite" path="simplicite"}
+Simplicite
 
     {: .navgroup id="learn"}
     index.md

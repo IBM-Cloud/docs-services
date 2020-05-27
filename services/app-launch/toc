@@ -1,8 +1,7 @@
-<!-- Markdown Navigation -->
 {: navgroup: .navgroup}
 {: topicgroup: .topicgroup}
 
-{: .toc subcollection="app-launch" audience="service" href="/docs/services/app-launch/index.html" path="services/app-launch"}
+{: .toc subcollection="app-launch" audience="service" href="/docs/app-launch" path="app-launch"}
 App Launch
 
     {: .navgroup id="learn"}
