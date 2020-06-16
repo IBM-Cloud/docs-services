@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Delphix Data Masking" audience="service" href="/docs/services/Delphix-Data-Masking/index.html" path="services/Delphix-Data-Masking"}
+Delphix Data Masking
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [Product Documentation](https://maskingdocs.delphix.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.delphix.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.delphix.com)
+    {: .navgroup-end}
+
