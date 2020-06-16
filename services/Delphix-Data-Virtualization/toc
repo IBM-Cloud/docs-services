@@ -1,0 +1,26 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Delphix Data Virtualization" audience="service" href="/docs/services/Delphix-Data-Virtualization/index.html" path="services/Delphix-Data-Virtualization"}
+Delphix Data Virtualization
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [General Documentation](https://docs.delphix.com/docs)
+        [Developer Documentation](https://docs.delphix.com/docs/developer-s-guide)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.delphix.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.delphix.com)
+    {: .navgroup-end}
+
