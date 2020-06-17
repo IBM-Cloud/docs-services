@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="ATTDataPlans" audience="service" category="internet_of_things" href="/docs/ATTDataPlans?topic=ATTDataPlans-gettingstarted" path="ATTDataPlans"}
-AT&amp;T IoT Data Plans
+AT&T IoT Data Plans
 
     {: .navgroup id="learn"}
     index.md
