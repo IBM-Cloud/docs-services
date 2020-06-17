@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Risk-Engine" audience="service" href="/docs/Risk-Engine?topic=Risk-Engine-gettingstarted" path="Risk-Engine"}
+{: .toc subcollection="Risk-Engine" audience="service" category="dev_ops" href="/docs/Risk-Engine?topic=Risk-Engine-gettingstarted" path="Risk-Engine"}
 Risk Engine
 
     {: .navgroup id="learn"}

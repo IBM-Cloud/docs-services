@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-VMware" audience="service" href="/docs/uCloud-Multitenant-Core-Platform-for-VMware?topic=uCloud-Multitenant-Core-Platform-for-VMware-gettingstarted" path="uCloud-Multitenant-Core-Platform-for-VMware"}
+{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-VMware" audience="service" category="dev_ops" href="/docs/uCloud-Multitenant-Core-Platform-for-VMware?topic=uCloud-Multitenant-Core-Platform-for-VMware-gettingstarted" path="uCloud-Multitenant-Core-Platform-for-VMware"}
 uCloud Multitenant Core Platform for VMware
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="HazardHub-Property-Risk-Data-API" audience="service" href="/docs/HazardHub-Property-Risk-Data-API?topic=HazardHub-Property-Risk-Data-API-gettingstarted" path="HazardHub-Property-Risk-Data-API"}
+{: .toc subcollection="HazardHub-Property-Risk-Data-API" audience="service" category="dev_ops" href="/docs/HazardHub-Property-Risk-Data-API?topic=HazardHub-Property-Risk-Data-API-gettingstarted" path="HazardHub-Property-Risk-Data-API"}
 Hazard Hub Risk Report Service
 
     {: .navgroup id="learn"}

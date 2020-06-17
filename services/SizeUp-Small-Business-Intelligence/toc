@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="SizeUp-Small-Business-Intelligence" audience="service" href="/docs/SizeUp-Small-Business-Intelligence?topic=SizeUp-Small-Business-Intelligence-gettingstarted" path="SizeUp-Small-Business-Intelligence"}
+{: .toc subcollection="SizeUp-Small-Business-Intelligence" audience="service" category="dev_ops" href="/docs/SizeUp-Small-Business-Intelligence?topic=SizeUp-Small-Business-Intelligence-gettingstarted" path="SizeUp-Small-Business-Intelligence"}
 Product name
 
     {: .navgroup id="learn"}

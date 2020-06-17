@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Bosch-IoT-Rollouts" audience="service" href="/docs/Bosch-IoT-Rollouts?topic=Bosch-IoT-Rollouts-gettingstarted" path="Bosch-IoT-Rollouts"}
+{: .toc subcollection="Bosch-IoT-Rollouts" audience="service" category="internet_of_things" href="/docs/Bosch-IoT-Rollouts?topic=Bosch-IoT-Rollouts-gettingstarted" path="Bosch-IoT-Rollouts"}
 Bosch IoT Rollouts
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Xignite" audience="service" href="/docs/Xignite?topic=Xignite-gettingstarted" path="Xignite"}
+{: .toc subcollection="Xignite" audience="service" category="dev_ops" href="/docs/Xignite?topic=Xignite-gettingstarted" path="Xignite"}
 Xignite
 
     {: .navgroup id="learn"}

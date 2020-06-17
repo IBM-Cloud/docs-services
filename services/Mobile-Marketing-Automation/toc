@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Mobile-Marketing-Automation" audience="service" href="/docs/Mobile-Marketing-Automation?topic=Mobile-Marketing-Automation-gettingstarted" path="Mobile-Marketing-Automation"}
+{: .toc subcollection="Mobile-Marketing-Automation" audience="service" category="mobile" href="/docs/Mobile-Marketing-Automation?topic=Mobile-Marketing-Automation-gettingstarted" path="Mobile-Marketing-Automation"}
 Phunware SDKs for Marketing Automation and Mapping
 
     {: .navgroup id="learn"}

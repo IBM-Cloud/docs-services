@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Alloy" audience="service" href="/docs/Alloy?topic=Alloy-gettingstarted" path="Alloy"}
+{: .toc subcollection="Alloy" audience="service" category="analytics" href="/docs/Alloy?topic=Alloy-gettingstarted" path="Alloy"}
 Getting started with Alloy
 
     {: .navgroup id="learn"}

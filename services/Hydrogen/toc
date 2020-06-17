@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Hydrogen" audience="service" href="/docs/Hydrogen?topic=Hydrogen-gettingstarted" path="Hydrogen"}
+{: .toc subcollection="Hydrogen" audience="service" category="dev_ops" href="/docs/Hydrogen?topic=Hydrogen-gettingstarted" path="Hydrogen"}
 Hydrogen
 
     {: .navgroup id="learn"}

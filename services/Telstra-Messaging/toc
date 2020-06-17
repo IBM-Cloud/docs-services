@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Telstra-Messaging" audience="service" href="/docs/Telstra-Messaging?topic=Telstra-Messaging-gettingstarted" path="Telstra-Messaging"}
+{: .toc subcollection="Telstra-Messaging" audience="service" category="mobile" href="/docs/Telstra-Messaging?topic=Telstra-Messaging-gettingstarted" path="Telstra-Messaging"}
 Telstra Messaging API
 
     {: .navgroup id="learn"}

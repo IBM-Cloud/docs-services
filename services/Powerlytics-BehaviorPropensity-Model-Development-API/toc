@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics-BehaviorPropensity-Model-API" audience="service" href="/docs/Powerlytics-BehaviorPropensity-Model-Development-API?topic=Powerlytics-BehaviorPropensity-Model-Development-API-gettingstarted" path="Powerlytics-BehaviorPropensity-Model-Development-API"}
+{: .toc subcollection="Powerlytics-BehaviorPropensity-Model-API" audience="service" category="analytics" href="/docs/Powerlytics-BehaviorPropensity-Model-Development-API?topic=Powerlytics-BehaviorPropensity-Model-Development-API-gettingstarted" path="Powerlytics-BehaviorPropensity-Model-Development-API"}
 Powerlytics Behavior/Propensity Model API
 
     {: .navgroup id="learn"}

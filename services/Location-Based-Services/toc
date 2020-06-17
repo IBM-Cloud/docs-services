@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Location-Based-Services" audience="service" href="/docs/Location-Based-Services?topic=Location-Based-Services-gettingstarted" path="Location-Based-Services"}
+{: .toc subcollection="Location-Based-Services" audience="service" category="dev_ops" href="/docs/Location-Based-Services?topic=Location-Based-Services-gettingstarted" path="Location-Based-Services"}
 Phunware SDKs for Location Based Services and Mapping
 
     {: .navgroup id="learn"}

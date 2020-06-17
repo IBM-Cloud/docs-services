@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="TradeIt" audience="service" href="/docs/TradeIt?topic=TradeIt-gettingstarted" path="TradeIt"}
+{: .toc subcollection="TradeIt" audience="service" category="dev_ops" href="/docs/TradeIt?topic=TradeIt-gettingstarted" path="TradeIt"}
 TradeIt
 
     {: .navgroup id="learn"}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="GeoLocation-API" audience="service" href="/docs/GeoLocation-API?topic=GeoLocation-API-gettingstarted" path="GeoLocation-API"}
+{: .toc subcollection="GeoLocation-API" audience="service" category="dev_ops" href="/docs/GeoLocation-API?topic=GeoLocation-API-gettingstarted" path="GeoLocation-API"}
 GeoLocation
 
     {: .navgroup id="learn"}

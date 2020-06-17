@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ATTFlow" audience="service" href="/docs/ATTFlow?topic=ATTFlow-gettingstarted" path="ATTFlow"}
+{: .toc subcollection="ATTFlow" audience="service" category="internet_of_things" href="/docs/ATTFlow?topic=ATTFlow-gettingstarted" path="ATTFlow"}
 AT&amp;T Flow Designer
 
     {: .navgroup id="learn"}

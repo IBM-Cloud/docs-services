@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="PagerDuty" audience="service" href="/docs/PagerDuty?topic=PagerDuty-gettingstarted" path="PagerDuty"}
+{: .toc subcollection="PagerDuty" audience="service" category="dev_ops" href="/docs/PagerDuty?topic=PagerDuty-gettingstarted" path="PagerDuty"}
 PagerDuty
 
     {: .navgroup id="learn"}

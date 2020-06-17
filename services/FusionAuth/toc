@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FusionAuth" audience="service" href="/docs/FusionAuth?topic=FusionAuth-gettingstarted" path="FusionAuth"}
+{: .toc subcollection="FusionAuth" audience="service" category="security" href="/docs/FusionAuth?topic=FusionAuth-gettingstarted" path="FusionAuth"}
 Passport
 
     {: .navgroup id="learn"}
