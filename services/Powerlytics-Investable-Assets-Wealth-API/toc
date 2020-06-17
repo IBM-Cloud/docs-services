@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Powerlytics-Investable-Assets-Wealth-API" audience="service" category="dev_ops" href="/docs/Powerlytics-Investable-Assets-Wealth-API?topic=Powerlytics-Investable-Assets-Wealth-Assets-gettingstarted" path="Powerlytics-Investable-Assets-Wealth-API"}
+{: .toc subcollection="Powerlytics-Investable-Assets-Wealth-API" audience="service" category="dev_ops" href="/docs/Powerlytics-Investable-Assets-Wealth-API?topic=Powerlytics-Investable-Assets-Wealth-API-gettingstarted" path="Powerlytics-Investable-Assets-Wealth-API"}
 Powerlytics Investable Assets & Wealth API
 
     {: .navgroup id="learn"}

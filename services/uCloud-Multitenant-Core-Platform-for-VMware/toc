@@ -1,23 +1,26 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-VMware" audience="service" category="dev_ops" href="/docs/uCloud-Multitenant-Core-Platform-for-VMware?topic=uCloud-Multitenant-Core-Platform-for-VMware-gettingstarted" path="uCloud-Multitenant-Core-Platform-for-VMware"}
+{: .toc subcollection="uCloud-Multitenant-Core-Platform-for-VMware" audience="service" category="dev_ops" href="/docs/uCloud-Multitenant-Core-Platform-for-VMware" path="uCloud-Multitenant-Core-Platform-for-VMware"}
 uCloud Multitenant Core Platform for VMware
 
     {: .navgroup id="learn"}
     index.md
+    
     {: .topicgroup}
     Related links
         [API Documentation](http://cloudcomputingbrasil.com.br/ustore/docs/ManualApi-1.1 RestUcloud _ENrev1.pdf)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    
     {: .topicgroup}
     Reference
         [Company homepage](http://ustore.com.br/landing/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    
     {: .topicgroup}
     Help
         [Support](http://suporte.usto.re/view.php)

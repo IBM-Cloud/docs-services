@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="EsriArcGISforDevelopers" category="dev_ops" audience="service" href="/docs/EsriArcGISforDevelopers?topic=EsriArcGISforDevelopers-gettingstarted" path="EsriArcGISforDevelopers"}
+{: .toc subcollection="EsriArcGISforDevelopers" category="dev_ops" audience="service" href="/docs/EsriArcGISforDevelopers?topic=EsriArcGISforDevelopers-gsEsriArcGISforDev" path="EsriArcGISforDevelopers"}
 Esri ArcGIS for Developers
 
     {: .navgroup id="learn"}

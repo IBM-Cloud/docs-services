@@ -5,7 +5,8 @@
 GeoLocation
 
     {: .navgroup id="learn"}
-    index.md  
+    index.md
+    {: .navgroup-end}  
 
     {: .navgroup id="reference"}
     Reference
