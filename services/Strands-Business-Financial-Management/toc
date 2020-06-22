@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Strands-Business-Financial-Management" category="app_services" audience="service" href="/docs/Strands-Business-Financial-Management?topic=Strands-Business-Financial-Management-gettingstarted" path="Strands-Business-Financial-Management"}
+{: .toc subcollection="Strands-Business-Financial-Management" category="dev_ops" audience="service" href="/docs/Strands-Business-Financial-Management?topic=Strands-Business-Financial-Management-gettingstarted" path="Strands-Business-Financial-Management"}
 Strands Business Financial Management
 
     {: .navgroup id="learn"}

@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="SizeUp-Small-Business-Intelligence" category="app_services" audience="service" href="/docs/SizeUp-Small-Business-Intelligence?topic=SizeUp-Small-Business-Intelligence-getting-started-with-sizeup-lbi-local-business-intelligence" path="SizeUp-Small-Business-Intelligence"}
-Product name
+{: .toc subcollection="SizeUp-Small-Business-Intelligence" category="dev_ops" audience="service" href="/docs/SizeUp-Small-Business-Intelligence?topic=SizeUp-Small-Business-Intelligence-getting-started-with-sizeup-lbi-local-business-intelligence" path="SizeUp-Small-Business-Intelligence"}
+SizeUp Small Business Intelligence
 
     {: .navgroup id="learn"}
     index.md

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Plaid" category="app_services" audience="service" href="/docs/Plaid?topic=Plaid-gettingstarted_plaid" path="Plaid"}
+{: .toc subcollection="Plaid" category="dev_ops" audience="service" href="/docs/Plaid?topic=Plaid-gettingstarted_plaid" path="Plaid"}
 Plaid
 
     {: .navgroup id="learn"}

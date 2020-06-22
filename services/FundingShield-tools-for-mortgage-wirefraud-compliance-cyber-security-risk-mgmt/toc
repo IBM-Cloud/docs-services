@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt" category="app_services" audience="service" href="/docs/FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt" path="FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt"}
+{: .toc subcollection="FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt" category="dev_ops" audience="service" href="/docs/FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt?topic=FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt-gettingstarted" path="FundingShield-tools-for-mortgage-wirefraud-compliance-cyber-security-risk-mgmt"}
 FundingShield API
 
     {: .navgroup id="learn"}

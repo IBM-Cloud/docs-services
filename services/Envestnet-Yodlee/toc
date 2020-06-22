@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Envestnet-Yodlee" category="app_services" audience="service" href="/docs/Envestnet-Yodlee?topic=Envestnet-Yodlee-gettingstarted_yodlee" path="Envestnet-Yodlee"}
-Product name
+{: .toc subcollection="Envestnet-Yodlee" category="dev_ops" audience="service" href="/docs/Envestnet-Yodlee?topic=Envestnet-Yodlee-gettingstarted_yodlee" path="Envestnet-Yodlee"}
+Envestnet Yodlee
 
     {: .navgroup id="learn"}
     index.md

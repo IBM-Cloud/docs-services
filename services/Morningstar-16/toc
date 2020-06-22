@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
  
-{: .toc subcollection="Morningstar-16" category="app_services" audience="service" href="/docs/Morningstar-16?topic=Morningstar-16-gettingstarted" path="Morningstar-16"}
+{: .toc subcollection="Morningstar-16" category="dev_ops" audience="service" href="/docs/Morningstar-16?topic=Morningstar-16-gettingstarted" path="Morningstar-16"}
 Morningstar
  
     {: .navgroup id="learn"}

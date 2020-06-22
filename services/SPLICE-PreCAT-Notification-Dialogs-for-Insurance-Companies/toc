@@ -1,10 +1,10 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" category="integration,mobile" audience="service" href="/docs/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies?topic=SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies-gettingstarted" path="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies"}
+{: .toc subcollection="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies" category="dev_ops" audience="service" href="/docs/SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies?topic=SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies-gettingstarted" path="SPLICE-PreCAT-Notification-Dialogs-for-Insurance-Companies"}
 SPLICE Pre-Cat Insurance Notifications
 
   {: .navgroup id="reference"}
-    index.md
-    [API Documentation](http://developers.splicesoftware.com/#api-overview)
-    {: .navgroup-end}
+  index.md
+  [API Documentation](http://developers.splicesoftware.com/#api-overview)
+  {: .navgroup-end}

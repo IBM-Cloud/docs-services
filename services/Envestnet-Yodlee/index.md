@@ -14,11 +14,6 @@ lastupdated: "2017-10-18"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-<!-- This template is for getting started with a Bluemix service. It is a task template intended to document productive use of the service. It is not intended for discovery and conceptual information.  -->
-
-<!-- The name of this file should remain index.md.
-Please delete out content examples and coding that you are not using for your service. -->
-
 # Getting started with Yodlee
 {: #gettingstarted_yodlee}
 

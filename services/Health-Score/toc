@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Health-Score" category="app_services" audience="service" href="/docs/Health-Score?topic=Health-Score-gettingstarted" path="Health-Score"}
+{: .toc subcollection="Health-Score" category="dev_ops" audience="service" href="/docs/Health-Score?topic=Health-Score-gettingstarted" path="Health-Score"}
 Health Score
 
     {: .navgroup id="learn"}

@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Difitek" audience="service" href="/docs/Difitek?topic=Difitek-gettingstarted" path="Difitek"}
-Difitek API
+{: .toc subcollection="Difitek" audience="service" category="dev_ops" href="/docs/Difitek?topic=Difitek-gettingstarted" path="Difitek"}
+Difitek
 
    {: .navgroup id="learn"}
     index.md

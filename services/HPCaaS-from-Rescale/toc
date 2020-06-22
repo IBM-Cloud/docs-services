@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="HPCaaS-from-Rescale" category="compute" audience="service" href="/docs/HPCaaS-from-Rescale?topic=HPCaaS-from-Rescale-gettingstarted" path="HPCaaS-from-Rescale"}
+{: .toc subcollection="HPCaaS-from-Rescale" category="dev_ops" audience="service" href="/docs/HPCaaS-from-Rescale?topic=HPCaaS-from-Rescale-gettingstarted" path="HPCaaS-from-Rescale"}
 HPCaaS from Rescale
 
     {: .navgroup id="learn"}

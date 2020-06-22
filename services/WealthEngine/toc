@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="WealthEngine" category="app_services" audience="service" href="/docs/WealthEngine?topic=WealthEngine-gettingstarted_WealthEngineAPI" path="WealthEngine"}
+{: .toc subcollection="WealthEngine" category="dev_ops" audience="service" href="/docs/WealthEngine?topic=WealthEngine-gettingstarted_WealthEngineAPI" path="WealthEngine"}
 WealthEngine API
 
     {: .navgroup id="learn"}

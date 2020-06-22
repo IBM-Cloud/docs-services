@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Quovo" category="app_services" audience="service" href="/docs/Quovo?topic=Quovo-gettingstarted_quovo" path="Quovo"}
+{: .toc subcollection="Quovo" category="app_services" audience="service" category="dev_ops" href="/docs/Quovo?topic=Quovo-gettingstarted_quovo" path="Quovo"}
 Quovo 
 
     {: .navgroup id="learn"}

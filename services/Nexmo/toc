@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Nexmo" category="mobile" audience="service" href="/docs/Nexmo?topic=Nexmo-gettingstarted" path="Nexmo"}
+{: .toc subcollection="Nexmo" category="dev_ops" audience="service" href="/docs/Nexmo?topic=Nexmo-gettingstarted" path="Nexmo"}
 Nexmo
 
     {: .navgroup id="learn"}
