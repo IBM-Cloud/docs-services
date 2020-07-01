@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="CRYPTOENTER - Blockchain based infrastructure for digital banking + social network" audience="service" href="/docs/services/CRYPTOENTER---Blockchain-based-infrastructure-for-digital-banking-+-social-network/index.html" path="services/CRYPTOENTER---Blockchain-based-infrastructure-for-digital-banking-+-social-network"}
+CRYPTOENTER - Blockchain based infrastructure for digital banking + social network
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation]()
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage]()
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support]()
+    {: .navgroup-end}
+
