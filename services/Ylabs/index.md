@@ -49,7 +49,7 @@ YLabs Enhanced KYC service connects to five services internally and returns an a
 
 ### 2. Account Creation 
 There is a set of APIs for account creation - consumer cardless, business cardless and consumer with cards. You can get a cardless account to begin with, and add physical and/or virtual cards at a later stage, via the add card APIs.
-Consumer account creation calls consumer KYC internally, business account creation calls business KYC. This is a basic bank account created with a $0.00 balance. The The consumer and business accounts have an account number and routing number which makes them externally addressable and allows the account holder to perform credit and debit transactions through several payment channels.
+Consumer account creation calls consumer KYC internally, business account creation calls business KYC. This is a basic bank account created with a $0.00 balance. The consumer and business accounts have an account number and routing number which makes them externally addressable and allows the account holder to perform credit and debit transactions through several payment channels.
 
 ### 3. Funding Source:
 This set of APIs allows the account holder to link an external funding source, validate it, and make it available for credits and debits to and from the account.
