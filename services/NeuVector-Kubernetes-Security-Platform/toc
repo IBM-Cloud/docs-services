@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="NeuVector Kubernetes Security Platform" audience="service" href="/docs/services/NeuVector-Kubernetes-Security-Platform/index.html" path="services/NeuVector-Kubernetes-Security-Platform"}
+{: .toc subcollection="NeuVector-Kubernetes-Security-Platform" audience="service" category="security" href="/docs/NeuVector-Kubernetes-Security-Platform?topic=NeuVector-Kubernetes-Security-Platform-gettingstarted" path="NeuVector-Kubernetes-Security-Platform"}
 NeuVector Kubernetes Security Platform
 
     {: .navgroup id="learn"}
