@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="B2T Service" audience="service" href="/docs/services/B2T-Service/index.html" path="services/B2T-Service"}
+B2T Service
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [For a test drive (no info required for trying out): ](https://www.taxmeter.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.taxmeter.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support: please send questions to support@taxmeter.com](https://www.taxmeter.com)
+    {: .navgroup-end}
+
