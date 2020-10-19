@@ -212,7 +212,7 @@ Configure the connection to your Redis Cloud service using `VCAP_SERVICES` envir
   {: codeblock}
 
 	
-###Testing (Node.js)
+### Testing (Node.js)
 	
   ```
     client.set('foo', 'bar');

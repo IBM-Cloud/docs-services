@@ -317,7 +317,7 @@ When the Bluemix Markdown parser transforms Markdown to HTML5, it automatically 
 
 For example, here is a level 4 Heading in Markdown:
 ```
-####Content references in DITA vs Markdown
+#### Content references in DITA vs Markdown
 ```
 When the above Markdown is transformed into HTML5, the parser produces a unique id with a value that is equal to the name of the heading:
 ```
@@ -332,7 +332,7 @@ The Anchor ID is bound to a heading by default, and it always uses the text of t
 Example of default anchor bound to a heading:
 
 Mardown source:
-`##Visualizing your data sample`
+`## Visualizing your data sample`
 
 HTML5 output:
 `<h2 id="visualizing-your-data-sample">Visualizing your data sample</h2>`
@@ -341,7 +341,7 @@ Example of remapping using a simple attribute (we use the ID attribute, which is
 
 Markdown source:
 ```
-##Visualizing your data sample
+## Visualizing your data sample
   {: #my-renamed-anchor}
 ```
 
@@ -352,7 +352,7 @@ HTML5 output:
 ```
 {:myanchor: #my-renamed-anchor}
 
-##Visualizing your data sample
+## Visualizing your data sample
   {: myanchor}
 ```
 

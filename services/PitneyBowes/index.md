@@ -28,7 +28,7 @@ The APIs are broadly categorized into the following categories:
 * Ship: Add feature-rich USPS shipping capabilities to eCommerce or IoT applications. It's shipping, made simple.
 * Pay: Charge accurate import duty and taxes at checkout and offer a total landed cost to your international customers.
 
-##Before you begin
+## Before you begin
 
 Ensure that you have the Cloud Foundry CLI installed on your computer. The CLI is available here: [https://github.com/cloudfoundry/cli#downloads](https://github.com/cloudfoundry/cli#downloads){:new_window}. After the CLI is installed, you'll be able to use the cf command from your command line interface.
 
