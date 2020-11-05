@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="B2T Service" audience="service" href="/docs/services/B2T-Service/index.html" path="services/B2T-Service"}
+{: .toc subcollection="B2T-Service" audience="service" category="" href="/docs/B2T-Service?topic=B2T-Service-gettingstarted" path="B2T-Service"}
 B2T Service
 
     {: .navgroup id="learn"}
