@@ -1,14 +1,25 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Skytap-on-IBM-Cloud" audience="service" category="compute" href="/docs/Skytap-on-IBM-Cloud?topic=Skytap-on-IBM-Cloud-gettingstarted" path="Skytap-on-IBM-Cloud"}
+{: .toc subcollection="Skytap-on-IBM-Cloud" audience="service"  category="compute" href="/docs/Skytap-on-IBM-Cloud?topic=Skytap-on-IBM-Cloud-gettingstarted" path="Skytap-on-IBM-Cloud"} 
 Skytap on IBM Cloud
 
     {: .navgroup id="learn"}
     index.md
-    
     {: .topicgroup}
     Related links
+        [API Documentation](https://help.skytap.com/7367001.html)
+        [Administrator Guide](https://help.skytap.com/7367001.html)
+        [User Guide](https://help.skytap.com/7367001.html)
+        [Migration Guide](https://www.skytap.com/research-center/white-papers-analysis/how-to-guide-for-migrating-to-skytap-cloud/?utm_campaign=website_resources_how_to_guide&utm_medium=owned_website&utm_source=website&utm_content=whitepaper)
+        [API Documentation](https://help.skytap.com/7367001.html)
+        [Administrator Guide](https://help.skytap.com/7367001.html)
+        [User Guide](https://help.skytap.com/7367001.html)
+        [Migration Guide](https://www.skytap.com/research-center/white-papers-analysis/how-to-guide-for-migrating-to-skytap-cloud/?utm_campaign=website_resources_how_to_guide&utm_medium=owned_website&utm_source=website&utm_content=whitepaper)
+        [API Documentation](https://help.skytap.com/7367001.html)
+        [Administrator Guide](https://help.skytap.com/7367001.html)
+        [User Guide](https://help.skytap.com/7367001.html)
+        [Migration Guide](https://www.skytap.com/research-center/white-papers-analysis/how-to-guide-for-migrating-to-skytap-cloud/?utm_campaign=website_resources_how_to_guide&utm_medium=owned_website&utm_source=website&utm_content=whitepaper)
         [API Documentation](https://help.skytap.com/7367001.html)
         [Administrator Guide](https://help.skytap.com/7367001.html)
         [User Guide](https://help.skytap.com/7367001.html)
@@ -20,11 +31,26 @@ Skytap on IBM Cloud
     Reference
         [Company homepage](https://www.skytap.com)
         [Skytap on IBM Cloud](https://www.ibm.com/cloud/skytap)
+        [Company homepage](https://www.skytap.com)
+        [Skytap on IBM Cloud](https://www.ibm.com/cloud/skytap)
+        [Company homepage](https://www.skytap.com)
+        [Skytap on IBM Cloud](https://www.ibm.com/cloud/skytap)
+        [Company homepage](https://www.skytap.com)
+        [Skytap on IBM Cloud](https://www.ibm.com/cloud/skytap)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     {: .topicgroup}
     Help
+        [Support](https://www.skytap.com/customer-success/support/)
+        [Documentation](https://help.skytap.com)
+        [Skytap Academy](https://learn.skytap.com)
+        [Support](https://www.skytap.com/customer-success/support/)
+        [Documentation](https://help.skytap.com)
+        [Skytap Academy](https://learn.skytap.com)
+        [Support](https://www.skytap.com/customer-success/support/)
+        [Documentation](https://help.skytap.com)
+        [Skytap Academy](https://learn.skytap.com)
         [Support](https://www.skytap.com/customer-success/support/)
         [Documentation](https://help.skytap.com)
         [Skytap Academy](https://learn.skytap.com)
