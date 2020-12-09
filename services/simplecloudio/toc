@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="simplecloudio" category="platform_services" audience="service" href="/docs/simplecloudio?topic=simplecloudio-gettingstarted" path="simplecloudio"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://animation.simplecloud.io/api/doc/0.0.1/index.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [SimpleCloud.io](https://www.simplecloud.io/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.simplecloud.io)
+    {: .navgroup-end}
+
