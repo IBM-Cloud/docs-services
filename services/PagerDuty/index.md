@@ -138,17 +138,17 @@ wsk action invoke pagerduty --blocking --result --param event_type trigger --par
 
     - Acknowledge an incident:
 
-    ```
-    wsk action invoke pagerduty --blocking --result --param event_type acknowledge --param service_key bdb63026b4514cd7b143604f460cca30f --param incident_key 8e6cd11a23a34985b4a94fd556326132
-    ```
-    {:pre}
+       ```
+       wsk action invoke pagerduty --blocking --result --param event_type acknowledge --param service_key bdb63026b4514cd7b143604f460cca30f --param incident_key 8e6cd11a23a34985b4a94fd556326132
+       ```
+       {: pre}
 
     - Resolve an incident:
 
-    ```
-    wsk action invoke pagerduty --blocking --result --param event_type resolve --param service_key bdb63026b4514cd7b143604f460cca30f --param incident_key 8e6cd11a23a34985b4a94fd556326132
-    ```
-    {:pre}
+       ```
+       wsk action invoke pagerduty --blocking --result --param event_type resolve --param service_key bdb63026b4514cd7b143604f460cca30f --param incident_key 8e6cd11a23a34985b4a94fd556326132
+       ```
+       {: pre}
 
 
 <!-- Related links moved to toc file:
