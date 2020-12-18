@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="rsitest" category="platform_services" audience="service" href="/docs/rsitest?topic=rsitest-gettingstarted" path="rsitest"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [https://c3-dev.dizzion.com](https://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](http://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](http://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
