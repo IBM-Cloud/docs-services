@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="webhose-news-blogs-online-discus" category="data_analytics" audience="service" href="/docs/webhose-news-blogs-online-discus?topic=webhose-news-blogs-online-discus-gettingstarted" path="webhose-news-blogs-online-discus"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation]()
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage]()
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support]()
+    {: .navgroup-end}
+
