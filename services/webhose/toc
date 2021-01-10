@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="webhose" category="watson" audience="service" href="/docs/webhose?topic=webhose-gettingstarted" path="webhose"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://docs.webhose.io/reference#use-cases-9)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://webhose.io)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://docs.webhose.io/reference#faqs)
+    {: .navgroup-end}
+
