@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="dizziontest" category="platform_services" audience="service" href="/docs/dizziontest?topic=dizziontest-gettingstarted" path="dizziontest"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [API Documentation](https://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://c3-dev.dizzion.com)
+    {: .navgroup-end}
+
