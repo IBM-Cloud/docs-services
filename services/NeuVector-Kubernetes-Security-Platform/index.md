@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:  2020
+  years:  2021
 
-lastupdated: "2020-09-10"
+lastupdated: "2021-02-08"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2020-09-10"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# About NeuVector Kubernetes Security Platform
+# About 
 {: #gettingstarted}
 
 NeuVector, the leader in Full Lifecycle Container Security, delivers uncompromising end-to-end security from DevOps vulnerability protection to complete protection in production. The NeuVector security platform offers cloud-native, automated protection for Kubernetes and OpenShift environments with the industry’s only container firewall with packet-level interrogation and enforcement. NeuVector, the leader in Full Lifecycle Container Security, delivers uncompromising end-to-end security from DevOps vulnerability protection to complete protection in production. The NeuVector security platform offers cloud-native, automated protection for Kubernetes and OpenShift environments with the industry’s only container firewall with packet-level interrogation and enforcement. 
@@ -28,5 +28,16 @@ To request a free trial, contact support@neuvector.com or go to https://neuvecto
 
 Deploy the NeuVector containers using the Helm chart at https://github.com/neuvector/neuvector-helm or using kubectl commands. An operator is also available.
 
-Contact support@neuvector.com to get access to the documentation.
+Deployment instructions can also be found at:
+https://neuvector.com/ibm-docs
+
+Quick Deployment Documentation for Subscribing to the NeuVector service from the global catalog can be view at https://neuvector.com/ibm-docs
+
+Other documentation exists at 
+https://github.com/IBM/Runtime-Container-Security-for-Kube
+
+and
+
+https://www.ibm.com/cloud/blog/kubernetes-container-security-neuvector-ibm-cloud-container-service
+
 
