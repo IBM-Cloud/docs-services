@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="vpc-draas-vpc-disaster-recovery-" category="migration_tools" audience="service" href="/docs/vpc-draas-vpc-disaster-recovery-?topic=vpc-draas-vpc-disaster-recovery--gettingstarted" path="vpc-draas-vpc-disaster-recovery-"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [Website](https://wanclouds.net/draas/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Knowledge Base](https://docs.wanclouds.net)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://support.wanclouds.net)
+    {: .navgroup-end}
+
