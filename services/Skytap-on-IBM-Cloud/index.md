@@ -4,7 +4,7 @@ copyright:
 
   years:  2020
 
-lastupdated: "2020-11-04"
+lastupdated: "2020-11-05"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2020-11-04"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# About Skytap on IBM Cloud
+# About 
 {: #gettingstarted}
 
 Skytap cloud is purpose-built to enable you to natively run your traditional applications in the cloud. Skytap is the only cloud that supports virtual machines running AIX, IBM i, and Linux on IBM Power, as well as x86 workloads.
