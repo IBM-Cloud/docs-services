@@ -4,7 +4,7 @@ copyright:
 
   years:  2021
 
-lastupdated: "2021-02-25"
+lastupdated: "2021-03-03"
 
 ---
 
@@ -47,6 +47,8 @@ Click on the link in the email and enter the following:
 -Password
 -Confirm Password
 
+
+
 The Following are set from the IBM Cloud Tile
 
 1. Billing- Month to Month
@@ -65,6 +67,7 @@ Complete the Following next steps:
 9. Complete the Telephony Use Case configuration
 
 
+
 1. Review configuration and pricing screens
 2. Complete build process- This will take around 4hours to complete and an email will be sent when completed.
 3. Capture username, tenant URL for logging in to the environment.
@@ -73,11 +76,17 @@ Complete the Following next steps:
 
 There are two sections for integration
 
-1. Network integration
-- VPN integration can be completed online
+1.Network integration
+-VPN integration can be completed online
 -Direct Connect and SD-WAN network integration will be scheduled and done over a working session
 
-2. Active Directory Integration 
+2.Active Directory integration
 
-During the provisioning process a Windows 10 golden image will be created and published in Horizon via RDP published app.  
+
+
+
+
+During the provisioning process a Windows 10 golden image will be created and published in Horizon via RDP published app.
+
+
 
