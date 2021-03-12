@@ -18,8 +18,7 @@ lastupdated: "2021-03-03"
 # About 
 {: #gettingstarted}
 
-Ordering Cloud Desktops via the Dizzion DaaS IBM Cloud Tile
-
+Ordering Cloud Desktops via the Dizzion DaaS IBM Cloud Tile.
 {:shortdesc}
 
 ## Getting started
@@ -30,24 +29,27 @@ Dizzion DaaS- Hybrid managed Multitenant Desktop as a Service solution that prov
 
 Dizzion Managed DaaS- Multitenant Desktop as a service where Dizzion manages both the Horizon infrastructure as well as the virtual desktops and lifecycle.  
 
+## Step 1: Creating a new Tenant
+
 Open the Dizzion DaaS Cloud Tile
-Enter the following Information:
-   -Deployment Location
-   -Pricing Plan
-   -User First Name
-   -User Last Name
-   -User Email address
+1. Enter the following Information:
 
-This will create the tenant and result in an email with a link to the C3 portal.
+   - Deployment Location
+   - Pricing Plan
+   - User First Name
+   - User Last Name
+   - User Email address
 
+2. This will create the tenant and result in an email with a link to the C3 portal.
 
+## Step 2: Complete Tenant Creation
 
 Click on the link in the email and enter the following:
--PIN
--Password
--Confirm Password
+   - PIN
+   - Password
+   - Confirm Password
 
-
+## Step 3: Complete the Provisioning Wizard in C3
 
 The Following are set from the IBM Cloud Tile
 
@@ -55,7 +57,8 @@ The Following are set from the IBM Cloud Tile
 2. Datacenter Location
 3. Service level ( DaaS or Managed DaaS)
 
-Complete the Following next steps:
+Complete the following next steps:
+
 1. Select the size and qty of cloud desktops
 2. Select any add on products required
 3. Complete the Network configuration 
@@ -66,25 +69,24 @@ Complete the Following next steps:
 8. Complete endpoints & peripherals Use Case configuration
 9. Complete the Telephony Use Case configuration
 
-
+## Step 4: Review Order and complete build
 
 1. Review configuration and pricing screens
 2. Complete build process- This will take around 4hours to complete and an email will be sent when completed.
 3. Capture username, tenant URL for logging in to the environment.
 
-
+## Step 5: Integration
 
 There are two sections for integration
 
-1.Network integration
--VPN integration can be completed online
--Direct Connect and SD-WAN network integration will be scheduled and done over a working session
+1. Network integration
+   - VPN integration can be completed online
+   - Direct Connect and SD-WAN network integration will be scheduled and done over a working session
 
-2.Active Directory integration
-
-
+2. Active Directory integration
 
 
+## Step 6: Golden Image & Desktop Pools
 
 During the provisioning process a Windows 10 golden image will be created and published in Horizon via RDP published app.
 
