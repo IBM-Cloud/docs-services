@@ -1,8 +1,8 @@
-## About VPC+ DRaaS
+# About VPC+ DRaaS
 
 ### Introduction
 
-[VPC+ DRaaS by Wanclouds](https://cloud.ibm.com/catalog/services/vpc-cloud-migration) provides you with a comprehensive Disaster Recovery as a Service for your IBM Cloud Infrastructure and Resources.
+[VPC+ DRaaS](https://cloud.ibm.com/catalog/services/vpc-cloud-migration) by Wanclouds provides you with a comprehensive Disaster Recovery as a Service for your IBM Cloud Infrastructure and Resources.
 
   
 
@@ -12,7 +12,7 @@ Our DRaaS enables IBM Cloud customers to backup their entire [virtual private cl
 
 #### IBM Cloud Virtual Private Cloud
 
-With [Wanclouds's VPC+ DRaaS](https://wanclouds.net/draas) you can backup and restore your entire [IBM Cloud Virtual Private Cloud](https://www.ibm.com/cloud/vpc?lnk=STW_US_STESCH_&lnk2=learn_CloudVrtSvrVPC&pexp=DEF&psrc=NONE&mhsrc=ibmsearch_a&mhq=VPC) construct, configurations and resources such as:
+With Wanclouds's [VPC+ DRaaS](https://wanclouds.net/draas) you can backup and restore your entire [IBM Cloud Virtual Private Cloud](https://www.ibm.com/cloud/vpc?lnk=STW_US_STESCH_&lnk2=learn_CloudVrtSvrVPC&pexp=DEF&psrc=NONE&mhsrc=ibmsearch_a&mhq=VPC) construct, configurations and resources such as:
 
 -   VLANs and Subnets
 -   Virtual Server Instances (VSIs)
@@ -31,7 +31,7 @@ With [Wanclouds's VPC+ DRaaS](https://wanclouds.net/draas) you can backup and re
 
 #### IKS & OpenShift Clusters
 
-With our DRaaS you can also backup and restore your entire cluster such as [IBM Cloud Managed Kubernetes clusters (IKS)](https://www.ibm.com/cloud/kubernetes-service) and OpenShift including resources like:
+With our VPC+ DRaaS you can also backup and restore your entire cluster such as [IBM Cloud Managed Kubernetes clusters (IKS)](https://www.ibm.com/cloud/kubernetes-service) and OpenShift including resources like:
 
 -   Worker nodes    
 -   Worker pools    
@@ -60,7 +60,7 @@ Before you begin discovering and backing up your IBM Virtual Private Cloud resou
 -   A [classic infrastructure API key](https://cloud.ibm.com/docs/iam?topic=iam-classic_keys) and an [IBM Cloud API key](https://cloud.ibm.com/docs/iam?topic=iam-userapikey) (VPC API key).  
     Note: Your IBM Cloud API key (VPC API key) must have “Reader, Writer” access. You can verify the level of access in IBM Cloud console by clicking Manage  >  Access (IAM) and selecting Authorizations.
     
--   An IBM Cloud Object Storage (COS) bucket and its Resource Instance ID (service credentials). The COS bucket will be used to store your images and volumes during the migration process and its Resource Instance ID will allow VPC+ to access it.
+-   An IBM Cloud Object Storage (COS) bucket and its Resource Instance ID (service credentials). The COS bucket will be used to store your images and volumes during the migration process and its Resource Instance ID will allow VPC+ DRaaS to access it.
 -   Learn how to [set up your IBM Cloud Object Storage here](https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started).
 -   Learn how to [grant access](https://cloud.ibm.com/docs/vpc?topic=vpc-migrate-vsi-to-vpc#migrate-prereq-create-service-authorization) between VPC Image Services and COS (only required for primary images and secondary volumes migration).
 -   Learn how to create your service credentials and get your Resource Instance ID [here](https://cloud.ibm.com/docs/services/cloud-object-storage/iam?topic=cloud-object-storage-service-credentials).
@@ -87,11 +87,11 @@ Once you have completed all the prerequisites, see Creating your account on VPC+
 
 ## Creating your account on VPC+ DRaaS
 
-To get started on VPC+, follow these instructions:
+To get started on VPC+ DRaaS, follow these instructions:
 
 1.  Visit [vpc.wanclouds.net](https://vpc.wanclouds.net) and Register an account.
 
-2.  Confirm your email address and login to your newly created account on VPC+. 
+2.  Confirm your email address and login to your newly created account on VPC+ DRaaS. 
 
 3.  Once logged in, you will be redirected to the Summary page where you can add your IBM Cloud account and get started.
     
