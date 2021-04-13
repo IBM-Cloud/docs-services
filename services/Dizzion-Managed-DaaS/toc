@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Dizzion-Managed-DaaS" category="app_services" audience="service" href="/docs/Dizzion-Managed-DaaS?topic=Dizzion-Managed-DaaS-gettingstarted" path="Dizzion-Managed-DaaS"}
+{: .toc subcollection="Dizzion-Managed-DaaS" category="compute" audience="service" href="/docs/Dizzion-Managed-DaaS?topic=Dizzion-Managed-DaaS-gettingstarted" path="Dizzion-Managed-DaaS"}
 Dizzion Managed DaaS
 
     {: .navgroup id="learn"}
