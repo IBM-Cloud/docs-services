@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="akasia-infrastructure-modeler" category="migration_tools" audience="service" href="/docs/akasia-infrastructure-modeler?topic=akasia-infrastructure-modeler-gettingstarted" path="akasia-infrastructure-modeler"}
+
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .topicgroup}
+    Related links
+        [SaaS Portal](https://saas.akasiacloud.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    Reference
+        [Company homepage](https://www.akasiacloud.com)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: .topicgroup}
+    Help
+        [Support](https://akasiacloud.com/contact-us/)
+    {: .navgroup-end}
+
