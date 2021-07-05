@@ -14,7 +14,7 @@ lastupdated: "2018-08-15"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutCloudAMQP
+# About CloudAMQP
 {: #gettingstarted}
 
 CloudAMQP automates every part of set up, running and scaling of RabbitMQ clusters. Let your team focus on what they do best - building your product. Leave server management and monitoring to the experts.
