@@ -14,7 +14,7 @@ lastupdated: "2018-08-15"
 {:codeblock:.codeblock}
 {:pre: .pre}
 
-# AboutElephantSQL
+# About ElephantSQL
 {: #gettingstarted}
 
 ElephantSQL automates every part of setup and running of PostgreSQL clusters. Let your team focus on what they do best - building your product. Leave server management and monitoring to the experts.
