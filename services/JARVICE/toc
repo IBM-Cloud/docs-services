@@ -1,8 +1,0 @@
-{:navgroup: .navgroup}
-{:topicgroup: .topicgroup}
-
-{: .toc subcollection="JARVICE" audience="service" href="/docs/JARVICE" path="JARVICE"}
-ML/DL or HPC Workflow
-
-    {: .navgroup id="learn"}
-    index.md
