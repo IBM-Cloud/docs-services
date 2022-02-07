@@ -1,9 +1,0 @@
-{:navgroup: .navgroup}
-{:topicgroup: .topicgroup}
-
-{: .toc subcollection="searchly" audience="service" href="/docs/searchly" path="searchly"}
-Searchly
-
-    {: .navgroup id="learn"}
-    index.md
-    {: .navgroup-end}
